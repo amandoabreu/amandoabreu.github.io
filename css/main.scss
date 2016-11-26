@@ -10,6 +10,7 @@
 @import 'main-nav';
 @import 'head';
 @import 'me';
+@import 'centerwrapper';
 
 .search{
   width: $nav-width-l;
@@ -34,33 +35,6 @@
   transform: translateX(0);
   transition: transform 200ms ease-in-out;
   padding: 60px 0;
-}
-
-.centerwrapper{
-  box-sizing: border-box;
-  margin:0 auto;
-  padding:0 0 0 0;
-  &--narrow{
-    width: 33%;
-    max-width: $max-wrapper-width;
-    min-width: $min-wrapper-width;
-  }
-  &--medium{
-    width:50%;
-    max-width: $max-wrapper-width;
-    min-width: $min-wrapper-width;
-  }
-  &--wide{
-    width:84%;
-    max-width: $max-wrapper-width;
-    min-width: $min-wrapper-width;
-  }
-  &--screen{
-    width: 100%;
-    min-width: $min-wrapper-width;
-    position:absolute;
-    left:0;
-  }
 }
 
 .img{
@@ -242,18 +216,6 @@
 }
 
 @media screen and (max-width: 1024px){
-  .centerwrapper{
-    margin:0 auto;
-    &--narrow{
-      width: 80%;
-    }
-    &--medium{
-      width:80%;
-    }
-    &--wide{
-      width:80%;
-    }
-  }
   .quote{
     width:50%;
     font-size:1.3em;
@@ -271,18 +233,6 @@
 }
 
 @media screen and (max-width: 640px){
-  .centerwrapper{
-    margin:0 auto;
-    &--narrow{
-      width: 100%;
-    }
-    &--medium{
-      width:100%;
-    }
-    &--wide{
-      width:100%;
-    }
-  }
   .quote{
     width:100%;
     font-size:1.3em;

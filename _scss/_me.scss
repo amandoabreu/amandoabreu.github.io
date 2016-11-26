@@ -11,3 +11,18 @@
     order:2;
   }
 }
+
+@media screen and (min-width: 1024px){
+  .my{
+    &__photo{
+    }
+    &__details{
+      flex: 0 0 250px;
+      padding: 0 $gutter;
+    }
+  }
+}
+
+@media screen and (min-width: 640px){
+
+}
