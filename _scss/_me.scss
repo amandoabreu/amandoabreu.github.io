@@ -1,0 +1,13 @@
+.my{
+  display:flex;
+  flex-wrap: wrap;
+  &__photo{
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    order:1;
+  }
+  &__details{
+    order:2;
+  }
+}
