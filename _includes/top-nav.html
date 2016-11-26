@@ -1,0 +1,53 @@
+<nav class="top-nav">
+    <div class="top-nav__burger">
+        <div class="top-nav__burger__layer"></div>
+        <div class="top-nav__burger__text">Menu</div>
+    </div>
+    <div class="top-nav__search">
+        <div class="top-nav__search-icon"></div>
+    </div>
+</nav>
+<nav class="main-nav">
+    <ul>
+        <li class="main-nav__element main-nav__element--separator">
+            Pages
+        </li>
+        <li class="main-nav__element">
+            <a class="main-nav__link" href="/">
+                Home
+            </a>
+        </li>
+        {% for page in site.pages %}
+        <li class="main-nav__element">
+            <a class="main-nav__link" href="{{ page.url }}">
+                {{ page.title }}
+            </a>
+        </li>
+        {% endfor %}
+        <li class="main-nav__element main-nav__element--separator">
+            Services
+        </li>
+        {% for service in site.services %}
+        <li class="main-nav__element">
+            <a class="main-nav__link" href="{{ service.url }}">
+                {{ service.title }}
+            </a>
+        </li>
+        {% endfor %}
+        <li class="main-nav__element main-nav__element--separator">
+            Latest posts
+        </li>
+        {% for post in site.posts %}
+        <li class="main-nav__element">
+            <a class="main-nav__link" href="{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</nav>
+<aside class="search">
+    <form>
+        <input type="text" class="input--text" placeholder="Search..."/>
+    </form>
+</aside>

@@ -1,0 +1,45 @@
+.body{
+  overflow-x:hidden;
+  &--reading:not(&--burger-active):not(&--search-active){
+    .top-nav{
+      opacity: 0;
+    }
+  }
+  &--travels{
+    .head{
+      height:auto;
+    }
+  }
+  &--search-active{
+    .page{
+      transform: translateX(- $nav-width-l);
+    }
+    .search{
+      transform: translateX(0);
+    }
+  }
+  &--burger-active{
+    .page{
+      transform: translateX($nav-width-l);
+    }
+    .main-nav{
+      transform: translateX(0);
+    }
+    .top-nav{
+      &__burger{
+        &__layer{
+          border:none;
+          margin-top:1px;
+        }
+        &__layer:before{
+          top:0;
+          transform: rotate(45deg);
+        }
+        &__layer:after{
+          top:0;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}

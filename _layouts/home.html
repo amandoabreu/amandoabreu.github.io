@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="content">
+    <div class="centerwrapper centerwrapper--medium">
+        
+        <ul>
+            {% for p in site.posts %}
+            <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

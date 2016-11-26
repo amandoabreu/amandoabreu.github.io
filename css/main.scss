@@ -1,0 +1,302 @@
+---
+---
+
+@import 'normalize';
+@import 'variables';
+@import 'general';
+@import 'body';
+@import 'content';
+@import 'top-nav';
+@import 'main-nav';
+@import 'head';
+
+.search{
+  width: $nav-width-l;
+  background: white;
+  position: absolute;
+  top:$top-nav-height-l;
+  right:0;
+  border-left: 1px solid #ebeced;
+  border-top: 1px solid #ebeced;
+  height:calc(100vh - 60px);
+  position:fixed;
+  z-index:10000;
+  box-sizing: border-box;
+  transform: translateX($nav-width-l);
+  transition: transform 200ms ease-in-out;
+
+}
+
+.page{
+  z-index: 1000;
+  position: relative;
+  transform: translateX(0);
+  transition: transform 200ms ease-in-out;
+  padding: 60px 0;
+}
+
+.centerwrapper{
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:0 0 0 0;
+  &--narrow{
+    width: 33%;
+    max-width: $max-wrapper-width;
+    min-width: $min-wrapper-width;
+  }
+  &--medium{
+    width:50%;
+    max-width: $max-wrapper-width;
+    min-width: $min-wrapper-width;
+  }
+  &--wide{
+    width:84%;
+    max-width: $max-wrapper-width;
+    min-width: $min-wrapper-width;
+  }
+  &--screen{
+    width: 100%;
+    min-width: $min-wrapper-width;
+    position:absolute;
+    left:0;
+  }
+}
+
+.img{
+  &--100p{
+    width:100%;
+  }
+  &--caption{
+    margin-top: -5px;
+    background-color:#ebeced;
+    font-size: 12px;
+    box-shadow: 0px 0px 6px #999;
+  }
+}
+
+.text{
+  &--block{
+    font-size:1.2em;
+    padding: 15px;
+  }
+  &--justify{
+    text-align:justify;
+  }
+  &--center{
+    text-align:center;
+  }
+}
+
+.post{
+  &__details{
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+  }
+}
+
+.quote{
+  width:50%;
+  font-size:1.3em;
+  padding: 20px;
+  font-family: "Roboto";
+  &--left{
+    float:left;
+    margin-left:-35%;
+    border-left: 5px solid $light-grey;
+  }
+
+  &--right{
+    float:right;
+    margin-right:-35%;
+    border-right: 5px solid $light-grey;
+  }
+}
+
+/*{
+  width:100%;
+  padding: 20px 0;
+  position:relative;
+  z-index:2;
+  background-color:white;
+}*/
+
+.header{
+  text-align:center;
+  &--one{
+    font-size:4.5em;
+  }
+}
+
+.post-list {
+  &__square {
+    float: left;
+    position: relative;
+    width: 25%;
+    padding-bottom: 25%;
+    /* = width for a 1:1 aspect ratio */
+    overflow: hidden;
+  }
+
+  &__square-2-1 {
+    width: 50%;
+    padding-bottom: 25%;
+  }
+
+  &__square-2-2 {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+
+  &__square-3-2 {
+    width: 75%;
+    padding-bottom: 50%;
+  }
+
+  &__square-3-3 {
+    width: 75%;
+    padding-bottom: 75%;
+  }
+
+  &__content {
+    display:flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: $gutter;
+    box-sizing: border-box;
+    text-decoration:none;
+    color:black;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+  &__table-cell {
+    display: flex;
+    align-items: stretch;
+
+  }
+  &__post-info{
+    padding: 0 0 0 $gutter;
+    box-sizing: border-box;
+    width:50%;
+    order:1;
+
+  }
+  &__post-image{
+    oerder:0;
+    padding-bottom: 62%;
+    flex:1;
+    width:50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &__content .rs {
+    width: auto;
+    height: auto;
+    max-height: 90%;
+    max-width: 100%;
+  }
+  /*  For responsive images as background */
+  &__bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* you change this to "contain" if you don't want the images to be cropped */
+    color: #fff;
+  }
+}
+
+.footer{
+  min-height: 60px;
+  border-top:1px solid $light-grey;
+  box-sizing: border-box;
+}
+
+
+
+.white{
+  color:white;
+}
+
+.italic{
+  font-style:italic;
+}
+
+.light{
+  font-weight:200;
+}
+
+.left-padding{
+  padding-left: $gutter;
+}
+.right-padding{
+  padding-right: $gutter;
+}
+.top-padding{
+  padding-top: $gutter;
+}
+.bottom-padding{
+  padding-bottom: $gutter;
+}
+
+@media screen and (max-width: 1024px){
+  .centerwrapper{
+    margin:0 auto;
+    &--narrow{
+      width: 80%;
+    }
+    &--medium{
+      width:80%;
+    }
+    &--wide{
+      width:80%;
+    }
+  }
+  .quote{
+    width:50%;
+    font-size:1.3em;
+    font-family: "Roboto";
+    &--left{
+      float:left;
+      margin-left: $nmargin-quote-tablet-view;
+    }
+
+    &--right{
+      float:right;
+      margin-right: $nmargin-quote-tablet-view;
+    }
+  }
+}
+
+@media screen and (max-width: 640px){
+  .centerwrapper{
+    margin:0 auto;
+    &--narrow{
+      width: 100%;
+    }
+    &--medium{
+      width:100%;
+    }
+    &--wide{
+      width:100%;
+    }
+  }
+  .quote{
+    width:100%;
+    font-size:1.3em;
+    box-sizing:border-box;
+    padding: 5px 0 5px 10px;
+    border-right: none;
+    border-left: 5px solid $light-grey;
+    margin: 0;
+    &--left{
+      float:none;
+      margin-left:0;
+    }
+    &--right{
+      float:none;
+      margin-right:0;
+    }
+  }
+}
