@@ -1,0 +1,16 @@
+.search{
+  width: $nav-width-l;
+  background: white;
+  position: absolute;
+  top:$top-nav-height-l;
+  right:0;
+  border-left: 1px solid #ebeced;
+  border-top: 1px solid #ebeced;
+  height:calc(100vh - 60px);
+  position:fixed;
+  z-index:10000;
+  box-sizing: border-box;
+  transform: translateX($nav-width-l);
+  transition: transform 200ms ease-in-out;
+
+}
