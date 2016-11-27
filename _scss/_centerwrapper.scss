@@ -61,17 +61,17 @@
   padding:0 $gutter;
   &--narrow{
     width: 100%;
-    max-width: $max-wrapper-width;
+    max-width: $narrow;
     min-width: $min-wrapper-width;
   }
   &--medium{
     width: 100%;
-    max-width: $max-wrapper-width;
+    max-width: $medium;
     min-width: $min-wrapper-width;
   }
   &--wide{
     width: 100%;
-    max-width: $max-wrapper-width;
+    max-width: $wide;
     min-width: $min-wrapper-width;
   }
   &--screen{

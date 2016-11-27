@@ -26,6 +26,11 @@ print_hi('Tom')
 
 Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text
 
+{: .quote .quote--right}
+> quote quote
+
+Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text
+
 <div class="centerwrapper centerwrapper--screen">
     <img src="https://c3.staticflickr.com/8/7626/26715303250_a066e5ba37_h.jpg" class="img img--100p" />
     <div class="img--caption italic left-padding top-padding bottom-padding ">

@@ -2,12 +2,15 @@
 layout: default
 ---
 <div class="content">
-    <div class="centerwrapper centerwrapper--medium">
-        <ul class="photo-gallery">
-            {% for image in page.images %}
-            <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
-            {% endfor %}
-        </ul>
+    <div class="centerwrapper centerwrapper--narrow">
+        {% for image in page.images %}
+        <div class="centerwrapper centerwrapper--screen">
+            <img src="{{ image.image_path }}" alt="{{ image.title}}" class="img img--100p" />
+            <div class="img--caption italic left-padding top-padding bottom-padding ">
+                {{ image.title}}
+            </div>
+        </div>
+        {% endfor %}
         {{ page.content }}
     </div>
 </div>
