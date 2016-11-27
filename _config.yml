@@ -14,9 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
-# Todos: Fixe menu/search opening on mobile
-
 title: Simples theme
 email: amando.abreu@gmail.com
 name: Amando Abreu
@@ -56,6 +53,7 @@ permalink: /post/:title/ # YYYY/MM/DD/page-title/index.html
 sass:
     style: compressed
     sass_dir: ./_scss
+
 
 
 

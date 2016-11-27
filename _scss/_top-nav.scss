@@ -1,5 +1,7 @@
 .top-nav{
-  transition: opacity 200ms ease-in-out;
+  /*transition: opacity 200ms ease-in-out;*/
+  transition: transform 200ms ease-in-out;
+  transform: translateY(0);
   display:flex;
   height: $top-nav-height-l;
   box-shadow: 0px 0px 6px #999;

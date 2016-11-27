@@ -1,0 +1,9 @@
+.alert{
+  padding: $gutter;
+  border-radius: 2px;
+  color: white;
+  background: #ccc;
+  &--notice{
+    background: #3bb9ca;
+  }
+}

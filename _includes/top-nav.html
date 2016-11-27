@@ -57,7 +57,16 @@
     </ul>
 </nav>
 <aside class="search">
-    <form>
-        <input type="text" class="input--text" placeholder="Search..."/>
-    </form>
+    <!--<form>
+        <input type="text" class="input--text" id="search-query" name="q" autocomplete="off" placeholder="Search..."/>
+    </form>-->
+    <div class="alert alert--notice">
+        The search function is not yet created, sorry for the inconvenience!
+    </div>
+    <p>Take a look at some recent posts instead:</p>
+    {% for post in site.posts %}
+        <a class="block" href="{{ post.url }}">
+            {{ post.title }}
+        </a>
+    {% endfor %}
 </aside>

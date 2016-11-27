@@ -4,10 +4,10 @@ jQuery(document).ready(function($){
     var body = $('.body');
     var page = $('.page');
 
-    /* TODO Only show menu when mouse leaves imaginary circle */
+
     $(window).scroll(function(e) {
         var newScroll = $(this).scrollTop();
-        if(oldScroll < newScroll){
+        if(oldScroll < newScroll && newScroll > 60){
             body.addClass('body--reading');
         } else {
             body.removeClass('body--reading');

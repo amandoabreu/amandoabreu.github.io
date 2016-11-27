@@ -3,7 +3,8 @@
   font-size:1rem;
   &--reading:not(&--burger-active):not(&--search-active){
     .top-nav{
-      opacity: 0;
+      /*opacity: 0;*/
+      transform: translateY(-$top-nav-height-l);
     }
   }
   &--travels{
