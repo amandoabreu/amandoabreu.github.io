@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="content">
+    <div class="centerwrapper centerwrapper--medium">
+        <ul class="photo-gallery">
+            {% for image in page.images %}
+            <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+            {% endfor %}
+        </ul>
+        {{ page.content }}
+    </div>
+</div>
+

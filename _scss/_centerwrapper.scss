@@ -1,4 +1,4 @@
-.centerwrapper{
+/*.centerwrapper{
   box-sizing: border-box;
   margin:0 auto;
   padding:0 0 0 0;
@@ -51,6 +51,64 @@
     }
     &--wide{
       width:100%;
+    }
+  }
+}*/
+
+.centerwrapper{
+  box-sizing: border-box;
+  margin:0 auto;
+  padding:0 $gutter;
+  &--narrow{
+    width: 100%;
+    max-width: $max-wrapper-width;
+    min-width: $min-wrapper-width;
+  }
+  &--medium{
+    width: 100%;
+    max-width: $max-wrapper-width;
+    min-width: $min-wrapper-width;
+  }
+  &--wide{
+    width: 100%;
+    max-width: $max-wrapper-width;
+    min-width: $min-wrapper-width;
+  }
+  &--screen{
+    width: 100%;
+    min-width: $min-wrapper-width;
+    position:absolute;
+    left:0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 640px){
+  .centerwrapper{
+    margin:0 auto;
+    &--narrow{
+      /*width: 100%;*/
+    }
+    &--medium{
+      /*width:100%;*/
+    }
+    &--wide{
+      /*width:100%;*/
+    }
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .centerwrapper{
+    margin:0 auto;
+    &--narrow{
+      /*width: 33%;*/
+    }
+    &--medium{
+      /*width:50%;*/
+    }
+    &--wide{
+      /*width:80%;*/
     }
   }
 }

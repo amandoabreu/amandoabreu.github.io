@@ -2,27 +2,26 @@
   display:flex;
   flex-wrap: wrap;
   &__photo{
-    width: 240px;
+    flex:0 0 240px;
     height: 240px;
     background-size: cover;
     order:1;
   }
   &__details{
     order:2;
-  }
-}
-
-@media screen and (min-width: 1024px){
-  .my{
-    &__photo{
-    }
-    &__details{
-      flex: 0 0 250px;
-      padding: 0 $gutter;
-    }
+    flex: 1 0 400px;
+    padding: 0;
   }
 }
 
 @media screen and (min-width: 640px){
-
+  .my{
+    &__photo{
+      flex:0 0 240px;
+    }
+    &__details{
+      flex: 1 0 0;
+      padding: 0 0 0 $gutter;
+    }
+  }
 }

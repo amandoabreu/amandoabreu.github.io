@@ -35,6 +35,16 @@
         </li>
         {% endfor %}
         <li class="main-nav__element main-nav__element--separator">
+            Projects
+        </li>
+        {% for project in site.projects %}
+        <li class="main-nav__element">
+            <a class="main-nav__link" href="{{ project.url }}">
+                {{ project.title }}
+            </a>
+        </li>
+        {% endfor %}
+        <li class="main-nav__element main-nav__element--separator">
             Latest posts
         </li>
         {% for post in site.posts %}
