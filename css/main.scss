@@ -4,6 +4,7 @@
 @import 'normalize';
 @import 'variables';
 @import 'general';
+@import 'typography';
 @import 'body';
 @import 'content';
 @import 'top-nav';
@@ -62,13 +63,6 @@
   z-index:2;
   background-color:white;
 }*/
-
-.header{
-  text-align:center;
-  &--one{
-    font-size:4.5em;
-  }
-}
 
 .post-list {
   &__square {

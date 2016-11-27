@@ -16,7 +16,9 @@ ul{
 
 html, body, .main-wrapper, .page {
   min-height: 100vh;
+  min-width: 320px;
   margin-bottom: -61px;
+  overflow-x: hidden;
 }
 
 img{
