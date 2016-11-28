@@ -1,0 +1,10 @@
+<ul class="post-listing post-listing--default">
+    {% for item in items %}
+    <li class="post-listing__item">
+        <a class="no-deco block" href="{{ item.url }}">
+            <div class="post-listing__image" style="background-image:url( {{ item.image }} );"></div>
+            <h3 class="post-listing__title">{{ item.title }}</h3>
+        </a>
+    </li>
+    {% endfor %}
+</ul>

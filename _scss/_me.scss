@@ -12,6 +12,10 @@
     flex: 1 0 0;
     padding: 0;
   }
+  &__name-is{
+    font-size: 1rem;
+    font-weight: normal;
+  }
 }
 
 @media screen and (min-width: $tablet){

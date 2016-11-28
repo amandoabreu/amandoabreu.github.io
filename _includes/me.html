@@ -1,11 +1,11 @@
 <div class="content">
     <div class="centerwrapper centerwrapper--medium">
-        <p class="my-text-is-yuge">Hey there!</p>
+        <p class="my-text-is-yuge">{{ page.hello }}</p>
         <div class="my">
             <div class="my__details">
-                <h1 class="my__name">{{ site.name }}</h1>
+                <h1 class="my__name"><div class="my__name-is">My name is</div> {{ page.me }}</h1>
                 <p class="my__description">
-                    {{ site.description }}
+                    {{ page.content }}
                 </p>
             </div>
             <div class="my__photo" style="background-image:url(https://scontent-frt3-1.xx.fbcdn.net/t31.0-8/15025181_10209849191817874_3995721812123376486_o.jpg);">
