@@ -4,6 +4,7 @@ title:  "Welcome to Simples!"
 date:   2016-11-24 22:34:06 +0100
 author: Amando Abreu
 categories: jekyll update
+comments: true
 image: https://c3.staticflickr.com/8/7626/26715303250_a066e5ba37_h.jpg
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.

@@ -77,13 +77,9 @@ $(document).ready(function(){
         window.location.hash = '';
     });
     $('.open .child').show('fast');
-    $('.trigger-accordion-child').click(function(){
-        acc = $(this);
-        acc.parent().siblings().children('.child').hide('fast');
-        acc.siblings('.child').toggle('fast');
-        acc.parent().siblings().removeClass('open');
-        acc.parent().toggleClass('open');
-
+    $('.accordion__toggle').click(function(){
+        var parent = $(this).parent();
+        parent.toggleClass('accordion__item--open');
     });
 
     $('.device-select-item').click(function(){

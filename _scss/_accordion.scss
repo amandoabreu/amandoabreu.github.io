@@ -1,0 +1,21 @@
+.accordion{
+  &__item{
+    &--open{
+      & .accordion__content{
+        height:auto;
+      }
+    }
+  }
+  &__content{
+    height:0px;
+    overflow: hidden;
+    transition: height 200ms ease-in-out;
+  }
+  &__toggle{
+    border: 1px solid #ebeced;
+    border-radius: 2px;
+    padding: 7.5px 15px;
+    margin: 7.5px 0;
+    cursor: pointer;
+  }
+}

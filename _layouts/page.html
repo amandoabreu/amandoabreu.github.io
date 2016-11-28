@@ -7,4 +7,9 @@ layout: default
     <div class="centerwrapper centerwrapper--narrow">
         {{ page.content }}
     </div>
+    {% if page.comments %}
+    <div class="centerwrapper centerwrapper--medium">
+        {% include comments.html %}
+    </div>
+    {% endif %}
 </div>

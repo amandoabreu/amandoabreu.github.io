@@ -55,27 +55,41 @@
   }
 }*/
 
+/* TODO make project page nice and responsive */
+
 .centerwrapper{
   box-sizing: border-box;
   margin:0 auto;
   padding:0 $gutter;
+  width: 100%;
+  &--double{
+    display:flex;
+    flex-wrap:wrap;
+    max-width: $narrow * 2 + $double-gutter;
+  }
+  &--offset-left {
+    order:1;
+    margin:0;
+    padding:0;
+  }
+  &--offset-right {
+    order:2;
+    margin:0;
+    padding:0;
+  }
   &--narrow{
-    width: 100%;
     max-width: $narrow;
     min-width: $min-wrapper-width;
   }
   &--medium{
-    width: 100%;
     max-width: $medium;
     min-width: $min-wrapper-width;
   }
   &--wide{
-    width: 100%;
     max-width: $wide;
     min-width: $min-wrapper-width;
   }
   &--screen{
-    width: 100%;
     min-width: $min-wrapper-width;
     position:absolute;
     left:0;
@@ -83,9 +97,8 @@
   }
 }
 
-@media screen and (min-width: 640px){
+@media screen and (min-width: $tablet){
   .centerwrapper{
-    margin:0 auto;
     &--narrow{
       /*width: 100%;*/
     }
@@ -98,9 +111,11 @@
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: $laptop){
   .centerwrapper{
-    margin:0 auto;
+    &--double{
+
+    }
     &--narrow{
       /*width: 33%;*/
     }

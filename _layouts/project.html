@@ -1,17 +1,92 @@
 ---
 layout: default
 ---
+<h1 class="center-text">{{ page.title }}</h1>
 <div class="content">
-    <div class="centerwrapper centerwrapper--narrow">
-        {% for image in page.images %}
-        <div class="centerwrapper centerwrapper--screen">
-            <img src="{{ image.image_path }}" alt="{{ image.title}}" class="img img--100p" />
-            <div class="img--caption italic left-padding top-padding bottom-padding ">
-                {{ image.title}}
+    <div class="centerwrapper centerwrapper--double">
+        <div class="centerwrapper centerwrapper--narrow centerwrapper--offset-left">
+            <div class="device-select hide-mobile">
+                <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                <div class="device-select-item device-tablet" data-switch-to="tablet"><i class="fa fa-tablet"></i></div>
+                <div class="device-select-item device-mobile" data-switch-to="mobile"><i class="fa fa-mobile"></i></div>
+                <!--<a href="#"><div class="device-select-item device-link" data-switch-to="mobile"><i class="fa fa-link"></i></div></a>-->
+
+            </div>
+            <div class="accordion">
+                <div class="with-children blue open">
+                    <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description                    </div><div class="child" style="display: block;">
+                    <p>Clean and modern responsive 9 page design for soauto usados, distributer of VW in Portugal.</p>
+                    <p>Features integrated slider on the homepage and CSS3/Javascript hover state animations for a more engaging UX.</p>
+                </div>
+                </div>
+                <div class="with-children red">
+                    <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical                    </div><div class="child" style="display: none;">
+                    <table>
+                        <tbody>
+                        <tr>
+                            <td>Technologies</td>
+                            <td>HTML5, CSS3, Javascript</td>
+                        </tr>
+                        <tr>
+                            <td>Frameworks</td>
+                            <td>jQuery</td>
+                        </tr>
+                        <tr>
+                            <td>Responsive</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Devices</td>
+                            <td>Desktop, Laptop, Tablet, Smartphone</td>
+                        </tr>
+                        <tr>
+                            <td>Pages</td>
+                            <td>9</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                </div>
+                <div class="with-children aqua">
+                    <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes                    </div><div class="child" style="display: none;">
+                    <p>Client: Soauto Usados via Portugal Telecom<br>
+                        Link: soautousados.pt</p>
+                </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="centerwrapper centerwrapper--narrow centerwrapper--offset-right">
+            <div class="sliders">
+                <div class="slider-wrapper desktop-slider" style="display: none;">
+                    <div class="desktop-horizontal-slider">
+                        <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 0px;"><ul class="bxslider portfolio-item" style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(100px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 100px;" class="bx-clone"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-soauto.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-car.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-soauto.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;" class="bx-clone"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto.jpg" alt=""></li></ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link active">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+                    </div>
+                </div>
+                <div class="hide-mobile slider-wrapper tablet-slider" style="display: none;">
+                    <div class="tablet-vertical-slider">
+                        <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 0px;"><ul class="bxslider portfolio-item" style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(100px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 100px;" class="bx-clone"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-soauto2.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto2.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-car2.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-soauto2.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 100px;" class="bx-clone"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto2.jpg" alt=""></li></ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link active">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+                    </div>
+                </div>
+
+                <div class="hide-mobile slider-wrapper mobile-slider" style="display: block;">
+                    <div class="mobile-vertical-slider">
+                        <div class="bx-wrapper" style="max-width: 100%;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 489px;"><ul class="bxslider portfolio-item" style="width: 515%; position: relative; transition-duration: 0s; transform: translate3d(-404.812px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 203px;" class="bx-clone"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-car1.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 203px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto1.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 203px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-soauto1.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 203px;"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto-car1.jpg" alt=""></li>
+                            <li style="float: left; list-style: none; position: relative; width: 203px;" class="bx-clone"><img src="http://mndflp.me/wp-content/uploads/2015/08/soauto1.jpg" alt=""></li></ul></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link">1</a></div><div class="bx-pager-item"><a href="" data-slide-index="1" class="bx-pager-link active">2</a></div><div class="bx-pager-item"><a href="" data-slide-index="2" class="bx-pager-link">3</a></div></div><div class="bx-controls-direction"><a class="bx-prev" href="">Prev</a><a class="bx-next" href="">Next</a></div></div></div>
+                    </div>
+                </div>
             </div>
         </div>
-        {% endfor %}
-        {{ page.content }}
     </div>
 </div>
-

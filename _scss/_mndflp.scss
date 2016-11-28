@@ -47,7 +47,7 @@
 /* LOADER */
 .bx-wrapper .bx-loading {
   min-height: 50px;
-  background: url(../images/bx_loader.gif) center center no-repeat #fff;
+  background: url(http://mndflp.me/wp-content/themes/mndflp/images/bx_loader.gif) center center no-repeat #fff;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -89,11 +89,11 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
   left: 10px;
-  background: url(../images/controls.png) no-repeat 0 -32px; }
+  background: url(http://mndflp.me/wp-content/themes/mndflp/images/controls.png) no-repeat 0 -32px; }
 
 .bx-wrapper .bx-next {
   right: 10px;
-  background: url(../images/controls.png) no-repeat -43px -32px; }
+  background: url(http://mndflp.me/wp-content/themes/mndflp/images/controls.png) no-repeat -43px -32px; }
 
 .bx-wrapper .bx-prev:hover {
   background-position: 0 0; }
@@ -124,7 +124,7 @@
   width: 10px;
   height: 11px;
   outline: 0;
-  background: url(../images/controls.png) -86px -11px no-repeat;
+  background: url(http://mndflp.me/wp-content/themes/mndflp/images/controls.png) -86px -11px no-repeat;
   margin: 0 3px; }
 
 .bx-wrapper .bx-controls-auto .bx-start:hover,
@@ -137,7 +137,7 @@
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url(../images/controls.png) -86px -44px no-repeat;
+  background: url(http://mndflp.me/wp-content/themes/mndflp/images/controls.png) -86px -44px no-repeat;
   margin: 0 3px; }
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
@@ -361,94 +361,6 @@ body.modal-visible .container {
 .info-me a {
   color: white; }
 
-.accordion {
-  margin: $half-gutter 0;
-  float: left;
-  width: 100%; }
-
-.accordion .with-children {
-  color: white;
-  background: white;
-  padding: 5px 5px 5px 15px;
-  /* border-radius:10px; */
-  font-size: 22px;
-  margin: 0 0 5px 0; }
-
-.trigger-accordion-child {
-  cursor: pointer; }
-
-/*.about-me .table-cell{
-    color:white;
-    font-size:4em;
-    background-image: url('../images/mugshot.jpg');
-    background-size:100%;
-}*/
-.mugshot img {
-  width: 15%;
-  float: left;
-  margin: 0 0 0 0;
-  border: 12px solid #5D6CD3; }
-
-.accordion .child {
-  font-size: 14px; }
-
-.accordion .with-children .child {
-  padding: 0 20px 20px 20px;
-  display: none; }
-
-.accordion .with-children i {
-  margin: 0 10px 0 0;
-  transition: transform 500ms;
-  -webkit-transition: transform 500ms; }
-
-.accordion .with-children.open i {
-  transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  transition: transform 500ms;
-  -webkit-transition: transform 500ms; }
-
-.accordion .with-children:not(.open):hover {
-  color: black; }
-
-.accordion .with-children:not(.open):hover i {
-  transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
-  -webkit-transform: rotate(-30deg);
-  transition: transform 100ms;
-  -webkit-transition: transform 100ms; }
-
-.with-children.red {
-  background: #D35D5D; }
-
-.with-children.red:not(.open):hover {
-  background: #ce4949; }
-
-.with-children.green {
-  background: #58C05D; }
-
-.with-children.green:not(.open):hover {
-  background: #46b94b; }
-
-.with-children.blue {
-  background: #5D6CD3; }
-
-.with-children.blue:not(.open):hover {
-  background: #495ace; }
-
-.with-children.aqua {
-  background: #58C2C2; }
-
-.with-children.aqua:not(.open):hover {
-  background: #45bbbb; }
-
-.with-children.purple {
-  background: #D3A95D; }
-
-.with-children.purple:not(.open):hover {
-  background: #ce9e49; }
-
-/* End Accordion */
 img.company-logo {
   float: right; }
 
@@ -489,7 +401,7 @@ img.company-logo {
   margin: -14px 0 0 -0.05%; }
 
 .desktop-horizontal-slider {
-  background-image: url("../images/slider/devices/imac.png");
+  background-image: url("http://mndflp.me/wp-content/themes/mndflp/images/slider/devices/imac.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 10px;
@@ -512,7 +424,7 @@ img.company-logo {
   margin: -14px 0 0 -0.05%; }
 
 .tablet-vertical-slider {
-  background-image: url("../images/slider/devices/ipad-vertical.png");
+  background-image: url("http://mndflp.me/wp-content/themes/mndflp/images/slider/devices/ipad-vertical.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 10px;
@@ -535,7 +447,7 @@ img.company-logo {
   margin: -44px 0 0 -0.3%; }
 
 .mobile-vertical-slider {
-  background-image: url("../images/slider/devices/iphone-vertical.png");
+  background-image: url("http://mndflp.me/wp-content/themes/mndflp/images/slider/devices/iphone-vertical.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center 0;
