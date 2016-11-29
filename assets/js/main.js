@@ -81,7 +81,10 @@ jQuery(document).ready(function($){
     var initSliders = function(){
         $('.carousel__item').slick({
             autoplay: true,
-            mobileFirst: true
+            mobileFirst: true,
+            nextArrow: '<button type="button" class="slick-next fa fa-arrow-right" title="Carousel next"></button>',
+            prevArrow: '<button type="button" class="slick-prev fa fa-arrow-left" title="Carousel previous"></button>'
+
         });
     };
 

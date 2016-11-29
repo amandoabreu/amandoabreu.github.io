@@ -3,4 +3,13 @@
   &__items{
     float:right;
   }
+  &__item{
+    border: 1px solid #ebeced;
+    outline: none;
+    background: white;
+    cursor:pointer;
+  }
+  &__desktop{
+
+  }
 }

@@ -57,39 +57,42 @@
 .slick-prev {
   position: fixed;
   top: 235px;
-  left: $half-gutter;
+  left: $gutter;
   width: 30px;
   height: 30px;
   border-radius: 15px;
   border: none;
   border: 1px solid #ebeced;
   background: transparent;
-  text-indent: -999px;
 }
 
 .slick-next {
   position: fixed;
   top: 235px;
-  right: $half-gutter;
+  right: $gutter;
   width: 30px;
   height: 30px;
   border-radius: 15px;
   border: none;
   border: 1px solid #ebeced;
   background: transparent;
-  text-indent: -999px;
 }
 
 @media screen and(min-width: $tablet){
   .slick-prev {
     bottom: 0;
     left:0;
+    position: absolute;
+    top: inherit;
   }
 
   .slick-next {
     bottom: 0;
     right: 0;
+    position: absolute;
+    top: inherit;
   }
+
 
   .carousel {
     &--images {
