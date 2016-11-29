@@ -1,6 +1,6 @@
 .carousel{
   &--images{
-    height:200px;
+    max-height:220px;
   }
   &__item{
     background-size: contain;
@@ -11,22 +11,22 @@
     }
     &--mobile{
       background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/iphone-vertical.png);
-      height: 500px;
-      width: 33%;
-      margin: $gutter auto;
+      height: 237px;
+      width: 101px;
+      margin: 0px auto;
     }
     &--desktop{
       background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/imac.png);
-      height: 322px;
-      width: 70%;
-      margin: $gutter auto;
+      height: 237px;
+      width: 259px;
+      margin: 0 auto;
     }
 
     &--tablet{
       background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/ipad-vertical.png);
-      height: 461px;
-      width: 65%;
-      margin: $gutter auto;
+      height: 237px;
+      width: 153px;
+      margin: 0 auto;
     }
   }
 
@@ -38,34 +38,59 @@
     background-size: cover;
     &--mobile{
       width: 82%;
-      height: 355px;
-      margin: 28px auto;
+      height: 144px;
+      margin: 25px auto;
     }
     &--tablet{
       width: 82%;
-      height: 360px;
-      margin: 24px auto;
+      height: 165px;
+      margin: 16px auto;
     }
     &--desktop{
-      width: 94%;
-      height: 194px;
-      margin: 12px auto;
+      width: 91%;
+      height: 142px;
+      margin: 10px auto;
     }
   }
 }
 
 .slick-prev {
-  position: absolute;
-  bottom: 0;
+  position: fixed;
+  top: 235px;
+  left: $half-gutter;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  border: 1px solid #ebeced;
+  background: transparent;
+  text-indent: -999px;
 }
 
 .slick-next {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  position: fixed;
+  top: 235px;
+  right: $half-gutter;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  border: 1px solid #ebeced;
+  background: transparent;
+  text-indent: -999px;
 }
 
 @media screen and(min-width: $tablet){
+  .slick-prev {
+    bottom: 0;
+    left:0;
+  }
+
+  .slick-next {
+    bottom: 0;
+    right: 0;
+  }
+
   .carousel {
     &--images {
       height: 508px;

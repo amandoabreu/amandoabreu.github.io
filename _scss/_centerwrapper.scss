@@ -71,13 +71,13 @@
     order:2;
     margin:0;
     padding:0;
-    flex: 1 1 50%;
+    flex: 0 0 100%;
   }
   &--offset-right {
     order:1;
     margin:0;
     padding:0;
-    flex: 1 1 50%;
+    flex: 0 0 100%;
   }
   &--narrow{
     max-width: $narrow;
@@ -103,9 +103,11 @@
   .centerwrapper{
     &--offset-left {
       order:1;
+      flex: 1 1 50%;
     }
     &--offset-right {
       order:2;
+      flex: 1 1 50%;
     }
   }
 }
