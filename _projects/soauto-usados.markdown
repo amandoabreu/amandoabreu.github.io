@@ -5,8 +5,13 @@ date:   2016-11-24 22:34:06 +0100
 author: Amando Abreu
 categories: project
 mobile_images:
+  - image_path: http://mndflp.me/wp-content/uploads/2015/08/soauto-car1.jpg
+    title: Apple Pie
+  - image_path: http://mndflp.me/wp-content/uploads/2015/08/soauto-soauto1.jpg
+    title: Apple Pie
   - image_path: https://c1.staticflickr.com/9/8604/16733520202_a56b8cc967_h.jpg
     title: Apple Pie
+
 tablet_images:
   - image_path: https://c1.staticflickr.com/9/8604/16733520202_a56b8cc967_h.jpg
     title: Apple Pie

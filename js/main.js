@@ -52,7 +52,7 @@ jQuery(document).ready(function($){
             var parent = e.parentNode;
             var space = document.createElement('div');
             space.classList.add('space');
-            space.style.height = e.offsetHeight + 'px';
+            space.style.height = e.offsetHeight + 11 + 'px';
             // set the wrapper as child (instead of the element)
             parent.replaceChild(space, e);
             space.appendChild(e);
@@ -65,7 +65,40 @@ jQuery(document).ready(function($){
         });
     }
 
+    $('.bx-pager-link').click(function(e){
+        e.preventDefault();
+    });
+
     page.click(function(){
        closeSidebars();
     });
+
+    $('.accordion__toggle').click(function(){
+        var parent = $(this).parent();
+        parent.toggleClass('accordion__item--open');
+    });
+
+    var initSliders = function(){
+        $('.carousel__item').slick({
+            autoplay: true,
+            mobileFirst: true
+        });
+    };
+
+    var reloadSliders = function(){
+        $('.carousel__item').slick('unslick');
+        initSliders();
+    };
+
+    initSliders();
+
+    var deviceSelectors = $('.device-selector__item');
+    var carouselItems = $('.carousel__item');
+    deviceSelectors.click(function(){
+        var device = $(this).data('switch-to');
+        carouselItems.removeClass('carousel__item--active');
+        $('.carousel__item--' + device).addClass('carousel__item--active');
+        initSliders();
+    });
+
 });

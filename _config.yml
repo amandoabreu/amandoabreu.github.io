@@ -25,6 +25,7 @@ url: "http://amando-abr.eu/"
 #baseurl: "//amando-abr.eu/"
 twitter_username: mndflp
 github:  amandoabreu
+s3_base: https://s3.eu-central-1.amazonaws.com/amandoabreu/
 linkedin: https://www.linkedin.com/in/amandoabreu
 
 

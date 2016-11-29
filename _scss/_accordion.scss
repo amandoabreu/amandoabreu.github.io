@@ -10,6 +10,7 @@
     height:0px;
     overflow: hidden;
     transition: height 200ms ease-in-out;
+    padding: 0 $gutter;
   }
   &__toggle{
     border: 1px solid #ebeced;

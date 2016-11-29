@@ -1,0 +1,66 @@
+.carousel{
+  &--images{
+    height:508px;
+  }
+  &__item{
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:none;
+    &--active{
+      display:block;
+    }
+    &--mobile{
+      background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/iphone-vertical.png);
+      height: 500px;
+      width: 45%;
+      margin: $gutter auto;
+    }
+    &--desktop{
+      background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/imac.png);
+      height: 322px;
+      width: 70%;
+      margin: $gutter auto;
+    }
+
+    &--tablet{
+      background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/ipad-vertical.png);
+      height: 461px;
+      width: 65%;
+      margin: $gutter auto;
+    }
+  }
+
+  &__slide{
+
+  }
+  &__image{
+
+    background-size: cover;
+    &--mobile{
+      width: 82%;
+      height: 355px;
+      margin: 28px auto;
+    }
+    &--tablet{
+      width: 82%;
+      height: 330px;
+      margin: 24px auto;
+    }
+    &--desktop{
+      width: 94%;
+      height: 186px;
+      margin: 6px auto;
+    }
+  }
+}
+
+.slick-prev {
+  position: absolute;
+  bottom: 0;
+}
+
+.slick-next {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

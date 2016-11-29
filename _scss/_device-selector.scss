@@ -1,3 +1,6 @@
 .device-selector{
-
+  overflow: hidden;;
+  &__items{
+    float:right;
+  }
 }

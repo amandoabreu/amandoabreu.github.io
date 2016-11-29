@@ -68,12 +68,12 @@
     max-width: $narrow * 2 + $double-gutter;
   }
   &--offset-left {
-    order:1;
+    order:2;
     margin:0;
     padding:0;
   }
   &--offset-right {
-    order:2;
+    order:1;
     margin:0;
     padding:0;
   }
@@ -99,31 +99,16 @@
 
 @media screen and (min-width: $tablet){
   .centerwrapper{
-    &--narrow{
-      /*width: 100%;*/
+    &--offset-left {
+      order:1;
     }
-    &--medium{
-      /*width:100%;*/
-    }
-    &--wide{
-      /*width:100%;*/
+    &--offset-right {
+      order:2;
     }
   }
 }
 
 @media screen and (min-width: $laptop){
   .centerwrapper{
-    &--double{
-
-    }
-    &--narrow{
-      /*width: 33%;*/
-    }
-    &--medium{
-      /*width:50%;*/
-    }
-    &--wide{
-      /*width:80%;*/
-    }
   }
 }
