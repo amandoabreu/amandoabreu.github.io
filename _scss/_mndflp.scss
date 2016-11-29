@@ -651,9 +651,6 @@ td.no-border {
 th {
   font-weight: normal; }
 
-.accordion ul {
-  margin: 0 0 0 20px; }
-
 .js-print {
   cursor: pointer; }
 
@@ -662,17 +659,6 @@ th {
 
 @media screen and (max-width: 1024px) {
 
-
-  .accordion .with-children:not(.open):hover {
-    color: white; }
-
-  .accordion .with-children:not(.open):hover i {
-    transform: rotate(0);
-    -ms-transform: rotate(0);
-    -webkit-transform: rotate(0);
-    transition: transform 100ms;
-    -webkit-transition: transform 100ms;
-    color: white; }
 
   .mugshot img {
     margin: 0 0 0 12%; }
@@ -709,11 +695,7 @@ th {
   .tablet-vertical-slider .bx-wrapper .bx-pager {
     bottom: 53px; }
 
-  .accordion {
-    margin: 0 0% 0 12% !important;
-    float: left !important;
-    width: 76% !important;
-    clear: both !important; }
+
 
   .portfolio-item-text {
     background: rgba(255, 255, 255, 0.5); } }
@@ -750,16 +732,7 @@ th {
     padding-bottom: 50%;
     margin: 5px 0; }
 
-  .accordion {
-    margin: 0px 0 0 0px !important;
-    width: 100% !important; }
 
-  .accordion .with-children {
-    padding: 5px 5px 5px 15px;
-    border-radius: 0; }
-
-  .accordion .with-children .child {
-    padding: 0px 20px 20px 0px; }
 
   #title {
     text-align: center; }
@@ -885,10 +858,7 @@ th {
     padding-top: 0;
     min-height: 0; }
 
-  .accordion {
-    position: relative !important;
-    z-index: 9999 !important;
-    margin: -62px 0 0 0; }
+
 
   .desktop-horizontal-slider .bx-viewport {
     padding: 0 0 67px 0; }
@@ -923,8 +893,7 @@ th {
   .info-me {
     clear: both; }
 
-  .modal-info .accordion {
-    margin: 0 !important; }
+
 
   .modal-info .inner {
     padding: 0; }

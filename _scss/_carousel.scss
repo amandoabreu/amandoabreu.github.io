@@ -1,6 +1,6 @@
 .carousel{
   &--images{
-    height:508px;
+    height:200px;
   }
   &__item{
     background-size: contain;
@@ -12,7 +12,7 @@
     &--mobile{
       background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/iphone-vertical.png);
       height: 500px;
-      width: 45%;
+      width: 33%;
       margin: $gutter auto;
     }
     &--desktop{
@@ -43,13 +43,13 @@
     }
     &--tablet{
       width: 82%;
-      height: 330px;
+      height: 360px;
       margin: 24px auto;
     }
     &--desktop{
       width: 94%;
-      height: 186px;
-      margin: 6px auto;
+      height: 194px;
+      margin: 12px auto;
     }
   }
 }
@@ -63,4 +63,64 @@
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+@media screen and(min-width: $tablet){
+  .carousel {
+    &--images {
+      height: 508px;
+    }
+    &__item {
+      &--mobile {
+        width: 45%;
+      }
+    }
+
+    &__item{
+      background-size: contain;
+      background-repeat: no-repeat;
+      display:none;
+      &--active{
+        display:block;
+      }
+      &--mobile{
+        background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/iphone-vertical.png);
+        height: 500px;
+        width: 228px;
+        margin: $gutter auto;
+      }
+      &--desktop{
+        background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/imac.png);
+        height: 322px;
+        width: 350px;
+        margin: $gutter auto;
+      }
+
+      &--tablet{
+        background-image:url(https://s3.eu-central-1.amazonaws.com/amandoabreu/assets/images/devices/ipad-vertical.png);
+        height: 461px;
+        width: 320px;
+        margin: $gutter auto;
+      }
+    }
+
+    &__image{
+      background-size: cover;
+      &--mobile{
+        width: 82%;
+        height: 344px;
+        margin: 48px auto;
+      }
+      &--tablet{
+        width: 82%;
+        height: 352px;
+        margin: 24px auto;
+      }
+      &--desktop{
+        width: 94%;
+        height: 194px;
+        margin: 12px auto;
+      }
+    }
+  }
 }

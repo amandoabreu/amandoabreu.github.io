@@ -98,7 +98,7 @@ jQuery(document).ready(function($){
         var device = $(this).data('switch-to');
         carouselItems.removeClass('carousel__item--active');
         $('.carousel__item--' + device).addClass('carousel__item--active');
-        initSliders();
+        reloadSliders();
     });
 
 });

@@ -11,8 +11,14 @@
   top:0;
   z-index:9999;
 
+  &__logo{
+    align-self: center;
+    width:120px;
+    margin:0 auto;
+  }
+
   &__search{
-    margin-left:auto;
+    align-self:flex-end;
     display:flex;
     align-items:center;
     justify-content: center;

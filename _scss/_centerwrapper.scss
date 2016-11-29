@@ -71,11 +71,13 @@
     order:2;
     margin:0;
     padding:0;
+    flex: 1 1 50%;
   }
   &--offset-right {
     order:1;
     margin:0;
     padding:0;
+    flex: 1 1 50%;
   }
   &--narrow{
     max-width: $narrow;
