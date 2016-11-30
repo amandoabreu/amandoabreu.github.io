@@ -1,25 +1,22 @@
----
----
-
-@import 'normalize';
-@import 'variables';
-@import 'general';
-@import 'typography';
-@import 'body';
-@import 'content';
-@import 'top-nav';
-@import 'main-nav';
-@import 'head';
-@import 'me';
-@import 'centerwrapper';
-@import 'quote';
-@import 'search';
-@import 'alert';
-@import 'post-listing';
-@import 'accordion';
-@import 'mndflp';
-@import 'carousel';
-@import 'device-selector';
+@import 'imports/normalize';
+@import 'imports/variables';
+@import 'imports/general';
+@import 'imports/typography';
+@import 'imports/body';
+@import 'imports/content';
+@import 'imports/top-nav';
+@import 'imports/main-nav';
+@import 'imports/head';
+@import 'imports/me';
+@import 'imports/centerwrapper';
+@import 'imports/quote';
+@import 'imports/search';
+@import 'imports/alert';
+@import 'imports/post-listing';
+@import 'imports/accordion';
+@import 'imports/mndflp';
+@import 'imports/carousel';
+@import 'imports/device-selector';
 
 .page{
   z-index: 1000;

@@ -4,3 +4,4 @@
 .idea/
 _site
 Gemfile.lock
+_assets/node_modules/
