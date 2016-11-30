@@ -17,7 +17,7 @@ ul{
 html, body, .main-wrapper, .page {
   min-height: 100vh;
   min-width: $mobile-s;
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
 }
 
 img{
@@ -34,4 +34,8 @@ img{
 
 .no-deco{
   text-decoration: none;
+}
+
+.center-text{
+  text-align: center;
 }
