@@ -1,6 +1,9 @@
 .my{
   display:flex;
   flex-wrap: wrap;
+  &__name{
+    margin-top: 0;
+  }
   &__photo{
     flex:0 0 100%;
     padding-bottom:100%;

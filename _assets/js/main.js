@@ -103,5 +103,6 @@ jQuery(document).ready(function($){
         $('.carousel__item--' + device).addClass('carousel__item--active');
         reloadSliders();
     });
+    var disqus_developer = 1;
 
 });

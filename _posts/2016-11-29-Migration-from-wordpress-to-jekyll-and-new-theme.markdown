@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Welcome to Simples agan!"
-date:   2016-11-24 22:34:06 +0100
+title:  "Migrating from Wordpress to jekyll, and a new theme!"
+date:   2016-11-29 15:46:06 +0100
 author: Amando Abreu
-categories: jekyll update
+categories: jekyll cms wordpress
 image: https://c1.staticflickr.com/9/8604/16733520202_a56b8cc967_h.jpg
 
 ---

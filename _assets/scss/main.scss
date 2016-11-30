@@ -3,7 +3,6 @@
 @import 'imports/variables';
 @import 'imports/general';
 @import 'imports/typography';
-@import 'imports/body';
 @import 'imports/content';
 @import 'imports/top-nav';
 @import 'imports/main-nav';
@@ -18,6 +17,8 @@
 /*@import 'imports/mndflp';*/
 @import 'imports/carousel';
 @import 'imports/device-selector';
+@import 'imports/body';
+@import 'imports/syntax';
 
 .page{
   z-index: 1000;

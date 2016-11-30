@@ -1,5 +1,7 @@
 .header{
-  text-align:center;
+  &--center {
+    text-align:center;
+  }
   &--one{
     font-size:1.5em;
   }
