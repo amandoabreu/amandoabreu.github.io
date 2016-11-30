@@ -7,40 +7,65 @@ categories: jekyll update
 comments: true
 image: https://c3.staticflickr.com/8/7626/26715303250_a066e5ba37_h.jpg
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This posts simply shows all the possible elements inside a post
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+{: .header .header--one}
+# Header 1
 
-Jekyll also offers powerful support for code snippets:
+{: .header .header--two}
+## Header 2
 
-{: .scroll-x }
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+{: .header .header--three}
+### Header 3
+
+{: .header .header--four}
+#### Header 4
+
+{: .header .header--five}
+##### Header 5
+
+{: .header .header--six}
+###### Header 6
+
+{: .list .list--unordered}
+- item 1
+- item 2
+- item 3
+- item 4
+- item 5
+
+{: .list .list--ordered}
+- item 1
+- item 2
+- item 3
+- item 4
+- item 5
+
+
+-----
+
 
 {: .quote .quote--left}
-> quote quote
+> Text inside a quote to the left `.quote--left`
 
-Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend tristique varius. Aliquam placerat nisi dolor, in molestie nisl feugiat ut. Donec hendrerit tincidunt ex, sit amet tincidunt est aliquam ut. Sed id libero a lacus semper laoreet vitae sed lacus. Nullam luctus est eget accumsan efficitur. Sed maximus id massa vitae congue. Aliquam erat volutpat. Praesent mauris urna, tempor sit amet metus non, aliquet eleifend massa. Donec condimentum sagittis elementum. Nulla tincidunt tortor hendrerit gravida laoreet.
 
 {: .quote .quote--right}
-> quote quote
+> Text inside a quote to the right `.quote--right`
 
-Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend tristique varius. Aliquam placerat nisi dolor, in molestie nisl feugiat ut. Donec hendrerit tincidunt ex, sit amet tincidunt est aliquam ut. Sed id libero a lacus semper laoreet vitae sed lacus. Nullam luctus est eget accumsan efficitur. Sed maximus id massa vitae congue. Aliquam erat volutpat. Praesent mauris urna, tempor sit amet metus non, aliquet eleifend massa. Donec condimentum sagittis elementum. Nulla tincidunt tortor hendrerit gravida laoreet.
+
 
 <div class="centerwrapper centerwrapper--screen">
     <img src="https://c3.staticflickr.com/8/7626/26715303250_a066e5ba37_h.jpg" class="img img--100p" />
     <div class="img--caption italic left-padding top-padding bottom-padding ">
-        Dromedaries by Amando Filipe
+        Fullscreen image with caption
     </div>
 </div>
 
-Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text
-Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text Text text
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend tristique varius. Aliquam placerat nisi dolor, in molestie nisl feugiat ut. Donec hendrerit tincidunt ex, sit amet tincidunt est aliquam ut. Sed id libero a lacus semper laoreet vitae sed lacus. Nullam luctus est eget accumsan efficitur. Sed maximus id massa vitae congue. Aliquam erat volutpat. Praesent mauris urna, tempor sit amet metus non, aliquet eleifend massa. Donec condimentum sagittis elementum. Nulla tincidunt tortor hendrerit gravida laoreet.
+
+Mauris pulvinar quis nisl et ullamcorper. Vivamus porta massa eget mauris lobortis, a porta arcu sodales. Donec lorem justo, elementum id sem a, viverra volutpat eros. Etiam feugiat molestie nulla vel tempus. In tincidunt consectetur risus ac laoreet. Nullam sit amet ipsum risus. Nulla vel dictum urna. Fusce erat turpis, lobortis vel sapien at, scelerisque pulvinar ante. Morbi efficitur, ipsum at consequat dapibus, lorem neque iaculis odio, id laoreet odio eros et dolor. Nunc non erat nec nibh sodales efficitur.
 
 
 

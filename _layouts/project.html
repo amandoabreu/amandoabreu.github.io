@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1 class="center-text">{{ page.title }}</h1>
+<h1 class="header header--center header--one">{{ page.title }}</h1>
 <div class="content">
     <div class="centerwrapper centerwrapper--double">
         <div class="centerwrapper centerwrapper--offset-left">
@@ -10,18 +10,24 @@ layout: default
                     Use the buttons to view the project in different devices.
                 </p>
                 <div class="device-selector__items">
+                    {% if page.desktop_images %}
                     <button title="Switch to Desktop" class="device-selector__item device-selector--desktop" data-switch-to="desktop">
                         <i class="fa fa-desktop"></i>
                         Desktop
                     </button>
+                    {% endif %}
+                    {% if page.tablet_images %}
                     <button title="Switch to Tablet" class="device-selector__item device-selector--tablet" data-switch-to="tablet">
                         <i class="fa fa-tablet"></i>
                         Tablet
                     </button>
+                    {% endif %}
+                    {% if page.mobile_images %}
                     <button title="Switch to Mobile" class="device-selector__item device-selector--mobile" data-switch-to="mobile">
                         <i class="fa fa-mobile"></i>
                         Mobile
                     </button>
+                    {% endif %}
                     <!--<a href="#" device-link" data-switch-to="mobile"><i class="fa fa-link"></i></div></a>-->
                 </div>
             </div>
@@ -29,45 +35,20 @@ layout: default
                 <div class="accordion__item accordion__item--open">
                     <div class="accordion__toggle"><i class="fa fa-arrow-circle-down"></i>Description</div>
                     <div class="accordion__content">
-                        <p>Clean and modern responsive 9 page design for soauto usados, distributer of VW in Portugal.</p>
-                        <p>Features integrated slider on the homepage and CSS3/Javascript hover state animations for a more engaging UX.</p>
+                        {{ page.description }}
                     </div>
                 </div>
                 <div class="accordion__item">
                     <div class="accordion__toggle"><i class="fa fa-arrow-circle-down"></i>Technical</div>
                     <div class="accordion__content">
-                    <table>
-                        <tbody>
-                        <tr>
-                            <td>Technologies</td>
-                            <td>HTML5, CSS3, Javascript</td>
-                        </tr>
-                        <tr>
-                            <td>Frameworks</td>
-                            <td>jQuery</td>
-                        </tr>
-                        <tr>
-                            <td>Responsive</td>
-                            <td>Yes</td>
-                        </tr>
-                        <tr>
-                            <td>Devices</td>
-                            <td>Desktop, Laptop, Tablet, Smartphone</td>
-                        </tr>
-                        <tr>
-                            <td>Pages</td>
-                            <td>9</td>
-                        </tr>
-                        </tbody>
-                    </table>
+                    {{ page.tech_description }}
                 </div>
                 </div>
                 <div class="accordion__item">
                     <div class="accordion__toggle"><i class="fa fa-arrow-circle-down"></i>Notes</div>
                     <div class="accordion__content">
-                    <p>Client: Soauto Usados via Portugal Telecom<br>
-                        Link: soautousados.pt</p>
-                </div>
+                        {{ page.notes }}
+                    </div>
                 </div>
             </div>
 
