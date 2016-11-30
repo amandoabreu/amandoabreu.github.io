@@ -75,7 +75,7 @@ layout: default
         <div class="centerwrapper centerwrapper--offset-right">
             <div class="carousel carousel--images">
                 {% if page.mobile_images %}
-                    <div class="carousel__item carousel__item--active carousel__item--mobile">
+                    <div class="carousel__item carousel__item--mobile">
                         {% for img in page.mobile_images %}
                             <div class="carousel__slide">
                                 <div class="carousel__image carousel__image--mobile" style="background-image:url({{ img.image_path }})">
@@ -99,7 +99,7 @@ layout: default
                 </div>
                 {% endif %}
                 {% if page.desktop_images %}
-                <div class="carousel__item carousel__item--desktop">
+                <div class="carousel__item carousel__item--active carousel__item--desktop">
                     {% for img in page.desktop_images %}
                     <div class="carousel__slide">
                         <div class="carousel__image carousel__image--desktop" style="background-image:url({{ img.image_path }})">
