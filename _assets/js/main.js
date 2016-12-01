@@ -4,8 +4,8 @@ jQuery(document).ready(function($){
     var body = $('.body');
     var page = $('.page');
 
-
-    $(window).scroll(function(e) {
+    var w = $(window);
+    w.scroll(function(e) {
         var newScroll = $(this).scrollTop();
         if(oldScroll < newScroll && newScroll > 60){
             body.addClass('body--reading');
@@ -15,6 +15,24 @@ jQuery(document).ready(function($){
         oldScroll = newScroll;
 
         //$('.main-nav').css('top', newScroll + 60);
+    });
+
+    var addScrollToMenuIfNeeded = function(e){ // hacky as fuck menu fix
+        var mainNav = $('.main-nav');
+        var mainNavheight = mainNav[0].scrollHeight;
+        var windowHeight = w.height();
+        console.log('w: '+windowHeight+' m: '+mainNavheight);
+        if(mainNavheight > windowHeight) {
+            mainNav.addClass('main-nav--scroll');
+        } else {
+            mainNav.removeClass('main-nav--scroll');
+        }
+    };
+
+    addScrollToMenuIfNeeded();
+
+    w.resize(function(){
+        addScrollToMenuIfNeeded();
     });
 
     var toggleMenu = function(){

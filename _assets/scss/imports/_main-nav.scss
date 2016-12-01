@@ -4,7 +4,7 @@
   top:$top-nav-height-l;
   border-right: 1px solid #ebeced;
   border-top: 1px solid #ebeced;
-  height:calc(100vh - 60px);
+  height:calc(100% - 60px);
   position:fixed;
   z-index:10000;
   box-sizing: border-box;
@@ -12,7 +12,10 @@
   transition: transform 200ms ease-in-out;
   box-shadow: 0px 6px 6px #999; /* Adjust */
 
-  overflow: scroll;
+  overflow-y: inherit;
+  &--scroll{
+    overflow-y: scroll;
+  }
   &__element{
     padding: $half-gutter $double-gutter;
     border-bottom:1px solid #ebeced;
@@ -35,7 +38,6 @@
 
 @media screen and (min-width: 640px){
   .main-nav{
-    overflow: inherit;
     width: $nav-width-l;
     top:$top-nav-height-l;
     transform: translateX(- ($nav-width-l + 6) );
