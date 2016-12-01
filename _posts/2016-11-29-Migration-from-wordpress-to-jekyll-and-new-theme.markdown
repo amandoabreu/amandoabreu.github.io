@@ -15,7 +15,7 @@ So I got tired of wordpress, the overhead in complexity for a simple blog became
 
 I had very little posts, in fact, only one blog post that was public, and many drafts that I never finished enough to publish. However, my "portfolio" was a custom post type with custom fields created with [cmb2](https://wordpress.org/plugins/cmb2/)
 
-I created a simple python crawler to generate a json file with the fields from wordpress, and then generate the jekyll post file. [...]
+I created a simple python crawler to generate the jekyll project file. [...]
 
 
 <div class="centerwrapper centerwrapper--wide">
@@ -24,7 +24,7 @@ I created a simple python crawler to generate a json file with the fields from w
 import scrapy
 import io
 
-class CinemaSpider(scrapy.Spider):
+class ProjectSpider(scrapy.Spider):
     name = "mndflp"
     allowed_domains = ['mndflp.me']
     start_urls = [
