@@ -23,7 +23,7 @@ var onError = function (err) {
 gulp.task('css', function() {
     gulp.src(['css/**/*']).pipe(gulp.dest('../assets/css'));
     gulp.src(['fonts/**/*']).pipe(gulp.dest('../assets/fonts'));
-    gulp.src(['js/**/*']).pipe(gulp.dest('../assets/js'));
+    gulp.src(['js/*.js']).pipe(gulp.dest('../assets/js'));
 
     gulp.src([scssFiles])
     .pipe(sass(sassOptions))
@@ -34,4 +34,5 @@ gulp.task('css', function() {
 
 gulp.task('default',function() {
     gulp.watch('scss/**/*.scss',['css']);
+    gulp.watch('js/**/*.js', ['css']);
 });

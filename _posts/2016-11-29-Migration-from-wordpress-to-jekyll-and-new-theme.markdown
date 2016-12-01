@@ -77,16 +77,6 @@ class ProjectSpider(scrapy.Spider):
                 file.write('tech_description: "' + project_tech_description + '"\n')
                 file.write('notes: "' + project_notes + '"\n')
                 file.write("---\n")
-
-            '''yield {
-                'name': project.xpath('@id').extract(),
-                'mobile_images': project_mobile_images,
-                'tablet_images': project_tablet_images,
-                'desktop_images': project_desktop_images,
-                'description': [ p.strip('\n') for p in project_description],
-                'tech_description': filter(None, [p.strip('\n').strip('\r\n').strip(' ') for p in project_tech_description]),
-                'notes': ''.join(project_notes),
-            }'''
 {% endhighlight %}
 </div>
 

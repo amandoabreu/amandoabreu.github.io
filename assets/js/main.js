@@ -13,6 +13,8 @@ jQuery(document).ready(function($){
             body.removeClass('body--reading');
         }
         oldScroll = newScroll;
+
+        //$('.main-nav').css('top', newScroll + 60);
     });
 
     var toggleMenu = function(){

@@ -11,6 +11,8 @@
   transform: translateX(- ($nav-width-l + 6) );
   transition: transform 200ms ease-in-out;
   box-shadow: 0px 6px 6px #999; /* Adjust */
+
+  overflow: scroll;
   &__element{
     padding: $half-gutter $double-gutter;
     border-bottom:1px solid #ebeced;
@@ -25,10 +27,15 @@
     color: black;
     display: block;
   }
+  &__list{
+    /*overflow: scroll;
+    height: 100%;*/
+  }
 }
 
 @media screen and (min-width: 640px){
   .main-nav{
+    overflow: inherit;
     width: $nav-width-l;
     top:$top-nav-height-l;
     transform: translateX(- ($nav-width-l + 6) );
