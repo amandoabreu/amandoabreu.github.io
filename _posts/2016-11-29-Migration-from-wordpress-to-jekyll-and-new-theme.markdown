@@ -83,4 +83,4 @@ class ProjectSpider(scrapy.Spider):
 {: .header .header--three}
 ### About the new setup
 
-Jekyll, gulp, new theme, BEM, less specificity, disqus comments
+Jekyll, new theme, BEM, less specificity, disqus comments

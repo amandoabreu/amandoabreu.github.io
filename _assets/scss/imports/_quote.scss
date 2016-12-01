@@ -5,54 +5,54 @@
   box-sizing:border-box;
   &--left{
     float:none;
-    /*margin-left:-15%;*/
     border-left: 5px solid $light-grey;
   }
 
   &--right{
     float:none;
-    /*margin-right:-15%;*/
-    border-right: 5px solid $light-grey;
+    border-left: 5px solid $light-grey;
   }
 }
 
 @media screen and (min-width: $tablet){
   .quote{
-    width:50%;
+    width:30%;
     &--left{
       float:left;
-      margin-left: -25%;
+      margin-left: 0;
     }
 
     &--right{
       float:right;
-      margin-right: -25%;
+      margin-right: 0;
+      border-left: none;
+      border-right: 5px solid $light-grey;
     }
   }
 }
 
 @media screen and (min-width: $laptop){
   .quote{
-    width:75%;
+    width:45%;
     &--left{
-      margin-left: -40%;
+      margin-left: -17%;
     }
 
     &--right{
-      margin-right: -40%;
+      margin-right: -17%;
     }
   }
 }
 
 @media screen and (min-width: $laptop-l){
   .quote{
-    width:100%;
+    width:70%;
     &--left{
-      margin-left: -50%;
+      margin-left: -40%;
     }
 
     &--right{
-      margin-right: -50%;
+      margin-right: -40%;
     }
   }
 }

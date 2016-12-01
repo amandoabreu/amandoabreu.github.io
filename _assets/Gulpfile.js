@@ -6,6 +6,7 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const scssFiles = 'scss/**/*.scss';
 
+
 var sassOptions = {
     errLogToConsole: true,
     outputStyle: 'compressed'
