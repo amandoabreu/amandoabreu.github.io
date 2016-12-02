@@ -13,7 +13,17 @@
     <meta name="author" content="{{ site.name }}">
     <!--<link rel="stylesheet" href="assets/app/css/normalize.css?v=1.0">-->
     <base href="{{ site.baseurl }}">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <script>
+        var cb = function() {
+            var l = document.createElement('link'); l.rel = 'stylesheet';
+            l.href = '/assets/css/main.css';
+            var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h); };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+                webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
+    <!--<link rel="stylesheet" href="/assets/css/main.css">-->
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
