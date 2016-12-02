@@ -2,7 +2,6 @@
   padding: $gutter;
   width: $nav-width-l;
   background: white;
-  position: absolute;
   top:$top-nav-height-l;
   right:0;
   border-left: 1px solid #ebeced;
@@ -11,7 +10,9 @@
   position:fixed;
   z-index:10000;
   box-sizing: border-box;
-  transform: translateX($nav-width-l);
-  transition: transform 200ms ease-in-out;
+  /*transform: translateX($nav-width-l);
+   transition: transform 200ms ease-in-out;*/
+  right: - $nav-width-l;
+  transition: right 200ms ease-in-out;
 
 }

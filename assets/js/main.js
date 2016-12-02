@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+
     var centerWrapperScreens = document.getElementsByClassName('centerwrapper--screen');
     var oldScroll = 0;
     var body = $('.body');

@@ -8,8 +8,10 @@
   position:fixed;
   z-index:10000;
   box-sizing: border-box;
-  transform: translateX(- ($nav-width-l + 6) );
-  transition: transform 200ms ease-in-out;
+  /*transform: translateX(- ($nav-width-l + 6) );*/
+  left: - ($nav-width-l + 6);
+  /*transition: transform 200ms ease-in-out;*/
+  transition: left 200ms ease-in-out;
   box-shadow: 0px 6px 6px #999; /* Adjust */
 
   overflow-y: inherit;
@@ -40,6 +42,7 @@
   .main-nav{
     width: $nav-width-l;
     top:$top-nav-height-l;
-    transform: translateX(- ($nav-width-l + 6) );
+    /*transform: translateX(- ($nav-width-l + 6) );*/
+    left: - ($nav-width-l + 6);
   }
 }

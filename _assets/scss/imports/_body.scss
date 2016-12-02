@@ -17,7 +17,8 @@
       transform: translateX(- $nav-width-l);
     }
     .search{
-      transform: translateX(0);
+      /*transform: translateX(0);*/
+      right:0;
     }
   }
   &--burger-active{
@@ -25,7 +26,8 @@
       transform: translateX($nav-width-l);
     }
     .main-nav{
-      transform: translateX(0);
+      /*transform: translateX(0);*/
+      left:0;
     }
     .top-nav{
       &__burger{
