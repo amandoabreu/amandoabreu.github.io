@@ -5,6 +5,7 @@ const watch = require('gulp-watch');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const scssFiles = 'scss/**/*.scss';
+const cssFiles = 'css/**/*.css';
 
 
 var sassOptions = {
