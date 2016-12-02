@@ -39,12 +39,13 @@ class ProjectSpider(scrapy.Spider):
         projects.extract()
         for project in projects:
             name = project.xpath('@id').extract()
+            print(name)
             project_mobile_images = project.css('.inner .sliders .mobile-slider img').xpath('@src').extract()
             project_tablet_images = project.css('.inner .sliders .tablet-slider img').xpath('@src').extract()
             project_desktop_images = project.css('.inner .sliders .desktop-slider img').xpath('@src').extract()
 
             project_description = '<br/>'.join(project.css('.inner .accordion .with-children.blue .child p::text').extract()).encode('utf-8')
-            project_tech_description = '<br/>'.join(project.css('.inner .accordion .with-children.red .child *::text').extract()).encode('utf-8')
+            project_tech_description = '<br/>'.join(project.css('.inner .accordion .with-children.red .child table').extract()).encode('utf-8')
             project_notes = '<br/>'.join(project.css('.inner .accordion .with-children.aqua .child p::text').extract()).encode('utf-8')
 
             with io.FileIO('projects/'+name[0]+".markdown", "w") as file:
@@ -55,28 +56,39 @@ class ProjectSpider(scrapy.Spider):
                 file.write("author: Amando Abreu\n")
                 file.write("categories: project\n")
                 file.write("desktop_images:\n")
-
                 if(project_desktop_images):
+
                     for p in project_desktop_images:
-                        file.write("   - image_path: " + p + "\n")
-                        file.write("     title: Desktop image\n")
+                        file.write("  - image_path: " + p + "\n")
+                        file.write("    title: Desktop image\n")
                 file.write("tablet_images:\n")
-
                 if (project_tablet_images):
-                    for p in project_tablet_images:
-                        file.write("   - image_path: " + p + "\n")
-                        file.write("     title: Tablet image\n")
-                file.write("mobile_images:\n")
 
+                    for p in project_tablet_images:
+                        file.write("  - image_path: " + p + "\n")
+                        file.write("    title: Tablet image\n")
+                file.write("mobile_images:\n")
                 if (project_mobile_images):
+
                     for p in project_mobile_images:
-                        file.write("   - image_path: " + p + "\n")
-                        file.write("     title: Mobile image\n")
+                        file.write("  - image_path: " + p + "\n")
+                        file.write("    title: Mobile image\n")
 
                 file.write('description: "' + project_description + '"\n')
                 file.write('tech_description: "' + project_tech_description + '"\n')
                 file.write('notes: "' + project_notes + '"\n')
                 file.write("---\n")
+
+            '''yield {
+                'name': project.xpath('@id').extract(),
+                'mobile_images': project_mobile_images,
+                'tablet_images': project_tablet_images,
+                'desktop_images': project_desktop_images,
+                'description': [ p.strip('\n') for p in project_description],
+                'tech_description': filter(None, [p.strip('\n').strip('\r\n').strip(' ') for p in project_tech_description]),
+                'notes': ''.join(project_notes),
+            }'''
+
 {% endhighlight %}
 </div>
 

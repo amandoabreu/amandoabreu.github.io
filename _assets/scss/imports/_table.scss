@@ -1,3 +1,13 @@
 .table, table{
   width:100%;
+  padding-top: $half-gutter;
+}
+
+td {
+  border-top: 1px solid #ebeced;
+  padding: $half-gutter $gutter;
+}
+
+tr:first-child td{
+  border:none;
 }

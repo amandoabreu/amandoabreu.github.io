@@ -1,4 +1,5 @@
 jQuery(document).ready(function($){
+    console.log("It's a static site, nothing to hack here :)");
     var centerWrapperScreens = document.getElementsByClassName('centerwrapper--screen');
     var oldScroll = 0;
     var body = $('.body');
@@ -21,7 +22,6 @@ jQuery(document).ready(function($){
         var mainNav = $('.main-nav');
         var mainNavheight = mainNav[0].scrollHeight;
         var windowHeight = w.height();
-        console.log('w: '+windowHeight+' m: '+mainNavheight);
         if(mainNavheight > windowHeight) {
             mainNav.addClass('main-nav--scroll');
         } else {
