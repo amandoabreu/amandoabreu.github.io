@@ -1,4 +1,7 @@
 .device-selector{
+  &__icon{
+    margin-right: $half-gutter;
+  }
   overflow: hidden;;
   &__items{
     float:right;

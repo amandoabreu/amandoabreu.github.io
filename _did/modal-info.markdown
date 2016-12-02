@@ -9,16 +9,6 @@ tablet_images:
 mobile_images:
 description: "My name is <br/>, I was born on the <br/>, in <br/>
 <br/>I'm a self-taught Web Designer and Developer, my first contact with programming was with hardware in C and Assembly for my robotics projects, and later moved onto Web and Mobile App Development.<br/>I started doing freelance work in 2010 and since then I've worked in-house for Rightcolors, Worklovers, Niobo, and Portugal Telecom.<br/>I currently work at <br/> and live in Düsseldorf, Germany."
-tech_description: "
-                    <br/>
-                        <br/>
-                            <br/>Accessible, pixel-perfect, responsive designs that simply work no matter the screen size.<br/>
-                            <br/>High performance scalable mobile and web Applications.<br/>
-                            <br/>Ecommerce solutions.<br/>
-                            <br/>Social network presence stimulation solutions.<br/>
-                            <br/>Facebook applications.<br/>
-                            <br/>SEO strategies.<br/>
-                        <br/>
-                "
+tech_description: ""
 notes: ""
 ---

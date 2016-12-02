@@ -56,16 +56,18 @@
             <a href="blog"><i class="fa fa-pencil"></i> Blog</a>
         </li>-->
         {% for page in site.pages %}
-        <li class="main-nav__element">
-            <a class="main-nav__link" href="{{ page.url }}">
-                {{ page.title }}
-            </a>
-        </li>
+            {% if page.listed %}
+            <li class="main-nav__element">
+                <a class="main-nav__link" href="{{ page.url }}">
+                    {{ page.title }}
+                </a>
+            </li>
+            {% endif %}
         {% endfor %}
         <li class="main-nav__element main-nav__element--separator">
             Services
         </li>
-        {% for service in site.services %}
+        {% for service in site.does %}
         <li class="main-nav__element">
             <a class="main-nav__link" href="{{ service.url }}">
                 {{ service.title }}
@@ -75,7 +77,7 @@
         <li class="main-nav__element main-nav__element--separator">
             Projects
         </li>
-        {% for project in site.projects %}
+        {% for project in site.did %}
         <li class="main-nav__element">
             <a class="main-nav__link" href="{{ project.url }}">
                 {{ project.title }}

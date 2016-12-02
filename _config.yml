@@ -32,18 +32,18 @@ linkedin: https://www.linkedin.com/in/amandoabreu
 
 # Collections
 collections:
-  services:
-    output: true
-    permalink: /does/:title/
+  does:
+      output: true
+      permalink: /:collection/:title/
   posts:
       output: true
       permalink: /wrote/:title/
   pages:
       output: true
       permalink: /:title/
-  projects:
-        output: true
-        permalink: /did/:title/
+  did:
+      output: true
+      permalink: /:collection/:title/
 
 
 permalink: /post/:title/ # YYYY/MM/DD/page-title/index.html

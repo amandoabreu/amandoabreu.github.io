@@ -47,3 +47,13 @@ hr{
 a{
   color:black;
 }
+
+.show_print{
+  display:none;
+}
+
+@media print{
+  .show_print{
+    display:inline;
+  }
+}

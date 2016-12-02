@@ -96,6 +96,7 @@ jQuery(document).ready(function($){
     $('.accordion__toggle').click(function(){
         var parent = $(this).parent();
         parent.toggleClass('accordion__item--open');
+
     });
 
     var initSliders = function(){
@@ -124,5 +125,15 @@ jQuery(document).ready(function($){
         reloadSliders();
     });
     var disqus_developer = 1;
+
+    $('.skills-and-stuff').click(function(){
+        $('.skill-bar').each(function(){
+            $(this).animate({
+                width: $(this).attr('data-skill-level')+'%'
+            }, 1000, function(){
+
+            }).delay(100);
+        });
+    });
 
 });

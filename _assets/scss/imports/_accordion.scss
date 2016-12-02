@@ -1,4 +1,7 @@
 .accordion{
+  &__icon{
+    margin-right: $half-gutter;
+  }
   &__item{
     &--open{
       & .accordion__content{
