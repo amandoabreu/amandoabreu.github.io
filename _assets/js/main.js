@@ -15,10 +15,10 @@ jQuery(document).ready(function($){
         }
         oldScroll = newScroll;
 
-        //$('.main-nav').css('top', newScroll + 60);
+        /*$('.main-nav').css('top', newScroll + 60);*/
     });
 
-    var addScrollToMenuIfNeeded = function(e){ // hacky as fuck menu fix
+    var addScrollToMenuIfNeeded = function(e){ /* hacky as fuck menu fix */
         var mainNav = $('.main-nav');
         var mainNavheight = mainNav[0].scrollHeight;
         var windowHeight = w.height();

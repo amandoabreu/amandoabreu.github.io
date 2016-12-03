@@ -6,6 +6,7 @@ const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const scssFiles = 'scss/**/*.scss';
 const cssFiles = 'css/**/*.css';
+const uglify = require('gulp-uglifyjs');
 
 
 var sassOptions = {
@@ -25,7 +26,6 @@ var onError = function (err) {
 gulp.task('css', function() {
     gulp.src(['css/**/*']).pipe(gulp.dest('../assets/css'));
     gulp.src(['fonts/**/*']).pipe(gulp.dest('../assets/fonts'));
-    gulp.src(['js/*.js']).pipe(gulp.dest('../assets/js'));
 
     gulp.src([scssFiles])
     .pipe(sass(sassOptions))
@@ -34,7 +34,14 @@ gulp.task('css', function() {
     .pipe(gulp.dest('../assets/css'));
 });
 
-gulp.task('default',function() {
+gulp.task('js', function() {
+
+    gulp.src('js/*.js')
+        .pipe(uglify('main.js'))
+        .pipe(gulp.dest('../assets/js'))
+});
+
+gulp.task('default', ['css', 'js'], function() {
     gulp.watch('scss/**/*.scss',['css']);
-    gulp.watch('js/**/*.js', ['css']);
+    gulp.watch('js/**/*.js', ['js']);
 });
