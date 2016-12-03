@@ -12,12 +12,13 @@
   }
   &__details{
     order:2;
-    flex: 1 0 0;
+    flex: 1 0 0; 
     padding: 0;
   }
   &__name-is{
     font-size: 1rem;
     font-weight: normal;
+    padding-top: $half-gutter;
   }
 }
 
@@ -31,6 +32,9 @@
     &__details{
       flex: 1 0 0;
       padding: 0 0 0 $gutter;
+    }
+    &__name-is{
+      padding-top: 0;
     }
   }
 }
