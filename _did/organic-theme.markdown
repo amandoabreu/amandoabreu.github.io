@@ -8,8 +8,6 @@ desktop_images:
   - image_path: uploads/2015/08/organic-theme.jpg
     title: Desktop image
 tablet_images:
-  - image_path: 
-    title: Tablet image
 mobile_images:
 description: "Organic Theme for ecommerce webstores, Prestashop and Magento"
 tech_description: "<table>
