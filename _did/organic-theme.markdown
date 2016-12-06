@@ -1,6 +1,6 @@
 ---
 layout: project 
-title:  "Test project"
+title:  "Orhanic theme"
 date:   2016-11-24
 author: Amando Abreu
 categories: project
