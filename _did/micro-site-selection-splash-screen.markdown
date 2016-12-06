@@ -5,11 +5,11 @@ date:   2016-11-24
 author: Amando Abreu
 categories: project
 desktop_images:
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/amando-filipe-splash.jpg
+  - image_path: uploads/2015/08/amando-filipe-splash.jpg
     title: Desktop image
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/amando-filipe-splash-2.jpg
+  - image_path: uploads/2015/08/amando-filipe-splash-2.jpg
     title: Desktop image
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/amando-filipe-splash-3.jpg
+  - image_path: uploads/2015/08/amando-filipe-splash-3.jpg
     title: Desktop image
 tablet_images:
   - image_path: 

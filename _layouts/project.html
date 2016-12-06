@@ -59,7 +59,7 @@ layout: default
                     <div class="carousel__item carousel__item--mobile">
                         {% for img in page.mobile_images %}
                             <div class="carousel__slide">
-                                <div class="carousel__image carousel__image--mobile" style="background-image:url({{ img.image_path }})">
+                                <div class="carousel__image carousel__image--mobile" style="background-image:url({{ site.s3_base }}{{ img.image_path }} )">
 
                                 </div>
                             </div>
@@ -71,7 +71,7 @@ layout: default
                 <div class="carousel__item carousel__item--tablet">
                     {% for img in page.tablet_images %}
                     <div class="carousel__slide">
-                        <div class="carousel__image carousel__image--tablet" style="background-image:url({{ img.image_path }})">
+                        <div class="carousel__image carousel__image--tablet" style="background-image:url({{ site.s3_base }}{{ img.image_path }} )">
 
                         </div>
                     </div>
@@ -83,7 +83,7 @@ layout: default
                 <div class="carousel__item carousel__item--active carousel__item--desktop">
                     {% for img in page.desktop_images %}
                     <div class="carousel__slide">
-                        <div class="carousel__image carousel__image--desktop" style="background-image:url({{ img.image_path }})">
+                        <div class="carousel__image carousel__image--desktop" style="background-image:url({{ site.s3_base }}{{ img.image_path }} )">
 
                         </div>
                     </div>

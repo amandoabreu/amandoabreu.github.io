@@ -5,23 +5,23 @@ date:   2016-11-24
 author: Amando Abreu
 categories: project
 desktop_images:
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro.jpg
+  - image_path: uploads/2015/08/jaelguerreiro.jpg
     title: Desktop image
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro-popup.jpg
+  - image_path: uploads/2015/08/jaelguerreiro-popup.jpg
     title: Desktop image
 tablet_images:
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro2.jpg
+  - image_path: uploads/2015/08/jaelguerreiro2.jpg
     title: Tablet image
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro-menu1.jpg
+  - image_path: uploads/2015/08/jaelguerreiro-menu1.jpg
     title: Tablet image
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro-popup2.jpg
+  - image_path: uploads/2015/08/jaelguerreiro-popup2.jpg
     title: Tablet image
 mobile_images:
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro1.jpg
+  - image_path: uploads/2015/08/jaelguerreiro1.jpg
     title: Mobile image
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro-menu.jpg
+  - image_path: uploads/2015/08/jaelguerreiro-menu.jpg
     title: Mobile image
-  - image_path: http://mndflp.me/wp-content/uploads/2015/08/jaelguerreiro-popup1.jpg
+  - image_path: uploads/2015/08/jaelguerreiro-popup1.jpg
     title: Mobile image
 description: "Single page responsive flat design.<br/>Popup video/photo gallery with autoplay functionality.<br/>
 Integrated contact form"
