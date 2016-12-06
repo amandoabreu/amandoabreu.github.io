@@ -10,8 +10,6 @@ desktop_images:
   - image_path: uploads/2015/08/wl-2.jpg
     title: Desktop image
 tablet_images:
-  - image_path: 
-    title: Tablet image
 mobile_images:
 description: "Worklover's homepage<br/>2 pages, 1 contact form."
 tech_description: "<table>

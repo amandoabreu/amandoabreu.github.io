@@ -12,8 +12,6 @@ desktop_images:
   - image_path: uploads/2015/08/quizpao-2.jpg
     title: Desktop image
 tablet_images:
-  - image_path: 
-    title: Tablet image
 mobile_images:
 description: "Quiz for the user to fill-in and get a type of bread as a result, for later sharing on facebook as a form of social media page stimulation."
 tech_description: "<table>

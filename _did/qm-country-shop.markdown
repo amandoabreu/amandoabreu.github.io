@@ -10,8 +10,6 @@ desktop_images:
   - image_path: uploads/2015/08/qm-fb.jpg
     title: Desktop image
 tablet_images:
-  - image_path: 
-    title: Tablet image
 mobile_images:
 description: "10 static width pages."
 tech_description: "<table>

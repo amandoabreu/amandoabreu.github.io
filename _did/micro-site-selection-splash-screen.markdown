@@ -12,8 +12,6 @@ desktop_images:
   - image_path: uploads/2015/08/amando-filipe-splash-3.jpg
     title: Desktop image
 tablet_images:
-  - image_path: 
-    title: Tablet image
 mobile_images:
 description: "Micro-site selection splash screen<br/>Unlimited items.<br/>
 Sound effects."
