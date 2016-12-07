@@ -20,10 +20,23 @@
   }
 }
 
+.post-search-listing{
+  padding: 15px 0;
+  &__link{
+    text-decoration: none;
+  }
+  &__item{
+    border:none;
+  }
+}
+
+
+
 @media screen and(min-width: $mobile-l){
   .post-listing{
     &__item{
       flex: 0 1 50%;
+      width:50%;
     }
     &__item:nth-child(odd){
       padding-right: $half-gutter;

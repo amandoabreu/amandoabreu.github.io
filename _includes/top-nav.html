@@ -104,9 +104,14 @@
         The search function is not yet created, sorry for the inconvenience!
     </div>
     <p>Take a look at some recent posts instead:</p>
+    <div class="post-search-listing">
     {% for post in site.posts %}
-        <a class="block" href="{{ post.url }}">
-            {{ post.title }}
+        <a class="post-search-listing__link block" href="{{ post.url }}">
+            <h4>{{ post.title }}</h4>
+            <p class="post-search-listing__description">
+                {{ post.excerpt | truncatewords: 20 }}
+            </p>
         </a>
     {% endfor %}
+    </div>
 </aside>
