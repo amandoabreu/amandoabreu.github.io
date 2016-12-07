@@ -36,11 +36,37 @@ jQuery(document).ready(function($){
     });
 
     var toggleMenu = function(){
+        if(!body.hasClass('body--burger-active')){
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Menu',
+                eventAction: 'openMenu'
+            });
+        } else {
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Menu',
+                eventAction: 'closeMenu'
+            });
+        }
         body.removeClass('body--search-active');
         body.toggleClass('body--burger-active');
     };
 
     var toggleSearch = function(){
+        if(!body.hasClass('body--search-active')){
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Search',
+                eventAction: 'openSearch'
+            });
+        } else {
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Search',
+                eventAction: 'closeSearch'
+            });
+        }
         body.removeClass('body--burger-active');
         body.toggleClass('body--search-active');
     };
@@ -107,7 +133,7 @@ jQuery(document).ready(function($){
                 hitType: 'event',
                 eventCategory: 'Accordion',
                 eventAction: 'closeTab',
-                eventLabel: $(this).data('toggle') 
+                eventLabel: $(this).data('toggle')
             });
         }
         parent.toggleClass('accordion__item--open');
