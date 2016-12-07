@@ -5,7 +5,7 @@
   display:flex;
   height: $top-nav-height-l;
   box-shadow: 0px 0px 6px #999;
-  background: white;
+  background: map-get($blue, 0);
   position: fixed;
   width: 100%;
   top:0;
@@ -15,6 +15,9 @@
     align-self: center;
     width:120px;
     margin:0 auto;
+    & a{
+      color:white;
+    }
   }
 
   &__search{
@@ -29,21 +32,21 @@
     &__text{
       font-size: 12px;
       text-align: center;
-      color: #37454d;
+      color: white;
       padding-top: 28px;
       user-select: none;
     }
     &__icon{
       height: 10px;
       width: 10px;
-      border:1px solid black;
+      border:1px solid white;
       border-radius: 50%;
       position: absolute;
       top: 14px;
       right: 27px;
       &:before{
         content: " ";
-        border-top:1px solid black;
+        border-top:1px solid white;
         width:7px;
         position: absolute;
         transform: rotate(45deg);
@@ -62,14 +65,14 @@
     &__text{
       font-size: 12px;
       text-align: center;
-      color: #37454d;
+      color: white;
       padding-top:38px;
       user-select: none;
     }
 
     &__layer{
       width:14px;
-      border-top: 1px solid #37454d;
+      border-top: 1px solid white;
       left:23px;
       top:20px;
       position:absolute;
@@ -78,7 +81,7 @@
     &__layer:before{
       content:"";
       width:14px;
-      border-top: 1px solid #37454d;
+      border-top: 1px solid white;
       top:4px;
       position:absolute;
       transition: transform 200ms;
@@ -87,7 +90,7 @@
     &__layer:after{
       content:"";
       width:14px;
-      border-top: 1px solid #37454d;
+      border-top: 1px solid white;
       top:-6px;
       position:absolute;
       transition: transform 200ms;
