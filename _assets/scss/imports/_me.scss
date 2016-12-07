@@ -1,20 +1,14 @@
 .my{
-  display:flex;
-  flex-wrap: wrap;
   &__name{
     margin-top: 0;
   }
   &__photo{
     width:100%;
-    flex:0 0 100%;
     padding-bottom:100%;
     background-size: cover;
-    order:1;
   }
   &__details{
-    order:2;
     width:100%;
-    flex: 1 0 100%;
     padding: 0;
     box-sizing: border-box;
   }
@@ -29,17 +23,16 @@
   .my{
     &__photo{
       max-width:240px;
-      flex:0 0 240px;
       padding:0;
       height:240px;
     }
+    /*
     &__details{
       width:auto;
-      flex: 1 0 0;
       padding: 0 0 0 $gutter;
     }
     &__name-is{
       padding-top: 0;
-    }
+    }*/
   }
 }
