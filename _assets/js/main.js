@@ -95,6 +95,21 @@ jQuery(document).ready(function($){
 
     $('.accordion__toggle').click(function(){
         var parent = $(this).parent();
+        if(!parent.hasClass('accordion__item--open')){
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Accordion',
+                eventAction: 'openTab',
+                eventLabel: $(this).data('toggle')
+            });
+        } else {
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Accordion',
+                eventAction: 'closeTab',
+                eventLabel: $(this).data('toggle') 
+            });
+        }
         parent.toggleClass('accordion__item--open');
 
     });
@@ -119,6 +134,13 @@ jQuery(document).ready(function($){
     var deviceSelectors = $('.device-selector__item');
     var carouselItems = $('.carousel__item');
     deviceSelectors.click(function(){
+        var title = $(this).attr('title');
+        ga('send', {
+            hitType: 'event',
+            eventCategory: 'Device Selector',
+            eventAction: 'switchDevice',
+            eventLabel: title
+        });
         var device = $(this).data('switch-to');
         carouselItems.removeClass('carousel__item--active');
         $('.carousel__item--' + device).addClass('carousel__item--active');
