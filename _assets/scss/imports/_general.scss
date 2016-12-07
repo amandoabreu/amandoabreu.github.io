@@ -45,7 +45,7 @@ hr{
 }
 
 a{
-  color:black;
+  color:map_get($blue, 0);
 }
 
 .show_print{
