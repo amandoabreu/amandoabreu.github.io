@@ -1,6 +1,6 @@
 ---
 layout: listing
-title: "Projects"
-type: did
+type: posts
+title: Blog
 listed: yes
 ---

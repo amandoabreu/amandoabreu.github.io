@@ -1,0 +1,17 @@
+.listing{
+  &-default{
+    &__link{
+      text-decoration: none;
+    }
+    &__item{
+      padding: $gutter;
+      margin-top: $gutter;
+      background-color: #fb7b04;
+    }
+    &__title{
+      color:white;
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+}

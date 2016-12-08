@@ -22,8 +22,9 @@
 @import 'imports/syntax';
 @import 'imports/footer';
 @import 'imports/table';
-@import 'imports/_skill-bar';
-@import 'imports/_experience';
+@import 'imports/skill-bar';
+@import 'imports/experience';
+@import 'imports/listing';
 
 .page{
   z-index: 1000;

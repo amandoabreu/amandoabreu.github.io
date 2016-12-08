@@ -1,5 +1,6 @@
 ---
 layout: listing
+title: I do
 type: does
-listed: no
+listed: yes
 ---

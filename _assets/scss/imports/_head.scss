@@ -1,7 +1,7 @@
 .head{
   width:100%;
   height:50vh;
-  padding: $double-gutter 0 $gutter 0;
+  padding: $double-gutter 0 $double-gutter 0;
   background-size:cover;
   z-index:10;
   margin-top:0;
@@ -11,7 +11,8 @@
   align-items: center;
   background-position: 0 center;
   &--no-image{
-    height:auto;
+    background: #fb7b04;
+    height:$top-nav-height-l * 6;
   }
   &:after{
     /*width: 100%;
