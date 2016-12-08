@@ -10,8 +10,18 @@
     }
     &__title{
       color:white;
-      font-size: 30px;
+      font-size: 1.1em;
       text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile-l){
+  .listing{
+    &-default{
+      &__title{
+        font-size: 1.6em;
+      }
     }
   }
 }
