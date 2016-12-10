@@ -55,22 +55,12 @@ var site = function(){
 */
 
 jQuery(document).ready(function($){
-    console.log("It's a static site, nothing to hack here :)");
+    console.log("It's a static site hosted on gh-pages, nothing to hack here :)");
     var centerWrapperScreens = document.getElementsByClassName('centerwrapper--screen');
     var oldScroll = 0;
     var body = $('.body');
     var page = $('.page');
-
-    /*$('.main-nav').on('touchstart', function(e){
-        console.log(e.originalEvent.touches[0].clientX);
-    });
-    $('.main-nav').on('touchend', function(e){
-        console.log(e);
-    });*/
-
-    var m = function(){
-
-    };
+    
     var oldTouch = 0;
     var delay = 100;
     var margin = 100;
