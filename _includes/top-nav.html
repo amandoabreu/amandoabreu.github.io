@@ -41,12 +41,13 @@
         </li>
         {% endfor %}-->
         <li class="main-nav__element main-nav__element--separator">
-            Projects
+            Latest Projects
         </li>
-        {% for project in site.did %}
+        {% assign sorted = (site.did | sort:"date" | reverse  ) %}
+        {% for sorted in site.did limit:3 %}
         <li class="main-nav__element">
-            <a class="main-nav__link" href="{{ project.url }}">
-                {{ project.title }}
+            <a class="main-nav__link" href="{{ sorted.url }}">
+                {{ sorted.title }}
             </a>
         </li>
         {% endfor %}

@@ -1,7 +1,7 @@
 ---
 layout: project 
 title:  "2014 world cup app"
-date:   2016-11-24
+date:   2014-11-24
 author: Amando Abreu
 categories: project
 desktop_images:
