@@ -14,5 +14,19 @@ layout: default
             </li>
             {% endfor %}
         </ul>
+        <!--
+
+        <ul>
+            {% for item in site[page.type] %}
+            <li class="listing-{{ page.type }}">
+                <a class="listing-{{ page.type }}__link block" href="{{ item.url }}">
+                    <div class="listing-{{ page.type }}__item" {% if item.image %} style="background-image: url({{ item.image }});" {% endif %}>
+                        <h3 class="listing-{{ page.type }}__title">{{ item.title }}</h3>
+                    </div>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        -->
     </div>
 </div>

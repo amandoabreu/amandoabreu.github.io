@@ -1,9 +1,92 @@
+var site = function(){
+    var _ = this;
+    _.state = {
+        navOpen: false
+    };
+
+    _.state.modify = function(intent, element, state){
+        _.state[intent] = state;
+        _.elements[element].classList.add(_.classes.body.navOpen);
+        console.log('Modified');
+
+    };
+    _.elements = {
+        body: document.body,
+        page: $('.page'),
+        centerWrapperScreens: document.getElementsByClassName('centerwrapper--screen')
+    };
+    _.classes = {};
+
+    _.classes.body = {
+        reading: 'body--reading',
+        navOpen: 'body--burger-active',
+        searchOpen: 'body--search-active'
+    };
+
+    _.classes.nav = {
+        scroll: 'main-nav--scroll'
+    };
+
+    _.openNav = function(){
+        //_.elements.body.classList.add(_.classes.body.navOpen);
+        //_.state.navOpen = true;
+        _.state.modify('navOpen', 'body', true);
+    };
+
+    _.closeNav = function(){
+        _.elements.body.classList.remove(_.classes.body.navOpen);
+        _.state.navOpen = false;
+    };
+
+    _.toggleNav = function(){
+        if(_.state.navOpen == true){
+            _.closeNav();
+        } else {
+            _.openNav();
+        }
+    };
+
+};
+
+
+
+   /* var app = new site();
+    app.openNav();
+*/
+
 jQuery(document).ready(function($){
     console.log("It's a static site, nothing to hack here :)");
     var centerWrapperScreens = document.getElementsByClassName('centerwrapper--screen');
     var oldScroll = 0;
     var body = $('.body');
     var page = $('.page');
+
+    /*$('.main-nav').on('touchstart', function(e){
+        console.log(e.originalEvent.touches[0].clientX);
+    });
+    $('.main-nav').on('touchend', function(e){
+        console.log(e);
+    });*/
+
+    var m = function(){
+
+    };
+    var oldTouch = 0;
+    var delay = 100;
+    var margin = 150;
+    $('body').on('touchmove', function(e){
+        if($(this).hasClass('body--burger-active')) {
+            oldTouch = e.originalEvent.touches[0].clientX;
+            window.setTimeout(function () {
+                console.log('X: ' + e.originalEvent.touches[0].clientX);
+                console.log('oldTouche: ' + oldTouch);
+                console.log((oldTouch + margin));
+                if (oldTouch + margin < e.originalEvent.touches[0].clientX) {
+                    $('body').removeClass('body--burger-active');
+                }
+            }, delay);
+        }
+    });
 
     var w = $(window);
     w.scroll(function(e) {
