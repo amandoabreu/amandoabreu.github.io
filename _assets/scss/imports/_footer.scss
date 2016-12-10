@@ -1,4 +1,6 @@
 .footer{
+  transform: translateX(0);
+  transition: transform 200ms ease-in-out;
   display:flex;
   &__item{
     min-height:200px;
