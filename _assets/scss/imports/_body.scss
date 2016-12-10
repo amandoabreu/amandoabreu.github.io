@@ -20,6 +20,9 @@
       /*transform: translateX(0);*/
       right:0;
     }
+    .footer{
+      transform: translateX(- $nav-width-l);
+    }
   }
   &--burger-active{
     .page{

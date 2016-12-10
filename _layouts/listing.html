@@ -5,13 +5,19 @@ layout: default
     <div class="centerwrapper centerwrapper--medium">
         <ul>
             {% for item in site[page.type] %}
-            <li class="listing-default">
-                <a class="listing-default__link block" href="{{ item.url }}">
-                    <div class="listing-default__item" {% if item.image %} style="background-image: url({{ item.image }});" {% endif %}>
-                        <h3 class="listing-default__title">{{ item.title }}</h3>
-                    </div>
-                </a>
-            </li>
+                {% if item.image %}
+                    {% assign img = item.image %}
+                {% endif %}
+                {% if item.desktop_images[0].image_path %}
+                    {% assign img = item.desktop_images[0].image_path %}
+                {% endif %}
+                <li class="listing-default">
+                    <a class="listing-default__link block" href="{{ item.url }}">
+                        <div class="listing-default__item {% if img %} listing-default__item--with-overlay {% endif %}" {% if img %} style="background-image: url({{ site.s3_base }}{{ img }});" {% endif %}>
+                            <h3 class="listing-default__title">{{ item.title }}</h3>
+                        </div>
+                    </a>
+                </li>
             {% endfor %}
         </ul>
         <!--
