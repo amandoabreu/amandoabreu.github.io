@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
     };
     var oldTouch = 0;
     var delay = 100;
-    var margin = 150;
+    var margin = 100;
     $('body').on('touchmove', function(e){
         if($(this).hasClass('body--burger-active')) {
             oldTouch = e.originalEvent.touches[0].clientX;
