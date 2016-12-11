@@ -4,8 +4,8 @@ layout: default
 <div class="content">
     <div class="centerwrapper centerwrapper--medium">
         <ul>
-            {% assign sorted = (site[page.type] | sort:"date" | reverse ) %}
-            {% for item in sorted %}
+            {% assign sorted = (site[page.type] | sort:"date") %}
+            {% for item in sorted reversed %}
                 {% if item.image %}
                     {% assign img = item.image %}
                 {% endif %}

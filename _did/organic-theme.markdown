@@ -1,7 +1,7 @@
 ---
 layout: project 
-title:  "Orhanic theme"
-date:   2016-11-24
+title:  "Organic theme"
+date:   2013-11-24
 author: Amando Abreu
 categories: project
 desktop_images:

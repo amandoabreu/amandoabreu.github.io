@@ -1,7 +1,7 @@
 ---
 layout: project 
 title:  "Lens finder"
-date:   2016-11-24
+date:   2014-04-20
 author: Amando Abreu
 categories: project
 desktop_images:
