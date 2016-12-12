@@ -26,6 +26,8 @@ url: "https://amando-abr.eu/"
 twitter_username: mndflp
 github:  amandoabreu
 s3_base: https://s3.eu-central-1.amazonaws.com/amandoabreu/
+cloudfront_base: d3rsaozjtunf6k.cloudfront.net/
+distribution_base: //d3rsaozjtunf6k.cloudfront.net
 linkedin: https://www.linkedin.com/in/amandoabreu
 
 
