@@ -12,4 +12,6 @@ I started doing freelance work in 2010 and since then I've worked in-house for R
 
 I currently work at [@trivago](https://www.facebook.com/lifeattrivago/?fref=ts) and live in Düsseldorf, Germany.
 
+Here is some stuff I've done: [https://amando-abr.eu/did](https://amando-abr.eu/did)
+
 You can reach me via email: amando.abreu@gmail.com.
