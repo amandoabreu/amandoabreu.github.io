@@ -110,3 +110,12 @@ gulp.task('default', ['css', 'js'], function() {
     gulp.watch('scss/**/*.scss',['css']);
     gulp.watch('js/**/*.js', ['js']);
 });
+
+gulp.task('clearCache', function() {
+    // Still pass the files to clear cache for
+    gulp.src('./lib/*.js')
+        .pipe(cache.clear());
+
+    // Or, just call this for everything
+    cache.clearAll();
+});

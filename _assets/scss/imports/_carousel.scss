@@ -112,20 +112,17 @@
         display:block;
       }
       &--mobile{
-        background-image:url(//d3rsaozjtunf6k.cloudfront.net/assets/images/devices/iphone-vertical.png);
         height: 500px;
         width: 228px;
         margin: $gutter auto;
       }
       &--desktop{
-        background-image:url(//d3rsaozjtunf6k.cloudfront.net/assets/images/devices/imac.png);
         height: 322px;
         width: 350px;
         margin: $gutter auto;
       }
 
       &--tablet{
-        background-image:url(//d3rsaozjtunf6k.cloudfront.net/assets/images/devices/ipad-vertical.png);
         height: 461px;
         width: 320px;
         margin: $gutter auto;
