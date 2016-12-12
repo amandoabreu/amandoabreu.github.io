@@ -8,12 +8,13 @@ const scssFiles = 'scss/**/*.scss';
 const uglify = require('gulp-uglifyjs');
 const awspublish = require('gulp-awspublish');
 const fs = require("fs");
-var merge = require('merge-stream');
-var minify = require('gulp-minify-css');
+const merge = require('merge-stream');
+const minify = require('gulp-minify-css');
+const rename = require('gulp-rename');
 
 var config = JSON.parse(fs.readFileSync('./../private/accesskeys.json'));
 
-gulp.task('uploads3', function() {
+gulp.task('upload-images-s3', function() {
 
     // create a new publisher using S3 options
     // http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property
@@ -28,7 +29,7 @@ gulp.task('uploads3', function() {
         // ...
     };
 
-    return gulp.src(['./images/**/**/*.+(jpg|png)', '../assets'])
+    return gulp.src(['./images/**/**/*.+(jpg|png)'])
 
     // publisher will add Content-Length, Content-Type and headers specified above
     // If not specified it will set x-amz-acl to public-read by default
@@ -38,6 +39,27 @@ gulp.task('uploads3', function() {
         .pipe(publisher.cache())
 
         // print upload updates to console
+        .pipe(awspublish.reporter());
+});
+
+gulp.task('upload-assets-s3', function() {
+    var publisher = awspublish.create(
+        config, {
+            cacheFileName: ''
+        });
+    var headers = {
+        'Cache-Control': 'max-age=315360000, no-transform, public'
+        // ...
+    };
+    var options = {
+        'force': true
+    }
+    return gulp.src(['./../assets/**/*.+(css|js)'])
+        .pipe(rename(function (path) {
+            path.dirname += './../assets';
+        }))
+        .pipe(publisher.publish(headers,options))
+        //.pipe(publisher.cache())
         .pipe(awspublish.reporter());
 });
 
