@@ -5,3 +5,7 @@
 _site
 Gemfile.lock
 _assets/node_modules/
+private/
+_assets/images/
+_cache/
+_assets/awscache
