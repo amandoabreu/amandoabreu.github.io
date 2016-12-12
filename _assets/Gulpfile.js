@@ -5,14 +5,15 @@ const watch = require('gulp-watch');
 const sass = require('gulp-sass');
 const autoprefixer = require('gulp-autoprefixer');
 const scssFiles = 'scss/**/*.scss';
-const cssFiles = 'css/**/*.css';
 const uglify = require('gulp-uglifyjs');
-var awspublish = require('gulp-awspublish');
+const awspublish = require('gulp-awspublish');
 const fs = require("fs");
+var merge = require('merge-stream');
+var minify = require('gulp-minify-css');
 
 var config = JSON.parse(fs.readFileSync('./../private/accesskeys.json'));
 
-gulp.task('publish', function() {
+gulp.task('uploads3', function() {
 
     // create a new publisher using S3 options
     // http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property
@@ -27,7 +28,7 @@ gulp.task('publish', function() {
         // ...
     };
 
-    return gulp.src('./images/**/*.(css|png|jpg)')
+    return gulp.src(['./images/**/**/*.+(jpg|png)', '../assets'])
 
     // publisher will add Content-Length, Content-Type and headers specified above
     // If not specified it will set x-amz-acl to public-read by default
@@ -56,14 +57,24 @@ var onError = function (err) {
 };
 
 gulp.task('css', function() {
-    gulp.src(['css/**/*']).pipe(gulp.dest('../assets/css'));
     gulp.src(['fonts/**/*']).pipe(gulp.dest('../assets/fonts'));
 
-    gulp.src([scssFiles])
+    var scssStream = gulp.src([scssFiles, 'css/**/*'])
         .pipe(sass(sassOptions))
         .pipe(autoprefixer(autoprefixerOptions))
+        .pipe(concat('scss-files.css'))
+
+    var cssStream = gulp.src(['css/**/*.css'])
+        .pipe(concat('css-files.css'));
+
+    var mergedStream = merge(scssStream, cssStream)
         .pipe(concat('main.css'))
+        .pipe(minify())
         .pipe(gulp.dest('../assets/css'));
+
+    return mergedStream;
+
+
 });
 
 gulp.task('js', function() {
@@ -73,8 +84,7 @@ gulp.task('js', function() {
         .pipe(gulp.dest('../assets/js'))
 });
 
-gulp.task('default', ['css', 'js', 'publish'], function() {
+gulp.task('default', ['css', 'js'], function() {
     gulp.watch('scss/**/*.scss',['css']);
     gulp.watch('js/**/*.js', ['js']);
-    gulp.watch('images/**/**/*.(css|png|jpg)', ['publish']);
 });
