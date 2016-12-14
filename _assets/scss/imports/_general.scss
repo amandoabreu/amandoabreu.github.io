@@ -4,12 +4,6 @@ html,body{
   overflow-x: hidden;
 }
 
-ul{
-  list-style-type:none;
-  margin:0;
-  padding:0;
-}
-
 html, body, .main-wrapper, .page {
   min-height: 100vh;
   min-width: $mobile-s;
