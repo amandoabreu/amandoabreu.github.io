@@ -1,5 +1,11 @@
             {% include footer.html %}
         </div>
+            {% if page.jslibs %}
+            {% for asset in page.jslibs %}
+                <script src="/assets/opt_js/{{ asset }}"></script>
+            {% endfor %}
+
+            {% endif %}
         <script src="/assets/js/main.js"></script>
     </body>
 </html>

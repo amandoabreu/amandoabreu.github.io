@@ -1,7 +1,9 @@
 .quote{
   font-size:1.3em;
-  padding: 20px;
+  padding: $gutter;
+  margin:0;
   box-sizing:border-box;
+  font-style: italic;
   &--left{
     float:none;
     border-left: 5px solid $light-grey;
@@ -14,25 +16,19 @@
 }
 
 @media screen and (min-width: $tablet){
-  .quote{
-    width:30%;
-    &--left{
-      float:left;
-      margin-left: 0;
-    }
+  /*.quote{
+
 
     &--right{
-      float:right;
-      margin-right: 0;
       border-left: none;
       border-right: 5px solid $light-grey;
     }
-  }
+  }*/
 }
 
 @media screen and (min-width: $laptop){
-  .quote{
-    width:45%;
+  /*.quote{
+    width:58%;
     &--left{
       margin-left: -17%;
     }
@@ -40,11 +36,11 @@
     &--right{
       margin-right: -17%;
     }
-  }
+  }*/
 }
 
 @media screen and (min-width: $laptop-l){
-  .quote{
+  /*.quote{
     width:70%;
     &--left{
       margin-left: -40%;
@@ -53,5 +49,5 @@
     &--right{
       margin-right: -40%;
     }
-  }
+  }*/
 }
