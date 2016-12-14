@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Make plugin that automatically creates frontend page"
+title:  "Wordpress: Make plugin that automatically creates frontend page"
 date:   2016-12-14 12:00:00 +0200
 author: Amando Abreu
 categories: trust projects freelance

@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Element toolkit for lightweight admin tools"
+title:  "Wordpress: Element toolkit for lightweight admin tools"
 date:   2016-12-14 12:00:00 +0200
 author: Amando Abreu
 categories: trust projects freelance

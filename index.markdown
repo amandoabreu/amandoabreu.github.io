@@ -10,7 +10,7 @@ I'm a self-taught Web Developer, my first contact with programming was with C an
 
 I like making pretty and fast user interfaces, but I also like manipulating data.
 
-I currently work [@trivago](https://www.facebook.com/lifeattrivago/?fref=ts) and live in Düsseldorf, Germany.
+I currently work [@trivago](https://www.facebook.com/lifeattrivago/?fref=ts){:target="_blank"} and live in Düsseldorf, Germany.
 
 Here is some stuff I've [done](https://amando-abr.eu/did).
 
