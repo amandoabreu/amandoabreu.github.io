@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Lessons learned from Wordpress on AWS Elasticbeanstalk"
+title:  "Lessons learned from moving Wordpress to AWS Elasticbeanstalk"
 date:   2016-12-14 12:00:00 +0200
 author: Amando Abreu
 categories: trust projects freelance
@@ -17,8 +17,10 @@ The blog had:
 - 40,000 images that I had to move to S3(because elasticbeanstalk wants immutable applications, more on that later)
 - 50 editors making changes in the CET timezone
 
-## First step
+## Step one
 
-My first step was to move all the images to S3 with [WP Offload S3](https://deliciousbrains.com/wp-offload-s3/) Back in the day when the free version allowed you to move files, then I served them with cloudfront.
+My first step was to move all the images to S3 with [WP Offload S3](https://deliciousbrains.com/wp-offload-s3/) Back in the day when the free version allowed you to move files, then I served them with cloudfront. This step alone made the blog faster.
 
-It also
+## Step two
+
+Creating the Elasticbeanstalk application
