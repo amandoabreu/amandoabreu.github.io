@@ -14,7 +14,8 @@ As an internet business, it's your goal to turn visitors into customers, however
 
 The global average is between 2% and 5%, it depends greatly on the quality of the traffic you get, and how your optimization is done.
 
-## Make your users have the best experience possible
+{: .header .header--two }
+## Give your users the best experience possible
 
 Users expect a good experience on your site, and it's your responsibility they get to perform the conversions you want in an easy and straightforward way, this can only be done by optimizing your website to be as fast as possible, have a good flow, and be accessible to users with disabilities as minor as bad eyesight.
 

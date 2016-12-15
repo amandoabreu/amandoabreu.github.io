@@ -9,6 +9,13 @@ html{
   &--one{
     font-size:2em;
   }
+  &--two{
+    background: #3E73B8;
+    font-size:2em;
+    color: white;
+    padding: 7.5px;
+    border-radius: 5px;
+  }
 }
 
 @media screen and (min-width: $tablet){

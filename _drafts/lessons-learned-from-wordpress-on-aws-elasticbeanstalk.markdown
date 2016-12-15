@@ -16,10 +16,12 @@ The blog had:
 - 40,000 images that I had to move to S3(because elasticbeanstalk wants immutable applications, more on that later)
 - 50 editors making changes in the CET timezone
 
+{: .header .header--two }
 ## Step one
 
 My first step was to move all the images to S3 with [WP Offload S3](https://deliciousbrains.com/wp-offload-s3/) Back in the day when the free version allowed you to move files, then I served them with cloudfront. This step alone made the blog faster.
 
+{: .header .header--two }
 ## Step two
 
 Creating the Elasticbeanstalk application, I created an environment with minimum 2 instances and maximum of 20, and one RDS instance with 20GB magnetic storage, scaling based on requests

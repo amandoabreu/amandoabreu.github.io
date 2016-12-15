@@ -10,7 +10,7 @@ image: https://c1.staticflickr.com/9/8604/16733520202_a56b8cc967_h.jpg
 ---
 So I got tired of wordpress, the overhead in complexity for a simple blog became too much to maintain, and now I save myself $5 a month by hosting my personal website on github pages instead of digital ocean, and instead spend more on applications that actually require a full-on server.
 
-{: .header .header--three}
+{: .header .header--two }
 ### About the switch
 
 I had very little posts, in fact, only one blog post that was public, and many drafts that I never finished enough to publish. However, my "portfolio" was a custom post type with custom fields created with [cmb2](https://wordpress.org/plugins/cmb2/)
