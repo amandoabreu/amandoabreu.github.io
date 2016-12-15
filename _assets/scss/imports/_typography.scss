@@ -7,14 +7,14 @@ html{
     text-align:center;
   }
   &--one{
-    font-size:1.5em;
+    font-size:2em;
   }
 }
 
 @media screen and (min-width: $tablet){
   .header{
     &--one{
-      font-size:4.5em;
+      font-size:3.5em;
     }
   }
 }

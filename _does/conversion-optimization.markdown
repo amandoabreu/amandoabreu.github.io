@@ -12,7 +12,7 @@ As an internet business, it's your goal to turn visitors into customers, however
 
 ### What is a high conversion rate?
 
-3%
+The global average is between 2% and 5%, it depends greatly on the quality of the traffic you get, and how your optimization is done.
 
 ## Make your users have the best experience possible
 
@@ -39,6 +39,14 @@ If your site is fast, you may still have usability issues.
 
 Is your site optimized for users on mobile devices? Are they able to click on the things they want without having to zoom in on the page?
 
+<blockquote class="quote quote--left">
+    "Across 33 rich countries, only 5% of the population has high computer-related abilities, and only a third of people can complete medium-complexity tasks."
+    - OECD
+</blockquote>
+Source: [https://www.nngroup.com/articles/computer-skill-levels/](https://www.nngroup.com/articles/computer-skill-levels/){:target="_blank"}
+
+The computer skills of your users are lower than you may think, so user interfaces must be very simple to navigate, or you lose out on the majority of the population.
+
 
 ### Accessibility
 
@@ -49,7 +57,7 @@ Is your site optimized for users on mobile devices? Are they able to click on th
 Source: [http://www.euroblind.org/resources/information/](http://www.euroblind.org/resources/information/){:target="_blank"}
 
 This is often ignored by many, but I believe it's a moral obligation to allow people with disabilities as small as poor eyesight to properly use your website to receive the services/goods you provide and they want.
-It's easy to say it's not significant, but an average of 1 in 30 Europeans experience sight loss, giving a total of over 26 million visually impaired people in Europe alone, does it seem prudent to automatically dismiss over 26 million possible clients?
+It's easy to say it's not significant, but an average of 1 in 30 Europeans experience sight loss, giving a total of over 26 million visually impaired people in Europe alone, does it seem prudent to automatically dismiss over 26 million possible clients in Europe alone?
 
 
 [//]: # ### Cost

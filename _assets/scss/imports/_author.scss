@@ -1,0 +1,12 @@
+.author-box{
+  border-top: 1px solid #ebeced;
+  margin-top: 25px;
+  &__img{
+    width: 200px;
+    float:left;
+    padding-right: $gutter;
+  }
+  &__description{
+    float:left;
+  }
+}
