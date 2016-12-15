@@ -52,3 +52,10 @@ a{
     display:inline;
   }
 }
+
+.experience{
+  border-top: 1px solid #ebeced;
+  overflow: hidden;
+  padding-top: $double-gutter;
+  margin-top: $double-gutter;
+}
