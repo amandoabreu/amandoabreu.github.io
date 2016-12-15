@@ -8,7 +8,12 @@
     &__item{
       padding: $gutter;
       margin-top: $gutter;
-      background-color: #fb7b04;
+      background: rgb(247,78,0); /* Old browsers */
+      background: -moz-linear-gradient(-45deg,  rgba(247,78,0,1) 0%, rgba(251,123,4,1) 51%, rgba(247,78,0,1) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg,  rgba(247,78,0,1) 0%,rgba(251,123,4,1) 51%,rgba(247,78,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg,  rgba(247,78,0,1) 0%,rgba(251,123,4,1) 51%,rgba(247,78,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f74e00', endColorstr='#f74e00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
       box-shadow: 1px 1px 4px #666;
       background-size: cover;
       background-position: 0 center;
