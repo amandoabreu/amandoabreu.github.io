@@ -5,7 +5,6 @@ date:   2016-12-14 12:00:00 +0200
 author: Amando Abreu
 categories: trust projects freelance
 comments: true
-author:
 image:
 ---
 Over a year ago I was assigned the task of moving a very large WordPress blog into elasticbeanstalk in an attempt to make it safer, faster, scalable, and allow us to have a more streamlined deployment process without compromising the servers where the main product runs.
@@ -23,4 +22,4 @@ My first step was to move all the images to S3 with [WP Offload S3](https://deli
 
 ## Step two
 
-Creating the Elasticbeanstalk application
+Creating the Elasticbeanstalk application, I created an environment with minimum 2 instances and maximum of 20, and one RDS instance with 20GB magnetic storage, scaling based on requests
