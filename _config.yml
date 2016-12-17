@@ -60,5 +60,11 @@ exclude:
   - node_modules
   - gulpfile.js
 
+gems:
+  - jekyll-paginate
+
+paginate: 5
+ "/blog/page:num/"
+
 
 
