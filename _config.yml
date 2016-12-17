@@ -46,7 +46,12 @@ collections:
   did:
       output: true
       permalink: /:collection/:title/
-
+  escreveu:
+      output: true
+      permalink: /:collection/:title/
+  faz:
+      output: true
+      permalink: /:collection/:title/
 
 permalink: /post/:title/ # YYYY/MM/DD/page-title/index.html
 

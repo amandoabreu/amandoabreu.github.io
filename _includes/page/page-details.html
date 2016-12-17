@@ -4,7 +4,7 @@
             by {{ page.author }}
         </li>
         <li class="author">
-            on {{ page.date }}
+            on {{ page.date | date: "%m/%d/%Y" }}
         </li>
     </ul>
 {% endif %}

@@ -24,7 +24,14 @@ If you can't decide which one you like the most, then you can call yourself a fu
 {: .header .header--three }
 ### Frontend
 
-Starting with CSS, learn about preprocessors, Task runners
+CSS:
+- Preprocessors
+- BEM
+
+Preprocessors are a very useful tool, they overcome some problems of CSS and make for much more maintainable and readable code.
+BEM: [What does BEM solve]
+
+
 
 My favourite resources for frontend:
 - [CSS](https://css-tricks.com/){:target="_blank"}
