@@ -6,17 +6,20 @@
 
     <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.name }}">
+    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
     <base href="{{ site.baseurl }}">
     <link rel="stylesheet" href="/assets/css/main.css?v=1.0">
     <link rel="icon" href="{{ site.distribution_base }}/assets/images/img/amandoabreu.png">
-    <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#3E73B8">
-    <!-- Windows Phone -->
     <meta name="msapplication-navbutton-color" content="#3E73B8">
-    <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#3E73B8">
+    <meta property="og:url"                content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:type"               content="{% if page.layout == 'home' %}website{% else %}article{% endif %}" />
+    <meta property="og:title"              content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:description"        content="How much does culture influence creative thinking?" />
+    <meta property="og:image"              content="{% if page.image %}{{ page.image }}{% endif %}" />
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

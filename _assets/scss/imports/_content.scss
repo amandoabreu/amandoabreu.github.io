@@ -1,4 +1,9 @@
 .content{
-  padding: $gutter 0 0 0;
+  padding: $gutter 0;
+  overflow: hidden;
   font-size: 1.2em;
+  &__after{
+    background:rgba(80, 148, 236, 0.19);;
+    padding: 15px 0;
+  }
 }

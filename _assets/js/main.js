@@ -257,4 +257,12 @@ jQuery(document).ready(function($){
         });
     });
 
+    $('.sharebox__fbShare').on('click', function() {
+        FB.ui({
+            method: 'share',
+            mobile_iframe: true,
+            href: $(this).data("url"),
+        }, function(response){});
+    });
+
 });

@@ -7,9 +7,12 @@ layout: default
     <div class="centerwrapper centerwrapper--medium">
         {{ page.content }}
     </div>
-    {% if page.comments %}
+</div>
+{% if page.comments %}
+<div class="content__after">
     <div class="centerwrapper centerwrapper--medium">
+        {% include sharebox.html %}
         {% include comments.html %}
     </div>
-    {% endif %}
 </div>
+{% endif %}

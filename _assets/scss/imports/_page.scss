@@ -1,0 +1,7 @@
+.page{
+  z-index: 1000;
+  position: relative;
+  transform: translateX(0);
+  transition: transform 200ms ease-in-out;
+  padding: 60px 0 0 0;
+}

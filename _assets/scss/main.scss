@@ -23,15 +23,10 @@
 @import 'imports/experience';
 @import 'imports/listing';
 @import 'imports/pill';
-@import 'imports/author';
+/*@import 'imports/author';*/
+@import 'imports/sharebox';
+@import 'imports/page';
 
-.page{
-  z-index: 1000;
-  position: relative;
-  transform: translateX(0);
-  transition: transform 200ms ease-in-out;
-  padding: 60px 0;
-}
 
 .img{
   &--100p{
