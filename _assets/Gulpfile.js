@@ -12,7 +12,7 @@ const merge = require('merge-stream');
 const minify = require('gulp-minify-css');
 const rename = require('gulp-rename');
 
-var config = JSON.parse(fs.readFileSync('./../private/accesskeys.json'));
+var config = JSON.parse(fs.readFileSync('./../_private/accesskeys.json'));
 
 gulp.task('upload-images-s3', function() {
 
@@ -103,15 +103,14 @@ gulp.task('js', function() {
 
     gulp.src('js/*.js')
         .pipe(uglify('main.js'))
-        .pipe(gulp.dest('../assets/js'));
-
+        .pipe(gulp.dest('../assets/js'))
     gulp.src('opt_js/*.js')
         .pipe(gulp.dest('../assets/opt_js'));
 });
 
 gulp.task('default', ['css', 'js'], function() {
     gulp.watch('scss/**/*.scss',['css']);
-    gulp.watch(['js/**/*.js', 'opt_js/**/*.js'], ['js']);
+    gulp.watch('js/**/*.js', ['js']);
 });
 
 gulp.task('clearCache', function() {

@@ -53,9 +53,6 @@ a{
   }
 }
 
-.experience{
-  border-top: 1px solid #ebeced;
-  overflow: hidden;
-  padding-top: $double-gutter;
-  margin-top: $double-gutter;
+.hidden{
+  display:none;
 }

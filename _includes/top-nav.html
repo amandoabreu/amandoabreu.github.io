@@ -19,22 +19,21 @@
 </nav>
 <nav class="main-nav">
     <ul class="main-nav__list">
-        <li class="main-nav__element main-nav__element--separator">
-            Pages
-        </li>
         <li class="main-nav__element">
             <a class="main-nav__link" href="/">
                 Home
             </a>
         </li>
-        {% for page in site.pages %}
-            {% if page.listed %}
-            <li class="main-nav__element">
-                <a class="main-nav__link" href="{{ page.url }}">
-                    {{ page.title }}
-                </a>
-            </li>
-            {% endif %}
+        <li class="main-nav__element main-nav__element--separator">
+            I do
+        </li>
+        {% assign sorted = site.does %}
+        {% for item in sorted limit:3 %}
+        <li class="main-nav__element">
+            <a class="main-nav__link" href="{{ item.url }}">
+                {{ item.title }}
+            </a>
+        </li>
         {% endfor %}
         <li class="main-nav__element main-nav__element--separator">
             Latest Projects

@@ -3,7 +3,14 @@
   border-radius: 2px;
   color: white;
   background: #ccc;
+  margin-bottom: $gutter;
   &--notice{
     background: #3bb9ca;
+  }
+  &--loading{
+
+  }
+  &--error{
+    background: #c53030;
   }
 }

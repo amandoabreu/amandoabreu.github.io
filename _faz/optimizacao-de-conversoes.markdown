@@ -8,6 +8,7 @@ title:  "Optimização de conversões"
 date:   2016-11-24 22:34:06 +0100
 categories: service user experience
 lang: 'pt'
+summary: Explicação sobre possíveis problemas com o seu site que dificultam objectivos de conversões
 ---
 Como dono de um negócio de internet, um dos seus objectivos é converter mais visitantes em clientes.
 
@@ -67,12 +68,16 @@ Este ponto costuma ser ignorado por muitos, mas pessoalmente penso ser uma obrig
 
 {: .header .header--two }
 ## Como é feita a optimização?
-Cada caso é um caso, mas certos pontos são comuns a todos.
-Eu irei usar o site como se fosse um cliente, e irei tirar notas sobre o que pode ser melhorado, desde design até segurança, o mais comum é o seguinte:
+
+Irei começar por fazer medições de diversas métricas relacionadas com performance, e pedir dados que dizem respeito à situação com que irei começar, e irei basear-me nesta informação para comparar depois da optimização feita.
+
+Depois irei usar o site como se fosse um cliente, e irei tirar notas sobre o que pode ser melhorado, desde design até segurança.
+Os problemas mais comuns são o seguinte:
+
 - Velocidade do servidor
 - Demasiado conteúdo a ser empurrado para o utilizador
 - Conteúdo demasiado complexo e desnecessário
 - Pequenas falhas que podem comprometer informação privada
 
-Depois de cuidadosamente investigar o seu site e estratégias de marketing, irei escrever um relatório com os pontos exactos que devem ser melhorados por ordem de importância, se tiver um programador a trabalhar para sí, ele mesmo poderá resolver estes problemas, podeeu fazê-lo em colaboração com a sua equipa existente, de forma a passar conhecimentos novos para os seus trabalhadores.
+Depois de cuidadosamente investigar o seu site e estratégias de marketing, irei escrever um relatório com os pontos exactos que devem ser melhorados por ordem de importância, se tiver um programador a trabalhar para sí, ele mesmo poderá resolver estes problemas, ou eu poderei fazê-lo em colaboração com a sua equipa existente, de forma a passar conhecimentos novos para os seus trabalhadores.
 

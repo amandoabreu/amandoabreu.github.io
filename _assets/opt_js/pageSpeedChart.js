@@ -69,38 +69,40 @@ window.onload = function() {
         }
     });
 
-    var mobileVsDesktop = document.getElementById("mobileVsDesktop").getContext("2d");
+    if($(".mobileVsDesktop").length > 0) {
+        var mobileVsDesktop = document.getElementById("mobileVsDesktop").getContext("2d");
 
-    var data = {
-        labels: [
-            "Red",
-            "Blue",
-            "Yellow"
-        ],
-        datasets: [
-            {
-                data: [3, 15, 16, 16, 20, 30],
-                backgroundColor: [
-                    "#4989e0",
-                    "#3e72b9",
-                    "#3E73B8",
-                    "#2f578c",
-                    "#264773",
-                    "#1f395d",
-                ]
-            }]
-    };
+        var data = {
+            labels: [
+                "Red",
+                "Blue",
+                "Yellow"
+            ],
+            datasets: [
+                {
+                    data: [3, 15, 16, 16, 20, 30],
+                    backgroundColor: [
+                        "#4989e0",
+                        "#3e72b9",
+                        "#3E73B8",
+                        "#2f578c",
+                        "#264773",
+                        "#1f395d",
+                    ]
+                }]
+        };
 
-    var myPieChart = new Chart(mobileVsDesktop,{
-        type: 'pie',
-        data: data,
-        options: {
-            reponsive: false,
-            title:{
-                display: true,
-                text:'Patience of mobile web users'
-            },
-        }
-    });
+        var myPieChart = new Chart(mobileVsDesktop, {
+            type: 'pie',
+            data: data,
+            options: {
+                reponsive: false,
+                title: {
+                    display: true,
+                    text: 'Patience of mobile web users'
+                },
+            }
+        });
+    }
 
 };

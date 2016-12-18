@@ -1,0 +1,12 @@
+<h3 class="header header--two">{% if page.lang == 'pt' %}Contacte-me{% else %}Contact me{% endif %}</h3>
+<form id="contactForm" class="form" action="http://formspree.io/amando.abreu@gmail.com" method="post">
+    <input class="input input--inline-text" type="text" name="Name" placeholder="Name" required>
+    <input class="input input--email" type="email" name="Email" placeholder="Email" required>
+    <textarea class="input input--text" name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
+    <!-- CONFIG -->
+    <input class="hidden" type="text" name="_gotcha">
+    <input type="hidden" name="_subject" value="{{ page.title }}">
+    <input type="hidden" name="_cc" value="amando.abreu@gmail.com">
+    <!-- /CONFIG -->
+    <input class="input input--submit" type="submit" value="Send">
+</form>
