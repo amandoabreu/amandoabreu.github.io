@@ -1,61 +1,4 @@
-/*.centerwrapper{
-  box-sizing: border-box;
-  margin:0 auto;
-  padding:0 0 0 0;
-  &--narrow{
-    width: 33%;
-    max-width: $max-wrapper-width;
-    min-width: $min-wrapper-width;
-  }
-  &--medium{
-    width:50%;
-    max-width: $max-wrapper-width;
-    min-width: $min-wrapper-width;
-  }
-  &--wide{
-    width:84%;
-    max-width: $max-wrapper-width;
-    min-width: $min-wrapper-width;
-  }
-  &--screen{
-    width: 100%;
-    min-width: $min-wrapper-width;
-    position:absolute;
-    left:0;
-  }
-}
-
-@media screen and (max-width: 1024px){
-  .centerwrapper{
-    margin:0 auto;
-    &--narrow{
-      width: 80%;
-    }
-    &--medium{
-      width:80%;
-    }
-    &--wide{
-      width:80%;
-    }
-  }
-}
-
-@media screen and (max-width: 640px){
-  .centerwrapper{
-    margin:0 auto;
-    &--narrow{
-      width: 100%;
-    }
-    &--medium{
-      width:100%;
-    }
-    &--wide{
-      width:100%;
-    }
-  }
-}*/
-
-/* TODO make project page nice and responsive */
+/* TODO remove flexbox */
 
 .centerwrapper{
   box-sizing: border-box;
@@ -63,23 +6,17 @@
   padding:0 $gutter;
   width: 100%;
   &--double{
-    display:flex;
-    flex-wrap:wrap;
     max-width: $narrow * 2 + $double-gutter;
   }
   &--offset-left {
     width:100%;
-    order:2;
     margin:0;
     padding:0;
-    flex: 0 0 100%;
   }
   &--offset-right {
     width: 100%;
-    order:1;
     margin:0;
     padding:0;
-    flex: 0 0 100%;
   }
   &--narrow{
     max-width: $narrow;
@@ -104,12 +41,12 @@
 @media screen and (min-width: $tablet){
   .centerwrapper{
     &--offset-left {
-      order:1;
-      flex: 1 1 50%;
+      width: 50%;
+      float: left;
     }
     &--offset-right {
-      order:2;
-      flex: 1 1 50%;
+      width:50%;
+      float:right;
     }
   }
 }
