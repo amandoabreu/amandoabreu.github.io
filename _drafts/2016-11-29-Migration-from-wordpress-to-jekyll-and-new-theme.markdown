@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Migrating from Wordpress to jekyll, and a new theme!"
+title:  "My journey migrating from Wordpress to jekyll"
 date:   2016-11-29
 author: Amando Abreu
 categories: jekyll cms wordpress
@@ -8,7 +8,15 @@ comments: true
 image: https://c1.staticflickr.com/9/8604/16733520202_a56b8cc967_h.jpg
 
 ---
-So I got tired of wordpress, the overhead in complexity for a simple blog became too much to maintain, and now I save myself $5 a month by hosting my personal website on github pages instead of digital ocean, and instead spend more on applications that actually require a full-on server.
+So I got tired of wordpress, the overhead in complexity for a simple blog became too much to maintain, so I decided to start using jekyll and host my personal site on github-pages, and eventually S3, here's how that went.
+
+Sections:
+- About the switch
+- Migrating posts and custom post types
+- Setting up github-pages and my custom domain with https
+- Problems with github pages
+- Why I decided to use S3 instead
+- About the new setup
 
 {: .header .header--two }
 ### About the switch
@@ -92,7 +100,14 @@ class ProjectSpider(scrapy.Spider):
 {% endhighlight %}
 </div>
 
+{: .header .header--two}
+### Setting up github-pages and my custom domain with https
+
+
+{: .header .header--two}
+### Problems with github-pages
+
 {: .header .header--three}
 ### About the new setup
 
-Jekyll, new theme, BEM, less specificity, disqus comments
+Jekyll, new theme, BEM, less specificity, disqus comments, gulp assets and images
