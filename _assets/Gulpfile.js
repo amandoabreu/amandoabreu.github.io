@@ -13,6 +13,7 @@ const minify = require('gulp-minify-css');
 const rename = require('gulp-rename');
 
 var config = JSON.parse(fs.readFileSync('./../_private/accesskeys.json'));
+var deployConfig = JSON.parse(fs.readFileSync('./../_private/deploykeys.json'));
 
 gulp.task('upload-images-s3', function() {
 
@@ -20,12 +21,12 @@ gulp.task('upload-images-s3', function() {
     // http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#constructor-property
     var publisher = awspublish.create(
         config, {
-            cacheFileName: './awscache'
+            cacheFileName: './awsimagecache'
         });
 
     // define custom headers
     var headers = {
-        'Cache-Control': 'max-age=315360000, no-transform, public'
+        'Cache-Control': 'max-age=315360000, public'
         // ...
     };
 
@@ -45,15 +46,15 @@ gulp.task('upload-images-s3', function() {
 gulp.task('upload-assets-s3', function() {
     var publisher = awspublish.create(
         config, {
-            cacheFileName: ''
+            cacheFileName: './awsassetcache'
         });
     var headers = {
-        'Cache-Control': 'max-age=315360000, no-transform, public'
+        'Cache-Control': 'max-age=315360000, public'
         // ...
     };
     var options = {
         'force': true
-    }
+    };
     return gulp.src(['./../assets/**/*.+(css|js)'])
         .pipe(rename(function (path) {
             path.dirname += './../assets';
@@ -120,4 +121,28 @@ gulp.task('clearCache', function() {
 
     // Or, just call this for everything
     cache.clearAll();
+});
+
+gulp.task('deploy', function(){
+    var publisher = awspublish.create(
+        deployConfig, {
+            cacheFileName: './awsdeploycache'
+        });
+
+    // define custom headers
+    var headers = {
+        'Cache-Control': 'max-age=315360000, public'
+    };
+
+    return gulp.src(['../_site/assets', '../_site/blog', '../_site/did', '../_site/does', '../_site/faz', '../_site/wrote', '../_site/index.html', '../_site/rss.xml'])
+
+    // publisher will add Content-Length, Content-Type and headers specified above
+    // If not specified it will set x-amz-acl to public-read by default
+        .pipe(publisher.publish(headers))
+
+        // create a cache file to speed up consecutive uploads
+        .pipe(publisher.cache())
+
+        // print upload updates to console
+        .pipe(awspublish.reporter());
 });
