@@ -9,3 +9,5 @@ _private/*
 _assets/images/
 _cache/
 _assets/awscache
+_assets/awsdeploycache
+_assets/awsimagecache
