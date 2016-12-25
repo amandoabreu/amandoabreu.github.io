@@ -9,7 +9,7 @@ date:   2016-11-24 22:34:06 +0100
 categories: service user experience
 
 ---
-As an internet business, it's your goal to turn visitors into customers, however, a high conversion rate is hard to come by, especially when your site isn't as optimized as it could be.
+As an internet business it's your goal to turn visitors into customers, however, a high conversion rate is hard to come by, especially when your site isn't as optimized as it could be.
 
 ### What is a high conversion rate?
 

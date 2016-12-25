@@ -134,7 +134,7 @@ gulp.task('deploy', function(){
         'Cache-Control': 'max-age=315360000, public'
     };
 
-    return gulp.src(['../_site/assets', '../_site/blog', '../_site/did', '../_site/does', '../_site/faz', '../_site/wrote', '../_site/index.html', '../_site/rss.xml'])
+    return gulp.src(['../_site/assets/*', '../_site/blog/*', '../_site/did/*', '../_site/does/*', '../_site/faz/*', '../_site/wrote/*', '../_site/index.html', '../_site/rss.xml'])
 
     // publisher will add Content-Length, Content-Type and headers specified above
     // If not specified it will set x-amz-acl to public-read by default
