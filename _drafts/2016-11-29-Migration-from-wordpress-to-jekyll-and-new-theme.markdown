@@ -102,6 +102,7 @@ class ProjectSpider(scrapy.Spider):
 
 {: .header .header--two}
 ### Setting up github-pages and my custom domain with https
+There are plenty of tutorials on setting up a site on github pages, like [this one](https://pages.github.com/){:target="_BLANK"}
 
 
 {: .header .header--two}
