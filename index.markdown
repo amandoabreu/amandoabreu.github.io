@@ -8,7 +8,7 @@ hello: "Hey there!"
 
 I'm a self-taught Web Developer, my first contact with programming was with C and Assembly for my robotics projects, and later moved onto Web and Mobile App Development.
 
-I like making pretty and fast user interfaces, but I also like manipulating data and making teams work smoothly.
+I like making pretty and fast user interfaces, but I also like manipulating data and mountain biking.
 
 I currently work [@trivago](https://www.facebook.com/lifeattrivago/?fref=ts){:target="_blank"} and live in Düsseldorf, Germany.
 

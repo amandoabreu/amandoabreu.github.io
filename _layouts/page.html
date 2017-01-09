@@ -8,6 +8,15 @@ layout: default
         {{ page.content }}
     </div>
 </div>
+{% if page.contact %}
+    {% assign show_after = true %}
+{% endif %}
+
+{% if page.comments %}
+    {% assign show_after = true %}
+{% endif %}
+
+{% if show_after %}
 <div class="content__after">
     {% if page.contact %}
     <div class="centerwrapper centerwrapper--medium">
@@ -21,3 +30,4 @@ layout: default
         </div>
     {% endif %}
 </div>
+{% endif %}
