@@ -268,11 +268,9 @@ jQuery(document).ready(function($){
     $contactForm = $("#contactForm");
     $contactForm.on('submit', function(e) {
         $.ajax({
-            url: 'http://formspree.io/amando.abreu@gmail.com',
+            url: '//formspree.io/amando.abreu@gmail.com',
             method: 'POST',
-            data: {
-                message: "Heeeeloooo"
-            },
+            data: $(this).serialize(),
             dataType: 'json',
             beforeSend: function() {
                 $contactForm.append('<div class="alert alert--loading">Sending message…</div>');
