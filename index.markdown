@@ -12,6 +12,8 @@ I like making pretty and fast user interfaces, but I also like manipulating data
 
 I currently work [@trivago](https://www.facebook.com/lifeattrivago/?fref=ts){:target="_blank"} and live in Düsseldorf, Germany.
 
-Here is some stuff I've [done](https://amando-abr.eu/did).
+Here are some projects I've [done](https://amando-abr.eu/did), you can see more on [codepen](http://codepen.io/amando96/){:target="_blank"} and [github](https://github.com/amandoabreu){:target="_blank"}.
+
+Here's my [linkedin](https://www.linkedin.com/in/amandoabreu/){:target="_blank"}.
 
 You can reach me via email: amando.abreu@gmail.com.
