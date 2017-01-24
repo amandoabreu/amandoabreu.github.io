@@ -1,6 +1,20 @@
+# License
+---
+The content of the `_posts/`, `_drafts/`, `_pages/` directories are under Copyright to Amando Abreu, and nothing inside of it can be used without my permission.
+
+
+All the images hosted in the `https://s3.eu-central-1.amazonaws.com/amandoabreu/` domain belong to Amando Abreu and are also not available for use without permission.
+
+The software(Jekyll), however, obeys the MIT license.
+
 The MIT License (MIT)
 
 Copyright (c) 2016 aabereu
+---
+The content of the `_posts/`, `_drafts/`, `_pages/` directories are under Copyright to Amando Abreu, and nothing inside of it can be used without my permission.
+
+
+All the images hosted in the `https://s3.eu-central-1.amazonaws.com/amandoabreu/` domain belong to Amando Abreu and are also not available for use without permission.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

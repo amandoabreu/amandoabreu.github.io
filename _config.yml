@@ -18,7 +18,7 @@ title: Simples theme
 email: amando.abreu@gmail.com
 name: Amando Abreu
 description: > # this means to ignore newlines until "baseurl:"
-  Web development tutorials, website optimization, facebook direct response, services, wordpress tutorials, switching from wordpress, django, wagtail
+  Amando Abreu, Web developer.
 keywords: >
   tutorial, wordpress, jekyll, django, wagtail, blogging, blog
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -68,6 +68,7 @@ exclude:
   - gulpfile.js
 
 excerpt_separator: ""
+
 
 
 
