@@ -1,6 +1,6 @@
 ---
 title: Flight rules
-permalink: flightrules/
+permalink: flight-rules/
 layout: page
 ---
 Chris Hadfield in his book 'An Astronauts Guide to Life on Earth' refers to NASA's documented 'Flight Rules'.
