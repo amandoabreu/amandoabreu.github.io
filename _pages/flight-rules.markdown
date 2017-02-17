@@ -10,4 +10,26 @@ Chris Hadfield in his book 'An Astronauts Guide to Life on Earth' refers to NASA
 </blockquote>
 I have done this before when working with teams at companies, but I never thought of making a "global" one, listing every error I have ever encountered, with a solution. This is as much as a personal reference as it is public.
 
-Everything is listed per language/technology, spanning everything I work(ed) with.
+Everything is organized alphabetically per language/technology, spanning everything I work(ed) with.
+
+- AWS
+- Arduino
+- Composer
+- Django
+- Docker
+- Hugo
+- Javascript
+- Jekyll
+- Jenkins
+- MongoDB
+- MySQL
+- Nodejs
+- Npm
+- PHP
+- Prestashop
+- Python
+- Symfony
+- Twig
+- Vagrant
+- Wordpress
+
