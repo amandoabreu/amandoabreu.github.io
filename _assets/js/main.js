@@ -287,4 +287,13 @@ jQuery(document).ready(function($){
         e.preventDefault();
     });
 
+    var cardAccordionTitles = document.querySelectorAll('.card__accordion__title');
+    for(var i = 0; i < cardAccordionTitles.length; i++){
+        (function(i){
+            cardAccordionTitles[i].addEventListener('click', function(){
+                this.parentNode.classList.toggle('card__accordion--active');
+            });
+        })(i);
+    }
+
 });

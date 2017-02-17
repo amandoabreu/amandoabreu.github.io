@@ -33,3 +33,26 @@ Everything is organized alphabetically per language/technology, spanning everyth
 - Vagrant
 - Wordpress
 
+<div class="card">
+  <h3 class="card__header">Your configuration does not allow connections to [REPO].git. See https://getcomposer.org/doc/06-config.md#secure-http for details.</h3>
+  <div class="card__accordion">
+    <div class="card__accordion__title">Solution</div>
+    <div class="card__accordion__content">Simply change your configuration to allow connection to non SSL repos; Run: composer config -g secure-http false</div>
+  </div>
+</div>
+
+<div class="card">
+  <h3 class="card__header">Your configuration does not allow connections to [REPO].git. See https://getcomposer.org/doc/06-config.md#secure-http for details.</h3>
+  <div class="card__accordion">
+    <div class="card__accordion__title">Details</div>
+    <div class="card__accordion__content">details details details details details detailsdetails</div>
+  </div>
+  <div class="card__accordion">
+    <div class="card__accordion__title">Why</div>
+    <div class="card__accordion__content">whyhwhy whyhwhyhwhyhwhy whwhyhwhyhw</div>
+  </div>
+  <div class="card__accordion">
+    <div class="card__accordion__title">Solution</div>
+    <div class="card__accordion__content">Simply change your configuration to allow connection to non SSL repos; Run: composer config -g secure-http false</div>
+  </div>
+</div>
