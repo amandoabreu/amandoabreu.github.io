@@ -42,6 +42,16 @@ Everything is organized alphabetically per language/technology, spanning everyth
 </div>
 
 <div class="card">
+  <h3 class="card__header">Bitbucket SSH</h3>
+  <div class="card__accordion">
+      <div class="card__accordion__title">Solution</div>
+      <div class="card__accordion__content">Bitbucket doesn't work like github, so you need to add this in /.ssh/config:
+      <pre>Host bitbucket.org
+        IdentityFile ~/.ssh/id_rsa</pre></div>
+    </div>
+</div>
+
+<div class="card">
   <h3 class="card__header">Your configuration does not allow connections to [REPO].git. See https://getcomposer.org/doc/06-config.md#secure-http for details.</h3>
   <div class="card__accordion">
     <div class="card__accordion__title">Details</div>
