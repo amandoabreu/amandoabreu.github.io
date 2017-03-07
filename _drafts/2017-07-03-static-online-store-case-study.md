@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Static online store case study, part 1"
+title:  "Static online store case study"
 date:   2017-03-07 12:00:00 +0200
 author: Amando Abreu
 categories:
