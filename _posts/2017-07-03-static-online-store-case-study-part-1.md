@@ -230,6 +230,10 @@ I run the import scripts, the product files are created, I then run the `hugo` c
 
 .. Coming soon
 
-# Part 3) Ads, ads everywhere!
+# Part 3) Making everything legal
+
+.. Coming soon
+
+# Part 4) Ads, ads everywhere!
 
 .. Coming soon
