@@ -5,6 +5,7 @@ date:   2017-03-07 12:00:00 +0200
 author: Amando Abreu
 categories:
 comments: true
+newsletter: true
 image:
 ---
 ## Goals
@@ -225,15 +226,5 @@ I get all my images from Pexels.
 I run the import scripts, the product files are created, I then run the `hugo` command, and deploy the results to S3 using `s3_website` ruby gem.
 (all these commands are in a single shell script so all I have to do is run `sh deploy.sh`).
 
+Stay tuned for "part 2) Finding a dropshipper", by subscribing to my mailing list.
 
-# Part 2) Finding a dropshipper
-
-.. Coming soon
-
-# Part 3) Making everything legal
-
-.. Coming soon
-
-# Part 4) Ads, ads everywhere!
-
-.. Coming soon
