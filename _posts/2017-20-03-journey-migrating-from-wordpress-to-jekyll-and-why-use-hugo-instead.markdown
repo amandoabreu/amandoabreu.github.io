@@ -144,7 +144,7 @@ s3_website push
 {: .header .header--two #problems-with-jekyll}
 ### Problems with Jekyll
 
-Jekyll is a good static site generator, however, compared to the other options, Hugo seems to take the win, I have been using it for other projects including for a <a href="//amando-abr.eu/wrote/static-online-store-case-study-part-1/">static online store</a> and its speed is simply impossible to ignore, after working on that project and then coming back to editing my blog with Jekyll, I felt much slower, even though my blog has less complexity and posts.
+Jekyll is a good static site generator, however, the documentation is bad, and it's slow, compared to the other options, Hugo seems to take the win, I have been using it for other projects including for a <a href="//amando-abr.eu/wrote/static-online-store-case-study-part-1/">static online store</a> and its speed is simply impossible to ignore, after working on that project and then coming back to editing my blog with Jekyll, I felt much slower, even though my blog has less complexity and posts.
 
 Our friends as Smashing magazine did a [comparison](https://www.smashingmagazine.com/2015/11/static-website-generators-jekyll-middleman-roots-hugo-review/){:target="_BLANK"}, which shows Hugo might be a better option.
 
