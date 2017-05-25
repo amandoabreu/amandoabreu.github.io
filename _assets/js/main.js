@@ -55,12 +55,13 @@ var site = function(){
 */
 
 jQuery(document).ready(function($){
-    console.log("It's a static site hosted on gh-pages, nothing to hack here :)");
     var centerWrapperScreens = document.getElementsByClassName('centerwrapper--screen');
     var oldScroll = 0;
     var body = $('.body');
     var page = $('.page');
-    
+
+    var skillBars = $('.skill-bar');
+
     var oldTouch = 0;
     var delay = 100;
     var margin = 100;
@@ -247,16 +248,6 @@ jQuery(document).ready(function($){
     });
     var disqus_developer = 1;
 
-    $('.skills-and-stuff').click(function(){
-        $('.skill-bar').each(function(){
-            $(this).animate({
-                width: $(this).attr('data-skill-level')+'%'
-            }, 1000, function(){
-
-            }).delay(100);
-        });
-    });
-
     $('.sharebox__fbShare').on('click', function() {
         FB.ui({
             method: 'share',
@@ -294,6 +285,32 @@ jQuery(document).ready(function($){
                 this.parentNode.classList.toggle('card__accordion--active');
             });
         })(i);
+    }
+
+    function isScrolledIntoView(elemr)
+    {
+      var docViewTop = w.scrollTop();
+      var docViewBottom = docViewTop + w.height();
+
+      var elemTop = elemr.offset().top;
+      var elemBottom = elemTop + elemr.height();
+
+      return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+    if(skillBars.length > 0){
+      w.scroll(function(){
+        skillBars.each(function(){ // Lol performance
+          var dis = $(this);
+          if(isScrolledIntoView(dis)){
+            dis.animate({
+                width: dis.attr('data-skill-level')+'%'
+            }, 1000, function(){
+
+            }).delay(100);
+          }
+        });
+      });
     }
 
 });
