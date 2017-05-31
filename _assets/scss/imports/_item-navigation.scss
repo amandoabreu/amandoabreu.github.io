@@ -1,0 +1,18 @@
+.item-navigation{
+  font-size: 1em;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  &__control{
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+    &--prev{
+
+    }
+    &--next{
+      text-align: right;
+    }
+  }
+}

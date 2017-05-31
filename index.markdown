@@ -8,9 +8,7 @@ hello: "Hey there!"
 
 I'm a product focused full-stack Web Developer, my first contact with programming was with C and Assembly for my robotics projects, and later moved onto Web and Mobile App Development.
 
-I like making pretty and fast user interfaces, but I also like data, making teams work better, and mountain biking.
-
-I like to iterate fast and base my decisions on data collected from the real usage of the products.
+I like making pretty and fast user interfaces, but I also like data, data-driven decisions, making teams work better, and mountain biking.
 
 I'm currently working as a technical project manager @jobtender24 and live in Düsseldorf, Germany.
 

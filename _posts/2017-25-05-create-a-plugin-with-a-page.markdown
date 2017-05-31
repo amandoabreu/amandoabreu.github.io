@@ -43,16 +43,16 @@ class pluginWithPage {
     add_action( 'init', array($this, 'pwp_rewrite_rules' ));
   }
 
-  function pwp_rewrite_rules() { // Rewrite rules for frontend page
+  private function pwp_rewrite_rules() { // Rewrite rules for frontend page
       add_rewrite_rule( $this->pageName . '/?$', 'index.php?' . $this->pageName . '=true', 'top' );
   }
 
-  function pwp_register_query_var( $vars ) { // query vars for rewrite rules
+  private function pwp_register_query_var( $vars ) { // query vars for rewrite rules
       $vars[] = $this->pageName;
       return $vars;
   }
 
-  function pwp_template_include($template)
+  private function pwp_template_include($template)
   {
       global $wp_query; //Load $wp_query object
       @$page_value = $wp_query->query_vars[$this->pageName]; //Check for query var
@@ -88,7 +88,7 @@ The `init()` function adds all the filters and actions for the functions to be c
     License:
 */
 define( 'PWP_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
-include('includes/plugin-with-page.class.php');
+require('includes/plugin-with-page.class.php');
 $pwp = new pluginWithPage();
 {% endhighlight %}
 

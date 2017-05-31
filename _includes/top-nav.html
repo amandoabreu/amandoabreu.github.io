@@ -30,7 +30,9 @@
             </a>
         </li>
         <!--<li class="main-nav__element main-nav__element--separator">
-            I do
+            <a class="main-nav__link" href="/does/">
+              I do
+            </a>
         </li>
         {% assign sorted = site.does %}
         {% for item in sorted limit:3 %}
@@ -38,10 +40,10 @@
             <a class="main-nav__link" href="{{ item.url }}">
                 {{ item.title }}
             </a>
-        </li>-->
-        {% endfor %}
+        </li>
+        {% endfor %}-->
         <li class="main-nav__element main-nav__element--separator">
-            Latest Projects
+            I did
         </li>
         {% assign sorted = site.did | sort:"date" | reverse %}
         {% for item in sorted limit:3 %}

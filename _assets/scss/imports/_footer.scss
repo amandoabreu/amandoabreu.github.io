@@ -3,8 +3,37 @@
   transition: transform 200ms ease-in-out;
   display:flex;
   clear:both;
+  &__link{
+    color:#000;
+    text-decoration: none;
+  }
+  &__list{
+    list-style-type: none;
+    &__item{
+      &--separator{
+        padding-top: $half-gutter;
+        padding-bottom: $half-gutter;
+        font-weight:bold;
+        text-align:center;
+      }
+      padding-top: $half-gutter;
+      padding-bottom: $half-gutter;
+    }
+  }
   &__item{
     min-height:200px;
+    text-align:center;
+    width:100%;
+    float:left;
     padding-top: $gutter;
+  }
+}
+
+@media screen and(min-width:$tablet){
+  .footer{
+    &__item{
+      text-align:left;
+      width:33.33334%;
+    }
   }
 }

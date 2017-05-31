@@ -1,5 +1,5 @@
 ---
-layout: project 
+layout: project
 title:  "Jael guerreiro"
 date:   2014-06-24
 author: Amando Abreu
