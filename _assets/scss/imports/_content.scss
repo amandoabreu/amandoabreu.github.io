@@ -2,7 +2,7 @@
   padding: $gutter 0 ($gutter * 4) 0;
   font-size: 1.2em;
   &__after{
-    background:rgba(80, 148, 236, 0.19);;
+    background:map-get($blue, 0);
     padding: ($gutter * 4) 0;
   }
 }

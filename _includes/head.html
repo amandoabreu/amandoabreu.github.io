@@ -1,6 +1,9 @@
 <!doctype html>
-
+{% if item.lang %}
+<html lang="{{ item.lang }}">
+{% else %}
 <html lang="en">
+{% endif %}
 <head>
     <meta charset="utf-8">
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: service
 jslibs:
    - Chart.bundle.min.js
    - pageSpeedChart.js

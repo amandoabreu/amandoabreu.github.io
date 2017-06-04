@@ -19,14 +19,19 @@
 </nav>
 <nav class="main-nav">
     <ul class="main-nav__list">
-        <li class="main-nav__element">
+        <!--<li class="main-nav__element">
             <a class="main-nav__link" href="/">
                 Home
             </a>
-        </li>
-        <li class="main-nav__element">
+        </li>-->
+        <li class="main-nav__element main-nav__element--separator">
             <a class="main-nav__link" href="did/">
                 Projects
+            </a>
+        </li>
+        <li class="main-nav__element main-nav__element--separator">
+            <a class="main-nav__link" href="blog/">
+                Blog
             </a>
         </li>
         <!--<li class="main-nav__element main-nav__element--separator">
@@ -43,7 +48,7 @@
         </li>
         {% endfor %}-->
         <li class="main-nav__element main-nav__element--separator">
-            I did
+            Latest Projects
         </li>
         {% assign sorted = site.did | sort:"date" | reverse %}
         {% for item in sorted limit:3 %}

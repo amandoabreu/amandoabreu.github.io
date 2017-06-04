@@ -1,9 +1,61 @@
 ---
 layout: default
 ---
+{% include page/page-head.html %}
+
 <div class="content">
-    <div class="centerwrapper centerwrapper--narrow">
-        {{ page.content }}
+    <div class="centerwrapper centerwrapper--medium">
+      {{ page.content }}
+      <h5 class="header header--two header--center">Other Services</h5>
+      <ul class="listing">
+          {% assign sorted = (site.does] | sort:"date") %}
+          {% for item in sorted reversed %}
+              {% assign img = false %}
+              {% if item.image %}
+                  {% assign img = item.image %}
+              {% endif %}
+              {% if item.desktop_images[0].image_path %}
+                  {% assign img = site.s3_base | append: item.desktop_images[0].image_path %}
+              {% endif %}
+              {% if item.url != page.url %}
+              <li class="listing__li">
+                  <a class="listing__link block" href="{{ item.url }}">
+                      <div class="listing__item {% if img %} listing__item--with-overlay {% endif %}" {% if img %} style="background-image: url({{ img }});" {% endif %}>
+                          <h3 class="listing__title">{{ item.title }}</h3>
+                      </div>
+                  </a>
+              </li>
+              {% endif %}
+          {% endfor %}
+      </ul>
     </div>
 </div>
+{% if page.contact %}
+    {% assign show_after = true %}
+{% endif %}
 
+{% if page.comments %}
+    {% assign show_after = true %}
+{% endif %}
+
+{% if page.newsletter %}
+<div class="centerwrapper centerwrapper--medium">
+    {% include newsletter.html %}
+</div>
+{% endif %}
+
+{% if show_after %}
+<div class="content__after">
+    {% if page.contact %}
+    <div class="centerwrapper centerwrapper--medium">
+        {% include contact.html %}
+    </div>
+    {% endif %}
+    {% if page.comments %}
+        <div class="centerwrapper centerwrapper--medium">
+            {% include sharebox.html %}
+            {% include comments.html %}
+        </div>
+    {% endif %}
+</div>
+{% endif %}

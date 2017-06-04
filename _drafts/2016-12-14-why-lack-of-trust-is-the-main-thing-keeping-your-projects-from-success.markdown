@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Lack of trust is what's keeping your projects from success"
+title:  "Lack of trust is holding back your company"
 date:   2016-12-14 12:00:00 +0200
 author: Amando Abreu
 categories: trust projects freelance

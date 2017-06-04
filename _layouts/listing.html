@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="content">
     <div class="centerwrapper centerwrapper--medium">
-        <ul class="listing-default">
+        <ul class="listing">
             {% assign sorted = (site[page.type] | sort:"date") %}
             {% for item in sorted reversed %}
                 {% assign img = false %}
@@ -13,10 +13,10 @@ layout: default
                 {% if item.desktop_images[0].image_path %}
                     {% assign img = site.s3_base | append: item.desktop_images[0].image_path %}
                 {% endif %}
-                <li class="listing-default__li">
-                    <a class="listing-default__link block" href="{{ item.url }}">
-                        <div class="listing-default__item {% if img %} listing-default__item--with-overlay {% endif %}" {% if img %} style="background-image: url({{ img }});" {% endif %}>
-                            <h3 class="listing-default__title">{{ item.title }}</h3>
+                <li class="listing__li">
+                    <a class="listing__link block" href="{{ item.url }}">
+                        <div class="listing__item {% if img %} listing__item--with-overlay {% endif %}" {% if img %} style="background-image: url({{ img }});" {% endif %}>
+                            <h3 class="listing__title">{{ item.title }}</h3>
                         </div>
                     </a>
                 </li>
