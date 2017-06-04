@@ -1,5 +1,5 @@
 ---
-layout: project 
+layout: project
 title:  "Lens finder"
 date:   2014-04-20
 author: Amando Abreu
@@ -17,7 +17,7 @@ tablet_images:
 mobile_images:
   - image_path: uploads/2015/08/lensfinder-search1.jpg
     title: Mobile image
-description: "App integrated with Zencart installation to help users more easily search for photography lenses.<br/>Integrated with Zencart database, prices and sales are always up-to-date.<br/>
+description: "Lens finder, App integrated with Zencart installation to help users more easily search for photography lenses.<br/>Integrated with Zencart database, prices and sales are always up-to-date.<br/>
 3 simple search filters."
 tech_description: "<table>
 <tbody>

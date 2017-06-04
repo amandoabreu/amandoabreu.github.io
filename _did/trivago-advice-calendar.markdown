@@ -1,5 +1,5 @@
 ---
-layout: project 
+layout: project
 title:  "trivago Advice Calendar"
 date:   2016-03-11
 author: Amando Abreu
@@ -25,7 +25,7 @@ mobile_images:
     title: Mobile image
   - image_path: projects/tac/tac-mobile-3.jpg
     title: Mobile image
-description: "Project for trivago’s travel blog, shows
+description: "trivago advice calendar Project for trivago’s travel blog, shows
 
 users the best times to visit certain cities,
 

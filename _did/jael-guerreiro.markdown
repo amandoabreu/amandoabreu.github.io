@@ -23,7 +23,7 @@ mobile_images:
     title: Mobile image
   - image_path: uploads/2015/08/jaelguerreiro-popup1.jpg
     title: Mobile image
-description: "Single page responsive flat design.<br/>Popup video/photo gallery with autoplay functionality.<br/>
+description: "Jael Guerreiro, single page responsive flat design.<br/>Popup video/photo gallery with autoplay functionality.<br/>
 Integrated contact form"
 tech_description: "<table>
 <tbody>

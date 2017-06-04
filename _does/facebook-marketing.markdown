@@ -4,6 +4,8 @@ title:  "facebook Marketing"
 date:   2016-11-24 22:34:06 +0100
 categories: facebook marketing services
 image: /assets/images/posts/pexels-photo-199497.jpg
+keywords: "facebook marketing, dusseldorf, lisbon, oslo, lisboa"
+description: "Good facebook campaigns for higher quality traffic"
 contact: true
 ---
 Using the power of facebook ads is a popular way gaining more customers, but it can become complicated to know how to make the best ads targeted at the right people.

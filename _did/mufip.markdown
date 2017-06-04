@@ -1,5 +1,5 @@
 ---
-layout: project 
+layout: project
 title:  "Mufip"
 date:   2013-08-24
 author: Amando Abreu
@@ -25,8 +25,8 @@ mobile_images:
     title: Mobile image
   - image_path: uploads/2015/08/mufip-ad1.jpg
     title: Mobile image
-description: "Clean and modern responsive design.<br/>Auth system with bcrypt hashed passwords.<br/>
-Integrated with the IfThen API for ATM reference generation.<br/>
+description: "Mufip, Clean and modern responsive design. Auth system with bcrypt hashed passwords.
+Integrated with the IfThen API for ATM reference generation.
 Affiliate system.<br/>
 Custom search engine."
 tech_description: "<table>

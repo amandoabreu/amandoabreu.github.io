@@ -4,6 +4,8 @@ title:  "WordPress Development"
 date:   2016-11-24 22:34:06 +0100
 categories: jekyll update
 image: /assets/images/posts/pexels-photo-90807.jpeg
+keywords: "Wordpress, dusseldorf, lisbon, oslo, wordpress development, development, website"
+description: "WordPress Development services for big and small businesses"
 contact: true
 ---
 WordPress is a popular *blogging* platform, according to Wordpress.org, 27% of the web uses WordPress.

@@ -4,9 +4,11 @@ title:  "Consulting"
 date:   2016-11-24 22:34:06 +0100
 categories: services consulting
 image: /assets/images/posts/pexels-photo-40120.jpeg
+keywords: "Consulting, wordpress, dusseldorf, cologne, lisbon, lisboa, oslo, tech, engineering, development, scaling"
+description: "Consulting services for companies that want to see results"
 contact: true
 ---
-I have worked in companies with 5 and 1400 people, and the differences between a company that can scale from one that can't are smaller than you think, you just need to properly use your resources and have good processes.
+The differences between a company that can scale from one that can't are smaller than you think, you just need to properly use your resources and have good processes.
 
 Some of these processes are obvious, others not so much.
 
@@ -19,4 +21,4 @@ It's very important for teams to interact, if everyone is working in silos nobod
 
 I like to share what I have learned in my career to make companies more efficient and everyone happier with their job.
 
-Drop me a message at amando.abreu@gmail.com, or fill out the form below, I would love to help you with your project/company goals.
+Drop me a message at amando.abreu@gmail.com, or fill out the <a href="{{ page.url }}#contact">form below</a>, I would love to help you with your company goals.
