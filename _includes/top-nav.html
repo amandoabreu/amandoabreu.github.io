@@ -24,16 +24,11 @@
                 Home
             </a>
         </li>-->
-        <li class="main-nav__element main-nav__element--separator">
+        <!--<li class="main-nav__element main-nav__element--separator">
             <a class="main-nav__link" href="did/">
                 Projects
             </a>
-        </li>
-        <li class="main-nav__element main-nav__element--separator">
-            <a class="main-nav__link" href="blog/">
-                Blog
-            </a>
-        </li>
+        </li>-->
         <!--<li class="main-nav__element main-nav__element--separator">
             <a class="main-nav__link" href="/does/">
               I do
@@ -48,10 +43,12 @@
         </li>
         {% endfor %}-->
         <li class="main-nav__element main-nav__element--separator">
-            Latest Projects
+          <a class="main-nav__link" href="does/">
+              Services
+          </a>
         </li>
-        {% assign sorted = site.did | sort:"date" | reverse %}
-        {% for item in sorted limit:3 %}
+        {% assign sorted = site.does | sort:"date" %}
+        {% for item in sorted limit:6 %}
         <li class="main-nav__element">
             <a class="main-nav__link" href="{{ item.url }}">
                 {{ item.title }}
@@ -59,7 +56,22 @@
         </li>
         {% endfor %}
         <li class="main-nav__element main-nav__element--separator">
-            Latest posts
+          <a class="main-nav__link" href="did/">
+              Projects
+          </a>
+        </li>
+        {% assign sorted = site.did | sort:"date" | reverse %}
+        {% for item in sorted limit:3 %}
+        <li class="main-nav__element">
+          <a class="main-nav__link" href="{{ item.url }}">
+            {{ item.title }}
+          </a>
+        </li>
+        {% endfor %}
+        <li class="main-nav__element main-nav__element--separator">
+          <a class="main-nav__link" href="blog/">
+              Blog
+          </a>
         </li>
         {% for post in site.posts %}
         <li class="main-nav__element">

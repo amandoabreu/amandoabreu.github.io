@@ -53,7 +53,6 @@ var site = function(){
    /* var app = new site();
     app.openNav();
 */
-
 jQuery(document).ready(function($){
     var centerWrapperScreens = document.getElementsByClassName('centerwrapper--screen');
     var oldScroll = 0;
@@ -61,10 +60,20 @@ jQuery(document).ready(function($){
     var page = $('.page');
 
     var skillBars = $('.skill-bar');
+    var contactPopup = $('#contact-popup');
 
     var oldTouch = 0;
     var delay = 100;
     var margin = 100;
+    if(contactPopup.length > 0){
+      ouibounce(contactPopup[0]);
+    }
+    contactPopup.click(function(){
+      $(this).hide();
+    });
+    $('.contact-popup__content').click(function(e){
+      e.stopPropagation();
+    });
     $('body').on('touchmove', function(e){
         if($(this).hasClass('body--burger-active')) {
             oldTouch = e.originalEvent.touches[0].clientX;
