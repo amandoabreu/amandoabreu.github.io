@@ -2,9 +2,9 @@
 layout: page
 title:  "Why you need a project manager"
 date:   2017-08-09 22:34:06 +0100
-categories: 
+categories:
 contact: true
-image: /assets/images/posts/pexels-photo-316879.jpeg
+image: /assets/images/posts/pexels-photo-416405.jpeg
 
 ---
 # Do you feel that your company isn't reaching its full potential?

@@ -2,11 +2,14 @@
   border-top: 1px solid #ebeced;
   margin-top: 25px;
   &__img{
-    width: 200px;
+    width: 100px;
+    height:100px;
+    margin-right: $double-gutter;
+    background-size:cover;
+    background-position: center;
     float:left;
-    padding-right: $gutter;
   }
   &__description{
-    float:left;
   }
+  overflow:hidden;
 }
