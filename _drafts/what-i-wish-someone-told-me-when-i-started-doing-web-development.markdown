@@ -3,7 +3,7 @@ layout: page
 title:  "What I wish someone told me when I started doing web development"
 date:   2016-12-14 12:00:00 +0200
 author: Amando Abreu
-categories: 
+categories:
 comments: true
 image:
 ---
@@ -55,5 +55,4 @@ Many people think of developers as anti-social creatures that feel most comforta
 ## Practice
 
 {: .quote .quote--left}
-> “Don't fear the developer that built 10,000 sites once, fear the developer that built one site 10,000 times” - Bruce Lee
-
+> “Don't fear the developer that built 10,000 sites, fear the developer that built one site 10,000 times” - Bruce Lee

@@ -15,7 +15,7 @@ image: /assets/images/posts/pexels-photo-26943.jpg
 
 I personally believe software is never finished, I don't mean this as in it's never ready, I mean it as in, there will always be something to improve. We cannot let ourselves expect to have the project at 100% before the first release, because 100% never happens, the first release can be something like 85%, or even 80% ready.
 
-{: .quote .quote--left}
+{: .quote .quote--inspirational}
 > <span class="quote__img" style='background-image:url(/assets/images/posts/mz.jpg)'></span>
 "I’ve long believed that if you're not embarrassed by your first product release, you've released too late."
 <span class="quote__person">Mark Zuckerberg, Founder & CEO, Facebook</span>
@@ -39,7 +39,7 @@ The answer is, **we don't**. And at the same time we alienated the sales team by
 
 Instead, let's build both, deploy them both, have all 3 versions of the button online at the same time, 33% of users will see the gray button, 33% will see the blue button, and the other 33% will see the red button, now we measure all three and compare them to each other, and choose the one that performed best, be it more sign-ups, more money, or more users. Decisions will become much easier.
 
-{: .quote .quote--left}
+{: .quote .quote--inspirational}
 > <span class="quote__img" style='background-image:url(/assets/images/posts/mz.jpg)'></span>
 (On the importance of testing) …At any given point in time, there isn’t just one version of Facebook running, there are probably 10,000.
 <span class="quote__person">Mark Zuckerberg, Founder & CEO, Facebook</span>

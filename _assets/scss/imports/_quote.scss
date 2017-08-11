@@ -4,9 +4,11 @@
   margin: 60px 0;
   box-sizing:border-box;
   font-style: italic;
-  background:#333;
-  color:white;
-  box-shadow: 0 0 6px #000;
+  &--inspirational{
+    background:#333;
+    color:white;
+    box-shadow: 0 0 6px #000;
+  }
   &--left{
     float:none;
   }
