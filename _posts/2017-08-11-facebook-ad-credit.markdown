@@ -20,7 +20,7 @@ After clicking on "Use credit", I get taken to the normal Facebook ad prompt, an
 
 After some searching I found an answer from a helpdesk person saying the following:
 
-When you receive the notification informing you that you have a coupon , this coupon will be applied to your account after you have spent the intended amount. You can claim this coupon to your account within your Ads Manager. I have listed the steps below:
+When you receive the notification informing you that you have a coupon , this coupon will be applied to your account after you have spent the intended amount. You can claiam this coupon to your account within your Ads Manager. I have listed the steps below:
 -  Go to your Ads Manager (Facebook.com/ads/manager)
 -  Click the “Billing” tab
 -  In the payment method section click “Edit Payment Method”
