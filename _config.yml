@@ -20,7 +20,7 @@ name: Amando Abreu
 description: > # this means to ignore newlines until "baseurl:"
   Amando Abreu, Web developer.
 keywords: >
-  Amando Abreu, web developer, symfony, django, wordpress development, switching from wordpress
+  Amando Abreu - Business consultant and Entrepreneur
 baseurl: "/" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://amando-abr.eu/"
@@ -68,7 +68,3 @@ exclude:
   - gulpfile.js
 
 excerpt_separator: ""
-
-
-
-
