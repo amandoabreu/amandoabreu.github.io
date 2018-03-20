@@ -6,9 +6,9 @@ me: "Amando Abreu"
 hello: "Hey there!"
 ---
 
-After leaving trivago after our IPO in 2017, and decided to start consulting for businesses.
+After leaving trivago after our IPO in 2017, I founded Remotivate.
 
-I apply techniques learned working in a highly efficient company that generates over 600M€ per year to your business so you can produce 100 times more results without doing more work. Get on touch: <a href="https://remotivate.io/">Remotivate</a>.
+I apply techniques learned working in a highly efficient company that generates over 600M€ per year to your business so you can produce 100 times more results without doing more work. Get in touch: <a href="https://remotivate.io/">Remotivate</a>.
 
 Currently spend a lot of time at remotivate with internal and external projects, and live in Düsseldorf, Germany.
 
