@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "How to make project decisions when nobody agrees with each other?"
+title:  "How to make decisions when nobody agrees with each other?"
 date:   2017-05-31 09:34:06 +0100
 categories: services consulting software projects
 image: /assets/images/posts/pexels-photo-26943.jpg
