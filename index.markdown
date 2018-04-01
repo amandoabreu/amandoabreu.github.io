@@ -6,12 +6,16 @@ me: "Amando Abreu"
 hello: "Hey there!"
 ---
 
-After leaving trivago after our IPO in 2017, I founded Remotivate.
+I started with robotics at age 9, and taught myself how to write code at age 14.
 
-I apply techniques learned working in a highly efficient company that generates over 600M€ per year to your business so you can produce 100 times more results without doing more work. Get in touch: <a href="https://remotivate.io/">Remotivate</a>.
+Took my first freelance client at age 15, and 10 years later I've worked for big multinationals, lead teams, and managed projects.
 
-Currently spend a lot of time at remotivate with internal and external projects, and live in Düsseldorf, Germany.
+After leaving trivago after their IPO in 2017, I founded <a href="https://remotivate.io/">Remotivate</a>.
 
-Here are some projects I've [done](https://amando-abr.eu/did), you can see more on [codepen](http://codepen.io/amando96/){:target="_blank"} and [github](https://github.com/amandoabreu){:target="_blank"}.
+We multiply your results by a factor of 100 by optimizing personal and technical resources.
+
+My extremely wide range of skills allows me to put any project out faster and better than you can imagine, helping you create tremendous long-term value and avoid common pitfalls to waste money and time on. <a href="https://remotivate.io/">Get in touch</a>.
+
+Currently in Düsseldorf, Germany.
 
 Here's my [linkedin](https://www.linkedin.com/in/amandoabreu/){:target="_blank"}.
