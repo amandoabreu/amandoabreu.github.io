@@ -215,13 +215,13 @@
 $background: #f7f7f7;
 $box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
 $border: 1px solid rgba(191, 191, 191, 0.4);
-$items: 5;
+$items: 7;
 $rows: ceil($items/2);
 
 /* Card sizing */
 
-$card-height: 400px;
-$card-width: 450px;
+$card-height: 500px;
+$card-width: 430px;
 $inner-margin: 15px;
 $number-size: 35px;
 $stagger: 180px;
@@ -378,6 +378,7 @@ $counter: $items - $rows + 2;
       position: relative;
       display: flex;
       align-items: center;
+      background:#2462b3;
       color: #fff;
       font-weight: 400;
       .number-box {
@@ -412,7 +413,7 @@ $counter: $items - $rows + 2;
         }
       }
     }
-    .body {
+    .card-body {
       background: #fff;
       border: $border;
       border-top: 0;
@@ -432,10 +433,8 @@ $counter: $items - $rows + 2;
     }
     @for $i from 1 through $items {
       &--step#{$i} {
-        $color: nth($colors, ((($i - 1) % 4) + 1));
-        background-color: $color;
         .card-head::after {
-          border-color: $color;
+          border-color: #2462b3;
         }
       }
     }
