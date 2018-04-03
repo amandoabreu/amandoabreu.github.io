@@ -8,7 +8,7 @@ hello: "Hey there!"
 
 I started with robotics at age 9, and taught myself how to write code at age 14.
 
-Took my first freelance client at age 15, and 10 years later I've worked for big multinationals, lead teams, and managed projects.
+Took my first freelance client at age 17, and 9 years later I've worked for big multinationals, lead teams, and managed projects.
 
 After leaving trivago after their IPO in 2017, I founded <a href="https://remotivate.io/">Remotivate</a>.
 
