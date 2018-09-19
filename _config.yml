@@ -55,6 +55,10 @@ collections:
       output: true
       permalink: /:collection/:title/
 
+  read:
+      output: true
+      permalink: /:collection/:title/
+
 permalink: /post/:title/ # YYYY/MM/DD/page-title/index.html
 
 # Sass
