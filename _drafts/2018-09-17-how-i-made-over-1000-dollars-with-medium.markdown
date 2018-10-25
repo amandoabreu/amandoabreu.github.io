@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Error 400 using formspree via ajax explained"
-date:   2017-01-09 12:00:00 +0200
+title:  "How I made over $1000 with a single article on medium.com"
+date:   2018-09-17 12:00:00 +0200
 author: Amando Abreu
-categories: jekyll formspree
+categories: medium
 comments: true
 image:
 ---

@@ -20,6 +20,7 @@
 
 @media screen and (min-width: $tablet){
   .my{
+    max-width:50%;
     &__photo{
       max-width:240px;
       padding:0;

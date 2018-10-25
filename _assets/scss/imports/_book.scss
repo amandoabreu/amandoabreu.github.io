@@ -1,0 +1,69 @@
+.book{
+  float: none;
+  width: 100%;
+
+  &__title{
+    font-size: 22px;
+  }
+  &__image{
+    background-image:url(/assets/images/nlmvp.jpg);
+    background-size:100%;
+    width:70%;
+    padding-bottom:105%;
+    margin:0 auto;
+  }
+  &__newsletter{
+
+  }
+}
+@media screen and (min-width: $tablet){
+  .book{
+    float: right;
+    width: 50%;
+
+    &__title{
+      font-size: 22px;
+    }
+    &__image{
+      background-image:url(/assets/images/nlmvp.jpg);
+      background-size:100%;
+      width:70%;
+      padding-bottom:105%;
+      float:right;
+    }
+    &__newsletter{
+
+    }
+  }
+}
+
+.bookpage{
+  &__title{
+    font-size: 22px;
+  }
+  &__image{
+    background-size:100%;
+    width:100%;
+    max-width:350px;
+    padding-bottom:75%;
+  }
+  &__newsletter{
+
+  }
+}
+@media screen and (min-width: $tablet){
+  .bookpage{
+
+    &__title{
+      font-size: 22px;
+    }
+    &__image{
+      background-size:100%;
+
+      padding-bottom:75%;
+    }
+    &__newsletter{
+
+    }
+  }
+}

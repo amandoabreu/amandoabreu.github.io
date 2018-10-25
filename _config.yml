@@ -59,6 +59,10 @@ collections:
       output: true
       permalink: /:collection/:title/
 
+  book:
+      output: true
+      permalink: /authored/:title/
+
 permalink: /post/:title/ # YYYY/MM/DD/page-title/index.html
 
 # Sass
@@ -71,4 +75,8 @@ exclude:
   - node_modules
   - gulpfile.js
 
-excerpt_separator: ""
+excerpt_separator: <!--more-->
+
+paginate: 5
+
+gems: ['jekyll-paginate']
