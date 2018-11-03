@@ -8,7 +8,7 @@ layout: default
       {{ page.content }}
       <h5 class="header header--two header--center">Other Services</h5>
       <ul class="listing">
-          {% assign sorted = (site.does] | sort:"date") %}
+          {% assign sorted = site.does | sort:"date" %}
           {% for item in sorted reversed %}
               {% assign img = false %}
               {% if item.image %}

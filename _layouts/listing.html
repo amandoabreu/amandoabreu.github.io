@@ -4,7 +4,7 @@ layout: default
 <div class="content">
     <div class="centerwrapper centerwrapper--medium">
         <ul class="listing">
-            {% assign sorted = (site[page.type] | sort:"date") %}
+            {% assign sorted = site[page.type] | sort:"date" %}
             {% for item in sorted reversed %}
                 {% assign img = false %}
                 {% if item.image %}
