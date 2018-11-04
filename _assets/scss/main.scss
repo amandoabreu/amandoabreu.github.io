@@ -442,3 +442,11 @@ $counter: $items - $rows + 2;
     }
   }
 }
+
+blockquote{
+  font-weight: 400;
+font-style: italic;
+font-size: 30px;
+line-height: 1.48;
+    color: rgba(0,0,0,.68);
+}

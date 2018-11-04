@@ -8,4 +8,9 @@ comments: true
 newsletter: true
 image: /assets/images/posts/question.jpg
 ---
+> So, you did everything you were supposed to. You got a degree, you went to a boot camp, and you have a portfolio.
+
+### You go to countless interviews, but still, NO JOB.
+## What gives?
+
 Please read more on medium.com: [https://medium.com/swlh/unemployed-developer-read-this-4673b3aafaa5](https://medium.com/swlh/unemployed-developer-read-this-4673b3aafaa5){:target="_blank"}
