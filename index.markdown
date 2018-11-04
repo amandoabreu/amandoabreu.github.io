@@ -6,4 +6,4 @@ me: "Amando Abreu"
 hello: "Hey there!"
 ---
 
-I'm a generalist with an affinity for technology, people, and all in-betweens. I write about things sometimes.
+I'm a generalist with an affinity for technology, people, and all in-betweens.
