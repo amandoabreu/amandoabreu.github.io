@@ -322,4 +322,9 @@ jQuery(document).ready(function($){
       });
     }
 
+    var images = document.querySelectorAll('p img');
+    images.forEach(function(t){
+	       t.parentNode.style.textAlign = "center";
+    });
+
 });
