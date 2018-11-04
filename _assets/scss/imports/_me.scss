@@ -1,10 +1,16 @@
 .my{
+
+  margin: 0 20px;
+  color:white;
   &__name{
     margin-top: 0;
   }
   &__photo{
     width:100%;
     background-size: cover;
+    max-width:240px;
+    padding:0;
+    height:240px;
   }
   &__details{
     width:100%;
@@ -20,17 +26,20 @@
 
 @media screen and (min-width: $tablet){
   .my{
-    max-width:50%;
+    overflow:hidden;
     &__photo{
       max-width:240px;
       padding:0;
       height:240px;
+      float:left;
+      margin-right: 15px;
     }
-    /*
+
     &__details{
       width:auto;
       padding: 0 0 0 $gutter;
     }
+    /*
     &__name-is{
       padding-top: 0;
     }*/

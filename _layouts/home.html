@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+<div class="head head--no-image">
+    <div class="centerwrapper centerwrapper--medium">
+
+      <div class="my">
+        <p class="my-text-is-yuge">{{ page.hello }}</p>
+        <div class="my__photo" style="background-image: url({{ site.distribution_base }}/assets/images/img/avatar.jpg)"></div>
+          <div class="my__details">
+              <div class="my__name-is">My name is</div>
+              <h1 class="my__name">{{ page.me }}</h1>
+              <p class="my__description">
+                  {{ content }}
+              </p>
+          </div>
+      </div>
+    </div>
+</div>
 <div class="content">
     <div class="centerwrapper centerwrapper--medium">
       <!--<div style="float:right;width:40%; padding-bottom:62%;background-image:url(/assets/images/nlmvp.jpg);background-size:100%;">
@@ -9,206 +25,6 @@ layout: default
         <div class="book__image"></div>
         <div class="book__newsletter"></div>
       </div>-->
-        <p class="my-text-is-yuge">{{ page.hello }}</p>
-
-        <div class="my" style="width:100% !important;">
-            <img class="my__photo" src="{{ site.distribution_base }}/assets/images/img/avatar.jpg"/>
-            <div class="my__details">
-                <div class="my__name-is">My name is</div>
-                <h1 class="my__name">{{ page.me }}</h1>
-                <p class="my__description">
-                    {{ content }}
-                </p>
-            </div>
-        </div>
-
-
-
-        <!--<h3>Experience</h3>
-        <div>
-            <div class="experience">
-                <img class="experience__logo" src="/assets/images/remotivatev6.svg" alt="trivago logo" title="trivago logo" class="company-logo" style="max-width: 194px;">
-                <div class="info">
-                    <h2>Consultant</h2>
-                    <h5>Remotivate</h5>
-                    <p class="date">
-                        1/11/2017 - Present                |
-                        Düsseldorf, Germany </p>
-                    <p>Optimizing personal and technical resources to achieve goals and be prepared for change.</p>
-                    <a href="https://remotivate.io/" target="_BLANK">Remotivate.io</a>
-
-                </div>
-            </div>
-            <div class="experience">
-                <img class="experience__logo" src="/assets/images/experience/jobtender/p24_logo.png" alt="trivago logo" title="trivago logo" class="company-logo">
-                <div class="info">
-                    <h2>Technical Project Manager</h2>
-                    <h5>JobTender24</h5>
-                    <p class="date">
-                        01/05/2017 - 15/10/2017                                  |
-                        Düsseldorf, Germany </p>
-                    <p>Working with a team of 5 developers and 1 QA, the team is half remote half on-site.</p>
-
-                      <p>Interviewing candidates, introducing Agile methodologies to the team and company.</p>
-                      <p>Improving deployment, development, and QA processes, communication with stakeholders, gathering requirements, and improving the jobtender product.</p>
-
-                      <p>Conducting one on ones with team members, continuously gathering feedback to improve everyone's comfort and productivity.</p><br>
-                        <span class="pill">HTML5</span>
-                        <span class="pill">CSS3</span>
-                        <span class="pill">SASS</span>
-                        <span class="pill">Javascript(ES6)</span>
-                        <span class="pill">Babel</span>
-                        <span class="pill">ReactJS</span>
-                        <span class="pill">PostgreSQL</span>
-                        <span class="pill">Gulp</span>
-                        <span class="pill">Git</span>
-                        <span class="pill">Agile</span>
-                        <span class="pill">AWS</span>
-                        <span class="pill">EC2</span>
-                        <span class="pill">S3</span>
-                        <span class="pill">Python</span>
-                        <span class="pill">Django</span>
-                        <span class="pill">Management</span>
-                        <span class="pill">Interviewing</span>
-                        <span class="pill">Kibana</span>
-                </div>
-            </div>
-            <div class="experience">
-                <img class="experience__logo" src="{{ site.distribution_base }}/uploads/2015/08/trivago-logo.png" alt="trivago logo" title="trivago logo" class="company-logo">
-                <div class="info">
-                    <h2>Fullstack Developer</h2>
-                    <h5>trivago</h5>
-                    <p class="date">
-                        20/04/2015 - 31/03/2017                                  |
-                        Düsseldorf, Germany </p>
-                    <p>Working Agile creating and maintaining wordpress platforms that handle over 350K requests per day in 16 different languages, hosted on AWS, integrating front-end elements, developing custom back-end solutions for seamless interaction with other systems, and maintaining a development and release process for a team of 4 developers.<br>
-                        <span class="pill">Twig</span>
-                        <span class="pill">HTML5</span>
-                        <span class="pill">CSS3</span>
-                        <span class="pill">SASS</span>
-                        <span class="pill">Javascript</span>
-                        <span class="pill">PHP</span>
-                        <span class="pill">MySQL</span>
-                        <span class="pill">Wordpress</span>
-                        <span class="pill">Gulp</span>
-                        <span class="pill">Vagrant</span>
-                        <span class="pill">Git</span>
-                        <span class="pill">Agile</span>
-                        <span class="pill">AWS</span>
-                        <span class="pill">Elastic Beanstalk</span>
-                        <span class="pill">S3</span>
-                        <span class="pill">Jenkins</span>
-                        <span class="pill">Fabric</span>
-                </div>
-            </div>
-            <div class="experience">
-                <img class="experience__logo" src="{{ site.distribution_base }}/uploads/2015/08/pt-logo.png" alt="Portugal Telecom logo" title="Portugal Telecom logo" class="company-logo">
-                <div class="info">
-                    <h2>Frontend Developer</h2>
-                    <h5>Portugal Telecom</h5>
-                    <p class="date">
-                        01/10/2014 -
-                        03/12/2014                                    |
-                        Oeiras, Lisbon, Portugal </p>
-                    <p>Converting PSDs to responsive designs, HTML5 semantics, CSS3 animations, client side form validation.</p>
-                    <p><span class="pill">HTML5</span>
-                        <span class="pill">CSS3</span>
-                        <span class="pill">Javascript</span>
-                        <span class="pill">Microsoft Sharepoint</span> </p>
-                </div>
-            </div>
-            <div class="experience">
-                <div class="info">
-                    <h2>Web developer</h2>
-                    <h5>Freelancer</h5>
-                    <p class="date">
-                        01/07/2009 -
-                        25/03/2015                                    |
-                        Remote </p>
-                    <p>Creating mobile and web apps for several clients.</p>
-                    <p>
-                      <span class="pill">PHP</span>
-                      <span class="pill">MySQL</span>
-                      <span class="pill">HTML</span>
-                      <span class="pill">CSS</span>
-                      <span class="pill">JavaScript</span>
-                      <span class="pill">WordPress</span>
-                      <span class="pill">Laravel</span>
-                      <span class="pill">Bootstrap</span>
-                      <span class="pill">LAMP/WAMP</span>
-                      <span class="pill">Cordova</span>
-                      <span class="pill">AngularJS</span>
-                      <span class="pill">NodeJS</span>
-                      <span class="pill">MongoDB</span>
-                      <span class="pill">Heroku</span>
-                    </p>
-                </div>
-            </div>
-            <div class="experience">
-                <img class="experience__logo" src="{{ site.distribution_base }}/uploads/2015/08/niobo-logo.png" alt="Niobo logo" title="Niobo logo" class="company-logo">
-                <div class="info">
-                    <h2>Fullstack Developer</h2>
-                    <h5>Niobo</h5>
-                    <p class="date">
-                        01/02/2014 -
-                        20/08/2014                                    |
-                        Olhão, Portugal </p>
-                    <p>Maintaining zencart webstore, making facebook applications.</p>
-                        <p>
-                            <span class="pill">Zencart</span>
-                            <span class="pill">Facebook applications</span>
-                            <span class="pill">Banner design</span>
-                            <span class="pill">UX</span>
-                            <span class="pill">HTML5</span>
-                            <span class="pill">CSS3</span>
-                            <span class="pill">Javascript</span>
-                            <span class="pill">PHP</span>
-                            <span class="pill">MySQL</span>
-                            <span class="pill">Photoshop</span>
-                            <span class="pill">Illustrator</span>
-                    </p>
-                </div>
-            </div>
-            <div class="experience">
-                <img class="experience__logo" src="{{ site.distribution_base }}/uploads/2015/08/wl-logo.png" alt="Worklovers logo" title="Worklovers logo" class="company-logo">
-                <div class="info">
-                    <h2>Fullstack Developer</h2>
-                    <h5>Worklovers</h5>
-                    <p class="date">
-                        01/08/2012 -
-                        30/09/2013                                    |
-                        Remote </p>
-                    <p>Conceptualize, design, and create solutions for internal and external clients, websites, management tools, and facebook applications.</p>
-                    <p>
-                        <span class="pill">HTML5</span>
-                        <span class="pill">CSS3</span>
-                        <span class="pill">Javascript</span>
-                        <span class="pill">Bootstrap</span>
-                        <span class="pill">Responsive design</span>
-                        <span class="pill">PHP</span>
-                        <span class="pill">MySQL</span>
-                </div>
-            </div>
-            <div class="experience">
-                <div class="info">
-                    <h2>Fullstack Developer</h2>
-                    <h5>Rightcolors</h5>
-                    <p class="date">
-                        01/11/2011 -
-                        31/07/2012                                    |
-                        Remote </p>
-                    <p>Design, create and maintain web applications for internal projects and clients.</p>
-                    <p>Create and maintain closed source company CMS.</p>
-                    <p>
-                        <span class="pill">HTML</span>
-                        <span class="pill">CSS</span>
-                        <span class="pill">Javascript</span>
-                        <span class="pill">PHP</span>
-                        <span class="pill">MySQL</span>
-                </div>
-            </div>
-        </div>
-        {% include skills.html %}-->
     </div>
     {% include blog-grid.html %}
 </div>

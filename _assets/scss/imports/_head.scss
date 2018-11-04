@@ -1,6 +1,6 @@
 .head{
   width:100%;
-  height:50vh;
+  min-height:50vh;
   padding: $double-gutter 0 $double-gutter 0;
   background-size:cover;
   z-index:10;
@@ -18,7 +18,7 @@
     background: linear-gradient(135deg,  rgba(247,78,0,1) 0%,rgba(251,123,4,1) 51%,rgba(247,78,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f74e00', endColorstr='#f74e00',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-    height:$top-nav-height-l * 6;
+    min-height:$top-nav-height-l * 6;
   }
   &:after{
     /*width: 100%;

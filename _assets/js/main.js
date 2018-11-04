@@ -88,7 +88,7 @@ jQuery(document).ready(function($){
         }
     });
 
-    var w = $(window);
+    /*var w = $(window);
     w.scroll(function(e) {
         var newScroll = $(this).scrollTop();
         if(oldScroll < newScroll && newScroll > 60){
@@ -98,10 +98,10 @@ jQuery(document).ready(function($){
         }
         oldScroll = newScroll;
 
-        /*$('.main-nav').css('top', newScroll + 60);*/
+        /*$('.main-nav').css('top', newScroll + 60);
     });
 
-    var addScrollToMenuIfNeeded = function(e){ /* hacky as fuck menu fix */
+    var addScrollToMenuIfNeeded = function(e){
         var mainNav = $('.main-nav');
         var mainNavheight = mainNav[0].scrollHeight;
         var windowHeight = w.height();
@@ -116,7 +116,7 @@ jQuery(document).ready(function($){
 
     w.resize(function(){
         addScrollToMenuIfNeeded();
-    });
+    });*/
 
     var toggleMenu = function(){
         if(!body.hasClass('body--burger-active')){
