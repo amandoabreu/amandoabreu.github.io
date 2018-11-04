@@ -20,6 +20,10 @@
 
     min-height:$top-nav-height-l * 6;
   }
+
+  &--hp{
+    background:none;
+  }
   &:after{
     /*width: 100%;
     height: 100%;

@@ -450,3 +450,24 @@ font-size: 30px;
 line-height: 1.48;
     color: rgba(0,0,0,.68);
 }
+
+.bar-with-logos{
+  height: 200px;
+  background: rgb(237, 237, 237);
+  margin:50px 0 70px;
+  background: url(/assets/images/posts/credibility-logos-mobile.png) center center no-repeat #ededed;
+}
+
+@media screen and (min-width: $tablet){
+  .bar-with-logos{
+    height:100px;
+    background: url(/assets/images/posts/credibility-logos.png) center center no-repeat #ededed;
+    background-size:contain;
+  }
+}
+
+@media screen and (min-width: 1250px){
+  .bar-with-logos{
+    background-size:1214px;
+  }
+}

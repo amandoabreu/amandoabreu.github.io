@@ -1,6 +1,7 @@
 .content{
   padding: $gutter 0 ($gutter * 4) 0;
   font-size: 1.2em;
+  line-height: 1.6;
   &__after{
     background:map-get($blue, 0);
     padding: ($gutter * 4) 0;
