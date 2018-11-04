@@ -453,15 +453,15 @@ line-height: 1.48;
 
 .bar-with-logos{
   height: 200px;
-  background: rgb(237, 237, 237);
+  background: #dadada;
   margin:50px 0 70px;
-  background: url(/assets/images/posts/credibility-logos-mobile.png) center center no-repeat #ededed;
+  background: url(/assets/images/posts/credibility-logos-mobile.png) center center no-repeat #dadada;
 }
 
 @media screen and (min-width: $tablet){
   .bar-with-logos{
     height:100px;
-    background: url(/assets/images/posts/credibility-logos.png) center center no-repeat #ededed;
+    background: url(/assets/images/posts/credibility-logos.png) center center no-repeat #dadada;
     background-size:contain;
   }
 }
