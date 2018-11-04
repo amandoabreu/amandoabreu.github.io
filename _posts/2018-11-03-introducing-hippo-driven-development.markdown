@@ -8,6 +8,10 @@ comments: true
 newsletter: true
 image: /assets/images/posts/hippo.jpg
 ---
+
+![companyapp](/assets/images/posts/hippo.jpg "Company app")
+
+
 A new feature request arrives, and everyone feels that it doesn’t make any sense. It requires big changes to the current user flow, doesn’t seem to be a needed feature, and **just adds onto the other unneeded features that make up 90% of your product.**
 
 ![companyapp](/assets/images/posts/companyapp.png "Company app")

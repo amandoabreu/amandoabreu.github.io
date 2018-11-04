@@ -6,7 +6,7 @@ author: Amando Abreu
 categories:
 comments: true
 newsletter: true
-image:
+image: 
 ---
 ## Goals
 - Have an online dropshipping shop based in Portugal running as a static site through amazon S3
@@ -19,7 +19,7 @@ image:
 ## Possible expected pitfalls
 - Since I will be dropshipping, it might require some custom scripts to communicate to with the dropshippers, which may require a server, but it would be 100% only for customers that checkout, which isn't so bad.
 - Portuguese bureaucracy
-- Customer trust 
+- Customer trust
 
 # Step 1) The website
 
@@ -207,7 +207,7 @@ This writes files named after the product ID to the products directory, and all 
 I could also separate the data from the logic by placing the product IDs into a JSON file, and could have a Lambda function on AWS import whenever the file is updated(just an idea).
 
 ## Theme
-I got an "e-commerce" layout for free from [w3layouts](https://w3layouts.com/), and made it into a hugo theme, I didn't like some things about it, so I spent a bit more time than I wanted on customization, the blog was also not part of it initially, so I had to make that too. 
+I got an "e-commerce" layout for free from [w3layouts](https://w3layouts.com/), and made it into a hugo theme, I didn't like some things about it, so I spent a bit more time than I wanted on customization, the blog was also not part of it initially, so I had to make that too.
 
 ![theme](/assets/images/posts/pt-online-shop-case-study/n-air.png "n-air")
 
@@ -227,4 +227,3 @@ I run the import scripts, the product files are created, I then run the `hugo` c
 (all these commands are in a single shell script so all I have to do is run `sh deploy.sh`).
 
 Stay tuned for "part 2) Finding a dropshipper", by subscribing to my mailing list.
-
