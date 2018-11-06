@@ -29,9 +29,11 @@ An easy way to figure out what to do is by **simply copying what others do.**
 
 - If it feels like everyone goes to college like in the 2010’s, then I will also go to college because it’s what everyone does.
 
-Meanwhile, real estate brokers in 1980’s; financial advisors in the 1990’s; and colleges in the 2010’s, will take advantage of this wave and raise their prices because it’s creating incredible profit for them. So, you see colleges inviting you in, and you see everyone going in them, why wouldn’t you also do it? **You’d have to be insane not to!**
+Meanwhile, real estate brokers in 1980’s; financial advisors in the 1990’s; and colleges in the 2010’s; and cryptocurrency's code* will take advantage of this wave and raise their prices because it’s creating incredible profit for them. So, you see colleges inviting you in, and you see everyone going in them, why wouldn’t you also do it? **You’d have to be insane not to!**
 
-As soon as the prices start to increase too much, you're buying something that is only worth that much because everyone also wants it, when the difference between the actual value and the price is way too big, this is a bubble. It's a way to **hack a supply-and-demand based system**, and it works.
+_*It gets more expensive the less there is by design, it's a short lived bubble-machine(I'm not saying this always bad, don't stop reading yet)._
+
+As soon as the prices start to increase too much, you're buying something that is only worth that much because everyone also wants it, when the difference between the actual value and the price is way too big, this is a bubble. It's kind of a way to **hack a supply-and-demand based system**, and it works.
 
 Any time too many people do the same thing just because they _feel_ they should do it, they are acting based on an instinct that we have deep in us, which is to **go with the flow**.
 
