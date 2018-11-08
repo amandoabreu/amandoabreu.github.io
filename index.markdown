@@ -6,4 +6,4 @@ me: "Amando Abreu"
 hello: "Hey there!"
 ---
 
-Idiosyncratic generalist with a special affinity for the future of education, society, and humanity.
+Idiosyncratic generalist with a special affinity for the future of humanity.
