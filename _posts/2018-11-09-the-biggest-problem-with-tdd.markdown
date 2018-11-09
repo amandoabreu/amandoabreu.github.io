@@ -62,7 +62,7 @@ To fully test behaviour you’d need to mock a bunch of stuff and miss most of t
 
 **Manually testing stuff in a production-like environment is still required. And I think automating this sort of test provides the best value for money.**
 
-# Perhaps we all assumed TDD has to be with unit tests, when it would be best suited for other types of tests?
+# Perhaps we all assumed TDD has to be strictly with unit tests, when it would be best suited for a good mix with other types of tests?
 
 ### Final notes:
 
