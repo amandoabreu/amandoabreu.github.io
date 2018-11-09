@@ -6,7 +6,7 @@ author: Amando Abreu
 categories:
 comments: true
 newsletter: true
-image: /assets/images/posts/ants.gif
+image: /assets/images/posts/bubble.jpeg
 ---
 
 > Bubble: used to refer to a good or fortunate situation that is isolated from reality or unlikely to last.
