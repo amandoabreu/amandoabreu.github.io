@@ -27,4 +27,6 @@ I don't associate with a single job title or label, which makes it incredibly ha
 
 A lot of people find me incredibly pretentious due to my idiosyncrasies. I'm aware that I might come off like that sometimes. The thing is, I just don't care that much about it(but definitely enough to write all this, so make up your own mind with how you feel about this situation).
 
-> I assume the average person is reasonable, so I try to build reasonable arguments.
+## Who I write for
+
+My only expectation from readers is that they're reasonable according to the standard of the culture we share. My favourite method of persuasion for most people is the Ethos as I find Logos to get too complicated very quickly, and I find Pathos to be manipulative.

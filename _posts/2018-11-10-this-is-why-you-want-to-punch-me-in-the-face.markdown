@@ -15,9 +15,13 @@ But before we fight, let me try to explain why you feel that:
 
 ## Why do you want to punch me?
 
-You probably read/heard something, and now you're wondering if I’m serious, or just mocking/trolling you.
+You probably read/heard something, and now you're wondering if I’m serious, or just mocking/trolling you. This makes you unsure of my intentions.
 
-The truth is, I’m serious most of the time(and try to make it obvious when I’m just joking)
+> Is this guy a good or bad person, and can I trust him or not?
+
+This uncertainty makes you uncomfortable, and you get a fight or flight moment. The punch is obviously the fight.
+
+The truth is, I’m serious most of the time(and try to make it obvious when I’m just joking), and my goal is to do only what I can to keep society from collapsing on itself(because I'm part of society, and if it collapses, I also suffer, I'm not pretending to be a selfless angel).
 
 > But, Amando, how can you be serious about this one thing in particular? Are you dumb?
 
