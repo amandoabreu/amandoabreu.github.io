@@ -22,7 +22,7 @@ TDD basically means you’re building two applications. One creates business val
 So we have:
 
 - An application that creates business value(A1)
-- An application that tests A1(A2).
+- An application that tests the implementation of A1(A2)*.
 
 ## Biggest TDDaaR assumptions
 
@@ -50,7 +50,7 @@ Assuming it’s done right and ignoring organizational goals — as having s
 
 ### Other things
 
-#### Testing implementation VS behaviour 
+#### *Testing implementation VS behaviour 
 
 This is a tricky one, behaviour can change due to business decisions(if it doesn’t, you’re not agile enough, bro!).
 
