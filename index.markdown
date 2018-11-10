@@ -6,4 +6,4 @@ me: "Amando Abreu"
 hello: "Hey there!"
 ---
 
-Idiosyncratic generalist with a special affinity for the future of humanity.
+“Ordinarily he was insane, but he had lucid moments when he was merely stupid." —Heinrich Heine
