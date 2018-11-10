@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "The Dangerous Convenience Of Having An Untestable Idea And How It Propagates Ideological Thinking"
+title:  "The Dangerous Convenience Of Having An Untestable Idea And How It Propagates Ideology"
 date:   2018-11-10 10:00:00 +0200
 author: Amando Abreu
 categories:

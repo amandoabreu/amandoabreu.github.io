@@ -62,6 +62,9 @@ collections:
   book:
       output: true
       permalink: /authored/:title/
+  contact:
+      output: true
+      permalink: /contact/
 
 permalink: /post/:title/ # YYYY/MM/DD/page-title/index.html
 
