@@ -49,7 +49,7 @@ The reason we disagree right now is because there is a mismatch in either:
 - Our assumptions of what we're actually discussing
 - All of the above
 
-I tend to focus on the big picture, big patterns, and especially meta-patterns, and I jump around from one meta-pattern to another the same way you may jump from one detail to another, this makes both our arguments incredibly hard to articulate and share with each other.
+I tend to focus on the big picture, big patterns, and especially meta-patterns, and I jump around from one meta-pattern to another the same way you may jump from one detail to another, this makes both our arguments incredibly hard to articulate and share with each other. Neither argument is better than the other, but my default mode of thought is exploring big-picture patterns, it's what comes more naturally. When I identify the right moment, I jump into the details.
 
 
 ## My favourite thing
