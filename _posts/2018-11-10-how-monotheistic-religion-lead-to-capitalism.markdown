@@ -47,7 +47,7 @@ So, we create a new god, and it looks like this:
 
 Suddenly we have nearly everyone working together for the same God, and everything is mostly fine, for a while.
 
-But, as the limits of the new God start begin reached, and as people that aren’t enjoying their new God start to see its flaws, they will point them out, which makes it so that more people see its flaws.
+But, as the limits of the new God start being reached, and as people that aren’t enjoying their new God start to see its flaws, they will point them out, which makes it so that more people see its flaws.
 
 People always want change to come and save them and fix everything the current God does wrong in one quick swoop, and that’s why we have other Gods popping up, such as:
 
