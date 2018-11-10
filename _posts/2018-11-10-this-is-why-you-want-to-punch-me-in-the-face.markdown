@@ -49,6 +49,8 @@ The reason we disagree right now is because there is a mismatch in either:
 
 I tend to focus on the big picture, big patterns, and especially meta-patterns, this makes it incredibly hard to articulate some thoughts sometimes, but I try to get better.
 
+You're likely focusing on details that I probably don't know, but I urge you to first try to see the bigger picture. The alternative is showing me the exact specifics you're thinking about, and for that you can use the contact form.
+
 ## My favourite thing
 
 I love new points of view and will go further than most to understand where you’re coming from. Build a good argument and I’d love to talk it over with you with genuine interest in learning how to communicate with you in the future.
