@@ -49,9 +49,8 @@ The reason we disagree right now is because there is a mismatch in either:
 - Our assumptions of what we're actually discussing
 - All of the above
 
-I tend to focus on the big picture, big patterns, and especially meta-patterns, this makes it incredibly hard to articulate some thoughts sometimes, but I try to get better.
+I tend to focus on the big picture, big patterns, and especially meta-patterns, and I jump around from one meta-pattern to another the same way you may jump from one detail to another, this makes both our arguments incredibly hard to articulate and share with each other.
 
-You're likely focusing on details that I probably don't know, but I urge you to first try to see the bigger picture. The alternative is showing me the exact specifics you're thinking about, and for that you can use the contact form.
 
 ## My favourite thing
 
