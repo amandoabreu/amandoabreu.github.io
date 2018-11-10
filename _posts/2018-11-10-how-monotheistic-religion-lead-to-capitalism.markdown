@@ -71,4 +71,4 @@ God: The thing bigger than yourself that is included in your goal. (if nothing i
 
 > You could say the promises your God gives you are the goal, and Religion specifies the actionable steps you have to do to reach said goal.
 
-And we will always pursue the "one" God that works for all of us. However, the only thing we have in common is that we will al die, but it's not a very nice goal.
+And we will always pursue the "one" God that works for all of us. However, the only thing we have in common is that we will all die, but it's not a very nice goal, even though it's inevitable.

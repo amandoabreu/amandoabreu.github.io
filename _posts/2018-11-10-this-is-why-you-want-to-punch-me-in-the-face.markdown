@@ -43,8 +43,11 @@ The reason we disagree right now is because there is a mismatch in either:
 
 - Our assumptions about each other
 - Our communication style
-- Our assumptions about the topic
+- Our assumptions about the topic we're discussing
+- Our assumptions of what we're actually discussing
 - All of the above
+
+I tend to focus on the big picture, big patterns, and especially meta-patterns, this makes it incredibly hard to articulate some thoughts sometimes, but I try to get better.
 
 ## My favourite thing
 
