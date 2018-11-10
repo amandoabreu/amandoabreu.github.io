@@ -23,6 +23,8 @@ The truth is, I’m serious most of the time(and try to make it obvious when I�
 
 The answer is simple, we think very differently. I’m not saying my thoughts are superior or inferior to yours, just different. I assume we lived very different lives, had different upbringing, and that affects how we think because we look at things from very different perspectives.
 
+### I try very hard to not fall into the trap of underestimating those who disagree with me.
+
 ![companyapp](/assets/images/posts/argument-photo-photography-meme-6-or-9.png "Company app")
 
 You could make all sorts of arguments as to who is right in that scenario, but given how globalized we are, try to imagine the complexity necessary to explain the same thing but taking into account 7.6 Billion people all with different opinions that are perfectly valid from their point of view.
