@@ -70,3 +70,5 @@ Religion: any time all your actions are done toward one single goal, those actio
 God: The thing bigger than yourself that is included in your goal. (if nothing is bigger than yourself, you’re your own God, and likely a narcissist with nothing but hedonistic pursuits).
 
 > You could say the promises your God gives you are the goal, and Religion specifies the actionable steps you have to do to reach said goal.
+
+And we will always pursue the "one" God that works for all of us. However, the only thing we have in common is that we will al die, but it's not a very nice goal.
