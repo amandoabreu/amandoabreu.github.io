@@ -36,8 +36,22 @@ When I pick up some patterns, I like to make a rough outline of them and systema
 
 I will share some patterns I see in the world in this site as a reference for myself and others.
 
+## Why everything is so complicated
+
+As I worked for different organizations of different sizes and with different people and cultures, the true size of the complexity at hand showed itself. And, since I've working on both the big picture(Project Management) and details(Engineering), I can assure you that it's even more complicated than you imagine.
+
+The details are nearly infinite, and the big picture is also nearly infinite, as it's harder to ignore the 4th dimension(time) when doing business plans as it is when writing code(in fact, the best engineers also take time seriously into account, but they don't have as much skin in the game, so if something goes wrong they can just leave).
+
+But the thing is, every organization also varies drastically. I couldn't apply the same tools working for a company with 5 people in Portugal as I could working for a company with 1400 people in Germany.
+
+The variability between each organization is, in itself, also nearly infinite.
+
+The hardest part is knowing where to draw the line. When do leaders stop trying to get closer to +∞, and when do engineers stop trying to get closer to -∞? The answer will transform your business as it will help you understand what to do, and when, much more clearly.
+
 ## Who I write for
 
 My only expectation from readers is that they're reasonable according to the standard of the culture we share. My favourite method of persuasion for most people is the Ethos. As I find Logos to get too complicated very quickly in complex systems, and I find Pathos to be manipulative.
 
 My biggest weakness is failing to provide sources that validate my opinions a bit better, but to be fair, sometimes the sources don't exist(yet).
+
+I used to suffer a lot from paralysis by analysis, but for topics I know well, it's not as present as before anymore.
