@@ -20,7 +20,9 @@ This lead me on a search for how to better understand humans to improve collabor
 
 But, since I also understand machines fairly well, and that most businesses nowadays are <a href="https://scholar.google.no/scholar?q=complex+cybernetic+systems&hl=en&as_sdt=0&as_vis=1&oi=scholart" target="_BLANK">complex cybernetic systems</a>(computers and humans working together), I'm able to make sense of a lot of extremely different information and simplify it to make chasing a goal easier and faster for everyone involved.
 
-> I like to get the right people and the right tools working together to transform sub-par systems into highly effective machines.
+> I like to get the right people and the right tools working together to transform sub-par systems into highly effective machines, but taking into account personal and technological limitations.
+
+I won't expect people to work like machines, and I won't expect machines to work like people.
 
 I don't associate with a single job title or label, which makes it incredibly hard to explain what I do, the idea of this site is to showcase a little of how I think in order to not have to explain myself with spoken words as often as I feel forced to.
 
