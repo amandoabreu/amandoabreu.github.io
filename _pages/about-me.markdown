@@ -19,13 +19,13 @@ During my career as an engineer, I found myself either with incredibly different
 
 Upper-management was always incredibly big picture oriented, naturally. And engineers were mostly detail oriented.
 
-The funny phenomenon that will now seem very obvious, is that upper-management tended to assumed the details would sort themselves out(or else). And engineers tended to assume the big picture would sort itself. Both sides assumed and hoped the other side knew better, failing to realize that the failure to communicate these assumptions would be the cause of all the problems every organization will always have. Nearly every single tool your business uses internally is an attempt at making similar knowledge transfer processes easier(either between upper management and engineers, or upper-management and finance, upper-management and sales, etc). Unless you're in the top 1%, bad tools will lead to worse work comparatively to others with slightly better tools.
+The funny phenomenon that will now seem very obvious, is that upper-management tended to assume the details would sort themselves out(or else). And engineers tended to assume the big picture would also sort itself out. Both sides assumed and hoped the other side knew better, failing to realize that the failure to communicate these assumptions would be the cause of all the problems every organization will always have. Nearly every single tool your business uses internally is an attempt at making similar knowledge transfer processes easier(either between upper management and engineers, or upper-management and finance, upper-management and sales, etc). Unless you're in the top 1% of businesses(think google, amazon, facebook, etc), bad tools will lead to worse work comparatively to others with slightly better tools. This makes you less competitive.
 
 This lead me on a search for how to better understand humans to improve collaboration, and is arguably my favourite thing to do.
 
-But, since I also understand machines fairly well, and that most businesses nowadays are <a href="https://scholar.google.no/scholar?q=complex+cybernetic+systems&hl=en&as_sdt=0&as_vis=1&oi=scholart" target="_BLANK">complex cybernetic systems</a>(computers and humans working together), I'm able to juggle a lot of variables and reduce them to make chasing a goal easier and faster for everyone involved.
+But, since I also understand machines fairly well, and that most businesses nowadays are <a href="https://scholar.google.no/scholar?q=complex+cybernetic+systems&hl=en&as_sdt=0&as_vis=1&oi=scholart" target="_BLANK">complex cybernetic systems</a>(computers and humans working together), I'm able to make sense of a lot of extremely different information and simplify it to make chasing a goal easier and faster for everyone involved.
 
-I get the right people and the right tools working together to transform systems into highly efficient machines.
+> I like to get the right people and the right tools working together to transform sub-par systems into highly effective machines.
 
 I don't associate with a single job title or label, which makes it incredibly hard to explain what I do, the idea of this site is to showcase a little of how I think in order to not have to explain myself with spoken words as often as I feel forced to.
 
