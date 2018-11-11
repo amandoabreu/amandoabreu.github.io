@@ -22,6 +22,8 @@ If you ask more questions, you'll find that there is a near infinite number of a
 
 I say nearly infinite because our perception doesn't require knowing whether the universe is truly infinite or not, we're too small for that.
 
+Since we're talking about near-infinite sizes, and that no matter how big your perception is, it's still nothing compared to what's out there, the only way to increase the perception of an organization is by working together and sharing perceptions. But the human aspect gets in the way of this.
+
 The hardest part is knowing where to draw the line. When do leaders stop trying to get closer to +∞, and when do engineers stop trying to get closer to -∞? The answer will transform your business as it will help you understand what to do, and when, much more clearly.
 
 You can achieve this by starting with very different tests and slowly making them more granular. Choosing the right tests is more important that the tests themselves and is where most go wrong.
