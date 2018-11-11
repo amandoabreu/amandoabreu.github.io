@@ -10,7 +10,7 @@ listed: yes
 
 First of all, I think we all feel that the world is super fucking complicated.
 
-As I worked for different organizations of different sizes and with different people and cultures, the true size of the complexity at hand showed itself. And, since I've working on both the big picture(Project Management) and details(Engineering), I can assure you that it's even more complicated than you imagine.
+As I worked for different organizations of different sizes and with different people and cultures, the true size of the complexity at hand showed itself. And, since I've worked on both the big picture(Project Management) and details(Engineering), I can assure you that it's even more complicated than you imagine.
 
 The details are nearly infinite, and the big picture is also nearly infinite, as it's harder to ignore the 4th dimension(time) when doing business plans as it is when writing code(in fact, the best engineers also take time seriously into account, but they don't have as much skin in the game, so if something goes wrong they can just leave).
 
@@ -23,6 +23,8 @@ If you ask more questions, you'll find that there is a near infinite number of a
 I say nearly infinite because our perception doesn't require knowing whether the universe is truly infinite or not, we're too small for that.
 
 The hardest part is knowing where to draw the line. When do leaders stop trying to get closer to +∞, and when do engineers stop trying to get closer to -∞? The answer will transform your business as it will help you understand what to do, and when, much more clearly.
+
+You can achieve this by starting with very different tests and slowly making them more granular. Choosing the right tests is more important that the tests themselves and is where most go wrong.
 
 # A little about my history:
 
