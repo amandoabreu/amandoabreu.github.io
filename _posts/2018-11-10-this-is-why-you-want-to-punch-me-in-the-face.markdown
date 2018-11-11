@@ -25,7 +25,7 @@ The truth is, I’m serious most of the time(and try to make it obvious when I�
 
 > But, Amando, how can you be serious about this one thing in particular? Are you dumb?
 
-The answer is simple, we think very differently. I’m not saying my thoughts are superior or inferior to yours, just different. I assume we lived very different lives, had different upbringing, and that affects how we think because we look at things from very different perspectives.
+The answer is simple, we think very differently. I’m not saying my thoughts are superior or inferior to yours, I just express them differently. I assume we lived very different lives, had different upbringing, and that affects how we think because we look at things from very different perspectives.
 
 ### I try very hard to not fall into the trap of underestimating those who disagree with me.
 
