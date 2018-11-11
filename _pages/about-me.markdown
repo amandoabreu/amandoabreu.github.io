@@ -12,7 +12,7 @@ During my career as an engineer, I found myself either with incredibly different
 
 Upper-management was always incredibly big picture oriented, naturally. And engineers were mostly detail oriented.
 
-## Where this go wrong in organizations
+## Where this goes wrong in organizations
 
 The funny phenomenon that will now seem very obvious, is that upper-management tended to assume the details would sort themselves out(or else). And engineers tended to assume the big picture would also sort itself out. Both sides assumed and hoped the other side knew better, failing to realize that the failure to communicate these assumptions would be the cause of all the problems every organization will always have. Nearly every single tool your business uses internally is an attempt at making similar knowledge transfer processes easier(either between upper management and engineers, or upper-management and finance, upper-management and sales, etc). Unless you're in the top 1% of businesses(think google, amazon, facebook, etc), bad tools will lead to worse work comparatively to others with slightly better tools. This makes you less competitive.
 
