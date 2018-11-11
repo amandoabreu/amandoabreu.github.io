@@ -7,7 +7,7 @@ listed: yes
 ---
 ## My motivation to write
 
-Ever since I was young, I discovered that I'm good at picking up patterns. So, I spent a lot of time trying to pick up more patterns, and even patterns of the patterns.
+Ever since I was young, I discovered that I'm good at picking up patterns. So, I spent a lot of time trying to pick up more patterns, and even patterns of the patterns. If I figure out how something works, I proceed to document my findings, and move onto something else.
 
 When I pick up some patterns, I like to make a rough outline of them and systematically apply them to things other than where I discovered them. Sometimes the results are insanely dumb, other times insanely precise. I'm aware of this, and diligently test the theoretical results against the real world.(if you catch me in a test phase, I'm actively thinking out loud, and you will think I'm an asshole).
 
@@ -19,7 +19,7 @@ During my career as an engineer, I found myself either with incredibly different
 
 Upper-management was always incredibly big picture oriented, naturally. And engineers were mostly detail oriented.
 
-The funny phenomenon that will now seem very obvious, is that upper-management tended to assumed the details would sort themselves out(or else). And engineers tended to assume the big picture would sort itself. Both sides assumed and hoped the other side knew better, failing to realize that the failure to communicate these assumptions would be the cause of all the problems every organization will always have.
+The funny phenomenon that will now seem very obvious, is that upper-management tended to assumed the details would sort themselves out(or else). And engineers tended to assume the big picture would sort itself. Both sides assumed and hoped the other side knew better, failing to realize that the failure to communicate these assumptions would be the cause of all the problems every organization will always have. Every single tool your business uses internally is an attempt at making similar processes easier(either between upper management and engineers, or upper-management and finance, etc)
 
 This lead me on a search for how to better understand humans to improve collaboration, and is arguably my favourite thing to do.
 
