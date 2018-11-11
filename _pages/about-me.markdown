@@ -72,4 +72,4 @@ I used to suffer a lot from paralysis by analysis, but for topics I know well, i
 
 ### My one goal is:
 
-## To improve communication and collaboration worldwide(human->machine and human->human, I don't like machine->human and think it's dangerous).
+## To improve communication and collaboration worldwide(human->machine and human->human, I don't like machine->human yet(ask me why)).
