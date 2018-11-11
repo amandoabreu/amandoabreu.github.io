@@ -6,6 +6,7 @@ author: Amando Abreu
 categories:
 comments: true
 newsletter: true
+show: false
 image: /assets/images/posts/punch.jpeg
 ---
 
