@@ -9,15 +9,27 @@ publish_mode: editorial_workflow
 media_folder: "assets/images/posts" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "wrote"
+  - name: "posts"
     label: "Post"
     folder: "_posts"
     create: true
+    slug: "{{year}}-{{day}}-{{month}}-{{slug}}"
     fields:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['.{20,}', "Must have at least 20 characters"]
+        pattern: ['.{20,}', "Must have at least 10 characters"]
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Newsletter", name: "newsletter", widget: "boolean", default: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "Amando Abreu"
+      - label: "Category"
+        name: "category"
+        widget: "string"
+        required: false
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
