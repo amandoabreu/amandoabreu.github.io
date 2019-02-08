@@ -6,6 +6,7 @@ author: Amando Abreu
 categories: lisp programming
 comments: true
 newsletter: true
+language: en
 image: /assets/images/posts/lisp.png
 ---
 
