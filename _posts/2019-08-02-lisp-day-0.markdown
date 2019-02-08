@@ -1,0 +1,48 @@
+---
+layout: page
+title:  "Lisp: Day 0"
+date:   2019-02-08 08:00:00 +0200
+author: Amando Abreu
+categories: lisp programming
+comments: true
+newsletter: true
+image: /assets/images/posts/lisp.png
+---
+
+The first time I heard the term "linked list" was in the beginning of 2017 when reading
+[JavaScript Allongé the 6th](https://leanpub.com/javascriptallongesix/read)
+
+Turns out it's from an *obscure* language called Lisp, which literally stands for List Processor. I immeditately assumed it was created by Oskar Schindler, but it turns out it was a guy called John McCarthy.
+
+2 years later I decided to investigate more about Lisp, and found [this site](http://wordsandbuttons.online/learn_you_a_lisp_in_0_minutes.html) that claims most people already know some Lisp.
+
+*Wait... I already know some Lisp?*
+
+Turns out that if you look at this for about 1 minute it all makes sense. Might be even faster if your algorithm tekkers are fresh and you can extrapolate what qs means in the context of algorithms.
+
+{% highlight lisp %}
+(define (qs xs)
+  (if (empty? xs)
+      (list )
+      (let (
+        (middle (first xs))
+        (others (rest xs)))
+        (let (
+          (left (filter (lambda (x) (<= x middle)) others))
+          (right (filter (lambda (x) (> x middle)) others)))
+            (append (qs left) (cons middle (qs right)))))))
+            
+(qs (list 4 5 1 2 3))
+{% endhighlight %}
+
+So, what next?
+
+> Consider this. If practicing with JavaScript, or Python, or C#, or whatever your primary language is made you unknowingly learn some Lisp, then shouldn’t it work the other way around as well?
+
+Perhaps I will attempt to write a [GIMP Plugin](https://docs.gimp.org/en/gimp-using-script-fu-tutorial.html) if an idea pops up, either before or after reading [Land of Lisp](http://landoflisp.com/) which is about 4 books away from being read, but I find that having a reason to do something(such as implementing an idea) is a powerful way to learn. Without an idea, or a goal that is bigger than just learning for the sake of learning, I find it hard to stay interested.
+
+> A robotics expert once said: "I'll never be a match for the desperate trial-and-error attempts of an amateur" - Kazuya Kanemaru, CEO, On-Art Inc. "If Dinosaurs Moved"
+
+
+
+
