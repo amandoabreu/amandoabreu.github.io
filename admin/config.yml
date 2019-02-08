@@ -12,8 +12,8 @@ collections:
   - name: "posts"
     label: "Post"
     folder: "_posts"
-    filter:
-      field: language
-      value: en
     fields:
-      - {label: "Language", name: "language"}
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['.{20,}', "Must have at least 20 characters"]
