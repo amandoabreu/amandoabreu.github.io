@@ -17,3 +17,6 @@ collections:
         name: "title"
         widget: "string"
         pattern: ['.{20,}', "Must have at least 20 characters"]
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
