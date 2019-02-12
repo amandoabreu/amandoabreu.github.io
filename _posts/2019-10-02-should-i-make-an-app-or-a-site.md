@@ -1,5 +1,5 @@
 ---
-title: Should I make an app or a site? And introducing player number 3.
+title: App VS Site? And introducing player number 3.
 layout: page
 newsletter: true
 comments: true
