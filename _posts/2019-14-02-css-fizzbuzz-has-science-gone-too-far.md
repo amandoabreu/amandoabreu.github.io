@@ -7,7 +7,9 @@ comments: true
 author: Amando Abreu
 date: '2017-08-14 03:28:00'
 ---
-Recently at an interview instead of checking whether or not I had a pulse, it was requested that I solve the FizzBuzz challenge in a language of my choice. I naturally chose CSS.
+Recently at an interview instead of checking whether or not I had a pulse, it was requested that I solve the FizzBuzz challenge in a language of my choice. 
+
+Naturally, I chose CSS.
 
 "Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”."
 
@@ -15,21 +17,29 @@ It's insanely simple.
 
 To not display the number, for every 3rd and 5th element, set the font-size to 0.
 
-```
-li:nth-child(3n), li:nth-child(5n){    font-size:0px;}
-```
+<figure class="highlight"><pre><code class="language-css" data-lang="css">
+li:nth-child(3n), li:nth-child(5n){    
+    font-size:0px;
+}
+</code></pre></figure>
 
 To display Fizz for every multiple of 3, for every 3rd element, write "Fizz" with the :before pseudo element.
 
-```
-li:nth-child(3n):before{    content: 'Fizz';     font-size:15px;}
-```
+<figure class="highlight"><pre><code class="language-css" data-lang="css">
+li:nth-child(3n):before{
+    content: 'Fizz';     
+    font-size:15px;
+}
+</code></pre></figure>
 
 To display "Buzz" for every multiple of 5, for every 5th element, write "Buzz" with the :before pseudo element.
 
-```
-li:nth-child(5n):after{     content: 'Buzz';    font-size:15px;}
-```
+<figure class="highlight"><pre><code class="language-css" data-lang="css">
+li:nth-child(5n):after{     
+    content: 'Buzz';    
+    font-size:15px;
+}
+</code></pre></figure>
 
 "FizzBuzz" comes for free whenever every 3rd and every 5th elements are the same.
 
