@@ -5,6 +5,7 @@ image: /assets/images/posts/full.jpg
 newsletter: false
 comments: true
 author: Amando Abreu
+category: robotics
 date: '2010-07-29 02:18:00'
 ---
 AATV stands for Autonomous All Terrain Vehicle.
@@ -14,8 +15,6 @@ Features a fully custom metal chassis, and "tank" like tracks.
 Motors and drive system taken from two battery powered drills that each cost 15€.
 
 Radio controlled with some assist sensors in case connection breaks
-
-
 
 Actuators / output devices: Two 18v drill motors
 
@@ -55,25 +54,17 @@ Sketch up picture of chassis:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CYRbkZ2H5Ac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
 ## UPDATE: Problems
 
 Managed to remove the friction clutches, meaning I can now mount the motors properly, but unfortunately I have to remake the chassis.
-
-
 
 So instead of keeping the same chassis style I'm going for something more like this:
 
 ![](/assets/images/posts/335bg2w.jpg)
 
-
-
 ## UPDATE: Problem fixed
 
 I ended up only raising the front of the chassis as raising both would make it too short and prone to tipping over.
-
-
 
 ![](/assets/images/posts/p5pb6776597.jpg)
 
