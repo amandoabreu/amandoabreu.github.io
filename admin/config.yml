@@ -33,6 +33,30 @@ collections:
         widget: "string"
         required: false
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name: "built"
+    label: "Robot"
+    folder: "_built"
+    create: true
+    slug: "{{year}}-{{day}}-{{month}}-{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: ['.{20,}', "Must have at least 10 characters"]
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Newsletter", name: "newsletter", widget: "boolean", default: false}
+      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - label: "Author"
+        name: "author"
+        widget: "string"
+        default: "Amando Abreu"
+      - label: "Category"
+        name: "category"
+        widget: "string"
+        required: false
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
   - name: "read"
     label: "Book"
     folder: "_read"
