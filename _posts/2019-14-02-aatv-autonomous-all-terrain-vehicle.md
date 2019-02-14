@@ -8,6 +8,13 @@ author: Amando Abreu
 category: robotics
 date: '2010-07-29 02:18:00'
 ---
+Previously posted on:
+
+* letsmakerobots(now called robotshop community): <https://www.robotshop.com/community/robots/show/autonomous-all-terrain-vehicle-aka-aatv>
+* Lusorobotica(Portuguese): <https://lusorobotica.com/index.php?topic=2628.0>
+
+Tutorial on how to make the tracks here: <https://www.instructables.com/id/How-to-make-custom-and-strong-tank-tracks-for-very/>
+
 AATV stands for Autonomous All Terrain Vehicle.
 
 Features a fully custom metal chassis, and "tank" like tracks.
