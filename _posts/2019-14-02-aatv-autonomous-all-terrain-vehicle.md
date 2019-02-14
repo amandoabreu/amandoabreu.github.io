@@ -15,8 +15,6 @@ Previously posted on:
 
 Tutorial on how to make the tracks here: <https://www.instructables.com/id/How-to-make-custom-and-strong-tank-tracks-for-very/>
 
-
-
 AATV stands for Autonomous All Terrain Vehicle.
 
 Features a fully custom metal chassis, and "tank" like tracks.
