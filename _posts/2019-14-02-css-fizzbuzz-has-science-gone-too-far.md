@@ -1,6 +1,7 @@
 ---
 title: 'CSS FizzBuzz, has science gone too far?'
 layout: page
+image: /assets/images/posts/pic-fizzbuzz.png
 newsletter: false
 comments: true
 author: Amando Abreu
