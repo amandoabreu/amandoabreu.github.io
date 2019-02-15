@@ -94,4 +94,20 @@ If you know binary, you know what these numbers mean. They can be expressed as s
 
 128 is out of bounds for this data set, but if we run the function with n = 128(2<sup>8</sup>), we should get k(128) = 1. 
 
-After changing the input of our function, we indeed got k(128) = 1, why is that?
+After changing the input of our function, we indeed got k(128) = 1, why is that? Does it repeat forever?
+
+Let's try the first 100 2<sup>a</sup>. But wait, these numbers get very big very fast. Javascript can handle a maximum array size of 2<sup>32</sup>-1 according to the ECMA-262 5th Edition specification due to being bound by an unsigned 32-bit integer due to the ToUint32 abstract operation, so the closest power of two we can try is 2<sup>31</sup>. But my browser crashes.
+
+The biggest I can do in a few seconds is 2<sup>15</sup> = 32768. And it's true, it's equal to 1.
+
+So we can say that 
+
+if n = 2<sup>a</sup>
+
+then k(n) = 1.
+
+When doing this exercise manually it was less obvious, but the way I built the code made it more obvious as to why.
+
+In JavaScript, array keys start at 0. For everyone to kill the person to their left starting with person 1, is the same as filtering out/eliminating every person in a key whose modulo is equal to 0.
+
+.... to be continued
