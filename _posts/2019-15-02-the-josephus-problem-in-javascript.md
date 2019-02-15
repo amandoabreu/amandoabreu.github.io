@@ -47,7 +47,7 @@ Remaining are:
 
 1,3,5,7,9
 
-we now start at 9.
+we now start at 9 because 1 is next to 9 if the numbers are arranged in a circle.
 
 9 kills 1
 
