@@ -1,6 +1,7 @@
 ---
 title: The Josephus Problem in JavaScript
 layout: page
+image: /assets/images/posts/1_yn0h5ii5_pa9zdz9fwg2rg.jpeg
 newsletter: false
 comments: true
 author: Amando Abreu
