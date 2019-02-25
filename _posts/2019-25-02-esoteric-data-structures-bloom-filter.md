@@ -1,5 +1,5 @@
 ---
-title: 'Esoteric data structures: Bloom Filter'
+title: 'Esoteric Data Structures '
 layout: page
 newsletter: false
 comments: true
