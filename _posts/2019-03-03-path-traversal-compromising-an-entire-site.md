@@ -5,7 +5,7 @@ image: /assets/images/posts/path.png
 newsletter: false
 comments: true
 author: Amando Abreu
-date: '2019-02-03 12:06:00'
+date: '2019-03-02 12:06:00'
 ---
 A friend of a friend wanted to see whether or not his site was secure.
 
