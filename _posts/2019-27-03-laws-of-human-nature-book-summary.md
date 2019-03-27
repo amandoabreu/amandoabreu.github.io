@@ -1,5 +1,5 @@
 ---
-title: '"Laws of Human Nature" book summary'
+title: '"Laws of Human Nature" book review'
 layout: page
 newsletter: false
 comments: true
