@@ -26,6 +26,12 @@ Me: "Hey, I'm here for the coursera certificates"
 
 Him: "Hey. Yes. I can give you all the premium courses, Google IT, CIRCO Networking, Python, etc"
 
+
+
+> Coursera ensures that all certificates earned are secure, carry identity verification and have academic integrity.
+
+Does it? <https://blog.coursera.org/verified-certificates-ensure-academic-integrity/>
+
 > “You wasted $150,000 on an education you coulda got for $1.50 in late fees at the public library.”
 
 So, is education about the results, or is it a filter for those who can afford it? If we make education free and/or incredibly cheap, then what exactly what are filtering?
