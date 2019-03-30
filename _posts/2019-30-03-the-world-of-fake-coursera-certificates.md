@@ -16,23 +16,19 @@ But there's still a problem. What if cheating IS hard, but some of the smarter c
 
 # Fake Verifiable Coursera Certificates
 
-The title of the thread read "100+ COURSES / CHEAP / VERIFIABLE & AUTHENTIC". 
-
 ![](/assets/images/posts/coursera.jpg)
 
 I like a good security vulnerability as much as the next guy, so I got curious. Is this due to a vulnerability? If so, I'm gonna try to get the guy to fess up, and then I'll simply report it to coursera and my good deed for the day is done.
 
+I add him on skype.
 
+Me: "Hey, I'm here for the coursera certificates"
 
-
-
-
+Him: "Hey. Yes. I can give you all the premium courses, Google IT, CIRCO Networking, Python, etc"
 
 > “You wasted $150,000 on an education you coulda got for $1.50 in late fees at the public library.”
 
 So, is education about the results, or is it a filter for those who can afford it? If we make education free and/or incredibly cheap, then what exactly what are filtering?
-
-
 
 The current education paradigm has many flaws, but that's because it's super complicated. How many people do you know that spent a lot of money and time on their education to end up doing something completely different?
 
