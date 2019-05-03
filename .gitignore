@@ -3,7 +3,6 @@
 .sass-cache
 .idea/
 _site
-Gemfile.lock
 _assets/node_modules/
 _private/*
 _assets/images/
