@@ -1,8 +1,8 @@
 
   <div class="centerwrapper centerwrapper--wide">
-    <div class="container">
-      {% assign sorted = site.posts | sort:"date" %}
-      {% for item in sorted reversed %}
+    <div class="container {{ page.path }}">
+      {% assign sorted = site.posts %}
+      {% for item in sorted limit:7 %}
         {% assign img = false %}
         {% if item.image %}
             {% assign img = item.image %}
@@ -10,7 +10,6 @@
         {% if item.desktop_images[0].image_path %}
             {% assign img = site.s3_base | append: item.desktop_images[0].image_path %}
         {% endif %}
-          {% if item.show != false %}
             <article class="post">
               <img width="660" height="478" src="{{ img }}" class="post-image" alt="post-image">
               <section class="post-content">
@@ -24,7 +23,24 @@
                 </div>
               </section>
             </article>
-          {% endif %}
       {% endfor %}
+
+
+
+
+
+      <div class="centerwrapper centerwrapper--medium">
+      <ul class="listing">
+            <li class="listing__li">
+                <a class="listing__link block" href="/blog/">
+                    <div class="listing__item">
+                        <div class="listing__type">More articles</div>
+                        <h3 class="listing__title">See more articles</h3>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        </div>
+
     </div>
   </div>

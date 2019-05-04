@@ -78,7 +78,7 @@
               Blog
           </a>
         </li>
-        {% for post in site.posts %}
+        {% for post in site.posts limit:4 %}
         <li class="main-nav__element">
             <a class="main-nav__link" href="{{ post.url }}">
                 {{ post.title }}

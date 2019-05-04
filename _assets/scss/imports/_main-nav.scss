@@ -14,7 +14,7 @@
   transition: left 200ms ease-in-out;
   box-shadow: 0px 6px 6px #999; /* Adjust */
 
-  overflow-y: inherit;
+  overflow-y: scroll; 
   &:before{
     display: block;
     content: " ";
