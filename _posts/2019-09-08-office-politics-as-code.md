@@ -10,10 +10,8 @@ We can have our infrastructure as code, so why not our office politics? Everyone
 
 I have created 
 
-
-
 Here is an example file for a team of 5:
 
 ```
-company: Potato GmbHpeople:- name: Michael  type: Manager  ego: fragile- name: Dwight
+company: Potato GmbHpeople:- name: Michael    type: Manager    ego: fragile- name: Dwight
 ```
