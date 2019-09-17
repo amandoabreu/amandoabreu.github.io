@@ -1,5 +1,5 @@
 ---
-title: Useful command I use all the time
+title: Useful commands I use all the time
 layout: page
 newsletter: false
 comments: true
