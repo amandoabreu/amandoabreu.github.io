@@ -14,7 +14,7 @@ img{
   max-width: 100%;
 }
 
-.scroll-x, .highlight{
+.scroll-x, pre.highlight{
   overflow-x:scroll;
   width: 100%;
   margin-left: 0;
@@ -60,4 +60,8 @@ a{
 .highlighter-rouge{
   background:#eee;
   font-size:0.8em;
+}
+
+code{
+  font-size:1.4em !important;
 }
