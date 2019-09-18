@@ -18,7 +18,7 @@ title: Simples theme
 email: amando.abreu@gmail.com
 name: Amando Abreu
 description: > # this means to ignore newlines until "baseurl:"
-  Amando Abreu, Tech And People Generalist.
+  Personal blog
 keywords: >
   Amando Abreu, Business Development, IT, DevOps, Development, Web Development, Infrastructure
 baseurl: "/" # the subpath of your site, e.g. /blog
