@@ -1,5 +1,5 @@
 ---
-title: Using Varnish with WordPress
+title: Using Varnish with WordPress on Lightsail
 layout: page
 newsletter: false
 comments: true
