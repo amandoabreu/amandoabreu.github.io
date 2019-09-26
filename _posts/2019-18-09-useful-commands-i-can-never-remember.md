@@ -15,3 +15,19 @@ find all .sql files in directory called dirname/
 ```sudo du -a /dir/ | sort -n -r | head -n 20```
 
 Find and order the 20th largest files in a server in /dir/
+
+```grep 'PRETTY_NAME' /etc/*release | cut -d'=' -f2```
+
+Get only the value of 'PRETTY_NAME' of the /etc/*release file that may look like this:
+
+```
+NAME="Amazon Linux"
+VERSION="2"
+ID="amzn"
+ID_LIKE="centos rhel fedora"
+VERSION_ID="2"
+PRETTY_NAME="Amazon Linux 2"
+ANSI_COLOR="0;33"
+CPE_NAME="cpe:2.3:o:amazon:amazon_linux:2"
+HOME_URL="https://amazonlinux.com/"
+```
