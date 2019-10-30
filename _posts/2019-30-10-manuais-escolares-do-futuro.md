@@ -1,5 +1,5 @@
 ---
-title: Manuais escolares do futuro
+title: Manuais escolares do futuro?
 layout: page
 newsletter: false
 comments: true
