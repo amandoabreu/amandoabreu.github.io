@@ -43,7 +43,9 @@ Live prep map here: <!--StartFragment-->
 
 ### Totland/Frotveit(cross country/fjellski only)
 
-Distance
+**Getting there**
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d73054.97234720219!2d5.3353367682207455!3d60.338535415438834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x463cfea43b3317d3%3A0x583d19ca7af47f9!2sSentrum%2C%20Bergen!3m2!1d60.389814099999995!2d5.333338899999999!4m5!1s0x0%3A0x4bc8c83df74c5e18!2sFrotveit%20G%C3%A5rd!3m2!1d60.313783799999996!2d5.4712366999999995!5e1!3m2!1sen!2sno!4v1582807070435!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 30 minutes by car
 
@@ -79,7 +81,17 @@ After heavy snow it's quite often not possible to drive here without 4x4 because
 
 **Getting there**
 
-45 minutes by car
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d145852.21383736766!2d5.469752420190181!3d60.39607650058937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x463cfea43b3317d3%3A0x583d19ca7af47f9!2sSentrum%2C%20Bergen!3m2!1d60.389814099999995!2d5.333338899999999!4m5!1s0x463c4b9b0f94e96d%3A0x3c22fad471523532!2sEikedalen%20Skisenter%2C%20Tysse!3m2!1d60.396539999999995!2d5.915128999999999!5e1!3m2!1sen!2sno!4v1582807122723!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+60 minutes by car
+
+Facebook:
+
+<!--StartFragment-->
+
+<https://www.facebook.com/EikedalenSkisenter/>
+
+<!--EndFragment-->
 
 ### Voss
 
