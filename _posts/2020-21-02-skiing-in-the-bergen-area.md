@@ -155,13 +155,27 @@ Live prep map: <!--StartFragment-->
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d289693.11465910973!2d5.62625414483483!3d60.62028696628188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x463cfea43b3317d3%3A0x583d19ca7af47f9!2sSentrum%2C%20Bergen!3m2!1d60.389814099999995!2d5.333338899999999!4m5!1s0x463de64ec3705df3%3A0xaaabf75660473cd2!2sMyrkdalen%20Fjellandsby%2C%20Klypeteigane%2C%20Vossestrand!3m2!1d60.8569477!2d6.4916963!5e1!3m2!1sen!2sno!4v1582807473480!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-2 hours minutes by car
+2 hours by car
 
-2 hours minutes by train + bus(same train to voss, free bus from the train station to Myrkdalen)
+2 hours by train + bus. You take the same train to voss, and there is a free transfer bus from the train station to Myrkdalen: <!--StartFragment-->
 
-**Conditions**
+<https://www.myrkdalen.no/en/bus-train>
 
-Live prep map here: <!--StartFragment-->
+<!--EndFragment-->
+
+It's possible to buy a ticket that includes the train + lift pass and it's reasonably priced.
+
+
+
+**Conditions** 
+
+<!--StartFragment-->
+
+<https://www.myrkdalen.no/en/weather-and-webcam>
+
+<!--EndFragment-->
+
+Live prep map here(cross country): <!--StartFragment-->
 
 <https://loyper.net/#myrkdalen>
 
@@ -185,7 +199,9 @@ More info here: <!--StartFragment-->
 
 **Cost**
 
-fuel + 160kr in tolls
+Car: fuel + 160kr in tolls + 148kr ferry each way(updated 2020)
+
+Bus: <https://www.folgefonn.no/en/practical-information/getting-here>
 
 **Notes:**
 
