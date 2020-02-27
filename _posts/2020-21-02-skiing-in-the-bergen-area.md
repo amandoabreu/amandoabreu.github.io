@@ -15,7 +15,7 @@ There are 5 regions close to bergen for skiing in winter, and 1 location in Summ
 
 **Getting there**
 
-You take the gondola up to Fløyen as usual, and walk up the road until you reach the trails that were prepared. Sometimes you can ski right out of Fløyen, other times you have to walk up almost to Brushytten.
+You take the gondola up to Fløyen as usual, and walk up the road until you reach the trails that were prepared. Sometimes you can ski right out of Fløyen, other times you have to walk up almost to Brushytten. 
 
 **Cost**
 
@@ -40,6 +40,10 @@ Live prep map here: <!--StartFragment-->
 <https://loyper.net/#floyen>
 
 <!--EndFragment-->
+
+**Notes**
+
+Sometimes the trails are prepared but there is just too little snow. Don't use new skis on those days.
 
 ### Totland/Frotveit(cross country/fjellski only)
 
@@ -97,6 +101,8 @@ Facebook:
 
 **Getting there**
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d290631.36935323454!2d5.58300202946921!3d60.51575706995731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x463cfea43b3317d3%3A0x583d19ca7af47f9!2sSentrum%2C%20Bergen!3m2!1d60.389814099999995!2d5.333338899999999!4m5!1s0x463dda94c103088d%3A0x48cb67552e0d2baa!2sVossevangen!3m2!1d60.6295624!2d6.4221512!5e1!3m2!1sen!2sno!4v1582807402930!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
 60 minutes by car(100km) 
 
 60 minutes by train
@@ -131,6 +137,8 @@ Prep map:
 
 #### Voss ski og tursenter
 
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d36218.9380988962!2d6.430004441784717!3d60.61378492433209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x463dda94c103088d%3A0x48cb67552e0d2baa!2sVossevangen!3m2!1d60.6295624!2d6.4221512!4m5!1s0x463dda97ff42c7bb%3A0x5ff7350dd4bd8716!2sVoss%20ski-%20og%20tursenter%2C%20Voss%20Municipality!3m2!1d60.613370599999996!2d6.4747314!5e1!3m2!1sen!2sno!4v1582807449012!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
 Facebook page
 
 <!--StartFragment-->
@@ -147,9 +155,11 @@ Live prep map: <!--StartFragment-->
 
 ### Myrkdalen
 
-90 minutes by car
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d289693.11465910973!2d5.62625414483483!3d60.62028696628188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x463cfea43b3317d3%3A0x583d19ca7af47f9!2sSentrum%2C%20Bergen!3m2!1d60.389814099999995!2d5.333338899999999!4m5!1s0x463de64ec3705df3%3A0xaaabf75660473cd2!2sMyrkdalen%20Fjellandsby%2C%20Klypeteigane%2C%20Vossestrand!3m2!1d60.8569477!2d6.4916963!5e1!3m2!1sen!2sno!4v1582807473480!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-90 minutes by train + bus(same train to voss, free bus from the train station to Myrkdalen)
+2 hours minutes by car
+
+2 hours minutes by train + bus(same train to voss, free bus from the train station to Myrkdalen)
 
 **Conditions**
 
@@ -161,6 +171,12 @@ Live prep map here: <!--StartFragment-->
 
 ### Folgefonna glacier(Summer)
 
+**Getting there**
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d292380.2316179489!2d5.588401157585463!3d60.320629673914105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x463cfea43b3317d3%3A0x583d19ca7af47f9!2sSentrum%2C%20Bergen!3m2!1d60.389814099999995!2d5.333338899999999!4m5!1s0x463c260f2b817db1%3A0x973973264eebf72d!2sFONNA%20Glacier%20Ski%20Resort%2C%20Jondal!3m2!1d60.226558!2d6.433095!5e1!3m2!1sen!2sno!4v1582807527774!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+2:30 minutes by car, includes a ferry.
+
 If you want to ski in summer, it's also possible. At the resort you can do downhill skiing and cross country, but at your own peril you're able to do whatever you want anywhere on the glacier, including staying over at a DNT cabin!
 
 
@@ -169,4 +185,6 @@ If you want to ski in summer, it's also possible. At the resort you can do downh
 
 Ulriken also has skiing conditions sometimes for mostly fjellski, randonee, or touring. Nothing is prepared, and I recommend going with someone that knows the area first to avoid some dangers.
 
-Going by car can be affected by weather(avalanches, ice) and traffic, so if you go during a weekend with good conditions(sunny, no wind, good snow) I recommend taking the train or you're pretty much guaranteed to be in traffic for a while. If you live outside the sentrum, you can drive to Arna train station and go from there.
+Going by car can be affected by weather(avalanches, ice) and traffic, so if you go during a weekend with good conditions(sunny, no wind, good snow) I recommend taking the train or you're pretty much guaranteed to be in traffic for a while. If you live outside the Sentrum you can drive to Arna train station and go from there.
+
+Once you get more comfortable with skiing it's possible to use "fjellski", which basically means you can go anywhere that you can hike and then ski back down. It's quite popular here.
