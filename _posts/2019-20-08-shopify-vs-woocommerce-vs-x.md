@@ -1,5 +1,5 @@
 ---
-title: Shopify VS Woocommerce VS X
+title: 'Shopify VS WP + Woocommerce '
 layout: page
 newsletter: false
 comments: true
