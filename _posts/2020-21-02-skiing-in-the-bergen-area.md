@@ -7,8 +7,6 @@ comments: true
 author: Amando Abreu
 date: '2020-02-21 10:33:15'
 ---
-# Locations and getting there:
-
 There are 5 regions close to bergen for skiing in winter, and 1 location in Summer.
 
 ### Fløyen(Cross country/fjellski only)
@@ -171,15 +169,23 @@ Live prep map here: <!--StartFragment-->
 
 ### Folgefonna glacier(Summer)
 
+If you want to ski in summer, it's also possible. At the resort you can do downhill skiing and cross country, but at your own peril you're able to do whatever you want anywhere on the glacier, including staying over at a DNT cabin!
+
 **Getting there**
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d292380.2316179489!2d5.588401157585463!3d60.320629673914105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e0!4m5!1s0x463cfea43b3317d3%3A0x583d19ca7af47f9!2sSentrum%2C%20Bergen!3m2!1d60.389814099999995!2d5.333338899999999!4m5!1s0x463c260f2b817db1%3A0x973973264eebf72d!2sFONNA%20Glacier%20Ski%20Resort%2C%20Jondal!3m2!1d60.226558!2d6.433095!5e1!3m2!1sen!2sno!4v1582807527774!5m2!1sen!2sno" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 2:30 minutes by car, includes a ferry.
 
-If you want to ski in summer, it's also possible. At the resort you can do downhill skiing and cross country, but at your own peril you're able to do whatever you want anywhere on the glacier, including staying over at a DNT cabin!
+More info here: <!--StartFragment-->
 
+<https://www.folgefonn.no/en/practical-information/getting-here>
 
+<!--EndFragment-->
+
+**Cost**
+
+fuel + 160kr in tolls
 
 **Notes:**
 
