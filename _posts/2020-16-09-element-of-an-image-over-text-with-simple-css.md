@@ -24,13 +24,13 @@ If we were to put the text over this image, it would simply go over everything, 
 \
 Now we need image number two. We're going to need to edit this image and remove the elements we want to be "behind" the text.\
 \
-In my case, I remove everything except the EIfel Tower.
+In my case, I remove everything except the Eifel Tower.
 
 ![](/assets/images/posts/yi1ctss.jpg)
 
 This image we will use as a background image of our text, and use a background clipping mask(at he time of writing this was a webkit specific rule for chrome and some other webkit browsers).\
 \
-In the end, you get this:
+In the end, you get this(view at 0.5x for simplicity):
 
 <p class="codepen" data-height="434" data-theme-id="light" data-default-tab="css,result" data-user="amando96" data-slug-hash="LkgNLL" style="height: 434px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Responsive image layer over text ">
   <span>See the Pen <a href="https://codepen.io/amando96/pen/LkgNLL">
