@@ -8,7 +8,7 @@ author: Amando Abreu
 category: css, design
 date: 2016-04-10 03:01:00
 ---
-A while ago at the room5 blog we pondered about having some fancy looking titles for some special posts. I played around with the possibility of having an element of the image "stick out" and go over the text of the title. As the image shows.
+A while ago at the [room5/trivago magazine](https://magazine.trivago.com/) blog we pondered about having some fancy looking titles for some special posts. I played around with the possibility of having an element of the image "stick out" and go over the text of the title. As the image shows.
 
 OK, so how?
 
