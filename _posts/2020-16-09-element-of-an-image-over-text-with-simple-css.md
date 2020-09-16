@@ -10,8 +10,8 @@ date: 2016-04-10 03:01:00
 ---
 A while ago at the room5 blog we pondered about having some fancy looking titles for some special posts. I played around with the possibility of having an element of the image "stick out" and go over the text of the title. As the image shows.
 
-OK, so how?\
-\
+OK, so how?
+
 The sad part is that it needs some image editing, and you need two images.
 
 The first image is the whole image with all the elements therein.\
@@ -19,8 +19,6 @@ The first image is the whole image with all the elements therein.\
 Mine looks like this:
 
 ![](/assets/images/posts/knty6sb.jpg)
-
-
 
 If we were to put the text over this image, it would simply go over everything, including the Eifel Tower.\
 \
