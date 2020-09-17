@@ -38,10 +38,10 @@ Ok you got me, this one isn't a myth. But there are a lot of cheap vendors of an
 
 # Myth 4: "WordPress has thousands of developers working on security"
 
-If you were to have your own application, you'd have one developer working on security. So what's wrong wit having literally thousads of developers contributing to the open source WP project?
+If you were to have your own application, you'd have one developer working on security. So what's wrong with having literally thousands of developers contributing to the open source WP project? Nothing.
 
-The problem is that you also have tens of thousands of automated tools made specifically to exploit WordPress because it makes sense for malicious actors to automatically be able to scan 25% of the websites out there. It's fixeable, however, but the $5 an hour WordPress developer you hired doesn't really know how to.
+But the problem is that you also have tens of thousands of automated tools made specifically to exploit WordPress because it makes sense for malicious actors to automatically be able to scan 25% of the websites out there. It's fixeable, however, but the $5 an hour WordPress developer you hired doesn't really know how to.
 
 # Myth 5: "Lots of free plugins"
 
-Every free plugin you install turns your admin dashboard into ad space for the premium version of the plugin that happens to come with the feature you actually need. Most free plugins are very limited, and once you factor in the paid versions of what you need, your site ends up costing 10x your budget. Not to mention that eventually you want a custom tool and end up daisy-chaining 12 plugins to accomplish something that a decent developer could conjure up in 30 minutes.
+Every free plugin you install turns your admin dashboard into ad space for the premium version of the plugin that happens to come with the feature you actually need. Most free plugins are very limited, and once you factor in the paid versions of what you need, your site ends up costing 10x your budget. Not to mention that eventually you want a custom tool and end up daisy-chaining 12 plugins to accomplish something that a decent developer(not the $5 one) could conjure up in 30 minutes.
