@@ -6,4 +6,6 @@ comments: true
 author: Amando Abreu
 date: 2029-09-17 02:39:00
 ---
-Yes. See: peopleware music section. Speech processing in the brain
+The Cornell experiment, however, contained a hidden wild card. The specification required that an output data stream be formed through a series of manipulations on numbers in the input data stream. For example, participants had to shift each number two digits to the left and then divide by one hundred and so on, perhaps completing a dozen operations in total. Although the specification never said it, the net effect of all the operations was that each output number was necessarily equal to its input number. Some people realized this and others did not. Of those who figured it out, the overwhelming majority came from the quiet room.\
+\
+Many of the everyday tasks performed by professional workers are done in the serial processing center of the left brain. Music will not interfere particularly with this work, since it’s the brain’s holistic right side that digests music. But not all of the work is centered in the left brain. There is that occasional breakthrough that makes you say “Ahah!” and steers you toward an ingenious bypass that may save months or years of work. The creative leap involves right-brain function. If the right brain is busy listening to “1,001 Strings” on Muzak, the opportunity for a creative leap is lost.
