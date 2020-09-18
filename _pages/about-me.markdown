@@ -13,7 +13,7 @@ listed: yes
 
 4) Self-taught how to code(C for microcontrollers) at age 14(6 months after getting my first computer and using the internet) 
 
-5) Extremely intrinsically motivated towards making things
+5) Extremely intrinsically motivated towards making/creating things
 
 6) Can hyperfocus on a single topic for years if the occasion requires it
 
@@ -38,3 +38,7 @@ listed: yes
 16) No patience for corporate dogmas that punish everyone for a mistake someone did in a distant past 
 
 17) Noise is my kryptonite 
+
+18) Odd blend of being a dreamer yet very practical and reality-driven 
+
+19) High energy
