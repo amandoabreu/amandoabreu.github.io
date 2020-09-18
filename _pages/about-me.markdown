@@ -42,3 +42,5 @@ listed: yes
 18) Odd blend of being a dreamer yet very practical and reality-driven 
 
 19) High energy
+
+20) Extremely calculated and deliberate 
