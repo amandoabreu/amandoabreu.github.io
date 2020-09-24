@@ -1,10 +1,11 @@
 ---
 title: Useful commands I can never remember
 layout: page
+image: /assets/images/posts/ping-command.png
 newsletter: false
 comments: true
 author: Amando Abreu
-date: '2016-09-18 08:48:00'
+date: 2016-09-18 08:48:00
 ---
 A list of commands I use often but can't seem to be able to memorise.
 
