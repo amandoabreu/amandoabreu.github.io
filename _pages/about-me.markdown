@@ -5,7 +5,7 @@ newsletter: yes
 comments: no
 listed: yes
 ---
-1) Hate writing about myself
+1) Hate writing about myself so it will be in list form
 
 2) Nonlinear/divergent thinker 
 
@@ -44,3 +44,5 @@ listed: yes
 19) High energy
 
 20) Extremely calculated and deliberate 
+
+21) The only person I know that actually profitted from bitcoin
