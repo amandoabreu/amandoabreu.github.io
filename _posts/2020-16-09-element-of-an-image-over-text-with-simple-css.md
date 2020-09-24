@@ -30,7 +30,7 @@ In my case, I remove everything except the Eifel Tower.
 
 ![](/assets/images/posts/yi1ctss.jpg)
 
-This image we will use as a background image of our text element, and use a background clipping mask(at he time of writing this was a webkit specific rule for chrome and some other webkit browsers).
+This image we will use as a background image of our text element, and use a background clipping mask(at he time of writing this was a webkit specific rule for chrome and some other webkit browsers). This means the white of the image will actually be the colour of the text!
 
 In the end, you get this(view at 0.5x for simplicity):
 
