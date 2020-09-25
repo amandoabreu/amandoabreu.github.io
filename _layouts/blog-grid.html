@@ -13,10 +13,11 @@ layout: default
             {% assign img = site.s3_base | append: item.desktop_images[0].image_path %}
         {% endif %}
         {% if item.show != false %}
+        <a href="{{ item.url }}" style="text-decoration: none;">
       	<article class="post">
       		<img width="660" height="478" src="{{ img }}" class="post-image" alt="post-image">
       		<section class="post-content">
-      			<time class="post-date">{{ item.date | date_to_long_string }}</time>
+      			<time class="post-date" >{{ item.date | date_to_long_string }}</time>
       			<h1 class="post-title">{{ item.title }}</h1>
       			<p class="post-abstract">{% if post.excerpt %}
     {{ post.excerpt }}
@@ -25,7 +26,8 @@ layout: default
       				<a href="{{ item.url }}" class="post-link">Read more</a>
       			</div>
       		</section>
-      	</article>
+        </article>
+      </a>
         {% endif %}
       {% endfor %}
     </div>
