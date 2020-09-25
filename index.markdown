@@ -5,4 +5,4 @@ date:   2016-11-24 22:34:06 +0100
 me: "Amando Abreu"
 hello: "Hey there!"
 ---
-An expert generalist people-person that counts from zero.
+Expert generalist people-person that counts from zero.
