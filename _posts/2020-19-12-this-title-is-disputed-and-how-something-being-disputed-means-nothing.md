@@ -7,16 +7,15 @@ comments: true
 author: Amando Abreu
 date: 2020-12-19 02:46:27
 ---
-
-
 TL;DR; Mostly everything is or can be disputed.
-
 
 To put “This is disputed” warnings on only some of the things, you skew reality in favor of whomever you want, and control the narrative in a sly and cowardly way.
 
 ![](/assets/images/posts/galileo-disputed.png)
 
 Something being *disputed* doesn’t mean anything, the scientific method exists precisely because of this. Everything can be disputed, and most things are.
+
+![](/assets/images/posts/tt7lbat.jpg)
 
 > All things are subject to interpretation. whichever interpretation prevails at a given time is a function of power and not truth. — Friedrich Nietzsche
 
