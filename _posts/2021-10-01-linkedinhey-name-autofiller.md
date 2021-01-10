@@ -25,8 +25,9 @@ In comes LinkedinHey, a browser extension that autofills a greeting into the mes
 
 ![](/assets/images/posts/ezgif-3-b7a5af0788b5.gif)
 
-It automatically fills the message box with "Hey \[name]", and you can simply paste the message you want to send. This means you don't need to type at all. Just click the "Write a message..." area to autofill, and paste whatever you want to send.\
-\
+It automatically fills the message box with "Hey \[name]", and you can simply paste the message you want to send. This means you don't need to type at all. Just click the "Write a message..." area to autofill, and paste whatever you want to send.
+
+
 If you're messaging 350 people per week, this saves you 5 x 350 = 1750 seconds, or about 30 minutes. How much is 30 minutes worth? 
 
 You can use this extra time to message more people or to do other tasks such as adding contacts to your CRM.
