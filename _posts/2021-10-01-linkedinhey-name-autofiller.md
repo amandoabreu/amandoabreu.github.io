@@ -1,6 +1,7 @@
 ---
 title: LinkedinHey - Name Autofiller
 layout: page
+image: /assets/images/posts/frame-14-1-.jpg
 newsletter: false
 comments: true
 author: Amando Abreu
@@ -20,7 +21,7 @@ Half the messages I get call me "Armando" because someone wasn't paying attentio
 
 Which messages do you think I read more of? The ones who get my name right or the ones who don't?
 
-In comes LinkedinHey. 
+In comes LinkedinHey, a browser extension that autofills a greeting into the message field on Linkedin.
 
 ![](/assets/images/posts/ezgif-3-b7a5af0788b5.gif)
 
