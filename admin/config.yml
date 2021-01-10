@@ -65,7 +65,7 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-        pattern: ['.{20,}', "Must have at least 10 characters"]
+        pattern: ['.{1,}', "Must have at least 1 characters"]
       - {label: "Layout", name: "layout", widget: "hidden", default: "read"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}

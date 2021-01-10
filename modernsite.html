@@ -1,0 +1,465 @@
+<html lang="en" data-kantu="1"><head>
+
+    <meta charset="UTF-8">
+    
+  <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+  <meta name="apple-mobile-web-app-title" content="CodePen">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  
+  <link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  
+  
+    <title>CodePen - Shit UX</title>
+    
+    
+    
+    
+  <style>
+  @-webkit-keyframes load8 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes load8 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  button {
+    border: 0;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .m-privacy-consent {
+    background-color: rgba(60, 60, 60, 0.95);
+    bottom: 0;
+    color: white !important;
+    font-size: 17px !important;
+    font-weight: normal !important;
+    line-height: 1.5em !important;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 5000001;
+  }
+  
+  .m-privacy-consent__inner {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px;
+  }
+  
+  .m-privacy-consent__inner button:disabled {
+    background-color: #888;
+  }
+  
+  .m-privacy-consent__inner button {
+    background-color: #4f7177;
+    border: 1px solid white;
+    color: #ffffff;
+    display: block;
+    font-weight: bold;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 2em;
+    margin: 0 auto;
+    min-width: 200px;
+  }
+  
+  .m-privacy-consent__button-content {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .m-privacy-consent__inner a:hover {
+    color: #ccc !important;
+  }
+  
+  .m-privacy-consent__inner a {
+    color: white !important;
+    font-weight: bold;
+    text-decoration: underline !important;
+  }
+  
+  button:disabled .m-privacy-consent__hourglass {
+    display: block;
+  }
+  .m-privacy-consent__hourglass {
+    display: none;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-top: 3px solid rgba(255, 255, 255, 0.2);
+    border-right: 3px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    border-left: 3px solid #ffffff;
+    margin-right: 1em;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+  }
+  
+  .m-privacy-consent__hourglass,
+  .m-privacy-consent__hourglass:after {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 9999;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  #popup1 {
+    font-family: poppins;
+  }
+  #popup1 .popup {
+    margin: 0px auto;
+    padding: 50px 20px;
+    background: #fff;
+    border-radius: 0px;
+    height: 260px;
+    width: 690px;
+    position: relative;
+    text-align: center;
+    top: 50% !important;
+    position: fixed !important;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0px;
+    left: 0;
+  }
+  #popup1 .popup h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  #popup1 .popup .close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    background: #333;
+    border-radius: 0;
+    cursor: pointer;
+    float: right;
+    padding: 0;
+    color: #fff;
+    margin-top: 0;
+    margin-right: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 45px;
+  }
+  #popup1 .popup .close:hover {
+    color: #06d85f;
+  }
+  #popup1 .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  #popup1 .newletter-title h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 0 15px;
+  }
+  #popup1 .box-content label {
+    font-weight: 400;
+    max-width: 560px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .newletter-popup {
+    background: #fff;
+    top: 50% !important;
+    position: fixed !important;
+    padding: 0;
+    text-align: center;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  #popup1 #frm_subscribe #subscribe_pemail {
+    background: #ebebeb none repeat scroll 0% 0%;
+    border: medium none;
+    height: 40px;
+    width: 65%;
+    margin: 20px 0;
+    padding-left: 15px;
+  }
+  #popup1 #frm_subscribe a {
+    cursor: pointer;
+    border: none;
+    background: #333;
+    padding: 3px 25px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 34px;
+    display: inline-block;
+    border-radius: 0;
+    letter-spacing: 2px;
+  }
+  #popup1 .box-content .subscribe-bottom {
+    margin-top: 20px;
+  }
+  #popup1 .box-content .subscribe-bottom #newsletter_popup_dont_show_again {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    margin-top: -1px;
+  }
+  #popup1 .box-content .subscribe-bottom label {
+    margin: 0;
+    font-weight: 400;
+    max-width: 650px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  .adblockpopup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    display:none;
+    z-index: 9999;
+  }
+  
+  .adblockpopup-inner{
+    width:500px;
+    margin:10% auto;
+    background:white;
+    border: 1px solid black;
+    padding: 40px 20px;
+  }
+  
+  .text{
+    width:100%;
+    padding:40px 20px;
+    max-width: 600px;
+    margin:0 auto;
+    font-size:1.1em;
+  }
+  
+  .image-itw{
+    display:none;
+    background-image:url(https://i.imgur.com/3M6Ai5U.png);
+    background-color:red;
+    background-size:contain;
+    background-repeat:no-repeat;
+    width:379px;
+    height:213px;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    margin-left:-600px;
+  }
+  </style>
+  
+    <script>
+    window.console = window.console || function(t) {};
+  </script>
+  
+    
+    
+    <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+  
+  
+  </head>
+  
+  <body translate="no">
+    <div class="m-privacy-consent" id="privacy-consent">
+    <div class="m-privacy-consent__inner">
+      <p>We use cookies and other tracking technologies to improve your browsing experience on our site, show personalized content and targeted ads, analyze site traffic, and understand where our audience is coming from. To find out more or to opt-out, please read our <a href="#">Cookie Policy</a>. In addition, please read our <a href="#">Privacy Policy</a>, which has also been updated and became effective May 23rd, 2018.</p>
+  <p>By choosing <b>I Accept</b>, you consent to our use of cookies and other tracking technologies.</p>
+      <button type="button" id="accept-privacy-consent">
+        <div class="m-privacy-consent__button-content">
+          <div class="m-privacy-consent__hourglass"></div>
+          I Accept
+        </div>
+      </button>
+    </div>
+  </div>
+  
+  <div id="popup1" class="overlay">
+    <div class="popup"> <a class="close" href="#">×</a>
+      <div id="dialog" class="window">
+        
+        <div class="box">
+          <div class="newletter-title">
+            <h2>Sign up &amp; get <span class="numberOff">10</span>% off</h2>
+          </div>
+          <div class="box-content newleter-content">
+            <label>Subscribe to our newsletters now and stay up-to-date with new collections, the latest lookbooks and exclusive offers.</label>
+            <div id="frm_subscribe">
+              <form name="subscribe" id="subscribe_popup">
+                <div>
+                  <!-- <span class="required">*</span><span>Email</span>-->
+                  <input type="text" value="" name="subscribe_pemail" id="subscribe_pemail">
+                  <input type="hidden" value="" name="subscribe_pname" id="subscribe_pname">
+                  <div id="notification"></div>
+                  <a class="button" onclick="email_subscribepopup()"><span>Submit</span></a> </div>
+              </form>
+              <div class="subscribe-bottom">
+                <input type="checkbox" id="newsletter_popup_dont_show_again">
+                <label for="newsletter_popup_dont_show_again">Don't show this popup again</label>
+              </div>
+            </div>
+            <!-- /#frm_subscribe -->
+          </div>
+          <!-- /.box-content -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="btn btn-primary skip" href="#popup1" style="visibility:none; display:inline-block;"></a>
+  
+  <div class="adblockpopup" style="display: block;">
+    <div class="adblockpopup-inner">
+    <h2>It looks like you're using an adblocker...</h2>
+    <p>Please help us by not stifling our ad revenue, our content sucks and we find ourselves having to write clickbait low quality articles to increase our ad revenue, please keep this trend going by disabling your ad blocker.</p>
+    </div>
+  </div>
+  <div class="text">
+    <h2>A modern site in 2021</h2>
+    <p>I set out to create the most modern site on the internet for your viewing pleasure.</p>
+  
+  <p>Nullam ultrices faucibus interdum. Nullam accumsan sapien sit amet sapien imperdiet, nec pellentesque lectus pretium. Cras ac orci ipsum. Praesent lacinia lacus non quam ornare euismod. Quisque vitae enim fringilla, maximus enim sit amet, efficitur tortor. Nulla in tempus neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer egestas sit amet lorem eu tempus. Duis sed venenatis risus. Nam sed metus et justo rutrum rutrum. Integer condimentum elit magna. Praesent leo nisi, facilisis et arcu vel, sollicitudin efficitur justo. Integer ornare finibus lectus vestibulum malesuada. Praesent bibendum ullamcorper erat.</p>
+  
+  <p>Nulla turpis nunc, blandit sed fringilla luctus, pulvinar nec orci. Duis risus mauris, sollicitudin id orci eu, feugiat sodales risus. Phasellus sit amet lacus metus. Morbi blandit tempor nibh. Cras nisi massa, accumsan accumsan nibh sit amet, tempor laoreet arcu. Nunc metus urna, auctor non viverra condimentum, ornare in dui. Aliquam eget congue leo, id sollicitudin neque. Nullam vitae fringilla risus. Mauris cursus justo arcu, vitae mollis purus facilisis vitae. Cras congue imperdiet sagittis. Nam quam dolor, ullamcorper sit amet sollicitudin vitae, scelerisque quis erat. Donec a laoreet risus. Maecenas a tellus in magna ultrices tempor. Vestibulum ipsum nibh, mollis ac pulvinar at, vestibulum vitae lorem.</p>
+  
+  <p>Morbi egestas, lacus nec lobortis placerat, nisl tellus vestibulum nisl, sit amet venenatis urna felis ut urna. Phasellus imperdiet ante ac felis vestibulum elementum. Integer at interdum urna. Vivamus malesuada commodo tempus. Maecenas efficitur ut erat egestas accumsan. Curabitur sagittis felis nulla, in cursus massa viverra vel. Vestibulum tincidunt cursus placerat.</p>
+  
+  <p>Fusce tincidunt in neque tincidunt faucibus. Maecenas commodo elit vel sem fringilla, sit amet blandit sapien pharetra. Suspendisse faucibus malesuada urna, nec euismod neque tempus nec. Aliquam ipsum ex, pharetra et mauris vel, consectetur vestibulum sapien. Morbi non odio vitae ex scelerisque sollicitudin. Mauris maximus, sem nec lacinia sollicitudin, nunc purus convallis mauris, quis consectetur quam dui id diam. Nam eget mollis lorem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus arcu elit, tincidunt placerat tincidunt eget, auctor vitae nisi. Cras semper nulla nisl, sed commodo enim convallis quis. Morbi sed pharetra ligula, at pretium lectus. Donec facilisis nibh dapibus porta dictum.</p>
+    
+    <p>All in all, it seems as if chaff has increased exponentially and wheat has increased very linearly, as examplified by this graph:</p>
+  </div>
+  <div class="image-itw" style="display: block;">
+    
+  </div>
+      <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+  
+    
+        <script id="rendered-js">
+  var cookieButton = document.getElementById("accept-privacy-consent");
+  cookieButton.addEventListener("click", function (event) {
+    this.disabled = "disabled";
+    window.setTimeout(function () {
+      /*var overlay = document.querySelector('.overlay');
+      overlay.style.visibility = "visible";
+      overlay.style.opacity = "1";*/
+      var skip = document.querySelector('.skip');
+      var clickMe = new MouseEvent('click');
+      skip.dispatchEvent(clickMe);
+    }, 2000);
+  });
+  
+  var close = document.querySelector('.close');
+  close.addEventListener('click', function () {
+    document.getElementById('privacy-consent').style.display = "none";
+    window.setTimeout(function () {
+      var skip = document.querySelector('.skip');
+      var clickMe = new MouseEvent('click');
+      skip.dispatchEvent(clickMe);
+    }, 8000);
+    var numberOff = document.querySelector('.numberOff');
+    var newOff = parseInt(numberOff.innerHTML) * 2;
+    if (newOff > 100) {
+      newOff = "Just fucking sign up, dude";
+    }
+    numberOff.innerHTML = newOff;
+  });
+  
+  // Function called if AdBlock is not detected
+  function adBlockNotDetected() {document.querySelector(".adblockpopup").style.display = "none";
+  }
+  // Function called if AdBlock is detected
+  function adBlockDetected() {
+    window.setTimeout(function () {
+      document.querySelector(".adblockpopup").style.display = "block";
+    }, 4000);
+  }
+  
+  if (typeof fuckAdBlock === 'undefined') {
+    adBlockDetected();
+  } else {
+    fuckAdBlock.on(true, adBlockDetected).onNotDetected(adBlockNotDetected);
+  }
+  
+  document.querySelector(".adblockpopup").addEventListener('click', function () {
+    this.style.display = 'none';
+    document.getElementById('privacy-consent').style.display = "none";
+  });
+  
+  
+  window.setTimeout(function () {
+    document.querySelector(".image-itw").style.display = "block";
+  }, 9000);
+  
+  Notification.requestPermission().then(function (result) {
+  
+    // Do something with the granted permission.
+  });
+  //# sourceURL=pen.js
+      </script>
+  
+    
+  
+  
+  
+  
+   
+  </body></html>
