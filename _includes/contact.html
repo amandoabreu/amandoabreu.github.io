@@ -12,15 +12,4 @@
 {% if include.description %}
   <p class="white">{{ include.description }}</p>
 {% endif %}
-<form id="contactForm" class="form" action="//formspree.io/amando.abreu@gmail.com" method="post">
-    <input class="input input--inline-text" type="text" name="Name" placeholder="Name" required>
-    <input class="input input--email" type="email" name="Email" placeholder="Email" required>
-    <input class="input input--inline-text" type="text" name="Company" placeholder="Company">
-    <textarea class="input input--text" name="Message" cols="30" rows="6" placeholder="Message" required></textarea>
-    <!-- CONFIG -->
-    <input class="hidden" type="text" name="_gotcha">
-    <input type="hidden" name="_subject" value="{{ page.title }}">
-    <input type="hidden" name="_cc" value="amando.abreu@gmail.com">
-    <!-- /CONFIG -->
-    <input class="input input--submit" type="submit" value="Send">
-</form>
+<div class="typeform-widget" data-url="https://form.typeform.com/to/vAy9JQ?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
