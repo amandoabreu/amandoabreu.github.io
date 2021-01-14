@@ -33,7 +33,7 @@ If you're messaging 350 people per week, this saves you 5 x 350 = 1750 seconds, 
 
 You can use this extra time to message more people or to do other tasks such as adding contacts to your CRM.
 
-This page is just general documentation. If you ended up here and you see usefulness in the tool, sign up below to be notified when I launch:
+This page is just general documentation. If you ended up here and you see usefulness in the tool, sign up below to be notified when it becomes available in the chrome webstore.
 
 <div class="AW-Form-655664460"></div>
 <script type="text/javascript">(function(d, s, id) {
