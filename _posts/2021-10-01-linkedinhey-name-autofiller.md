@@ -23,6 +23,8 @@ Which messages do you think I read more of? The ones who get my name right or th
 
 In comes LinkedinHey, a browser extension that autofills a greeting into the message field on Linkedin.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yOWPONBODxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![](/assets/images/posts/ezgif-3-b7a5af0788b5.gif)
 
 It automatically fills the message box with "Hey \[name]", and you can simply paste the message you want to send. This means you don't need to type at all. Just click the "Write a message..." area to autofill, and paste whatever you want to send.
