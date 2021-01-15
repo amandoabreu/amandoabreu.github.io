@@ -2,7 +2,7 @@
 title: The Gervais Principle
 layout: read
 image: /assets/images/posts/18581690._uy500_ss500_.jpg
-newsletter: false
+newsletter: true
 cover_header: true
 comments: true
 author: Amando Abreu
