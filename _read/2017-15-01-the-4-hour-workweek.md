@@ -2,7 +2,7 @@
 title: The 4-hour Workweek
 layout: read
 image: /assets/images/posts/81qw97ndkvl.jpg
-newsletter: false
+newsletter: true
 cover_header: true
 comments: true
 author: Amando Abreu
