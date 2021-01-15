@@ -15,7 +15,7 @@ I expected to find ways of making the same amounts of money by working fewer hou
 
 #### Mega TL;DR;
 
-Build revenue-generating systems that require almost no input from you by focusing on few things, automating what can be automated, and hiring people to make the decisions that need to be made by a human. Give the people you hire a lot of freedom to make mistakes and learn as they go. The mistakes will be worth it in the long run as they feel better because of the autonomy and won't need to bother you nearly as much.
+Build highly effective revenue-generating systems that require almost no input from you by focusing on few things, automating what can be automated, and hiring people to make the decisions that need to be made by a human. Give the people you hire a lot of freedom to make mistakes and learn as they go. The mistakes will be worth it in the long run as they feel better because of the autonomy and won't need to bother you nearly as much.
 
 Tim Ferriss suggests doing this with your own job by:
 
