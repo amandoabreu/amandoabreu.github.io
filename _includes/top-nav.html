@@ -73,18 +73,30 @@
           </a>
         </li>
         {% endfor %}-->
-        <li class="main-nav__element main-nav__element--separator">
-          <a class="main-nav__link" href="blog/">
-              Blog
-          </a>
-        </li>
-        {% for post in site.posts limit:4 %}
-        <li class="main-nav__element">
-            <a class="main-nav__link" href="{{ post.url }}">
-                {{ post.title }}
+            <li class="main-nav__element main-nav__element--separator">
+            <a class="main-nav__link" href="blog/">
+                Blog
             </a>
-        </li>
-        {% endfor %}
+            </li>
+            {% for post in site.posts limit:4 %}
+            <li class="main-nav__element">
+                <a class="main-nav__link" href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </li>
+            {% endfor %}
+            <li class="main-nav__element main-nav__element--separator">
+            <a class="main-nav__link" href="read/">
+                Books
+            </a>
+            </li>
+            {% for book in site.read limit:4 %}
+            <li class="main-nav__element">
+                <a class="main-nav__link" href="{{ book.url }}">
+                    {{ book.title }}
+                </a>
+            </li>
+            {% endfor %}
     </ul>
 </nav>
 <aside class="search">
