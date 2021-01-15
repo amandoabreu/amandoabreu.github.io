@@ -46,13 +46,22 @@ The Loser's struggles are mostly social ones. Fitting into the group.
 #### The Gervais Principle notable quotes
 
 > "So why is promoting over-performing Losers logical? The simple reason is that if you over-perform at the Loser level, it is clear that you are an idiot. You’ve already made a bad bargain, and now you’re delivering more value than you need to, making your bargain even worse. Unless you very quickly demonstrate that you know your own value by successfully negotiating more money and/or power, you are marked out as an exploitable clueless Loser."
->
+
+
+
 > "Of all organization men, the true executive is the one who remains most suspicious of The Organization" - The Organization Man
->
+
+
+
 > Bureaucracies are structures designed to do certain things very efficiently and competently: those that are by default in the best interests of the Sociopaths
->
->
+
+
+
 > They are also designed to do certain things incompetently: those expensive things that the organization is expected to do, but would cut into Sociopath profits if actually done right.
+
+
+
+> Sociopaths design the system this way because they are only interested in building an organization that lasts long enough to extract the easy value from whatever market opportunity motivated its formation.
 
 #### Spoiler
 
