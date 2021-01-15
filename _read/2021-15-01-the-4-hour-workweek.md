@@ -10,7 +10,15 @@ date: 2021-01-15 07:15:48
 ---
 #### Mega TL;DR;
 
-Build revenue-generating systems that require almost no input from you by automating what can be automated and hiring/training to make the decisions that need to be made by a human. Give the people you hire a lot of freedom to make mistakes and learn as they go. The mistakes will be worth it in the long run as they won't need to bother you nearly as much.
+Build revenue-generating systems that require almost no input from you by focusing on few things, automating what can be automated, and hiring people to make the decisions that need to be made by a human. Give the people you hire a lot of freedom to make mistakes and learn as they go. The mistakes will be worth it in the long run as they won't need to bother you nearly as much.
+
+
+
+Tim Ferriss suggests doing this with your own job by:
+
+1) Working remotely
+
+2) Outsourcing what can be outsourced
 
 
 
