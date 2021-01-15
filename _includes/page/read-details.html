@@ -1,0 +1,13 @@
+{% if page.author && page.date %}
+    <ul class="post__details white">
+        <li class="author">
+            Author: {{ page.book_author }}
+        </li>
+        <li class="author">
+            by {{ page.author }}
+        </li>
+        <li class="author">
+            on {{ page.date | date_to_long_string }}
+        </li>
+    </ul>
+{% endif %}
