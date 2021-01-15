@@ -20,4 +20,4 @@ Build revenue-generating systems that require almost no input from you by automa
 
 
 
-#### Notable quotes
+#### The 4-hour workweek notable quotes
