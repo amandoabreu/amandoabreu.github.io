@@ -25,3 +25,5 @@ For a straight-to-the-point on how to use the technique: [https://litemind.com/m
 Alternatively, a video:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hl7CtMwIyU0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+(Incomplete)

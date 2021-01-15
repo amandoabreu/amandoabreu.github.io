@@ -1,6 +1,6 @@
 ---
 layout: listing
-title: I do
+title: Books
 type: read
 listed: yes
 ---
