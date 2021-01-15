@@ -1,5 +1,5 @@
 ---
-title: I Helped My Mom Productivize Her Services
+title: I Helped My Mom Productivize Her Teaching
 layout: page
 newsletter: false
 comments: true
