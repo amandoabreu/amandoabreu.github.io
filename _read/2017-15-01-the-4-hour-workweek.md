@@ -28,29 +28,15 @@ Tim Ferriss suggests doing this with your own job by:
 
 #### The 4-hour workweek notable quotes
 
-
-
-> “A person's success in life can usually be measured by the number of uncomfortable conversations he or she is willing to have.”
+> “A person's success in life can usually be measured by the number of uncomfortable conversations he or she is willing to have."
 >
-> ― Timothy Ferriss, The 4 Hour Workweek
-
-
-
-> “Focus on being productive instead of busy.”
+> “Focus on being productive instead of busy."
 >
-> ― Tim Ferriss
+> “Never automate something that can be eliminated, and never delegate something that can be automated or streamlined. Otherwise, you waste someone else's time instead of your own, which now wastes your hard-earned cash. How's that for incentive to be effective and efficient?"
 
-
-
-> “Never automate something that can be eliminated, and never delegate something that can be automated or streamlined. Otherwise, you waste someone else's time instead of your own, which now wastes your hard-earned cash. How's that for incentive to be effective and efficient?”
->
-> ― Timothy Ferriss
-
-
+(on giving people autonomy)
 
 > "It's amazing how someone's IQ seems to double as soon as you give them responsibility and indicate that you trust them."
->
-> ― Timothy Ferriss
 
 #### Spoiler
 
