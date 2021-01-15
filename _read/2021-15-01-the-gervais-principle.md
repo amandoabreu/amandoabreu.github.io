@@ -13,7 +13,7 @@ The office according to "The Office"
 
 #### Expectations when reading The Gervais Principle
 
-A sneak peak into how offices are the way they are.
+A sneak peak into why offices are the way they are.
 
 #### Mega TL;DR;
 
