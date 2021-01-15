@@ -6,6 +6,7 @@ newsletter: false
 comments: true
 author: Amando Abreu
 book_author: Tim Ferriss
+cover_header: true
 date: 2021-01-15 07:15:48
 ---
 #### Expectations when reading the 4-hour workweek
