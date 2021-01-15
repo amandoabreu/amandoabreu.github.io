@@ -56,7 +56,7 @@ collections:
         widget: "string"
         required: false
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
-  - name: "read"
+  - name: "book"
     label: "Book"
     folder: "_read"
     create: true
@@ -75,6 +75,10 @@ collections:
         name: "author"
         widget: "string"
         default: "Amando Abreu"
+      - label: "Book Author"
+        name: "book_author"
+        widget: "string"
+        default: ""
       - label: "Category"
         name: "category"
         widget: "string"
