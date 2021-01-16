@@ -90,7 +90,7 @@
                 Books
             </a>
             </li>
-            {% for book in site.read limit:4 %}
+            {% for book in site.read reversed limit:4 %}
             <li class="main-nav__element">
                 <a class="main-nav__link" href="{{ book.url }}">
                     {{ book.title }}
