@@ -2,7 +2,7 @@
 title: A Programmer's Introduction to Mathematics
 layout: read
 image: /assets/images/posts/1_cooqb9tcleql62816kg6sw.png
-newsletter: false
+newsletter: true
 cover_header: true
 comments: true
 author: Amando Abreu
