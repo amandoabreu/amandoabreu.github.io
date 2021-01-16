@@ -2,6 +2,11 @@
 layout: default
 ---
 <div class="content">
+    {% if page.content %}
+        <div class="centerwrapper centerwrapper--medium">
+            {{ page.content }}
+        </div>
+    {% endif %}
     <div class="centerwrapper centerwrapper--medium">
         <ul class="listing">
             {% assign sorted = site[page.type] | sort:"date" %}
