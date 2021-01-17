@@ -9,8 +9,8 @@ author: Amando Abreu
 book_author: Blair Warren
 date: 2019-02-17 11:45:00
 ---
-What if there were a formula used for persuasion? Something that works from selling MLM candles to creating a cult?\
-\
+What if there were a formula used for persuasion? Something that works from selling MLM candles to creating a cult?
+
 There is one. It's 27 words long and its 5 principles are used by every single successful advertisement, mass movement, cult, MLM, internet "fake guru", and more (including people of the like of Jim Jones).
 
 In comes The One Sentence Persuasion Course.
