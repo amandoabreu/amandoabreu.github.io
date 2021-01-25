@@ -33,7 +33,7 @@ listed: yes
 
 14) Read a lot 
 
-15) I don't fight uphill battles. If something fails a quantitative effort/reward analysis, I won't do it. However, as point 7) suggests, the reward I value most is sometimes something hard to grasp from the outside. eg: I'd take a 30% pay cut in exchange for more autonomy.
+15) I don't fight uphill battles. If something fails a quantitative effort/reward analysis, I won't do it.
 
 16) No patience for corporate dogmas that punish everyone for a mistake someone did in a distant past 
 
