@@ -19,9 +19,9 @@ A fractional CTO will essentially do what a full-time CTO does.
 
 - A fractional CTO brings in the same experience and capability a full-time Chief Technology Officer would, at a fraction of the salary. So **if you are out to save as much money as you can and also need to take your business to a higher level, a Fractional CTO might be what you need.**
 - You're starting something from scratch and don't want to make mistakes that create more technical debt than revenue right at the start.
-- If you are looking to optimize internal efficiencies, prcvent silos from forming, and using the talent you already have to their full extent, a CTO can help orchestrate the systems required for this
+- If you are looking to optimize internal efficiencies, prevent silos from forming, and using the talent you already have to their full extent, a CTO can help orchestrate the systems required for this
 - Product development is not going as planned – quality issues, delivery dates missed, customer satisfaction concerns, etc…
-- General IT issues are negatively effecting the company – phones, networking, internet, cloud hosting, desktop support, etc.
+- Improving development speed via DevOps culture
 - Concerns that things aren’t going as they should from tech perspective and want to get an objective assessment
 - Need to prepare for acquisition / sale and want to identify and resolve tech issues that could negatively impact the deal
 - Your full-time CTO is (or soon will be) no longer in the picture and you need someone to keep things going until you can hire a replacement.
