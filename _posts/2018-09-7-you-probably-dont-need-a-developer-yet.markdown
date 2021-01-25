@@ -118,7 +118,9 @@ When can your project be marked as a failure and you cut your losses? When you f
 
 ## Conclusion
 
-After doing all of the above, your idea will likely change, if that’s the case, I’ve literally saved you tens of thousands of dollars by making sure those changes came before a single line of code was written and avoiding expensive software rewrites. You’re welcome.
+After doing all of the above, your idea will likely change, if that’s the case, I’ve literally saved you tens of thousands of dollars and months of headaches by making sure those changes came before a single line of code was written and avoiding expensive software rewrites. 
+
+**You’re welcome.**
 
 To avoid wasting a lot of money, consider me as your fractional CTO. Read more here: <a href="/fractional-cto/">Fractional CTO</a>
 
