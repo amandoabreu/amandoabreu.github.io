@@ -34,7 +34,9 @@ A fractional CTO will essentially do what a full-time CTO does.
 - Available immediately with deep experience getting up to speed quickly
 
 ## Notes
-When talking to first time founders it has come to my attention that many tend to overthink, over develop, and get their engineers to over engineer. Over engineering means overspending and less speed to make the changes that the market with inevidably force you to make. I've seen many good people spend a lot of money on things no one ever needed or wanted but weren't open to constructive feedback from someone with experience in what they were doing. Do't be that person.
+When talking to first time founders it has come to my attention that many tend to overthink, over develop, and get their engineers to over engineer. 
+
+Over engineering means overspending and less speed to make the changes that the market with inevidably force you to make. I've seen many good people spend a lot of money on things no one ever needed or wanted but weren't open to constructive feedback from someone with experience in what they were doing. Do't be that person.
 
 If you're starting something from scratch and don't have any code yet, the best decision you could make BY FAR is to get a fractional CTO at least as a one-time request to go over your idea, simplify it, and turn it into requirements that any developer can start working on. **Expecting developers to take the role of architect and business analyst is unwise.** They will do what you pay them to, often against your best interests just because they don't know any better.
 
