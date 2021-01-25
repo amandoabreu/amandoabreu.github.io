@@ -116,6 +116,8 @@ Don’t let the [sunk cost fallacy](https://youarenotsosmart.com/2011/03/25/the
 
 When can your project be marked as a failure and you cut your losses? When you fail to hit critical mass within 3 months? 4 years? 10 years? When you lose $50,000? $1,000,000?
 
+## Conclusion
+
 After doing all of the above, your idea will likely change, if that’s the case, I’ve literally saved you tens of thousands of dollars by making sure those changes came before a single line of code was written and avoiding expensive software rewrites. You’re welcome.
 
 To avoid wasting a lot of money, consider me as your fractional CTO. Read more here: <a href="/fractional-cto/">Fractional CTO</a>
