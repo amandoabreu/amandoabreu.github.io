@@ -1,6 +1,6 @@
 ---
 title: Does GDPR make hacking legal?
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

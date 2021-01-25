@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Dynamically creating unique widget area on a page"
 date:   2015-08-01 12:00:00 +0200
 author: Amando Abreu

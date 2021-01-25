@@ -1,6 +1,6 @@
 ---
 title: Creating an Uber-like application with React and Firebase
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

@@ -1,6 +1,6 @@
 ---
 title: How I Taught Myself How To Code
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

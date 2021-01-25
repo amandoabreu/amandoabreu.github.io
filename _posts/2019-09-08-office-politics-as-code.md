@@ -1,6 +1,6 @@
 ---
 title: Office politics as code
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

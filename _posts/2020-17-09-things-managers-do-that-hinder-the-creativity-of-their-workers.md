@@ -1,6 +1,6 @@
 ---
 title: Things Managers Do That Hinder The Creativity Of Their Workers
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

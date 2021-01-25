@@ -1,6 +1,6 @@
 ---
 title: 'CSS FizzBuzz, has science gone too far?'
-layout: page
+layout: post
 image: /assets/images/posts/pic-fizzbuzz.png
 newsletter: false
 comments: true
@@ -18,25 +18,32 @@ It's insanely simple.
 To not display the number, for every 3rd and 5th element, set the font-size to 0.
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css">
-li:nth-child(3n), li:nth-child(5n){    
+li:nth-child(3n), li:nth-child(5n){
+    
     font-size:0px;
-}
+
+}
 </code></pre></figure>
 
 To display Fizz for every multiple of 3, for every 3rd element, write "Fizz" with the :before pseudo element.
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css">
 li:nth-child(3n):before{
-    content: 'Fizz';     
+
+    content: 'Fizz';
+     
     font-size:15px;
-}
+
+}
 </code></pre></figure>
 
 To display "Buzz" for every multiple of 5, for every 5th element, write "Buzz" with the :before pseudo element.
 
 <figure class="highlight"><pre><code class="language-css" data-lang="css">
-li:nth-child(5n):after{     
-    content: 'Buzz';    
+li:nth-child(5n):after{
+     
+    content: 'Buzz';
+    
     font-size:15px;
 }
 </code></pre></figure>

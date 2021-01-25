@@ -1,6 +1,6 @@
 ---
 title: Some Esoteric Data Structures And Their Uses
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

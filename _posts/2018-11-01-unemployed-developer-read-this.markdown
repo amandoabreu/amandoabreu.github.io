@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Unemployed Developer? Read This"
 date:   2018-11-01 12:00:00 +0200
 author: Amando Abreu

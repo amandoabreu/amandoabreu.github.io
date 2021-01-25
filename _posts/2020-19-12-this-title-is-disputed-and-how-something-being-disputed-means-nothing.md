@@ -1,6 +1,6 @@
 ---
 title: This Title Is Disputed(and how something being disputed means nothing)
-layout: page
+layout: post
 image: /assets/images/posts/galileo-disputed.png
 newsletter: false
 comments: true

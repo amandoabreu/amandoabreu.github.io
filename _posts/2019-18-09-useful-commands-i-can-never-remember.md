@@ -1,6 +1,6 @@
 ---
 title: Useful commands I can never remember
-layout: page
+layout: post
 image: /assets/images/posts/ping-command.png
 newsletter: false
 comments: true

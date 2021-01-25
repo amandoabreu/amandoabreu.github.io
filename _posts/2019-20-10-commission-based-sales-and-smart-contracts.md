@@ -1,6 +1,6 @@
 ---
 title: Commission-based sales and smart contracts
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

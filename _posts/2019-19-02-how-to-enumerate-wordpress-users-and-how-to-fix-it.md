@@ -1,6 +1,6 @@
 ---
 title: 'How To: Enumerate WordPress Users(and how to fix it)'
-layout: page
+layout: post
 image: /assets/images/posts/wordpress_capa-720x405.jpg
 newsletter: true
 comments: true
@@ -20,9 +20,17 @@ for i in {1..5}; do curl -s -L -i http://www.wordpress-site.com/?author=$i | gre
 Place this code in your ```functions.php``` file.
 
 ```
-if (!is_admin()) {    // default URL format    if (preg_match('/author=([0-9]*)/i', $_SERVER['QUERY_STRING'])) die();    add_filter('redirect_canonical', 'shapeSpace_check_enum', 10, 2);}
+if (!is_admin()) {
+    // default URL format
+    if (preg_match('/author=([0-9]*)/i', $_SERVER['QUERY_STRING'])) die();
+    add_filter('redirect_canonical', 'shapeSpace_check_enum', 10, 2);
+}
 ```
 
 ```
-function shapeSpace_check_enum($redirect, $request) {   // permalink URL format   if (preg_match('/\?author=([0-9]*)(\/*)/i', $request)) die();      else return $redirect;}
+function shapeSpace_check_enum($redirect, $request) {
+   // permalink URL format
+   if (preg_match('/\?author=([0-9]*)(\/*)/i', $request)) die();
+      else return $redirect;
+}
 ```

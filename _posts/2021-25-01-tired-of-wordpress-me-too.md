@@ -1,6 +1,6 @@
 ---
 title: 'WordPress: The Most Expensive "Cheap Site" You Can Get'
-layout: page
+layout: post
 image: /assets/images/posts/looking-for-a-wordpress-developer-1042x665.jpg
 newsletter: false
 comments: true

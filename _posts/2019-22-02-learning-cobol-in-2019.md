@@ -1,6 +1,6 @@
 ---
 title: Learning COBOL in 2019
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

@@ -1,6 +1,6 @@
 ---
 title: The world of fake coursera certificates
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

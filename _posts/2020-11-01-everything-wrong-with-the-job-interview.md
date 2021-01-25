@@ -1,6 +1,6 @@
 ---
 title: Everything wrong with the job interview
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

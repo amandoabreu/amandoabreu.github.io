@@ -1,6 +1,6 @@
 ---
 title: Always Win "Guess Who?" By Using Binary Search
-layout: page
+layout: post
 image: /assets/images/posts/screenshot20191024at181029.crop_879x660_0-2.preview.png
 newsletter: false
 comments: true

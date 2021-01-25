@@ -1,6 +1,6 @@
 ---
 title: Using Varnish with WordPress on Lightsail
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

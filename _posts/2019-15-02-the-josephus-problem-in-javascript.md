@@ -1,6 +1,6 @@
 ---
 title: The Josephus Problem in JavaScript
-layout: page
+layout: post
 image: /assets/images/posts/josephus.png
 newsletter: false
 comments: true

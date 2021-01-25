@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Stop Coding Right F***** Now"
 date:   2018-04-14 11:00:00 +0200
 author: Amando Abreu

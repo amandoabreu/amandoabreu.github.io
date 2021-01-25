@@ -1,6 +1,6 @@
 ---
 title: Youtube thumbnail generator
-layout: page
+layout: post
 image: /assets/images/posts/youtubethumbnail.png
 newsletter: false
 comments: true

@@ -1,6 +1,6 @@
 ---
 title: Manuais escolares do futuro?
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

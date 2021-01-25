@@ -1,6 +1,6 @@
 ---
 title: Element of an image over text with simple CSS masking
-layout: page
+layout: post
 image: /assets/images/posts/imageovertext.jpg
 newsletter: false
 comments: true

@@ -7,40 +7,6 @@ layout: default
     <div class="centerwrapper centerwrapper--medium">
       {{ page.content }}
       {% include author.html %}
-      <!--<ul class="listing">
-      {% if page.previous.url %}
-
-          {% assign img = false %}
-          {% if page.previous.image %}
-              {% assign img = page.previous.image %}
-          {% endif %}
-          <li class="listing__li">
-              <a class="listing__link block" href="{{ page.previous.url }}">
-                  <div class="listing__item {% if img %} listing__item--with-overlay {% endif %}" {% if img %} style="background-image: url({{ img }});" {% endif %}>
-                      <div class="listing__type">Previous Article</div>
-                      <h3 class="listing__title">{{ page.previous.title }}</h3>
-                  </div>
-              </a>
-          </li>
-      {% endif %}
-
-      {% if page.next.url %}
-
-          {% assign img = false %}
-          {% if page.next.image %}
-              {% assign img = page.next.image %}
-          {% endif %}
-          <li class="listing__li">
-              <a class="listing__link block" href="{{ page.next.url }}">
-                  <div class="listing__item {% if img %} listing__item--with-overlay {% endif %}" {% if img %} style="background-image: url({{ img }});" {% endif %}>
-                      <div class="listing__type">Next Article</div>
-                      <h3 class="listing__title">{{ page.next.title }}</h3>
-                  </div>
-              </a>
-          </li>
-
-      {% endif %}
-      </ul>-->
     </div>
 </div>
 {% if page.contact %}

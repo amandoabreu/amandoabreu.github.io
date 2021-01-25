@@ -1,6 +1,6 @@
 ---
 title: Kubernetes + Docker + WordPress
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

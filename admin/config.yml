@@ -18,7 +18,7 @@ collections:
         name: "title"
         widget: "string"
         pattern: ['.{1,}', "Must have at least 1 characters"]
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Newsletter", name: "newsletter", widget: "boolean", default: false}
@@ -42,7 +42,7 @@ collections:
         name: "title"
         widget: "string"
         pattern: ['.{1,}', "Must have at least 1 characters"]
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Newsletter", name: "newsletter", widget: "boolean", default: false}

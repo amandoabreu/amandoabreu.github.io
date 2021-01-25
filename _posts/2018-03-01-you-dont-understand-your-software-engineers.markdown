@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "You Don't Understand Your Software Engineers"
 date:   2018-03-01 12:00:00 +0200
 author: Amando Abreu

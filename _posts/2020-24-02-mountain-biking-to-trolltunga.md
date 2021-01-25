@@ -1,6 +1,6 @@
 ---
 title: Mountain biking to Trolltunga
-layout: page
+layout: post
 image: /assets/images/posts/IMG_7679.JPG
 newsletter: false
 comments: true

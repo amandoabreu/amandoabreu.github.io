@@ -1,6 +1,6 @@
 ---
 title: Securing WordPress VS Securing Your Server
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

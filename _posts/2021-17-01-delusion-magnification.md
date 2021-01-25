@@ -1,6 +1,6 @@
 ---
 title: Delusion Magnification
-layout: page
+layout: post
 newsletter: true
 comments: true
 author: Amando Abreu

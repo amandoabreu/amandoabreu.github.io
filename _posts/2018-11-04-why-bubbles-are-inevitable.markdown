@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Why Bubbles Are Inevitable"
 date:   2018-11-04 11:00:00 +0200
 author: Amando Abreu

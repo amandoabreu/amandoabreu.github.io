@@ -1,6 +1,6 @@
 ---
 title: Fourier series in JavaScript
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

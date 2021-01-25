@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Data driven decisions explained with hamburgers"
 date:   2017-10-26 12:00:00 +0200
 author: Amando Abreu

@@ -1,6 +1,6 @@
 ---
 title: Cassandr - Gain Notoriety By Correctly Predicting The Future
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

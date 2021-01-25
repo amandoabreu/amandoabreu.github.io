@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "XSS by including JavaScript in image metadata"
 date:   2019-02-07 16:00:00 +0200
 author: Amando Abreu

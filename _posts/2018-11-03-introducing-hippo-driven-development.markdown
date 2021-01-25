@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Introducing HiPPO Driven Development(HiPPODD)"
 date:   2018-11-03 12:00:00 +0200
 author: Amando Abreu

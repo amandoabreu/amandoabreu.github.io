@@ -1,6 +1,6 @@
 ---
 title: Adam Neumann, Reckless Madman Or Calculated Genius?
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

@@ -1,6 +1,6 @@
 ---
 title: LinkedinHey - Name Autofiller
-layout: page
+layout: post
 image: /assets/images/posts/frame-14-1-.jpg
 newsletter: false
 comments: true

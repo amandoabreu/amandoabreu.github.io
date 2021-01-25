@@ -1,6 +1,6 @@
 ---
 title: The Case Against Listening To Music Whilst Working
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

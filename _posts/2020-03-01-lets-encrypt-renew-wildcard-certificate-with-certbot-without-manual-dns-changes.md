@@ -2,7 +2,7 @@
 title: >-
   Let's Encrypt: Renew Wildcard Certificate With Certbot(without manual DNS
   changes)
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

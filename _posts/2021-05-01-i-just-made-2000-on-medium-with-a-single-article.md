@@ -1,6 +1,6 @@
 ---
 title: I Just Made $2000 On Medium With A Single Article
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

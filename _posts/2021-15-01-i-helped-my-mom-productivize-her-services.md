@@ -1,6 +1,6 @@
 ---
 title: I Helped My Mom Productivize Her Teaching
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

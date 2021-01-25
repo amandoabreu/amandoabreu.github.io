@@ -1,6 +1,6 @@
 ---
 title: You might not need(or want) WordPress
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

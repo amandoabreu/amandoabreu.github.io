@@ -1,6 +1,6 @@
 ---
 title: The One Sentence Persuasion Course And How To Not Be Easily Persuaded
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

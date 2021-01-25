@@ -1,6 +1,6 @@
 ---
 title: 'AATV, Autonomous All Terrain Vehicle'
-layout: page
+layout: post
 image: /assets/images/posts/full.jpg
 newsletter: false
 comments: true

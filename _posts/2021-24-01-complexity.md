@@ -1,6 +1,6 @@
 ---
 title: Complexity
-layout: page
+layout: post
 image: /assets/images/posts/pexels-pixabay-416339.jpg
 newsletter: false
 comments: true

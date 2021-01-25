@@ -1,6 +1,6 @@
 ---
 title: Responsive blog layout with full-width images and offset quotes
-layout: page
+layout: post
 image: /assets/images/posts/title-post-blog.jpg
 newsletter: false
 comments: true

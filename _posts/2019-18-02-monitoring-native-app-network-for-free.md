@@ -1,6 +1,6 @@
 ---
 title: Monitoring Native App Network For Free
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

@@ -1,6 +1,6 @@
 ---
 title: Giving users a subdomain
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

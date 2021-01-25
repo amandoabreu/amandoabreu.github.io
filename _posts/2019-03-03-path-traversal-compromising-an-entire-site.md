@@ -1,6 +1,6 @@
 ---
 title: 'Path traversal: Compromising an entire site'
-layout: page
+layout: post
 image: /assets/images/posts/path.png
 newsletter: false
 comments: true

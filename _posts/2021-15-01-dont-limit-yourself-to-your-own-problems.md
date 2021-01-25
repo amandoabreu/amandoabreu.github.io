@@ -1,6 +1,6 @@
 ---
 title: Don't Limit Yourself To Your Own Problems
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

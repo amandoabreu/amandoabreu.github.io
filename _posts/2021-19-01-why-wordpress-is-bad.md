@@ -1,6 +1,6 @@
 ---
 title: Why WordPress Is Bad
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu

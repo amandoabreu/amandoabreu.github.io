@@ -1,6 +1,6 @@
 ---
 title: Software Effort Estimation Is Astrology
-layout: page
+layout: post
 newsletter: false
 comments: true
 author: Amando Abreu
