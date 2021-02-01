@@ -7,6 +7,12 @@ comments: true
 author: Amando Abreu
 date: 2021-01-10 02:55:36
 ---
+## TL;DR; 
+
+Webstore link: https://chrome.google.com/webstore/detail/linkedinhey/jhojnacpjblmbggiaiajphhehigeggjn
+
+## More info
+
 When you need to mass message people on Linkedin, you probably have 99% of the message you want to send in your clipboard, and you just need to manually type "Hey \[name]", it takes on average 5 seconds to write this if you pay attention to what you're writing, and it's too error prone not to pay attention. 
 
 You get:
@@ -33,14 +39,4 @@ If you're messaging 350 people per week, this saves you 5 x 350 = 1750 seconds, 
 
 You can use this extra time to message more people or to do other tasks such as adding contacts to your CRM.
 
-This page is just general documentation. If you ended up here and you see usefulness in the tool, sign up below to be notified when it becomes available in the chrome webstore.
-
-<div class="AW-Form-655664460"></div>
-<script type="text/javascript">(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//forms.aweber.com/form/60/655664460.js";
-    fjs.parentNode.insertBefore(js, fjs);
-    }(document, "script", "aweber-wjs-zlhpg46e2"));
-</script>
+This page is just general documentation. You can install the extension via the webstore link: https://chrome.google.com/webstore/detail/linkedinhey/jhojnacpjblmbggiaiajphhehigeggjn
