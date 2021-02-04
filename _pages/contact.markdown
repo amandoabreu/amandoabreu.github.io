@@ -238,13 +238,13 @@ input:focus ~ .highlight {
     	<h1 class="form-label">Say something</h1>
         <form name="contact" netlify>
             <div class="group">
-                <input type="text" required>
+                <input name="user-name" type="text" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Name</label>
             </div>
             <div class="group">
-                <input type="text" required>
+                <input name="user-email" type="text" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Email</label>
