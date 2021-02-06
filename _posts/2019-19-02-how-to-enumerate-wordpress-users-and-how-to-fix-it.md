@@ -1,14 +1,14 @@
 ---
-title: 'How To: Enumerate WordPress Users(and how to fix it)'
+title: "How To: Enumerate WordPress Users(and how to fix it)"
 layout: post
 image: /assets/images/posts/wordpress_capa-720x405.jpg
 newsletter: true
 comments: true
 author: Amando Abreu
 category: WordPress
-date: '2019-02-18 10:53:00'
+date: 2019-02-18 10:53:00
 ---
-A common attack vector for WordPress is to enumerate users and see what juicy data you can get.
+A common attack vector for WordPress is to enumerate users and see what juicy data you can get, and potentially try to bruteforce the password, or even use known passwords from leaks on other services.
 
 This is easily done because if you browse to /?author=1, WordPress will kindly redirect you to /author/name/ and literally hand over the information you want
 
@@ -17,7 +17,8 @@ for i in {1..5}; do curl -s -L -i http://www.wordpress-site.com/?author=$i | gre
 ```
 
 ## The fix
-Place this code in your ```functions.php``` file.
+
+Place this code in your `functions.php` file.
 
 ```
 if (!is_admin()) {
