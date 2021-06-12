@@ -1,0 +1,449 @@
+<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><head>
+
+    <meta charset="UTF-8">
+    
+  <link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+  <meta name="apple-mobile-web-app-title" content="CodePen">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+  
+  <link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  
+  
+    <title>CodePen - Magnific Gallery</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,600">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    
+  <style>
+  .mfp-with-zoom .mfp-title, .touch .gallery-image figcaption, html:not(.touch) .gallery-image figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0);
+    padding: 1em;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    max-width: calc(100% - 9em);
+    line-height: 1.25;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .mfp-with-zoom .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image figcaption:after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    z-index: -1;
+  }
+  .mfp-with-zoom .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image figcaption:before, .mfp-with-zoom .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image figcaption:after {
+    right: 100%;
+    bottom: 100%;
+  }
+  .mfp-with-zoom .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image figcaption:after {
+    left: 100%;
+    top: 100%;
+  }
+  
+  .mfp-with-zoom.mfp-ready .mfp-title, .touch .gallery-image figcaption, html:not(.touch) .gallery-image:hover figcaption {
+    color: white;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease 0.3s;
+  }
+  .mfp-with-zoom.mfp-ready .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image:hover figcaption:before, .mfp-with-zoom.mfp-ready .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image:hover figcaption:after {
+    opacity: 1;
+  }
+  .mfp-with-zoom.mfp-ready .mfp-title:before, .touch .gallery-image figcaption:before, html:not(.touch) .gallery-image:hover figcaption:before {
+    right: -1.5em;
+    bottom: -1.5em;
+  }
+  .mfp-with-zoom.mfp-ready .mfp-title:after, .touch .gallery-image figcaption:after, html:not(.touch) .gallery-image:hover figcaption:after {
+    left: -1.5em;
+    top: -1.5em;
+  }
+  
+  html {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .gallery {
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  @media (min-width: 480px) {
+    .gallery {
+      -moz-column-count: 2;
+           column-count: 2;
+    }
+  }
+  @media (min-width: 1260px) {
+    .gallery {
+      -moz-column-count: 3;
+           column-count: 3;
+    }
+  }
+  
+  .gallery-image {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .gallery-image:before, .gallery-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 16px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+    will-change: border;
+  }
+  .gallery-image:after {
+    border-width: 0;
+  }
+  .gallery-image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  html:not(.touch) .gallery-image {
+    overflow: hidden;
+  }
+  html:not(.touch) .gallery-image:hover:before {
+    border-width: 16px;
+  }
+  html:not(.touch) .gallery-image:hover:after {
+    border-width: 32px;
+  }
+  .touch .gallery-image figcaption {
+    top: auto;
+    bottom: 2em;
+  }
+  
+  .mfp-with-zoom .mfp-container, .mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: all 0.3s ease-out;
+  }
+  .mfp-with-zoom.mfp-bg {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+  }
+  .mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 1;
+  }
+  .mfp-with-zoom.mfp-removing .mfp-container, .mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+  }
+  .mfp-with-zoom img.mfp-img {
+    padding: 0;
+  }
+  .mfp-with-zoom .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+  }
+  .mfp-with-zoom .mfp-container {
+    padding: 0;
+  }
+  .mfp-with-zoom .mfp-content {
+    overflow: hidden;
+  }
+  .mfp-with-zoom .mfp-bottom-bar {
+    top: auto;
+    bottom: 0;
+    margin-top: 0;
+  }
+  .mfp-with-zoom .mfp-title {
+    top: auto;
+    bottom: 2em;
+  }
+  .mfp-arrow {
+    opacity: 1;
+    margin-top: 0 !important;
+    width: 20%;
+    height: 30%;
+    transform: translateY(-50%);
+  }
+  .mfp-arrow:before, .mfp-arrow:after {
+    margin: 0;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    transform: rotate(-45deg) translate(-50%, -100%);
+    opacity: 1;
+    top: 50%;
+    left: 50%;
+    transition: all 0.15s;
+  }
+  .mfp-arrow:active {
+    transform: translateY(-50%) scale(0.95);
+  }
+  
+  .mfp-arrow-left {
+    left: 0;
+  }
+  .mfp-arrow-left:before, .mfp-arrow-left:after {
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+  }
+  .mfp-arrow-left:after {
+    margin-left: 2rem;
+  }
+  .mfp-arrow-left:hover:before, .mfp-arrow-left:active:before {
+    margin-left: 2rem;
+  }
+  .mfp-arrow-left:hover:after, .mfp-arrow-left:active:after {
+    margin-left: 0;
+  }
+  
+  .mfp-arrow-right {
+    right: 0;
+  }
+  .mfp-arrow-right:before, .mfp-arrow-right:after {
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+  }
+  .mfp-arrow-right:after {
+    margin-left: 2rem;
+  }
+  .mfp-arrow-right:hover:before {
+    margin-left: 2rem;
+  }
+  .mfp-arrow-right:hover:after {
+    margin-left: 0;
+  }
+  
+  button.mfp-close {
+    opacity: 1;
+    margin-top: 0 !important;
+    width: 20%;
+    height: 30%;
+    font: 0/0 serif;
+    text-shadow: none;
+    color: transparent;
+  }
+  button.mfp-close:before, button.mfp-close:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    border: none;
+    width: 2rem;
+    height: 2rem;
+    opacity: 1;
+    transition: all 0.15s;
+    transform-origin: 0 0;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+  }
+  button.mfp-close:before {
+    transform: rotate(-45deg);
+  }
+  button.mfp-close:after {
+    transform: rotate(135deg);
+  }
+  button.mfp-close:hover:before {
+    transform: rotate(135deg);
+  }
+  button.mfp-close:hover:after {
+    transform: rotate(315deg);
+  }
+  button.mfp-close:active {
+    transform: scale(0.95);
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  [id=footer] {
+    margin-top: 10vh;
+    padding: 10vh 0;
+    text-align: center;
+  }
+  [id=footer] .container {
+    position: relative;
+  }
+  [id=footer] .container:before, [id=footer] .container:after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 20px;
+    z-index: 10;
+    border-top: 2px solid;
+    width: 10%;
+    margin-bottom: 10vh;
+  }
+  [id=footer] .container:after {
+    left: auto;
+    right: 20px;
+  }
+  [id=footer] * {
+    display: block;
+  }
+  [id=footer] * + * {
+    margin-top: 5vh;
+  }
+  [id=footer] .logo {
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+  [id=footer] .copy {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: 600;
+  }
+  </style>
+  
+    <script>
+    window.console = window.console || function(t) {};
+  </script>
+  
+    
+    
+    <script>
+    if (document.location.search.match(/type=embed/gi)) {
+      window.parent.postMessage("resize", "*");
+    }
+  </script>
+  
+  
+  <style>.mM{display:block;border-radius:50%;box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);position:fixed;bottom:1em;right:1em;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transition:all 240ms ease-in-out;transition:all 240ms ease-in-out;z-index:9999;opacity:0.75}.mM svg{display:block}.mM:hover{opacity:1;-webkit-transform:scale(1.125);transform:scale(1.125)}</style></head>
+  
+  <body translate="no" class="">
+    <article class="gallery">
+    <a class="gallery-link" href="https://unsplash.it/1600/1600?image=1081">
+      <figure class="gallery-image">
+        <img height="1600" src="https://unsplash.it/1600/1600?image=1081" width="1600">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1200/1600?image=1014">
+      <figure class="gallery-image">
+        <img height="1600" src="https://unsplash.it/1200/1600?image=1014" width="1200">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1600/1400?image=267">
+      <figure class="gallery-image">
+        <img height="1400" src="https://unsplash.it/1600/1400?image=267" width="1600">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1400/1000?image=266">
+      <figure class="gallery-image">
+        <img height="1000" src="https://unsplash.it/1400/1000?image=266" width="1400">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1000/1400?image=634">
+      <figure class="gallery-image">
+        <img height="1400" src="https://unsplash.it/1000/1400?image=634" width="1000">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1600/1000?image=923">
+      <figure class="gallery-image">
+        <img height="1000" src="https://unsplash.it/1600/1000?image=923" width="1600">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1000/1200?image=682">
+      <figure class="gallery-image">
+        <img height="1200" src="https://unsplash.it/1000/1200?image=682" width="1000">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1400/1600?image=173">
+      <figure class="gallery-image">
+        <img height="1600" src="https://unsplash.it/1400/1600?image=173" width="1400">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+    <a class="gallery-link" href="https://unsplash.it/1400/1400?image=943">
+      <figure class="gallery-image">
+        <img height="1400" src="https://unsplash.it/1400/1400?image=943" width="1400">
+        <figcaption>Photo caption</figcaption>
+      </figure>
+    </a>
+  </article>
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <a class="logo" href="https://codepen.io/collection/XRoxGR" rel="home">Calibration theme</a>
+      <a class="copy" href="https://mobilemarkup.com" target="_blank">© mobileMarkup.com</a>
+    </div>
+  </footer>
+      <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        <script id="rendered-js">
+  (function() {
+    (function() {
+      var logo, logo_css;
+      logo = '<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>codepen-logo</title><path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zM7.139 21.651l1.35-1.35a.387.387 0 0 0 0-.54l-3.49-3.49a.387.387 0 0 0-.54 0l-1.35 1.35a.39.39 0 0 0 0 .54l3.49 3.49a.38.38 0 0 0 .54 0zm6.922.153l2.544-2.543a.722.722 0 0 0 0-1.018l-6.582-6.58a.722.722 0 0 0-1.018 0l-2.543 2.544a.719.719 0 0 0 0 1.018l6.58 6.579c.281.28.737.28 1.019 0zm14.779-5.85l-7.786-7.79a.554.554 0 0 0-.788 0l-5.235 5.23a.558.558 0 0 0 0 .789l7.79 7.789c.216.216.568.216.785 0l5.236-5.236a.566.566 0 0 0 0-.786l-.002.003zm-3.89 2.806a.813.813 0 1 1 0-1.626.813.813 0 0 1 0 1.626z" fill="#FFF" fill-rule="evenodd"/></svg>';
+      logo_css = '.mM{display:block;border-radius:50%;box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);position:fixed;bottom:1em;right:1em;-webkit-transform-origin:50% 50%;transform-origin:50% 50%;-webkit-transition:all 240ms ease-in-out;transition:all 240ms ease-in-out;z-index:9999;opacity:0.75}.mM svg{display:block}.mM:hover{opacity:1;-webkit-transform:scale(1.125);transform:scale(1.125)}';
+      document.head.insertAdjacentHTML('beforeend', '<style>' + logo_css + '</style>');
+      document.body.insertAdjacentHTML('beforeend', '<a href="https://codepen.io/mican/" target="_blank" class="mM">' + logo + '</a>');
+    })();
+  
+    $('.gallery-link').magnificPopup({
+      type: 'image',
+      closeOnContentClick: true,
+      closeBtnInside: false,
+      mainClass: 'mfp-with-zoom mfp-img-mobile',
+      image: {
+        verticalFit: true,
+        titleSrc: function(item) {
+          return item.el.find('figcaption').text() || item.el.attr('title');
+        }
+      },
+      zoom: {
+        enabled: true
+      },
+      // duration: 300
+      gallery: {
+        enabled: true,
+        navigateByImgClick: false,
+        tCounter: ''
+      },
+      disableOn: function() {
+        return $(window).width() > 640;
+      }
+    });
+  
+  }).call(this);
+  
+  //# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiPGFub255bW91cz4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBRyxDQUFBLFFBQUEsQ0FBQSxDQUFBO0FBQ0gsUUFBQSxJQUFBLEVBQUE7SUFBRSxJQUFBLEdBQU87SUFDUCxRQUFBLEdBQVc7SUFDWCxRQUFRLENBQUMsSUFBSSxDQUFDLGtCQUFkLENBQWlDLFdBQWpDLEVBQThDLFNBQUEsR0FBWSxRQUFaLEdBQXVCLFVBQXJFO0lBQ0EsUUFBUSxDQUFDLElBQUksQ0FBQyxrQkFBZCxDQUFpQyxXQUFqQyxFQUE4QyxpRUFBQSxHQUFvRSxJQUFwRSxHQUEyRSxNQUF6SDtFQUpDLENBQUE7O0VBTUgsQ0FBQSxDQUFFLGVBQUYsQ0FBa0IsQ0FBQyxhQUFuQixDQUNFO0lBQUEsSUFBQSxFQUFNLE9BQU47SUFDQSxtQkFBQSxFQUFxQixJQURyQjtJQUVBLGNBQUEsRUFBZ0IsS0FGaEI7SUFHQSxTQUFBLEVBQVcsOEJBSFg7SUFJQSxLQUFBLEVBQ0U7TUFBQSxXQUFBLEVBQWEsSUFBYjtNQUNBLFFBQUEsRUFBVSxRQUFBLENBQUMsSUFBRCxDQUFBO2VBQ1IsSUFBSSxDQUFDLEVBQUUsQ0FBQyxJQUFSLENBQWEsWUFBYixDQUEwQixDQUFDLElBQTNCLENBQUEsQ0FBQSxJQUFxQyxJQUFJLENBQUMsRUFBRSxDQUFDLElBQVIsQ0FBYSxPQUFiO01BRDdCO0lBRFYsQ0FMRjtJQVFBLElBQUEsRUFDRTtNQUFBLE9BQUEsRUFBUztJQUFULENBVEY7O0lBV0EsT0FBQSxFQUNFO01BQUEsT0FBQSxFQUFTLElBQVQ7TUFDQSxrQkFBQSxFQUFvQixLQURwQjtNQUVBLFFBQUEsRUFBVTtJQUZWLENBWkY7SUFlQSxTQUFBLEVBQVcsUUFBQSxDQUFBLENBQUE7YUFDVCxDQUFBLENBQUUsTUFBRixDQUFTLENBQUMsS0FBVixDQUFBLENBQUEsR0FBb0I7SUFEWDtFQWZYLENBREY7QUFOQSIsInNvdXJjZXNDb250ZW50IjpbImRvIC0+XG4gIGxvZ28gPSAnPHN2ZyB3aWR0aD1cIjMyXCIgaGVpZ2h0PVwiMzJcIiB2aWV3Qm94PVwiMCAwIDMyIDMyXCIgeG1sbnM9XCJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Z1wiPjx0aXRsZT5jb2RlcGVuLWxvZ288L3RpdGxlPjxwYXRoIGQ9XCJNMTYgMzJDNy4xNjMgMzIgMCAyNC44MzcgMCAxNlM3LjE2MyAwIDE2IDBzMTYgNy4xNjMgMTYgMTYtNy4xNjMgMTYtMTYgMTZ6TTcuMTM5IDIxLjY1MWwxLjM1LTEuMzVhLjM4Ny4zODcgMCAwIDAgMC0uNTRsLTMuNDktMy40OWEuMzg3LjM4NyAwIDAgMC0uNTQgMGwtMS4zNSAxLjM1YS4zOS4zOSAwIDAgMCAwIC41NGwzLjQ5IDMuNDlhLjM4LjM4IDAgMCAwIC41NCAwem02LjkyMi4xNTNsMi41NDQtMi41NDNhLjcyMi43MjIgMCAwIDAgMC0xLjAxOGwtNi41ODItNi41OGEuNzIyLjcyMiAwIDAgMC0xLjAxOCAwbC0yLjU0MyAyLjU0NGEuNzE5LjcxOSAwIDAgMCAwIDEuMDE4bDYuNTggNi41NzljLjI4MS4yOC43MzcuMjggMS4wMTkgMHptMTQuNzc5LTUuODVsLTcuNzg2LTcuNzlhLjU1NC41NTQgMCAwIDAtLjc4OCAwbC01LjIzNSA1LjIzYS41NTguNTU4IDAgMCAwIDAgLjc4OWw3Ljc5IDcuNzg5Yy4yMTYuMjE2LjU2OC4yMTYuNzg1IDBsNS4yMzYtNS4yMzZhLjU2Ni41NjYgMCAwIDAgMC0uNzg2bC0uMDAyLjAwM3ptLTMuODkgMi44MDZhLjgxMy44MTMgMCAxIDEgMC0xLjYyNi44MTMuODEzIDAgMCAxIDAgMS42MjZ6XCIgZmlsbD1cIiNGRkZcIiBmaWxsLXJ1bGU9XCJldmVub2RkXCIvPjwvc3ZnPidcbiAgbG9nb19jc3MgPSAnLm1Ne2Rpc3BsYXk6YmxvY2s7Ym9yZGVyLXJhZGl1czo1MCU7Ym94LXNoYWRvdzowIDFweCAzcHggcmdiYSgwLCAwLCAwLCAwLjEyKSwgMCAxcHggMnB4IHJnYmEoMCwgMCwgMCwgMC4yNCk7cG9zaXRpb246Zml4ZWQ7Ym90dG9tOjFlbTtyaWdodDoxZW07LXdlYmtpdC10cmFuc2Zvcm0tb3JpZ2luOjUwJSA1MCU7dHJhbnNmb3JtLW9yaWdpbjo1MCUgNTAlOy13ZWJraXQtdHJhbnNpdGlvbjphbGwgMjQwbXMgZWFzZS1pbi1vdXQ7dHJhbnNpdGlvbjphbGwgMjQwbXMgZWFzZS1pbi1vdXQ7ei1pbmRleDo5OTk5O29wYWNpdHk6MC43NX0ubU0gc3Zne2Rpc3BsYXk6YmxvY2t9Lm1NOmhvdmVye29wYWNpdHk6MTstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSgxLjEyNSk7dHJhbnNmb3JtOnNjYWxlKDEuMTI1KX0nXG4gIGRvY3VtZW50LmhlYWQuaW5zZXJ0QWRqYWNlbnRIVE1MICdiZWZvcmVlbmQnLCAnPHN0eWxlPicgKyBsb2dvX2NzcyArICc8L3N0eWxlPidcbiAgZG9jdW1lbnQuYm9keS5pbnNlcnRBZGphY2VudEhUTUwgJ2JlZm9yZWVuZCcsICc8YSBocmVmPVwiaHR0cHM6Ly9jb2RlcGVuLmlvL21pY2FuL1wiIHRhcmdldD1cIl9ibGFua1wiIGNsYXNzPVwibU1cIj4nICsgbG9nbyArICc8L2E+J1xuICByZXR1cm5cbiQoJy5nYWxsZXJ5LWxpbmsnKS5tYWduaWZpY1BvcHVwXG4gIHR5cGU6ICdpbWFnZSdcbiAgY2xvc2VPbkNvbnRlbnRDbGljazogdHJ1ZVxuICBjbG9zZUJ0bkluc2lkZTogZmFsc2VcbiAgbWFpbkNsYXNzOiAnbWZwLXdpdGgtem9vbSBtZnAtaW1nLW1vYmlsZSdcbiAgaW1hZ2U6IFxuICAgIHZlcnRpY2FsRml0OiB0cnVlXG4gICAgdGl0bGVTcmM6IChpdGVtKSAtPlxuICAgICAgaXRlbS5lbC5maW5kKCdmaWdjYXB0aW9uJykudGV4dCgpIHx8IGl0ZW0uZWwuYXR0cigndGl0bGUnKVxuICB6b29tOlxuICAgIGVuYWJsZWQ6IHRydWVcbiAgICAjIGR1cmF0aW9uOiAzMDBcbiAgZ2FsbGVyeTpcbiAgICBlbmFibGVkOiB0cnVlXG4gICAgbmF2aWdhdGVCeUltZ0NsaWNrOiBmYWxzZVxuICAgIHRDb3VudGVyOiAnJ1xuICBkaXNhYmxlT246IC0+XG4gICAgJCh3aW5kb3cpLndpZHRoKCkgPiA2NDAgIl19
+  //# sourceURL=coffeescript
+  //# sourceURL=pen.js
+      </script><a href="https://codepen.io/mican/" target="_blank" class="mM"><svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title>codepen-logo</title><path d="M16 32C7.163 32 0 24.837 0 16S7.163 0 16 0s16 7.163 16 16-7.163 16-16 16zM7.139 21.651l1.35-1.35a.387.387 0 0 0 0-.54l-3.49-3.49a.387.387 0 0 0-.54 0l-1.35 1.35a.39.39 0 0 0 0 .54l3.49 3.49a.38.38 0 0 0 .54 0zm6.922.153l2.544-2.543a.722.722 0 0 0 0-1.018l-6.582-6.58a.722.722 0 0 0-1.018 0l-2.543 2.544a.719.719 0 0 0 0 1.018l6.58 6.579c.281.28.737.28 1.019 0zm14.779-5.85l-7.786-7.79a.554.554 0 0 0-.788 0l-5.235 5.23a.558.558 0 0 0 0 .789l7.79 7.789c.216.216.568.216.785 0l5.236-5.236a.566.566 0 0 0 0-.786l-.002.003zm-3.89 2.806a.813.813 0 1 1 0-1.626.813.813 0 0 1 0 1.626z" fill="#FFF" fill-rule="evenodd"></path></svg></a>
+  
+    
+  
+  
+  
+  
+   
+  </body></html>
