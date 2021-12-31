@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-newsletter: yes
+newsletter: no
 comments: no
 listed: yes
 ---
@@ -9,9 +9,9 @@ listed: yes
 
 2) Nonlinear/divergent thinker 
 
-3) Into electronics(with passive components) since age 9
+3) Got into electronics at age 9 and built some basic robots
 
-4) Self-taught how to code(C for microcontrollers) at age 14(6 months after getting my first computer and using the internet) 
+4) Self-taught how to code(C for microcontrollers) at age 14(6 months after getting internet) 
 
 5) Extremely intrinsically motivated towards making/creating things
 
@@ -21,7 +21,7 @@ listed: yes
 
 8) Think very slowly but usually very accurately(I like to sleep on important/complex decisions)
 
-9) Extremely solution oriented and it sometimes makes me come off as asocial even though the solution I'm oriented towards is 100% for prosocial reasons
+9) Extremely solution oriented 
 
 10) Love to look at things from very different points of view and modes of thinking
 
@@ -43,6 +43,6 @@ listed: yes
 
 19) High energy
 
-20) Extremely calculated and deliberate 
+20) Often outside doing all sorts of sports
 
 21) The only person I know that actually profitted from bitcoin
