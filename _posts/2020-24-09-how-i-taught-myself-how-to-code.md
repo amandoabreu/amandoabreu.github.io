@@ -1,5 +1,5 @@
 ---
-title: How I Taught Myself How To Code
+title: How I Taught Myself How To Code In 10 Years
 layout: post
 newsletter: false
 comments: true

@@ -1,0 +1,1073 @@
+<html lang="en"><head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+  <title>CodePen - Magnific Gallery V2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css">
+  
+<style>
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  font-feature-settings: "liga", "kern";
+  font-family: "Montserrat", "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 1.5;
+}
+
+.fadein {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.fadein.lazyloaded {
+  opacity: 1;
+}
+
+.blur-up {
+  will-change: filter, opacity, transform;
+  filter: blur(3px);
+  transition: transform 1s, opacity 1s, blur 0.3s;
+  opacity: 0;
+  transform: scale(0.95);
+  transform-origin: center;
+}
+.blur-up:not(.lazyload) {
+  opacity: 1;
+  transform: scale(1);
+}
+.blur-up.lazyloaded {
+  filter: blur(0);
+}
+
+.spinner {
+  background: rgba(0, 0, 0, 0.03) url("../images/ui/spinner.svg") no-repeat center;
+}
+
+::-moz-selection {
+  color: white;
+  background: black;
+  text-shadow: none;
+}
+
+::selection {
+  color: white;
+  background: black;
+  text-shadow: none;
+}
+
+.custom-background:after {
+  content: "";
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  z-index: -3;
+  background-attachment: scroll;
+  min-height: 100vh;
+  height: calc(100vw * 16 / 9);
+}
+@media (orientation: landscape) {
+  .custom-background:after {
+    height: calc(100vw * 3 / 4);
+  }
+}
+
+[id=wrapper] .page-header > *:first-child:not(img):not(form):not(figure):not(div), [id=sidebar] > * > *:first-child:not(img):not(form):not(figure):not(div), [id=footer] .container > *:first-child:not(img):not(form):not(figure):not(div) {
+  margin-top: -0.25em;
+}
+[id=wrapper] .page-header > *:last-child:not(img):not(form):not(figure):not(div), [id=sidebar] > * > *:last-child:not(img):not(form):not(figure):not(div), [id=footer] .container > *:last-child:not(img):not(form):not(figure):not(div) {
+  margin-bottom: -0.25em;
+}
+
+[id=sidebar] a {
+  position: relative;
+  display: inline-block;
+}
+[id=sidebar] a:before, [id=sidebar] a:after {
+  content: "";
+  position: absolute;
+  top: -0.5em;
+  right: -0.75em;
+  bottom: -0.5em;
+  left: -0.75em;
+  display: block;
+}
+[id=sidebar] a:before {
+  transform-origin: right 0;
+  transform: scaleX(0);
+  transition: transform 0.3s, transform-origin 0.3s;
+  background: black;
+  z-index: -1;
+}
+[id=sidebar] a:hover {
+  color: white;
+  transition: color 0.15s 0.15s;
+}
+[id=sidebar] a:hover:before {
+  transform-origin: left 0;
+  transform: scaleX(1);
+  transition: transform-origin 0s, transform 0.3s;
+}
+[id=sidebar] a:hover:after {
+  z-index: 1;
+}
+
+[id=sidebar] > * {
+  position: relative;
+}
+[id=sidebar] > :before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: calc((.75rem + 1.25vw)*-1);
+  z-index: -2;
+  transition: background 0.2s ease;
+  background-color: rgba(255, 255, 255, 0);
+}
+[id=sidebar] > :hover:before, [id=sidebar] > :focus:before {
+  background-color: white;
+}
+
+.single [id=main] {
+  position: relative;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.single [id=main]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: calc((.75rem + 1.25vw)*-1);
+  background: white;
+}
+
+h1, h2, fieldset legend, h3, h4, h5, h6 {
+  margin: 1rem 0;
+  font-family: "Montserrat", "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+h1:not([class]), h2:not([class]), fieldset legend:not([class]), h3:not([class]), h4:not([class]), h5:not([class]), h6:not([class]) {
+  max-width: 60rem;
+}
+
+h1 {
+  font-weight: 600;
+  line-height: 1.25;
+}
+h1 {
+  font-size: 1.29616rem;
+}
+@media screen and (min-width: 37.5rem) {
+  h1 {
+    font-size: calc(1.29616rem + 1.86118 * ((100vw - 37.5rem) / 42.5));
+  }
+}
+@media screen and (min-width: 80rem) {
+  h1 {
+    font-size: 3.15733rem;
+  }
+}
+
+h2, fieldset legend {
+  font-weight: 600;
+  line-height: 1.375;
+}
+h2, fieldset legend {
+  font-size: 1.21477rem;
+}
+@media screen and (min-width: 37.5rem) {
+  h2, fieldset legend {
+    font-size: calc(1.21477rem + 1.15383 * ((100vw - 37.5rem) / 42.5));
+  }
+}
+@media screen and (min-width: 80rem) {
+  h2, fieldset legend {
+    font-size: 2.36859rem;
+  }
+}
+
+h3 {
+  font-weight: 500;
+}
+h3 {
+  font-size: 1.13849rem;
+}
+@media screen and (min-width: 37.5rem) {
+  h3 {
+    font-size: calc(1.13849rem + 0.6384 * ((100vw - 37.5rem) / 42.5));
+  }
+}
+@media screen and (min-width: 80rem) {
+  h3 {
+    font-size: 1.77689rem;
+  }
+}
+
+h4 {
+  font-weight: 500;
+}
+h4 {
+  font-size: 1.067rem;
+}
+@media screen and (min-width: 37.5rem) {
+  h4 {
+    font-size: calc(1.067rem + 0.266 * ((100vw - 37.5rem) / 42.5));
+  }
+}
+@media screen and (min-width: 80rem) {
+  h4 {
+    font-size: 1.333rem;
+  }
+}
+
+h5 {
+  font-weight: 500;
+}
+h5 {
+  font-size: 1rem;
+}
+@media screen and (min-width: 37.5rem) {
+  h5 {
+    font-size: calc(1rem + 0 * ((100vw - 37.5rem) / 42.5));
+  }
+}
+@media screen and (min-width: 80rem) {
+  h5 {
+    font-size: 1rem;
+  }
+}
+
+h6 {
+  font-weight: 500;
+}
+h6 {
+  font-size: 0.93721rem;
+}
+@media screen and (min-width: 37.5rem) {
+  h6 {
+    font-size: calc(0.93721rem + -0.18702 * ((100vw - 37.5rem) / 42.5));
+  }
+}
+@media screen and (min-width: 80rem) {
+  h6 {
+    font-size: 0.75019rem;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  pre {
+    overflow: hidden;
+  }
+}
+
+p, ul, dl, ol, blockquote {
+  margin: 1.25em 0;
+}
+p:not([class]), ul:not([class]), dl:not([class]), ol:not([class]), blockquote:not([class]) {
+  max-width: 60rem;
+}
+
+ul {
+  list-style-type: square;
+}
+
+hr {
+  border: none;
+  border-bottom: 2px dashed black;
+  margin: calc(.75rem + 1.25vw) 0;
+}
+
+fieldset {
+  border: 1rem solid rgba(0, 0, 0, 0.02);
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding: calc(.75rem + 1.25vw);
+}
+fieldset legend {
+  border: 1rem solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 0;
+  background-color: white;
+  padding: 0.25em 0.5em;
+}
+fieldset > * {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  margin: 0;
+}
+figure[style] {
+  max-width: 100%;
+}
+
+img, svg {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+table {
+  background: rgba(0, 0, 0, 0.02);
+  width: 100%;
+}
+table th, table td {
+  padding: 0.75em 1em;
+}
+table th:not(:last-child), table td:not(:last-child) {
+  border-right: 0.5rem solid white;
+}
+table tr:not(:last-child) td, table tr:not(:last-child) th {
+  border-bottom: 0.5rem solid white;
+}
+table th {
+  background: rgba(0, 0, 0, 0.02);
+}
+table td {
+  font-size: 0.875em;
+}
+table th, table caption {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+table caption {
+  padding: 1.25em 0.5em 0;
+}
+
+ol, ul {
+  padding: 0;
+  list-style-position: inside;
+}
+ol li + li, ul li + li {
+  margin-top: 0.5em;
+}
+
+[id=main] .entry {
+  font-family: "PT Serif", serif;
+}
+[id=main] .entry a {
+  text-decoration: underline;
+}
+
+.container, body:not(.has-gallery):not(.single-format-gallery):not(.page-template-gallery) [id=wrapper], .single-format-gallery [id=sidebar], .page-template-gallery [id=sidebar] {
+  max-width: 100rem;
+  padding-left: calc(.75rem + 1.25vw);
+  padding-right: calc(.75rem + 1.25vw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+[id=wrapper] {
+  flex: 1;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: calc(.75rem + 1.25vw);
+  padding-bottom: calc((.75rem + 1.25vw)*2);
+}
+@media (min-width: 1020px) {
+  body:not(.has-gallery) [id=wrapper], body:not(.single-format-gallery) [id=wrapper], [id=wrapper] body:not(.page-template-gallery) {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+}
+[id=wrapper] > * + * {
+  margin-top: calc((.75rem + 1.25vw)*2);
+}
+.has-gallery [id=wrapper], .has-gallery [id=wrapper] main, .single-format-gallery [id=wrapper], .single-format-gallery [id=wrapper] main, .page-template-gallery [id=wrapper], .page-template-gallery [id=wrapper] main {
+  padding-top: 0;
+  max-width: none;
+}
+[id=wrapper] .gallery-grid:first-child {
+  padding-top: calc((.75rem + 1.25vw)*2);
+}
+[id=wrapper] .gallery-grid:last-child {
+  padding-bottom: calc((.75rem + 1.25vw)*2);
+}
+[id=wrapper] .page-header {
+  text-align: center;
+  margin-bottom: calc((.75rem + 1.25vw)*2);
+  text-transform: uppercase;
+}
+
+@media (min-width: 1020px) {
+  [id=main] {
+    width: calc(100% - 280px + ((.75rem + 1.25vw)*-1*2));
+    margin-right: calc((.75rem + 1.25vw)*2);
+  }
+  [id=main]:only-child, .single-format-gallery [id=main], .page-template-gallery [id=main] {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+.single [id=main]:not(:only-child) + * {
+  margin-left: calc((.75rem + 1.25vw)*2);
+}
+[id=main] > * + * {
+  margin-top: calc((.75rem + 1.25vw)*3);
+}
+
+[id=sidebar] {
+  font-size: 0.75em;
+  transition: color 0.15s 0.15s;
+}
+@media (min-width: 1020px) {
+  body:not(.single-format-gallery):not(.page-template-gallery) [id=sidebar] {
+    width: calc(280px);
+    margin-top: 0;
+  }
+}
+[id=sidebar] > * + * {
+  margin-top: calc((.75rem + 1.25vw)*2);
+}
+@media (min-width: 640px) and (max-width: 769px) {
+  [id=sidebar] {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  [id=sidebar] > [class*=search] {
+    width: 100%;
+  }
+  [id=sidebar] > *:not([class*=search]) {
+    width: calc((100% - 1.5rem - 3vw)/2);
+  }
+}
+[id=sidebar] h1, [id=sidebar] h2, [id=sidebar] fieldset legend, fieldset [id=sidebar] legend {
+  font-size: 1.25em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border-bottom: 2px solid;
+  padding-bottom: 0.5rem;
+}
+[id=sidebar] li {
+  display: block;
+  padding-left: calc(.75rem + 1.25vw);
+  position: relative;
+}
+[id=sidebar] li:before {
+  content: "";
+  position: absolute;
+  top: calc(.75em - 1px);
+  left: 0;
+  border-top: 2px solid;
+  width: 4px;
+}
+@media (min-width: 770px) {
+  .single-format-gallery [id=sidebar], .page-template-gallery [id=sidebar] {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .single-format-gallery [id=sidebar] > *[class*=search], .page-template-gallery [id=sidebar] > *[class*=search] {
+    width: 100%;
+  }
+  .single-format-gallery [id=sidebar] > *:not([class*=search]), .page-template-gallery [id=sidebar] > *:not([class*=search]) {
+    width: calc((100% - (.75rem + 1.25vw)*8) / 4);
+  }
+  .single-format-gallery [id=sidebar] > *, .page-template-gallery [id=sidebar] > * {
+    margin: calc(.75rem + 1.25vw);
+  }
+}
+[id=sidebar].background--dark, [id=sidebar].background--complex, .background--dark [id=sidebar] {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+[id=sidebar].background--dark > *:hover, [id=sidebar].background--complex > *:hover, .background--dark [id=sidebar] > *:hover {
+  color: black;
+  text-shadow: none;
+}
+
+[id=footer] {
+  text-align: center;
+  position: relative;
+}
+[id=footer] .container {
+  padding: calc((.75rem + 1.25vw)*2) 0;
+  min-height: 100%;
+  box-sizing: border-box;
+}
+[id=footer] .container:after {
+  left: auto;
+  right: calc(.75rem + 1.25vw);
+}
+[id=footer] .container > * {
+  display: block;
+}
+[id=footer] .container > * + * {
+  margin-top: calc(.75rem + 1.25vw);
+}
+[id=footer] .footer-title {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+[id=footer] .footer-entry {
+  text-transform: uppercase;
+  font-size: 0.75em;
+}
+[id=footer] .container {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+[id=footer] .container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url("images/ui/target.svg") no-repeat left top, url("images/ui/target.svg") no-repeat right top, url("images/ui/target.svg") no-repeat left bottom, url("images/ui/target.svg") no-repeat right bottom;
+  margin: 0 -16px -16px;
+  z-index: -1;
+}
+.custom-background [id=footer] {
+  height: 100vh;
+  overflow: visible;
+}
+.custom-background [id=footer] .container {
+  display: flex;
+  flex-direction: column;
+}
+.custom-background [id=footer] .container:before {
+  margin: calc(.75rem + 1.25vw);
+  background-image: url("http://dev.mobilemarkup.com/calibration/wp-content/themes/calibration/assets/images/ui/target-background.svg");
+  background-size: contain;
+  background-position: center;
+}
+.custom-background [id=footer] .container > *:first-child {
+  margin-top: auto !important;
+}
+[id=footer].background--dark, .background--dark [id=footer] {
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+html:not(.touchevents) .gallery-caption {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0);
+  padding: 1.25em 1.5em;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+@media (min-width: 640px) {
+  html:not(.touchevents) .gallery-caption {
+    font-size: 14px;
+  }
+}
+html:not(.touchevents) .gallery-caption:before, html:not(.touchevents) .gallery-caption:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: black;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+  z-index: -1;
+}
+html:not(.touchevents) .gallery-caption:before {
+  top: auto;
+  height: 3px;
+  transform: scale(0, 1);
+  transform-origin: bottom left;
+  transition-delay: 0.6s;
+}
+html:not(.touchevents) .gallery-caption:after {
+  transform: scale(1, 0);
+  transform-origin: bottom;
+  transition-delay: 0.3s;
+}
+html:not(.touchevents) .visible.gallery-caption, .gallery-item:hover .gallery-caption {
+  color: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease 0.3s;
+}
+html:not(.touchevents) .visible.gallery-caption:before, .gallery-item:hover .gallery-caption:before {
+  transform: scale(1, 1);
+  transition-delay: 0s;
+}
+html:not(.touchevents) .visible.gallery-caption:after, .gallery-item:hover .gallery-caption:after {
+  transform: scale(1, 1);
+}
+html:not(.touchevents) .gallery-caption:empty {
+  display: none;
+}
+
+.gallery-item a {
+  position: relative;
+}
+.gallery-item a:before, .gallery-item a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 0 solid rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+  will-change: border;
+  z-index: 10;
+}
+.gallery-item a.active:before, .lazy-images .gallery-item a.image-lazyloaded:before, html:not(.lazy-images) .gallery-item a:before {
+  border-width: 0.5rem;
+}
+.gallery-item a.active:after, .lazy-images .gallery-item a.image-lazyloaded:after, html:not(.lazy-images) .gallery-item a:after {
+  border-width: 2px;
+}
+.gallery-item a:after {
+  margin: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  -webkit-clip-path: polygon(0 calc(100% - 1rem), 0 100%, 1rem 100%, 1rem 0, 0 0, 0 1rem, 100% 1rem, 100% 0, calc(100% - 1rem) 0, calc(100% - 1rem) 100%, 100% 100%, 100% calc(100% - 1rem));
+          clip-path: polygon(0 calc(100% - 1rem), 0 100%, 1rem 100%, 1rem 0, 0 0, 0 1rem, 100% 1rem, 100% 0, calc(100% - 1rem) 0, calc(100% - 1rem) 100%, 100% 100%, 100% calc(100% - 1rem));
+}
+.gallery-item a:hover:after {
+  transform: scale(0.9);
+  border-color: white;
+}
+
+.gallery {
+  font-family: "Montserrat", "HelveticaNeueLTStd", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  width: 100%;
+  display: grid;
+  grid-template-rows: flow;
+  grid-auto-flow: dense;
+}
+@media (max-width: 639px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 640px) and (max-width: 1019px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (1260px-px: 1020px) {
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (min-width: 1260px) and (max-width: 1599px) {
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media (min-width: 1600px) {
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.gallery-item {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.gallery-item img, .gallery-item a {
+  display: block;
+}
+.vertical.gallery-item {
+  grid-row: span 2;
+}
+.horizontal.gallery-item {
+  grid-column: span 2;
+}
+
+.gallery-item a {
+  display: block;
+}
+
+[class*=list] .gallery-caption, .gallery-size-thumbnail .gallery-caption {
+  display: none;
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <div class="gallery" itemscope="" itemtype="http://schema.org/ImageGallery" data-pswp-uid="1">
+    <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/bwh.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/bwh.jpg" data-src="/assets/images/bwh.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Trude @ Lofoten</figcaption>
+    </figure>
+    <figure class="gallery-item vertical" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/hannah2.jpeg" itemprop="contentUrl" data-size="1280x1920"><img class="lazypreload fadein lazyloaded" src="/assets/images/hannah2.jpeg" data-src="/assets/images/hannah2.jpeg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Hannah @ Lofoten</figcaption>
+    </figure>
+    <figure class="gallery-item vertical" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/hannah-anon.jpg" itemprop="contentUrl" data-size="1280x1920"><img class="lazypreload fadein lazyloaded" src="/assets/images/hannah-anon.jpg" data-src="/assets/images/hannah-anon.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Hannah @ Lofoten</figcaption>
+    </figure>
+    <figure class="gallery-item vertical" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/IMG_6283.jpg" itemprop="contentUrl" data-size="1280x1920"><img class="lazypreload fadein lazyloaded" src="/assets/images/IMG_6283.jpg" data-src="/assets/images/IMG_6283.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Rebecca</figcaption>
+    </figure>
+    <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/IMG_6219.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/IMG_6219.jpg" data-src="/assets/images/IMG_6219.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Linalba</figcaption>
+    </figure>
+    <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/IMG_6122.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/IMG_6122.jpg" data-src="/assets/images/IMG_6122.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Rebecca</figcaption>
+    </figure>
+    <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/rebecca1.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/rebecca1.jpg" data-src="/assets/images/rebecca1.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Rebecca</figcaption>
+    </figure>
+    <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/linalba1.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/linalba1.jpg" data-src="/assets/images/linalba1.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Linalba</figcaption>
+    </figure>
+    <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/ricks.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/ricks.jpg" data-src="/assets/images/ricks.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Ricks Bergen</figcaption>
+    </figure>
+    <figure class="gallery-item vertical" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/cherry.jpg" itemprop="contentUrl" data-size="1280x1920"><img class="lazypreload fadein lazyloaded" src="/assets/images/cherry.jpg" data-src="/assets/images/cherry.jpg" itemprop="thumbnail" alt="Image description"></a>
+      <figcaption class="gallery-caption" itemprop="caption description">Cherry blossoms</figcaption>
+    </figure>
+  <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/camels.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/camels.jpg" data-src="/assets/images/camels.jpg" itemprop="thumbnail" alt="Image description"></a>
+    <figcaption class="gallery-caption" itemprop="caption description">Sahara camel ride</figcaption>
+  </figure>
+  <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/camel.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/camel.jpg" data-src="/assets/images/camel.jpg" itemprop="thumbnail" alt="Image description"></a>
+    <figcaption class="gallery-caption" itemprop="caption description">Prepping the camel</figcaption>
+  </figure>
+  <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/monika.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/monika.jpg" data-src="/assets/images/monika.jpg" itemprop="thumbnail" alt="Image description"></a>
+    <figcaption class="gallery-caption" itemprop="caption description">Monika</figcaption>
+  </figure>
+  <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/ilona.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/ilona.jpg" data-src="/assets/images/ilona.jpg" itemprop="thumbnail" alt="Image description"></a>
+    <figcaption class="gallery-caption" itemprop="caption description">Ilona</figcaption>
+  </figure>
+  <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/ilona2.jpg" itemprop="contentUrl" data-size="1920x1920"><img class="lazypreload fadein lazyloaded" src="/assets/images/ilona2.jpg" data-src="/assets/images/ilona2.jpg" itemprop="thumbnail" alt="Image description"></a>
+    <figcaption class="gallery-caption" itemprop="caption description">Ilona</figcaption>
+  </figure>
+  <figure class="gallery-item horizontal" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="/assets/images/bike.jpg" itemprop="contentUrl" data-size="1920x1280"><img class="lazypreload fadein lazyloaded" src="/assets/images/bike.jpg" data-src="/assets/images/bike.jpg" itemprop="thumbnail" alt="Image description"></a>
+    <figcaption class="gallery-caption" itemprop="caption description">Racing</figcaption>
+  </figure>
+</div>
+<!-- Root element of PhotoSwipe. Must have class pswp.-->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+  <!--
+  Background of PhotoSwipe.
+  It's a separate element as animating opacity is faster than rgba().
+  -->
+  <div class="pswp__bg"></div>
+  <!-- Slides wrapper with overflow:hidden.-->
+  <div class="pswp__scroll-wrap">
+    <!--
+    Container that holds slides.
+    PhotoSwipe keeps only 3 of them in the DOM to save memory.
+    Don't modify these 3 pswp__item elements, data is added later on.
+    -->
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed.-->
+    <div class="pswp__ui pswp__ui--hidden">
+      <div class="pswp__top-bar">
+        <!-- Controls are self-explanatory. Order can be changed.-->
+        <div class="pswp__counter"></div>
+        <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+        <button class="pswp__button pswp__button--share" title="Share"></button>
+        <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+        <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+        <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR-->
+        <!-- element will get class pswp__preloader--active when preloader is running-->
+        <div class="pswp__preloader">
+          <div class="pswp__preloader__icn">
+            <div class="pswp__preloader__cut">
+              <div class="pswp__preloader__donut"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+        <div class="pswp__share-tooltip"></div>
+      </div>
+      <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+      <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+      <div class="pswp__caption">
+        <div class="pswp__caption__center"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.2/lazysizes.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.js"></script>
+      <script id="rendered-js">
+(function() {
+  var initPhotoSwipeFromDOM;
+
+  initPhotoSwipeFromDOM = function(gallerySelector) {
+    var closest, galleryElements, hashData, i, l, onThumbnailsClick, openPhotoSwipe, parseThumbnailElements, photoswipeParseHash;
+    // parse slide data (url, title, size ...) from DOM elements 
+    // (children of gallerySelector)
+    parseThumbnailElements = function(el) {
+      var figureEl, i, item, items, linkEl, numNodes, size, thumbElements;
+      thumbElements = el.childNodes;
+      numNodes = thumbElements.length;
+      items = [];
+      figureEl = void 0;
+      linkEl = void 0;
+      size = void 0;
+      item = void 0;
+      i = 0;
+      while (i < numNodes) {
+        figureEl = thumbElements[i];
+        // <figure> element
+        // include only element nodes 
+        if (figureEl.nodeType !== 1) {
+          i++;
+          continue;
+        }
+        linkEl = figureEl.children[0];
+        // <a> element
+        size = linkEl.getAttribute('data-size').split('x');
+        // create slide object
+        item = {
+          src: linkEl.getAttribute('href'),
+          w: parseInt(size[0], 10),
+          h: parseInt(size[1], 10)
+        };
+        if (figureEl.children.length > 1) {
+          // <figcaption> content
+          item.title = figureEl.children[1].innerHTML;
+        }
+        if (linkEl.children.length > 0) {
+          // <img> thumbnail element, retrieving thumbnail url
+          item.msrc = linkEl.children[0].getAttribute('src');
+        }
+        item.el = figureEl;
+        // save link to element for getThumbBoundsFn
+        items.push(item);
+        i++;
+      }
+      return items;
+    };
+    // find nearest parent element
+    closest = function(el, fn) {
+      return el && (fn(el) ? el : closest(el.parentNode, fn));
+    };
+    // triggers when user clicks on thumbnail
+    onThumbnailsClick = function(e) {
+      var childNodes, clickedGallery, clickedListItem, eTarget, i, index, nodeIndex, numChildNodes;
+      e = e || window.event;
+      if (e.preventDefault) {
+        e.preventDefault();
+      } else {
+        (e.returnValue = false);
+      }
+      eTarget = e.target || e.srcElement;
+      // find root element of slide
+      clickedListItem = closest(eTarget, function(el) {
+        return el.tagName && el.tagName.toUpperCase() === 'FIGURE';
+      });
+      if (!clickedListItem) {
+        return;
+      }
+      // find index of clicked item by looping through all child nodes
+      // alternatively, you may define index via data- attribute
+      clickedGallery = clickedListItem.parentNode;
+      childNodes = clickedListItem.parentNode.childNodes;
+      numChildNodes = childNodes.length;
+      nodeIndex = 0;
+      index = void 0;
+      i = 0;
+      while (i < numChildNodes) {
+        if (childNodes[i].nodeType !== 1) {
+          i++;
+          continue;
+        }
+        if (childNodes[i] === clickedListItem) {
+          index = nodeIndex;
+          break;
+        }
+        nodeIndex++;
+        i++;
+      }
+      if (index >= 0) {
+        // open PhotoSwipe if valid index found
+        openPhotoSwipe(index, clickedGallery);
+      }
+      return false;
+    };
+    // parse picture index and gallery index from URL (#&pid=1&gid=2)
+    photoswipeParseHash = function() {
+      var hash, i, pair, params, vars;
+      hash = window.location.hash.substring(1);
+      params = {};
+      if (hash.length < 5) {
+        return params;
+      }
+      vars = hash.split('&');
+      i = 0;
+      while (i < vars.length) {
+        if (!vars[i]) {
+          i++;
+          continue;
+        }
+        pair = vars[i].split('=');
+        if (pair.length < 2) {
+          i++;
+          continue;
+        }
+        params[pair[0]] = pair[1];
+        i++;
+      }
+      if (params.gid) {
+        params.gid = parseInt(params.gid, 10);
+      }
+      return params;
+    };
+    openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+      var gallery, items, j, options, pswpElement;
+      pswpElement = document.querySelectorAll('.pswp')[0];
+      gallery = void 0;
+      options = void 0;
+      items = void 0;
+      items = parseThumbnailElements(galleryElement);
+      // define options (if needed)
+      options = {
+        galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+        getThumbBoundsFn: function(index) {
+          var pageYScroll, rect, thumbnail;
+          // See Options -> getThumbBoundsFn section of documentation for more info
+          thumbnail = items[index].el.getElementsByTagName('img')[0];
+          pageYScroll = window.pageYOffset || document.documentElement.scrollTop;
+          rect = thumbnail.getBoundingClientRect();
+          return {
+            x: rect.left,
+            y: rect.top + pageYScroll,
+            w: rect.width
+          };
+        }
+      };
+      // PhotoSwipe opened from URL
+      if (fromURL) {
+        if (options.galleryPIDs) {
+          // parse real index when custom PIDs are used 
+          // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+          j = 0;
+          while (j < items.length) {
+            if (items[j].pid === index) {
+              options.index = j;
+              break;
+            }
+            j++;
+          }
+        } else {
+          // in URL indexes start from 1
+          options.index = parseInt(index, 10) - 1;
+        }
+      } else {
+        options.index = parseInt(index, 10);
+      }
+      // exit if index not found
+      if (isNaN(options.index)) {
+        return;
+      }
+      if (disableAnimation) {
+        options.showAnimationDuration = 0;
+      }
+      // Pass data to PhotoSwipe and initialize it
+      gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, options);
+      gallery.init();
+    };
+    // loop through all gallery elements and bind events
+    galleryElements = document.querySelectorAll(gallerySelector);
+    i = 0;
+    l = galleryElements.length;
+    while (i < l) {
+      galleryElements[i].setAttribute('data-pswp-uid', i + 1);
+      galleryElements[i].onclick = onThumbnailsClick;
+      i++;
+    }
+    // Parse URL and open gallery if it contains #&pid=3&gid=1
+    hashData = photoswipeParseHash();
+    if (hashData.pid && hashData.gid) {
+      openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true);
+    }
+  };
+
+  // execute above function
+  initPhotoSwipeFromDOM('.gallery');
+
+  // ---
+// generated by js2coffee 2.2.0
+
+}).call(this);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiPGFub255bW91cz4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFBQSxNQUFBOztFQUFBLHFCQUFBLEdBQXdCLFFBQUEsQ0FBQyxlQUFELENBQUE7QUFDeEIsUUFBQSxPQUFBLEVBQUEsZUFBQSxFQUFBLFFBQUEsRUFBQSxDQUFBLEVBQUEsQ0FBQSxFQUFBLGlCQUFBLEVBQUEsY0FBQSxFQUFBLHNCQUFBLEVBQUEsbUJBQUE7OztJQUdFLHNCQUFBLEdBQXlCLFFBQUEsQ0FBQyxFQUFELENBQUE7QUFDM0IsVUFBQSxRQUFBLEVBQUEsQ0FBQSxFQUFBLElBQUEsRUFBQSxLQUFBLEVBQUEsTUFBQSxFQUFBLFFBQUEsRUFBQSxJQUFBLEVBQUE7TUFBSSxhQUFBLEdBQWdCLEVBQUUsQ0FBQztNQUNuQixRQUFBLEdBQVcsYUFBYSxDQUFDO01BQ3pCLEtBQUEsR0FBUTtNQUNSLFFBQUEsR0FBVztNQUNYLE1BQUEsR0FBUztNQUNULElBQUEsR0FBTztNQUNQLElBQUEsR0FBTztNQUNQLENBQUEsR0FBSTtBQUNKLGFBQU0sQ0FBQSxHQUFJLFFBQVY7UUFDRSxRQUFBLEdBQVcsYUFBYSxDQUFDLENBQUQsRUFBOUI7OztRQUdNLElBQUcsUUFBUSxDQUFDLFFBQVQsS0FBcUIsQ0FBeEI7VUFDRSxDQUFBO0FBQ0EsbUJBRkY7O1FBR0EsTUFBQSxHQUFTLFFBQVEsQ0FBQyxRQUFRLENBQUMsQ0FBRCxFQU5oQzs7UUFRTSxJQUFBLEdBQU8sTUFBTSxDQUFDLFlBQVAsQ0FBb0IsV0FBcEIsQ0FBZ0MsQ0FBQyxLQUFqQyxDQUF1QyxHQUF2QyxFQVJiOztRQVVNLElBQUEsR0FDRTtVQUFBLEdBQUEsRUFBSyxNQUFNLENBQUMsWUFBUCxDQUFvQixNQUFwQixDQUFMO1VBQ0EsQ0FBQSxFQUFHLFFBQUEsQ0FBUyxJQUFJLENBQUMsQ0FBRCxDQUFiLEVBQWtCLEVBQWxCLENBREg7VUFFQSxDQUFBLEVBQUcsUUFBQSxDQUFTLElB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Q0FBRCxDQUFHLENBQUMsT0FBbkIsR0FBNkI7TUFDN0IsQ0FBQTtJQUhGLENBdEpGOztJQTJKRSxRQUFBLEdBQVcsbUJBQUEsQ0FBQTtJQUNYLElBQUcsUUFBUSxDQUFDLEdBQVQsSUFBaUIsUUFBUSxDQUFDLEdBQTdCO01BQ0UsY0FBQSxDQUFlLFFBQVEsQ0FBQyxHQUF4QixFQUE2QixlQUFlLENBQUMsUUFBUSxDQUFDLEdBQVQsR0FBZSxDQUFoQixDQUE1QyxFQUFnRSxJQUFoRSxFQUFzRSxJQUF0RSxFQURGOztFQTdKc0IsRUFBeEI7OztFQWtLQSxxQkFBQSxDQUFzQixVQUF0Qjs7RUFsS0E7O0FBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJpbml0UGhvdG9Td2lwZUZyb21ET00gPSAoZ2FsbGVyeVNlbGVjdG9yKSAtPlxuICAjIHBhcnNlIHNsaWRlIGRhdGEgKHVybCwgdGl0bGUsIHNpemUgLi4uKSBmcm9tIERPTSBlbGVtZW50cyBcbiAgIyAoY2hpbGRyZW4gb2YgZ2FsbGVyeVNlbGVjdG9yKVxuXG4gIHBhcnNlVGh1bWJuYWlsRWxlbWVudHMgPSAoZWwpIC0+XG4gICAgdGh1bWJFbGVtZW50cyA9IGVsLmNoaWxkTm9kZXNcbiAgICBudW1Ob2RlcyA9IHRodW1iRWxlbWVudHMubGVuZ3RoXG4gICAgaXRlbXMgPSBbXVxuICAgIGZpZ3VyZUVsID0gdW5kZWZpbmVkXG4gICAgbGlua0VsID0gdW5kZWZpbmVkXG4gICAgc2l6ZSA9IHVuZGVmaW5lZFxuICAgIGl0ZW0gPSB1bmRlZmluZWRcbiAgICBpID0gMFxuICAgIHdoaWxlIGkgPCBudW1Ob2Rlc1xuICAgICAgZmlndXJlRWwgPSB0aHVtYkVsZW1lbnRzW2ldXG4gICAgICAjIDxmaWd1cmU+IGVsZW1lbnRcbiAgICAgICMgaW5jbHVkZSBvbmx5IGVsZW1lbnQgbm9kZXMgXG4gICAgICBpZiBmaWd1cmVFbC5ub2RlVHlwZSAhPSAxXG4gICAgICAgIGkrK1xuICAgICAgICBjb250aW51ZVxuICAgICAgbGlua0VsID0gZmlndXJlRWwuY2hpbGRyZW5bMF1cbiAgICAgICMgPGE+IGVsZW1lbnRcbiAgICAgIHNpemUgPSBsaW5rRWwuZ2V0QXR0cmlidXRlKCdkYXRhLXNpemUnKS5zcGxpdCgneCcpXG4gICAgICAjIGNyZWF0ZSBzbGlkZSBvYmplY3RcbiAgICAgIGl0ZW0gPVxuICAgICAgICBzcmM6IGxpbmtFbC5nZXRBdHRyaWJ1dGUoJ2hyZWYnKVxuICAgICAgICB3OiBwYXJzZUludChzaXplWzBdLCAxMClcbiAgICAgICAgaDogcGFyc2VJbnQoc2l6ZVsxXSwgMTApXG4gICAgICBpZiBmaWd1cmVFbC5jaGlsZHJlbi5sZW5ndGggPiAxXG4gICAgICAgICMgPGZpZ2NhcHRpb24+IGNvbnRlbnRcbiAgICAgICAgaXRlbS50aXRsZSA9IGZpZ3VyZUVsLmNoaWxkcmVuWzFdLmlubmVySFRNTFxuICAgICAgaWYgbGlua0VsLmNoaWxkcmVuLmxlbmd0aCA+IDBcbiAgICAgICAgIyA8aW1nPiB0aHVtYm5haWwgZWxlbWVudCwgcmV0cmlldmluZyB0aHVtYm5haWwgdXJsXG4gICAgICAgIGl0ZW0ubXNyYyA9IGxpbmtFbC5jaGlsZHJlblswXS5nZXRBdHRyaWJ1dGUoJ3NyYycpXG4gICAgICBpdGVtLmVsID0gZmlndXJlRWxcbiAgICAgICMgc2F2ZSBsaW5rIHRvIGVsZW1lbnQgZm9yIGdldFRodW1iQm91bmRzRm5cbiAgICAgIGl0ZW1zLnB1c2ggaXRlbVxuICAgICAgaSsrXG4gICAgaXRlbXNcblxuICAjIGZpbmQgbmVhcmVzdCBwYXJlbnQgZWxlbWVudFxuXG4gIGNsb3Nlc3QgPSAoZWwsIGZuKSAtPlxuICAgIGVsIGFuZCAoaWYgZm4oZWwpIHRoZW4gZWwgZWxzZSBjbG9zZXN0KGVsLnBhcmVudE5vZGUsIGZuKSlcblxuICAjIHRyaWdnZXJzIHdoZW4gdXNlciBjbGlja3Mgb24gdGh1bWJuYWlsXG5cbiAgb25UaHVtYm5haWxzQ2xpY2sgPSAoZSkgLT5cbiAgICBlID0gZSBvciB3aW5kb3cuZXZlbnRcbiAgICBpZiBlLnByZXZlbnREZWZhdWx0IHRoZW4gZS5wcmV2ZW50RGVmYXVsdCgpIGVsc2UgKGUucmV0dXJuVmFsdWUgPSBmYWxzZSlcbiAgICBlVGFyZ2V0ID0gZS50YXJnZXQgb3IgZS5zcmNFbGVtZW50XG4gICAgIyBmaW5kIHJvb3QgZWxlbWVudCBvZiBzbGlkZVxuICAgIGNsaWNrZWRMaXN0SXRlbSA9IGNsb3Nlc3QoZVRhcmdldCwgKGVsKSAtPlxuICAgICAgZWwudGFnTmFtZSBhbmQgZWwudGFnTmFtZS50b1VwcGVyQ2FzZSgpID09ICdGSUdVUkUnXG4gICAgKVxuICAgIGlmICFjbGlja2VkTGlzdEl0ZW1cbiAgICAgIHJldHVyblxuICAgICMgZmluZCBpbmRleCBvZiBjbGlja2VkIGl0ZW0gYnkgbG9vcGluZyB0aHJvdWdoIGFsbCBjaGlsZCBub2Rlc1xuICAgICMgYWx0ZXJuYXRpdmVseSwgeW91IG1heSBkZWZpbmUgaW5kZXggdmlhIGRhdGEtIGF0dHJpYnV0ZVxuICAgIGNsaWNrZWRHYWxsZXJ5ID0gY2xpY2tlZExpc3RJdGVtLnBhcmVudE5vZGVcbiAgICBjaGlsZE5vZGVzID0gY2xpY2tlZExpc3RJdGVtLnBhcmVudE5vZGUuY2hpbGROb2Rlc1xuICAgIG51bUNoaWxkTm9kZXMgPSBjaGlsZE5vZGVzLmxlbmd0aFxuICAgIG5vZGVJbmRleCA9IDBcbiAgICBpbmRleCA9IHVuZGVmaW5lZFxuICAgIGkgPSAwXG4gICAgd2hpbGUgaSA8IG51bUNoaWxkTm9kZXNcbiAgICAgIGlmIGNoaWxkTm9kZXNbaV0ubm9kZVR5cGUgIT0gMVxuICAgICAgICBpKytcbiAgICAgICAgY29udGludWVcbiAgICAgIGlmIGNoaWxkTm9kZXNbaV0gPT0gY2xpY2tlZExpc3RJdGVtXG4gICAgICAgIGluZGV4ID0gbm9kZUluZGV4XG4gICAgICAgIGJyZWFrXG4gICAgICBub2RlSW5kZXgrK1xuICAgICAgaSsrXG4gICAgaWYgaW5kZXggPj0gMFxuICAgICAgIyBvcGVuIFBob3RvU3dpcGUgaWYgdmFsaWQgaW5kZXggZm91bmRcbiAgICAgIG9wZW5QaG90b1N3aXBlIGluZGV4LCBjbGlja2VkR2FsbGVyeVxuICAgIGZhbHNlXG5cbiAgIyBwYXJzZSBwaWN0dXJlIGluZGV4IGFuZCBnYWxsZXJ5IGluZGV4IGZyb20gVVJMICgjJnBpZD0xJmdpZD0yKVxuXG4gIHBob3Rvc3dpcGVQYXJzZUhhc2ggPSAtPlxuICAgIGhhc2ggPSB3aW5kb3cubG9jYXRpb24uaGFzaC5zdWJzdHJpbmcoMSlcbiAgICBwYXJhbXMgPSB7fVxuICAgIGlmIGhhc2gubGVuZ3RoIDwgNVxuICAgICAgcmV0dXJuIHBhcmFtc1xuICAgIHZhcnMgPSBoYXNoLnNwbGl0KCcmJylcbiAgICBpID0gMFxuICAgIHdoaWxlIGkgPCB2YXJzLmxlbmd0aFxuICAgICAgaWYgIXZhcnNbaV1cbiAgICAgICAgaSsrXG4gICAgICAgIGNvbnRpbnVlXG4gICAgICBwYWlyID0gdmFyc1tpXS5zcGxpdCgnPScpXG4gICAgICBpZiBwYWlyLmxlbmd0aCA8IDJcbiAgICAgICAgaSsrXG4gICAgICAgIGNvbnRpbnVlXG4gICAgICBwYXJhbXNbcGFpclswXV0gPSBwYWlyWzFdXG4gICAgICBpKytcbiAgICBpZiBwYXJhbXMuZ2lkXG4gICAgICBwYXJhbXMuZ2lkID0gcGFyc2VJbnQocGFyYW1zLmdpZCwgMTApXG4gICAgcGFyYW1zXG5cbiAgb3BlblBob3RvU3dpcGUgPSAoaW5kZXgsIGdhbGxlcnlFbGVtZW50LCBkaXNhYmxlQW5pbWF0aW9uLCBmcm9tVVJMKSAtPlxuICAgIHBzd3BFbGVtZW50ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLnBzd3AnKVswXVxuICAgIGdhbGxlcnkgPSB1bmRlZmluZWRcbiAgICBvcHRpb25zID0gdW5kZWZpbmVkXG4gICAgaXRlbXMgPSB1bmRlZmluZWRcbiAgICBpdGVtcyA9IHBhcnNlVGh1bWJuYWlsRWxlbWVudHMoZ2FsbGVyeUVsZW1lbnQpXG4gICAgIyBkZWZpbmUgb3B0aW9ucyAoaWYgbmVlZGVkKVxuICAgIG9wdGlvbnMgPVxuICAgICAgZ2FsbGVyeVVJRDogZ2FsbGVyeUVsZW1lbnQuZ2V0QXR0cmlidXRlKCdkYXRhLXBzd3AtdWlkJylcbiAgICAgIGdldFRodW1iQm91bmRzRm46IChpbmRleCkgLT5cbiAgICAgICAgIyBTZWUgT3B0aW9ucyAtPiBnZXRUaHVtYkJvdW5kc0ZuIHNlY3Rpb24gb2YgZG9jdW1lbnRhdGlvbiBmb3IgbW9yZSBpbmZvXG4gICAgICAgIHRodW1ibmFpbCA9IGl0ZW1zW2luZGV4XS5lbC5nZXRFbGVtZW50c0J5VGFnTmFtZSgnaW1nJylbMF1cbiAgICAgICAgcGFnZVlTY3JvbGwgPSB3aW5kb3cucGFnZVlPZmZzZXQgb3IgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnNjcm9sbFRvcFxuICAgICAgICByZWN0ID0gdGh1bWJuYWlsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpXG4gICAgICAgIHtcbiAgICAgICAgICB4OiByZWN0LmxlZnRcbiAgICAgICAgICB5OiByZWN0LnRvcCArIHBhZ2VZU2Nyb2xsXG4gICAgICAgICAgdzogcmVjdC53aWR0aFxuICAgICAgICB9XG4gICAgIyBQaG90b1N3aXBlIG9wZW5lZCBmcm9tIFVSTFxuICAgIGlmIGZyb21VUkxcbiAgICAgIGlmIG9wdGlvbnMuZ2FsbGVyeVBJRHNcbiAgICAgICAgIyBwYXJzZSByZWFsIGluZGV4IHdoZW4gY3VzdG9tIFBJRHMgYXJlIHVzZWQgXG4gICAgICAgICMgaHR0cDovL3Bob3Rvc3dpcGUuY29tL2RvY3VtZW50YXRpb24vZmFxLmh0bWwjY3VzdG9tLXBpZC1pbi11cmxcbiAgICAgICAgaiA9IDBcbiAgICAgICAgd2hpbGUgaiA8IGl0ZW1zLmxlbmd0aFxuICAgICAgICAgIGlmIGl0ZW1zW2pdLnBpZCA9PSBpbmRleFxuICAgICAgICAgICAgb3B0aW9ucy5pbmRleCA9IGpcbiAgICAgICAgICAgIGJyZWFrXG4gICAgICAgICAgaisrXG4gICAgICBlbHNlXG4gICAgICAgICMgaW4gVVJMIGluZGV4ZXMgc3RhcnQgZnJvbSAxXG4gICAgICAgIG9wdGlvbnMuaW5kZXggPSBwYXJzZUludChpbmRleCwgMTApIC0gMVxuICAgIGVsc2VcbiAgICAgIG9wdGlvbnMuaW5kZXggPSBwYXJzZUludChpbmRleCwgMTApXG4gICAgIyBleGl0IGlmIGluZGV4IG5vdCBmb3VuZFxuICAgIGlmIGlzTmFOKG9wdGlvbnMuaW5kZXgpXG4gICAgICByZXR1cm5cbiAgICBpZiBkaXNhYmxlQW5pbWF0aW9uXG4gICAgICBvcHRpb25zLnNob3dBbmltYXRpb25EdXJhdGlvbiA9IDBcbiAgICAjIFBhc3MgZGF0YSB0byBQaG90b1N3aXBlIGFuZCBpbml0aWFsaXplIGl0XG4gICAgZ2FsbGVyeSA9IG5ldyBQaG90b1N3aXBlKHBzd3BFbGVtZW50LCBQaG90b1N3aXBlVUlfRGVmYXVsdCwgaXRlbXMsIG9wdGlvbnMpXG4gICAgZ2FsbGVyeS5pbml0KClcbiAgICByZXR1cm5cblxuICAjIGxvb3AgdGhyb3VnaCBhbGwgZ2FsbGVyeSBlbGVtZW50cyBhbmQgYmluZCBldmVudHNcbiAgZ2FsbGVyeUVsZW1lbnRzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChnYWxsZXJ5U2VsZWN0b3IpXG4gIGkgPSAwXG4gIGwgPSBnYWxsZXJ5RWxlbWVudHMubGVuZ3RoXG4gIHdoaWxlIGkgPCBsXG4gICAgZ2FsbGVyeUVsZW1lbnRzW2ldLnNldEF0dHJpYnV0ZSAnZGF0YS1wc3dwLXVpZCcsIGkgKyAxXG4gICAgZ2FsbGVyeUVsZW1lbnRzW2ldLm9uY2xpY2sgPSBvblRodW1ibmFpbHNDbGlja1xuICAgIGkrK1xuICAjIFBhcnNlIFVSTCBhbmQgb3BlbiBnYWxsZXJ5IGlmIGl0IGNvbnRhaW5zICMmcGlkPTMmZ2lkPTFcbiAgaGFzaERhdGEgPSBwaG90b3N3aXBlUGFyc2VIYXNoKClcbiAgaWYgaGFzaERhdGEucGlkIGFuZCBoYXNoRGF0YS5naWRcbiAgICBvcGVuUGhvdG9Td2lwZSBoYXNoRGF0YS5waWQsIGdhbGxlcnlFbGVtZW50c1toYXNoRGF0YS5naWQgLSAxXSwgdHJ1ZSwgdHJ1ZVxuICByZXR1cm5cblxuIyBleGVjdXRlIGFib3ZlIGZ1bmN0aW9uXG5pbml0UGhvdG9Td2lwZUZyb21ET00gJy5nYWxsZXJ5J1xuXG4jIC0tLVxuIyBnZW5lcmF0ZWQgYnkganMyY29mZmVlIDIuMi4wIl19
+//# sourceURL=coffeescript
+//# sourceURL=pen.js
+    </script>
+
+  
+
+
+
+
+ 
+</body></html>
