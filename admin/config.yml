@@ -19,7 +19,7 @@ collections:
         widget: "string"
         pattern: ['.{1,}', "Must have at least 1 characters"]
       - label: "Meta description"
-        name: "meta_description"
+        name: "description"
         widget: "string"
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
