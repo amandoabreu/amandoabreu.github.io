@@ -1,5 +1,6 @@
 ---
 title: Some Esoteric Data Structures And Their Uses
+description: "esoteric data structures and their uses "
 layout: post
 newsletter: false
 comments: true
@@ -20,7 +21,7 @@ https://en.wikipedia.org/wiki/Scapegoat_tree
 
 ## Bloom Filter
 
-There's a high chance that my favourite data structure has a probabilistic nature. And that would be the bloom filter.
+There's a high chance that my favourite data structure is probabilistic in nature. And that would be the bloom filter.
 
 [Bloom filter](http://en.wikipedia.org/wiki/Bloom_filter): Bit array of *m* bits, initially all set to 0.
 
