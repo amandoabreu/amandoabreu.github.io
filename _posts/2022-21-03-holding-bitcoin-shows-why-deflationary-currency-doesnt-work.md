@@ -5,7 +5,7 @@ layout: post
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2022-03-21 04:14:23
+date: 2025-10-16 04:14:23
 ---
 Inflationary currency means you get less per unit of currency as time goes on.
 
