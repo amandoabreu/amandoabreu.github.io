@@ -2,6 +2,7 @@
 title: Sending user's searches on a static website to google sheets
 description: Sending data to google sheets from a static website
 layout: post
+image: /assets/images/posts/screenshot-2022-03-23-at-12.27.07.png
 newsletter: false
 comments: true
 author: Amando Abreu
