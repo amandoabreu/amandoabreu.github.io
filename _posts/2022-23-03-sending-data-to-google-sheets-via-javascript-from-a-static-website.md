@@ -23,11 +23,10 @@ Options I considered:
 
 Solution:
 
-\
 Ended using Zapier. Created a webhook action that I can use by sending a POST request to a URL that looks like this:
 
 ```
-zapier-url.com/webhook/hfhfh?data=data the user sends
+https://hooks.zapier.com/hooks/catch/notArealHook?search=data the user searched
 ```
 
 And then all I have to do is perform the request when the user submits the form
