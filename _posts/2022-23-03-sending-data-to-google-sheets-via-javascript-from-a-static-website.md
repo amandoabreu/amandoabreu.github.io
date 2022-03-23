@@ -1,6 +1,6 @@
 ---
-title: Sending data to google sheets via javascript from a static website
-description: Sending data to google sheets via javascript from a static website
+title: Sending data to google sheets from a static website
+description: Sending data to google sheets from a static website
 layout: post
 newsletter: false
 comments: true
