@@ -11,4 +11,10 @@ I have a static website. And in it I had a text field that users fill in. I don'
 
 In this case users input a number that refers to their salary in order to calculate how much they make per second. The input field is inside an article. By collecting this data I'm able to see what the average salary of the people who read that article/blog.
 
-I have the same system setup for the search field. Anytime someone types something into the search field, I want that data
+I have the same system setup for the search field. Anytime someone types something into the search field, I want that data.
+
+Options I considered:
+- Lambda function that saves stuff to dynamoDB
+- Analytics tools
+
+Solution:
