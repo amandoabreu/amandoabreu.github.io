@@ -29,6 +29,10 @@ Ended using Zapier. Created a webhook action that I can use by sending a POST re
 https://hooks.zapier.com/hooks/catch/notArealHook?search=data the user searched
 ```
 
+Zapier receives this data and sends it to google sheets:
+
+![](/assets/images/posts/screenshot-2022-03-23-at-12.36.59.png)
+
 And then all I have to do is perform the request when the user submits the form
 
 ```
