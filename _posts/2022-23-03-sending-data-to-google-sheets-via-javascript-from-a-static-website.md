@@ -26,7 +26,11 @@ Options I considered:
 * Lambda function that saves stuff to dynamoDB
 * Analytics tools
 
-Solution:\
+
+
+Solution:
+
+\
 Ended using Zapier. Created a webhook action that I can use by sending a POST request to a URL that looks like this:
 
 ```
