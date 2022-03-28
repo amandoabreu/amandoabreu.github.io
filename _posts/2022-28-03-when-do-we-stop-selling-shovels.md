@@ -12,7 +12,6 @@ date: 2022-03-28 06:26:21
 ---
 > we’re all just selling shovels to each other and no one is actually digging
 
-\
 Imagine a gold rush. Many tell you that the best way to monetize it is by selling shovels. 
 
 But, then, doesn’t the shovel selling become a secondary gold rush? And so on and so forth?
