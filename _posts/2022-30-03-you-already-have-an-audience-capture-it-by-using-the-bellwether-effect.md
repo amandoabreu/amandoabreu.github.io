@@ -42,6 +42,4 @@ I'll leave this video of Colin Theriot below to explain the bellwether effect:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CF_s8ibsgN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
-
-> So TL;DR: You have an audience, and a subsection of them will have shared interests. Even if you know nothing about these interests, you can use the bellwether effect to position yourself as an expert/authority and leverage your current audience for that hard-to-get initial traction.
+> So TL;DR: You have an audience, and a subsection of them will have shared interests. Even if you know nothing about these interests, you can use the bellwether effect to position yourself as an expert/authority and leverage your current audience for that hard-to-get initial traction in your audience building process.
