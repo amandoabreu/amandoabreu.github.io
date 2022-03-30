@@ -40,6 +40,8 @@ You can use something called the bellwether effect to essentially become an auth
 
 I'll leave this video of Colin Theriot below to explain the bellwether effect:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CF_s8ibsgN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CF_s8ibsgN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
+\
+Once you are an authority in your subject (which may take much shorter than you think!) people start asking questions. When people ask heart to heart questions you gain great insight into what they need/want, solve those issues and you got yourself potential income.
 
 > So TL;DR: You have an audience, and a subsection of them will have shared interests. Even if you know nothing about these interests, you can use the bellwether effect to position yourself as an expert/authority and leverage your current audience for that hard-to-get initial traction in your audience building process.
