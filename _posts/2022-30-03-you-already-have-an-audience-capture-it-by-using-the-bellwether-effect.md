@@ -8,7 +8,7 @@ image: /assets/images/posts/pexels-jonathan-borba-6622955.jpg
 newsletter: true
 comments: true
 author: Amando Abreu
-date: 2022-03-30 09:11:18
+date: 2022-03-29 09:11:18
 ---
 tl;dr; at the bottom 
 
