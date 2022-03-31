@@ -32,4 +32,4 @@ The video below show Mark Rober describing what happens when you press a piano k
 This relationship between seemingly extreme simplicity with a naïve view and the actual extreme complexity when getting into the details is analogous to many other things in the world, so I figured a term should exist. Here it is, enjoy!\
 
 
-* You might be thinking that digital pianos are a way to avoid this mechanical complexity. And you could definitely make that argument, but the complexity added by tricking a rock into thinking isn't trivial either.
+\* You might be thinking that digital pianos are a way to avoid this mechanical complexity. And you could definitely make that argument, but the complexity added by tricking a rock into thinking isn't trivial either.
