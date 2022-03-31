@@ -24,7 +24,7 @@ However, as soon as you get into the details of what is actually necessary for p
 
 It's seemingly so overly complex that even very smart ex-NASA engineers have wondered why and even set themselves out to redesign it. Only to find out this is in fact the minimum possible mechanism to make them work the way they do.*
 
-The video below show Mark Rober describing what happens when you press a piano key. The relevant time is from 1:38 to 4:19. 
+The video below shows Mark Rober describing what happens when you press a piano key. The relevant time is from 1:38 to 4:19. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBEL3YVzMwk?start=98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
