@@ -6,7 +6,7 @@ description: Piano Key Complexity is a term used for something most people
   the way they do, we discover a big world of complexity.
 layout: post
 image: /assets/images/posts/850px-piano_action_-_project_gutenberg_etext_17571.jpeg
-newsletter: false
+newsletter: true
 comments: true
 author: Amando Abreu
 date: 2022-03-30 01:38:45
