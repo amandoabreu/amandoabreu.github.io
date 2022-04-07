@@ -12,5 +12,6 @@ date: 2022-04-07 07:00:19
 
 This chrome extension prevents pronoun bias on LinkedIn. After installation it will strip all pronouns from people's profiles, feed, and comments, to ensure that you don't treat anyone differently due to their pronouns or lack thereof.
 
+The extension is available in the chrome webstore, and it's free:
 
 <https://chrome.google.com/webstore/detail/linkedin-pronoun-remover/mkikbpjjmknfdfdjfacfhjhiiifhcijf>
