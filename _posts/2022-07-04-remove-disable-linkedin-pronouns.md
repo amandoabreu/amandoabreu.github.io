@@ -1,6 +1,6 @@
 ---
 title: Remove/Disable Linkedin Pronouns
-description: Remove linkedin pronous; disable linkedin pronouns;
+description: Remove linkedin pronouns; Disable linkedin pronouns; Exclude linkedin pronouns
 layout: post
 image: /assets/images/posts/8d12a2ec-c388-4d8e-9106-61d235b3e461.png
 newsletter: false
