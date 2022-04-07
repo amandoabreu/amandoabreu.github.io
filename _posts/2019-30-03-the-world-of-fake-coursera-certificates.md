@@ -1,10 +1,11 @@
 ---
 title: The world of fake coursera certificates
+description: "Investigating a fake coursera certificate provider from a darkweb forum "
 layout: post
-newsletter: false
+newsletter: true
 comments: true
 author: Amando Abreu
-date: '2099-03-30 11:22:00'
+date: 2020-05-13 07:21:00
 ---
 Coursera is an online platform that allows you to study and get certified on a variety of topics. It's what's called a "MOOC" or Massive Open Online Courses platform.
 
@@ -32,7 +33,7 @@ Him:
 
 ![](/assets/images/posts/fakecertificate.png)
 
-I check this guy's Linkedin Profile, lo-and behold:
+I look up the name on the certificate on Linkedin, lo-and behold:
 
 ![](/assets/images/posts/credentials.png)
 
@@ -43,13 +44,3 @@ I check this guy's Linkedin Profile, lo-and behold:
 They might need to do a better job, and AFAIK they are making some courses harder to cheat than others.
 
 The importance of a certificate is inversely proportional to the ease of cheating on it.
-
-> “You wasted $150,000 on an education you coulda got for $1.50 in late fees at the public library.”
-
-So, is education about the results, or is it a filter for those who can afford it? If we make education free and/or incredibly cheap, then what exactly what are filtering?
-
-The current education paradigm has many flaws, but that's because it's super complicated. How many people do you know that spent a lot of money and time on their education to end up doing something completely different?
-
-Another problem is that it's incredibly hard to test people. Asking them to regurgitate what they read doesn't mean they learned anything. Perhaps we should move the focus from teaching "stuff" to teaching people how to find what they actually want to do. What if we gave kids academic freedom much earlier? 
-
-And who uses certificates to check if someone is educated? Probably someone that can't test the people they hire. They're trusting that the same universities their taxes paid for did a good job.
