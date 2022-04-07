@@ -28,8 +28,8 @@ The video below shows Mark Rober describing what happens when you press a piano 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uBEL3YVzMwk?start=98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 This relationship between seemingly extreme simplicity with a naïve view and the actual extreme complexity when getting into the details is analogous to many other things in the world, so I figured a term should exist. Here it is, enjoy!
 
+> **Piano Key Complexity**: Something so ubiquitous and seemingly simple that most assume they understand it; But upon further inspection the complexity of said thing is orders of magnitude bigger than expected due to incorrect initial assumptions.
 
 \* You might be thinking that digital pianos are a way to avoid this mechanical complexity. And you could definitely make that argument, but the complexity added by tricking a rock into thinking isn't trivial either, but it is more reusable.
