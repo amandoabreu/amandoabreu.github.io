@@ -5,6 +5,6 @@ date:   2016-11-24 22:34:06 +0100
 me: "Amando Abreu"
 hello: "Hey there!"
 ---
-<p>I love tech, free markets, people, efficiency, and making complicated things simple.
+<p>I like solving problems. Currently CTO at <a href="https://www.perlo.io/" target="_blank">Perlo.io</a>
 </p>
  
