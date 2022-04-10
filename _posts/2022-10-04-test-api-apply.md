@@ -17,4 +17,4 @@ date: 2022-04-09 12:31:48
     </div> 
   </div>
 </div>
-<script type="text/javascript" async src="https://www.api-apply.com/js/embed.js"></script> 
+<script type="text/javascript" defer src="https://www.api-apply.com/js/embed.js"></script> 
