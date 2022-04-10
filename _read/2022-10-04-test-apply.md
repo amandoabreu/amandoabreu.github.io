@@ -8,6 +8,7 @@ author: Amando Abreu
 book_author: hhh
 date: 2022-04-09 07:15:59
 ---
+<script type="text/javascript" async src="https://www.api-apply.com/js/embed.js"></script> 
 <link rel="stylesheet" href="https://www.api-apply.com/css/embed.css">
   <div class="apply">
   <button class="applyBtn" onclick="openApiApplyOverlay()" id="apiApplyBtn">Apply</button>
@@ -18,4 +19,3 @@ date: 2022-04-09 07:15:59
     </div> 
   </div>
 </div>
-<script type="text/javascript" async src="https://www.api-apply.com/js/embed.js"></script> 
