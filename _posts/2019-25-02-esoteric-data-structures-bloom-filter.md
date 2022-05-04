@@ -17,11 +17,9 @@ https://www.reddit.com/r/programming/comments/aujcxl/data_structures_to_namedrop
 
 https://en.wikipedia.org/wiki/Scapegoat_tree
 
-
-
 ## Bloom Filter
 
-There's a high chance that my favourite data structure is probabilistic in nature. And that would be the bloom filter.
+There's a big chance that my favourite data structure is probabilistic in nature. And that would be the bloom filter.
 
 [Bloom filter](http://en.wikipedia.org/wiki/Bloom_filter): Bit array of *m* bits, initially all set to 0.
 
@@ -32,8 +30,6 @@ To check if an item is in the set, compute the *k* indices and check if they are
 Of course, this gives some probability of false-positives (according to wikipedia it's about 0.61^(m/n) where n is the number of inserted items). False-negatives are not possible.
 
 Removing an item is impossible, but you can implement *counting bloom filter*, represented by array of ints and increment/decrement.
-
-
 
 ## Rope
 
