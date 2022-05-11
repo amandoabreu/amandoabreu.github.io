@@ -29,9 +29,9 @@ As a "non-techy" you don't understand how tech works. This is OK. Your job isn't
 
 If you, as a non-tech C-level join a 15 minute birthday party of a co-worker, getting back to work is trivial if most of what you're doing is talking to people. 
 
-Imagine you're creating a complex company budget/expected hires/expected income/etc for the next 2 years. Imagine you get interrupted in the middle of doing that. **This is what it's like to write code. Every single day.** you need to keep many things in your head, and a distraction will force you to start from zero.
+Imagine you're creating a complex company budget/expected hires/expected income/etc for the next 2 years. Imagine you get interrupted in the middle of doing that. **This is what it's like to write code. Every single day.** you need to keep many things in your head, and a distraction will force you to start from zero. However, take the complexity of that budget and multiply it by 100. This is now closer to what the complexity of code is like.
 
-For someone programming, a 15-minute party like this will completely ruin at least half a day of work because of the mental effort required to get back in the "zone".
+For someone programming, a 15-minute party like this will completely ruin at least half a day of work because of the mental effort required to get back to a productive mental space.
 
 # maker schedule
 
