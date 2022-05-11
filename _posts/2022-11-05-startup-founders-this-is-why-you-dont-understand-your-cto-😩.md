@@ -23,6 +23,9 @@ As a "non-techy" you don't understand how tech works. This is OK. Your job isn't
 
 # nature of the work
 
+# makers VS talkers
+Not a judge of character. Makers are often bad talkers. Talkers are often bad makers. CTOs need to be above average at both. It's a hard thing to be/do.
+
 # distractions & holding complex data in your head
 
 ![](/assets/images/posts/6fptwv.jpeg)
