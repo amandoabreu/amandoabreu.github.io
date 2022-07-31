@@ -219,6 +219,10 @@ input:focus ~ .highlight {
   animation: inputHighlighter 0.3s ease;
 }
 
+.hidden {
+  display:none;
+}
+
 
 /* ANIMATIONS */
 
@@ -237,6 +241,11 @@ input:focus ~ .highlight {
     <div class="form-container front">
     	<h1 class="form-label">Say something</h1>
         <form name="contact" netlify>
+        <p class="hidden">
+          <label>
+            Don’t fill this out if you’re human: <input name="bot-field" />
+          </label>
+        </p>
             <div class="group">
                 <input name="user-name" type="text" required>
                 <span class="highlight"></span>
