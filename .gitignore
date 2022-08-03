@@ -12,3 +12,4 @@ _assets/awsdeploycache
 _assets/awsimagecache
 s3_website.yml
 /nbproject
+.DS_Store
