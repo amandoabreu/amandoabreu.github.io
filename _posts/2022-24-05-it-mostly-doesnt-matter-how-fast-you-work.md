@@ -12,7 +12,7 @@ TL;DR;
 1. Others will slow you down
 2. Society rewards consistency, not necessarily speed
 3. In order to use your speed you need to first prove yourself via consistency 
-4. Most complex challenges are mostly marathons
+4. Most complex challenges are marathons
 
 I'm gonna start off this post with an analogous story related to a mountain bike race I did in 2013.\
 \
@@ -25,7 +25,7 @@ The race format is as follows:
 
    1. Each rider is sent down the hill with a 30 second interval from each other
    2. The times of each race are added up
-   3. The person with the fastest combined times wins
+   3. The person with the fastest combined downhill times wins
 
 I made a drawing to help explain better:
 
