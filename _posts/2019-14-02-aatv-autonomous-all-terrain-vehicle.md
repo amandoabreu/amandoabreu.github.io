@@ -1,12 +1,13 @@
 ---
-title: 'AATV, Autonomous All Terrain Vehicle'
+title: AATV, Autonomous All Terrain Vehicle
+description: aatv
 layout: post
 image: /assets/images/posts/full.jpg
 newsletter: false
 comments: true
 author: Amando Abreu
-category: robotics
-date: '2010-07-29 02:18:00'
+category: robotics robot
+date: 2010-07-29 02:18:00
 ---
 AATV stands for Autonomous All Terrain Vehicle.
 
