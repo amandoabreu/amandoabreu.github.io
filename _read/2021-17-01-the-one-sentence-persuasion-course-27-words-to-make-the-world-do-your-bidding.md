@@ -23,7 +23,7 @@ The fix to the exploit? **Make people aware of it.** If we all know the tell tal
 
 I can't share too much because then there's no point in reading the book. But the good news is there is a free version written in 2005, and a more modern edition.
 
-Free version [here](https://axerosolutions.com/attachment?file=IYxiXuQodT44eOrBSj9G%2Fw%3D%3D), amazon link [here](https://www.amazon.com/gp/product/B00AAF5GJK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00AAF5GJK&linkCode=as2&tag=aabreu0c-20&linkId=7a829a8b6f08ba0bdcebd2a669cac925):
+Free version [here](https://www.breakthroughmarketingsecrets.com/wp-content/uploads/2016/09/BlairWarren.pdf), amazon link [here](https://www.amazon.com/gp/product/B00AAF5GJK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00AAF5GJK&linkCode=as2&tag=aabreu0c-20&linkId=7a829a8b6f08ba0bdcebd2a669cac925):
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=US&source=ac&ref=qf_sp_asin_til&ad_type=product_link&tracking_id=aabreu0c-20&marketplace=amazon&amp;region=US&placement=B00AAF5GJK&asins=B00AAF5GJK&linkId=f3570de484e93120cd262bbec81501bd&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF">
     </iframe>
