@@ -24,8 +24,6 @@ Ok, here's how to set it up so that you can runs tests through PhpStorm in the d
 
 ![](/assets/images/posts/screenshot-2022-08-12-at-15.54.38.png)
 
-
-
 * Select the "Docker compose" option.
 * Configuration files are your docker-compose.yml files, mine did a good job at assuming which ones I wanted to use
 * Service: Select the docker container where your app is running, mine is called php:
@@ -38,7 +36,7 @@ Ok, here's how to set it up so that you can runs tests through PhpStorm in the d
 
 ![](/assets/images/posts/screenshot-2022-08-12-at-16.01.00.png)
 
-\# Setting up path mappings
+## Setting up path mappings
 
 * In PhpStorm > Preferences > PHP > Test frameworks
 * Click the folder icon after Path mappings
