@@ -18,7 +18,7 @@ Well how about you're totally wrong?
 
 ## You have an audience.
 
-I have 700+ followers on medium, 600+ on instagram, 900+ friends on fb, and I'm active in some reddit communities such as /r/portugal.
+I have 700+ followers on medium, 1400+ on instagram, 900+ friends on fb, 2000+ connections on linkedin, and I'm active in some reddit communities such as /r/portugal.
 
 You may not have the medium or IG followers, but you have friends on facebook FOR SURE, no?
 
@@ -30,7 +30,7 @@ Do such things already exist?
 
 Yes. But, these aren't cold leads. These are people I've gone to school with, had beers with, played sports with, etc, etc. So when I post something that is relevant to them, they will pay more attention than if it weren't someone they know.
 
-I left Portugal and had quite some experience in two different countries. So although I don't call myself an expert on anything, I can safely say I have A LOT to share about leaving a country and moving to another one.
+I left Portugal and had quite some experience in two different countries. So although I don't call myself an expert on anything, I can safely say I have A LOT to share about leaving a country and moving to another one from the perspective of someone who hasn't done it.
 
 ## What happens when you don't particularly have that much past experience??
 
@@ -41,7 +41,6 @@ You can use something called the bellwether effect to essentially become an auth
 I'll leave this video of Colin Theriot below to explain the bellwether effect:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CF_s8ibsgN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 Once you are an authority in your subject (which may take much shorter than you think!) people start asking questions. When people ask heart to heart questions you gain great insight into what they need/want, solve those issues and you got yourself potential income.
 
