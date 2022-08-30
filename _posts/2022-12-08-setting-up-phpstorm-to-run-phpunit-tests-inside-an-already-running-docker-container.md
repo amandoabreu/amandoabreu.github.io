@@ -38,7 +38,7 @@ Ok, here's how to set it up so that you can runs tests through PhpStorm in the d
 
 ## Setting up path mappings
 
-* In PhpStorm > Preferences > PHP > Test frameworks
+* In PhpStorm > Preferences > PHP
 * Click the folder icon after Path mappings
 * The one on the left is your local path, eg: /User/dev/project-root
 * The one on the right is the one inside the docker container, this should be explicitly in your Dockerfile, example: <https://github.com/dunglas/symfony-docker/blob/main/Dockerfile> -> line 147, WORKDIR /srv/app
