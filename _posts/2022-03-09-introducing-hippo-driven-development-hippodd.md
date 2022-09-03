@@ -6,7 +6,7 @@ image: /assets/images/posts/dall·e-2022-09-03-16.14.05-hippopotamus-driving-a-c
 newsletter: true
 comments: true
 author: Amando Abreu
-date: 2022-09-03 04:15:52
+date: 2022-09-03 03:15:52
 ---
 The most widely used development methodology
 
