@@ -14,8 +14,11 @@ This chrome extension prevents pronoun bias on LinkedIn. After installation it w
 
 The extension is available in the chrome webstore, and it's free:
 
-<https://chrome.google.com/webstore/detail/linkedin-pronoun-remover/mkikbpjjmknfdfdjfacfhjhiiifhcijf>\
-\
-UPDATE: The extension has been removed from the chrome webstore 😂 (it's not about having Linkedin in the name, as I have others with Linkedin in the name for years and never had trouble)\
-\
+<https://chrome.google.com/webstore/detail/linkedin-pronoun-remover/mkikbpjjmknfdfdjfacfhjhiiifhcijf>
+
+
+# UPDATE: The extension has been removed from the chrome webstore 😂 
+
+It's not about having Linkedin in the name, as I have others with Linkedin in the name for years and never had trouble
+
 Will update with a workaround.
