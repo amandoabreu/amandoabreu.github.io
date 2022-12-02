@@ -27,4 +27,4 @@ The known fixes right now include using [paypal](https://paypal.com/) to make th
 
 ## Tired of google?
 
-Alternatively, if you’re tired of google being google, I would heavily recommend switching to [Zoho](https://bit.ly/go-to-zoho-crm), they offer the same as google, at a very competitive price. Check them out!
+Alternatively, if you’re tired of google being google, I would heavily recommend switching to [Zoho](https://bit.ly/go-to-zoho-crm), they offer the same as google, at a very competitive price. (and your payments will work!) Check them out!
