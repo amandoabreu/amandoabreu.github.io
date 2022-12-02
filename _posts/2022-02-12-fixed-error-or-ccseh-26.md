@@ -21,9 +21,13 @@ And google isn’t following your bank’s requirements. This is google’s faul
 
 # How to fix error \[OR-CCSEH-26] 
 
+## Wise.com virtual card
+
+[Wise.com](https://wise.prf.hn/click/camref:1011ltUt7) allows you to make a virtual card that works very well with google. This is the simples solution.
+
 ## Paypal
 
-The known fixes right now include using [paypal](https://paypal.com/) to make the payment.
+One of the known fixes right now include using [paypal](https://paypal.com/) to make the payment.
 
 ## Tired of google?
 
