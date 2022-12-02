@@ -23,7 +23,7 @@ And google isn’t following your bank’s requirements. This is google’s faul
 
 ## Wise.com virtual card
 
-<a href=”https://wise.prf.hn/click/camref:1011ltUt7” target=”_blank”>Wise.com</a> allows you to make a virtual card that works very well with google. This is the simples solution.
+<a href=”https://wise.prf.hn/click/camref:1011ltUt7” target=”_blank”>Wise.com</a> allows you to make a virtual card that works very well with google. This is the simplest solution.
 
 ## Paypal
 
