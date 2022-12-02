@@ -5,7 +5,7 @@ layout: post
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2022-11-28 02:17:50
+date: 2025-08-08 02:17:50
 ---
 A﻿t 17 I was mostly interested in robotics and bicycle racing. These things cost money, and I happened to live very far away from civilization, and had no way to get msyelf to the nearest town 12km away. So, the usual jobs teenagers get were not a pssibility for me.\
 \
