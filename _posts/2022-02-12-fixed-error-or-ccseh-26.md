@@ -23,12 +23,12 @@ And google isn’t following your bank’s requirements. This is google’s faul
 
 ## Wise.com virtual card
 
-[Wise.com](https://wise.prf.hn/click/camref:1011ltUt7) allows you to make a virtual card that works very well with google. This is the simples solution.
+<a href=”https://wise.prf.hn/click/camref:1011ltUt7” target=”_blank”>Wise.com</a> allows you to make a virtual card that works very well with google. This is the simples solution.
 
 ## Paypal
 
-One of the known fixes right now include using [paypal](https://paypal.com/) to make the payment.
+One of the known fixes right now include using <a href=”https://paypal.com/” target=”_blank”>paypal</a> to make the payment.
 
 ## Tired of google?
 
-Alternatively, if you’re tired of google being google, I would heavily recommend switching to [Zoho](https://bit.ly/go-to-zoho-crm), they offer the same as google, at a very competitive price. (and your payments will work!) Check them out!
+Alternatively, if you’re tired of google being google, I would heavily recommend switching to <a href=”https://bit.ly/go-to-zoho-crm” target=”_blank”>Zoho</a>, they offer the same as google, at a very competitive price. (and your payments will work!) Check them out!
