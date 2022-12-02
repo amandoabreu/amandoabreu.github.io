@@ -2,6 +2,7 @@
 title: "[Fixed] Error [OR-CCSEH-26]"
 description: How to fix error OR-CCSEH-26
 layout: post
+image: /assets/images/posts/youtubethumbnail-2-.png
 newsletter: true
 comments: true
 author: Amando Abreu
