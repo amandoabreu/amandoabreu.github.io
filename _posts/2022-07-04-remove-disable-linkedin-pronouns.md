@@ -6,7 +6,7 @@ image: /assets/images/posts/8d12a2ec-c388-4d8e-9106-61d235b3e461.png
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2022-04-07 07:00:19
+date: 2025-12-18 07:00:19
 ---
 ![](/assets/images/posts/8d12a2ec-c388-4d8e-9106-61d235b3e461.png)
 
