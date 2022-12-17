@@ -14,13 +14,13 @@ I'm an experienced engineer, engineering manager, and chief technology officer w
 
 With a strong business and product knowledge I'm able to identify and maximise business opportunities through technology, identify and manage technical risk; ensure business and product scalability.
 
-I love talking to customers; defining problems; gathering requirements; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
+I love talking to people; defining problems; gathering requirements; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
 
 If something can be automated, it will be.
 
 A lot of experience in:
 - Starting software businesses
-- Pitching to investors
+- Talking to investors
 - IT security
 - Operations
 - Backend
@@ -50,7 +50,7 @@ It's important to have a good base and processes to work on. Business and engine
 - **Help with MVPs, POCs, and customer conversations**
 - **Help with requirements gathering (it's very hard to solve a badly defined problem, I know exactly what to ask from an engineering perspective)**
 
-### Series A+
+### Series A/A+
 At this stage, you know what your product does and you're likely making cash. Congrats! 🚀 
 
 The mistakes here range from hiring way more engineers than you need and inadvertedly slowing down your development, to creating silos in between business/tech, or even within the tech. 
