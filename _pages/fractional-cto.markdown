@@ -1,42 +1,57 @@
 ---
 layout: page
-title: Fractional CTO
+title: Fractional CTO?
 listed: no
 ---
 
-So you want a CTO... but you can't yet offer an attractive enough package to retain someone qualified to do what you need them to?
+So you want a CTO... but you don't want/need a full-time one, and don't want to give away equity? Smart move :)
 
-## Read on
+This is where I operate.
 
-CTOs embody critical skills for competitive firms. 
+I've been shipping software for over a decade, and building teams of various sizes to successfully run and keep building without me, after setting best practices and training the organization on how to create an environment to enjoy the best technology has to offer to a business.
 
-Knowing how to navigate technology and simplifying complexity into cheaper/faster development is a skill the average developer doesn't have.
+## Here's what I do
 
-You need a CTO for this.
+### Ideation (before official pre-seed/seed)
+I've spoken to dozens of people over the years who just needed someone experienced to spar with about the ideas they're having.
 
-## When a Fractional CTO Can Help
-A fractional CTO will essentially do what a full-time CTO does.
+I won't tell you what you should or shouldn't build, but I'll guide you through how some things are much easier to build than others, and how distribution/messaging is often the problem that causes things to fail, not whether or not something is possible to build.
 
-- A fractional CTO brings in the same experience and capability a full-time Chief Technology Officer would at a fraction of the salary. So **if you are out to save as much money as you can and also need to take your business to a higher level, a Fractional CTO might be what you need.**
-- You're starting something from scratch and don't want to make mistakes that create more technical debt than revenue right at the start.
-- If you are looking to optimize internal efficiencies, prevent silos from forming, and using the talent you already have to their full extent, a CTO can help orchestrate the systems required for this
-- Product development is not going as planned – quality issues, delivery dates missed, customer satisfaction concerns, etc…
-- Improving development speed via DevOps and Agile culture
-- You feel that things aren’t going as they should from a tech perspective and want to get an objective assessment
-- Need to prepare for acquisition / sale and want to identify and resolve tech issues that could negatively impact the deal
-- Your full-time CTO is (or soon will be) no longer in the picture and you need someone to keep things going until you can hire a replacement.
+People tend to build too much too early and forget about testing the market 👀
 
-## Advantages of a Fractional CTO
-- Cost effective compared to a full-time CTO
-- Enables business to get product development aligned with goals of the business without hiring a full-time CTO
-- Brings outside perspective and doesn't suffer from the group's tendencies to create silos/echo chambers
-- Experience from working with many companies to optimize product development/launch new products
-- Available immediately with deep experience getting up to speed quickly
+**I'll challenge your ideas similarly to how investors will when you speak to them :)**
+
+### Pre-seed/seed
+At this stage, change is the name of the game. The product will change and shift extremely quickly. You may build several prototypes and proof-of-concepts.
+
+It's important to have a good base and processes to work on. Business and engineering need to send and respond to feedback from one-another. Business people need to know how to communicate to engineers, and vice-versa.
+
+**I will:**
+- **Create the foundations of your engineering**
+- **Build the team**
+- **Show you how to communicate with your engineers**
+- **Show you how to simplify your requirements (why take 6 weeks building something that can be built in a couple of days?)**
+- **Help with MVPs, POCs, and customer conversations**
+- **Help with requirements gathering (it's very hard to solve a badly defined problem, I know exactly what to ask from an engineering perspective)**
+
+### Series A+
+At this stage, you know what your product does and you're likely making serious cash. The mistakes here range from hiring way more engineers than you need and inadvertedly slowing down your development, to creating silos in between business/tech, or even within the tech, and the silent killer nobody expects to happen to them: security issues.
+
+Engineers may start to leave, and unless you want a reolving door, something will need to happen.
+
+**I will help you:**
+- **Create an environment people want to work in**
+- **Identify and minimise silo'd information**
+- **Make your processes more effective**
+- **Audit your information security and put you on the path to ISO27001 standards**
+
+### My secret sauce to building teams
+In the past two years I've developed a method to <a href="https://www.pre-screen.dev/" target="_blank">attract and screen</a> above-average developers in a guerilla sort of way, in a very time efficient manner. I'll share this process with you.
 
 ## Notes for those just starting out
 When talking to first time founders at the beginning of a new project, it has come to my attention that many tend to overthink, over develop, and get their engineers to over engineer. 
 
-Over engineering means overspending and less also means speed to make the changes that the market with inevitably force you to make. I've seen many good people spend a lot of money on things no one ever needed or wanted.
+Over engineering means overspending. And also makes you slower. The market with inevitably force you to make changes. I've seen many good people spend a lot of money on things no one ever needed or wanted. Proper validation is of tremendous importance, and unlike many CTOs, this is something I will help you with :)
 
 If you're starting something from scratch and don't have any code yet, the best decision you could make BY FAR is to get a fractional CTO at least as a one-time request to:
 
@@ -46,17 +61,14 @@ If you're starting something from scratch and don't have any code yet, the best 
 - Decreasing time to market (because the market is <a target="_BLANK" href="https://amandoabreu.com/wrote/data-driven-decisions-explained-with-hamburgers/">very irrational</a>)
 - Gathering input from real life usage data 
 
-
-**Expecting developers to take the role of architect and business analyst is unwise.** 
-
-If you're still reading, drop me a line in my <a href="/contact/">contact page</a>
+If you're still reading, drop me a line in my <a href="/book-appointment/">contact page</a>
 
 <ul class="listing">
     <li class="listing__li">
-        <a class="listing__link block" href="/contact/">
+        <a class="listing__link block" href="/book-appointment/">
             <div class="listing__item">
                 <div class="listing__type">Click here to</div>
-                <h3 class="listing__title">Contact me</h3>
+                <h3 class="listing__title">Get in touch</h3>
             </div>
         </a>
     </li>
