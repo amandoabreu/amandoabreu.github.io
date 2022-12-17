@@ -17,14 +17,14 @@ title: Amando Abreu - CTO
 email: amando.abreu@gmail.com
 name: Amando Abreu
 description: > # this means to ignore newlines until "baseurl:"
-  AMando Abreu - CTO @ Perlo.io
+  Amando Abreu - CTO @ Perlo.io
 keywords: >
-  Amando Abreu, Business Development, IT, DevOps, Development, Web Development, Infrastructure
+  Amando Abreu, Chief technology officer; Business Development, IT, DevOps, Development, Web Development, Infrastructure
 baseurl: "/" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 url: "https://amando-abr.eu/"
 #baseurl: "//amando-abr.eu/"
-twitter_username: mndflp
+twitter_username: amandoabreu
 github:  amandoabreu
 s3_base: https://s3.eu-central-1.amazonaws.com/amandoabreu/
 cloudfront_base: d3rsaozjtunf6k.cloudfront.net/
