@@ -70,7 +70,7 @@ Engineers may start to leave, and unless you want a revolving door, something wi
     <li class="listing__li">
         <a class="listing__link block" href="/book-appointment/">
             <div class="listing__item">
-                <div class="listing__type">Sounds good?</div>
+                <div class="listing__type">Does this sound good?</div>
                 <h3 class="listing__title">Click here to get in touch</h3>
             </div>
         </a>
