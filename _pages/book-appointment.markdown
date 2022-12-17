@@ -236,20 +236,19 @@ input:focus ~ .highlight {
   }
 }
  </style>
-<div class="centerwrapper centerwrapper--medium" style="margin-top:100px">
-<div class="content">
-    <div class="centerwrapper centerwrapper--medium">
-        <div class="my">
-            <div class="my__details">
-                <p class="my__description">
-                    JJJJ
-                </p>
-            </div>
-            <div class="my__photo" style="background-image:url('/assets/images/amando.jpeg')">
-            </div>
+ <div class="centerwrapper centerwrapper--wide" style="margin-top:100px">
+  <div class="my">
+    <div class="my__photo" style="background-image: url({{ site.baseUrl }}/assets/images/amando.jpeg)"></div>
+    <div class="my__details">
+        <p class="my__description">
+            sssssss
+        </p>
+        <div class="my__name-is">
         </div>
     </div>
+  </div>
 </div>
+<div class="centerwrapper centerwrapper--medium" style="margin-top:20px">
  <div class="container-form">
     <div class="form-container front">
     	<h1 class="form-label">Book an appointment</h1>
