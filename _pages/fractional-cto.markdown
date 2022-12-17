@@ -83,14 +83,15 @@ Engineers may start to leave, and unless you want a revolving door, something wi
 In the past two years I've developed a method to <a href="https://www.pre-screen.dev/" target="_blank">attract and screen</a> above-average developers in a guerilla sort of way, in a very time efficient manner. I'll share this process with you.
 
 ### Notes for those just starting out
-When talking to first time founders at the beginning of a new project, it has come to my attention that many tend to overthink, over develop, and get their engineers to over engineer. 
+When talking to first time founders at the beginning of a new project, it has come to my attention that many tend to overthink about the wrong questions, over develop, and get their engineers to over engineer. 
 
-Over engineering means overspending. And also makes you slower. The market with inevitably force you to make changes. I've seen many good people spend a lot of money on things no one ever needed or wanted. Proper validation is of tremendous importance, and unlike many CTOs, this is something I will help you with :)
+The right questions aren't obvious. Over engineering means overspending & affects your speed. The market will inevitably force you to make changes, and these need to be quick. I've seen many good people spend a lot of money on things no one ever needed or wanted. Proper validation is of tremendous importance, and unlike many CTOs, this is something I will help you with :)
 
 If you're starting something from scratch and don't have any code yet, the best decision you could make BY FAR is to get a fractional CTO at least as a one-time consultation to:
 
 - Go over your idea
-- Simplify it
+- Help you think about the right questions
+- Simplify your idea
 - Turn it into requirements that any developer can start working on
 - Decreasing time to market (because the market is <a target="_BLANK" href="https://amandoabreu.com/wrote/data-driven-decisions-explained-with-hamburgers/">very irrational</a>)
 - Gathering input from real life ongoing usage data 
