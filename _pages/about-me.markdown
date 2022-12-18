@@ -11,15 +11,15 @@ listed: yes
 
 3) Got into electronics at age 9 and built some basic robots
 
-4) Self-taught how to code(C for microcontrollers) at age 14(6 months after getting internet) 
+4) Self-taught how to code(C for microcontrollers) at age 14 (6 months after getting internet) 
 
 5) Extremely intrinsically motivated towards making/creating things
 
 6) Can hyperfocus on a single topic for years if the occasion requires it
 
-7) Somewhat blind to external stimuli 
+7) Somewhat blind to external stimuli when in "flow"
 
-8) Think very slowly but usually very accurately(I like to sleep on important/complex decisions)
+8) Think very slowly but usually very accurately (I like to sleep on important/complex decisions)
 
 9) Extremely solution oriented 
 
