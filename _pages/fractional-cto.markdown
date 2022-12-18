@@ -8,7 +8,7 @@ So you want a CTO... but you don't want/need a full-time one, and don't want to 
 
 This is where I operate.
 
-## A little about me
+## A little bit about me
 
 I'm an experienced engineer, engineering manager, and chief technology officer with 10+ years shipping/maintaining products in various industries; and building teams both in offices and 100% remote.
 
