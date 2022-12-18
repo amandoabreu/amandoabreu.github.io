@@ -21,6 +21,7 @@ If something can be automated, it will be.
 I know a lot about:
 - Software businesses
 - Talking to investors
+- Solutions engineering for SMBs and big corporates 
 - IT security
 - Operations
 - Backend
