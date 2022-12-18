@@ -12,14 +12,14 @@ This is where I operate.
 
 I'm an experienced engineer, engineering manager, and chief technology officer with 10+ years shipping/maintaining products in various industries; and building teams both in offices and 100% remote.
 
-With a strong business and product knowledge I'm able to identify and maximise business opportunities through technology, identify and manage technical risk; ensure business and product scalability.
+With a strong business and product knowledge I'm able to identify and maximise business opportunities through technology, identify and manage technical risk; and ensure business and product scalability.
 
-I love talking to people; defining problems; gathering requirements; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
+I love talking to people; defining problems; gathering requirements; problem solving; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
 
 If something can be automated, it will be.
 
-A lot of experience in:
-- Starting software businesses
+I know a lot about:
+- Software businesses
 - Talking to investors
 - IT security
 - Operations
