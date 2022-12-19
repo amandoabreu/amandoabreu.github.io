@@ -16,16 +16,17 @@ With a strong business and product knowledge I'm able to identify and maximise b
 
 I love talking to people; defining problems; gathering requirements; problem solving; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
 
-If something can be automated, it will be.
+If something can be automated, it will be. 
 
 I know a lot about:
 - Software businesses
 - Talking to investors
 - Solutions engineering for SMBs and big corporates 
 - IT security
-- Operations
-- Backend
-- Frontend
+- Operations ("DevOps" has always been how I work)
+- Backend (I've touched every popular stack since 2008)
+- Frontend (Again, touched every popular stack since 2008)
+- Mobile (Android since 2013, iOS since 2015)
 - Users
 - Software engineers
 
