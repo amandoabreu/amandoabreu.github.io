@@ -23,10 +23,10 @@ I know a lot about:
 - Talking to investors
 - Solutions engineering for SMBs and big corporates 
 - IT security
-- Operations ("DevOps" has always been how I work)
-- Backend (I've touched every popular stack since 2008)
-- Frontend (Again, touched every popular stack since 2008)
-- Mobile (Android since 2013, iOS since 2015)
+- Operations 
+- Backend 
+- Frontend 
+- Mobile
 - Users
 - Software engineers
 
