@@ -1,5 +1,6 @@
 ---
-title: I Helped My Mom Productivize Her Teaching
+title: I Helped My Mom Create And Sell An Online Course
+description: I Helped My Mom Create And Sell An Online Course
 layout: post
 newsletter: false
 comments: true
