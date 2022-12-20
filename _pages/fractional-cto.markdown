@@ -46,6 +46,7 @@ It's important to have a good base and processes to work on. Business and engine
 
 **I will:**
 - **Create the foundations of your engineering and communication processes**
+- **Address quality issues**
 - **Build your team (s)**
 - **Show you how to communicate with your engineers**
 - **Show you how to simplify your product/features (why take 6 weeks building something that can be built in a couple of days?)**
