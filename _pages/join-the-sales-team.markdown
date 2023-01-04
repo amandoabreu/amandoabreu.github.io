@@ -3,8 +3,8 @@ layout: default
 title: contact
 listed: yes
 ---
-<script src="https://fdelbos.github.io/coolforms/static/coolforms.js" type="text/javascript"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.js"></script>
+<script src="https://fdelbos.github.io/coolforms/static/coolforms.js" type="text/javascript"></script>
 
  <style type="text/css">
  * { box-sizing: border-box; position:relative;}
@@ -157,7 +157,7 @@ hr {
 
  </style>
 <div class="centerwrapper centerwrapper--medium" style="margin-top:100px">
- <div ng-app="coolform" class="wrapper">
+ <div ng-app="CoolForm" class="wrapper">
   
   <div cool-form>
     <div class="q-title">Join the sales team!</div>
