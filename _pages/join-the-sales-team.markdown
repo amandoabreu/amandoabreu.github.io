@@ -3,7 +3,7 @@ layout: default
 title: contact
 listed: yes
 ---
-<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.js"></script>
 
  <style type="text/css">
  * { box-sizing: border-box; position:relative;}
