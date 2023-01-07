@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Requires Vue version 3.x -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <!-- Flow Form -->
+    <script src="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.1"></script>
+    <script src="airtable.js"></script>
+    <!-- Flow Form base CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.1/dist/vue-flow-form.min.css">
+    <!-- Optional theme.css -->
+    <link rel="stylesheet" href="https://unpkg.com/@ditdot-dev/vue-flow-form@2.3.1/dist/vue-flow-form.theme-minimal.min.css">
+    <!-- Optional font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;900&amp;display=swap">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+    var app = Vue.createApp({
+  el: '#app',
+  template: '<flow-form v-on:submit="onSubmit" v-bind:questions="questions" v-bind:language="language" />',
+  data: function() {
+    return {
+      language: new VueFlowForm.LanguageModel({
+        // Your language definitions here (optional).
+        // You can leave out this prop if you want to use the default definitions.
+      }),
+      questions: [
+      new VueFlowForm.QuestionModel({
+            id: 'first_name',
+            tagline: 'Hi! We are happy that you want to work with us 😊',
+            title: 'What is your first name?',
+            type: VueFlowForm.QuestionType.Text,
+            required: true,
+            placeholder: 'Start typing here...'
+          }),
+          new VueFlowForm.QuestionModel({
+            id: 'email',
+            tagline: "Nice to meet you 👀, let's continue",
+            title: 'What\'s your best email?',
+            type: VueFlowForm.QuestionType.Email,
+            required: true,
+            placeholder: 'Start typing here...'
+          }),
+          new VueFlowForm.QuestionModel({
+            id: 'sales_type',
+            tagline: "Let's take it one step further...",
+            title: 'What do you prefer? (select all that apply)',
+            helpTextShow: false,
+            type: VueFlowForm.QuestionType.MultiplePictureChoice,
+            multiple: true,
+            required: true,
+            options: [
+              new VueFlowForm.ChoiceOption({
+                imageSrc: 'assets/images/wolf.webp',
+                imageAlt: 'Facebook logo',
+                label: 'Closing on the phone'
+              }),
+              new VueFlowForm.ChoiceOption({
+                imageSrc: 'assets/images/chat.jpeg',
+                imageAlt: 'Twitter logo',
+                label: 'Closing through chat'
+              }),
+              new VueFlowForm.ChoiceOption({
+                imageAlt: 'Instagram logo',
+                imageSrc: 'assets/images/appointment.jpeg',
+                label: 'Appointment setting'
+              }),
+              new VueFlowForm.ChoiceOption({
+                imageAlt: 'TikTok logo',
+                label: 'Cold outreach (Social Media, email)',
+                imageSrc: 'assets/images/text.jpeg',
+              })
+            ]
+          }),
+          new VueFlowForm.QuestionModel({
+            id: 'work_hard',
+            title: 'Doing great! 👍 Do you like working hard?',
+            type: VueFlowForm.QuestionType.MultipleChoice,
+            multiple: false,
+            required: true,
+            options: [
+              new VueFlowForm.ChoiceOption({
+                imageAlt: 'Facebook logo',
+                label: 'Yes!'
+              }),
+              new VueFlowForm.ChoiceOption({
+                imageAlt: 'Twitter logo',
+                label: 'No, I\'d rather watch netflix'
+              }),
+            ]
+          }),
+          new VueFlowForm.QuestionModel({
+            id: 'location',
+            title: 'Where do you live? 🌍',
+            type: VueFlowForm.QuestionType.Text,
+            required: true,
+            placeholder: 'Start typing here...'
+          }),
+          new VueFlowForm.QuestionModel({
+            id: 'how_experienced',
+            title: 'How experienced are you at what you do?',
+            subtitle: 'You can also use ⌨️ numbers to select an option',
+            type: VueFlowForm.QuestionType.OpinionScale,
+            required: true,
+            max: 10,
+            labelLeft: 'Awful',
+            labelRight: 'Exceptional'
+          }),
+          new VueFlowForm.QuestionModel({
+            id: 'money',
+            tagline: 'How much are you looking to earn per month?',
+            title: 'Multiple choice question:',
+            helpTextShow: false,
+            type: VueFlowForm.QuestionType.MultipleChoice,
+            multiple: false,
+            allowOther: true,
+            required: true,
+            options: [
+              new VueFlowForm.ChoiceOption({
+                label: 'Under $1000'
+              }),
+              new VueFlowForm.ChoiceOption({
+                label: '$1000 to $10,000'
+               }),
+              new VueFlowForm.ChoiceOption({
+                label: 'Over $10,000'
+              })
+            ]
+          })
+      ]
+    }
+  },
+  mounted() {
+        document.addEventListener('keyup', this.onKeyListener)
+    },
+    beforeUnmount() {
+        document.removeEventListener('keyup', this.onKeyListener)
+    },
+  methods: {
+    onKeyListener($event) {
+        // We've overriden the default "complete" slot so
+        // we need to implement the "keyup" listener manually.
+        if ($event.key === 'Enter' && this.completed && !this.submitted) {
+          this.onSendData()
+          console.log("e");
+        }
+      },
+
+    onComplete(completed, questionList) {
+        // This method is called whenever the "completed" status is changed.
+        this.completed = completed
+        console.log("y");
+    },
+
+    onSubmit(questionList) {
+        const formData = this.getData();
+
+        /*fetch(url, {
+            method: 'POST',
+            body: data
+        })*/
+        const baseId = "apphq2ROW1D6Prnch";
+        const tableIdOrName = "Table 1";
+        const url = `https://api.airtable.com/v0/${baseId}/${tableIdOrName}`;
+        const data = {
+        records: [
+            {
+            fields: {
+                Name: formData.answers[0],
+                Email: formData.answers[1],
+                "Sales type": formData.answers[2],
+                "Do you like working hard?": formData.answers[3],
+                Location: formData.answers[4],
+                Experience: formData.answers[5],
+                "Money per month": formData.answers[6],
+            },
+            },
+        ],
+        };
+
+        const options = {
+        method: "POST",
+        headers: {
+            Authorization: "Bearer patpQp2TwQC8uVbDl.593e75c7bbe8fa463e7677336c98ae07dc52cdc6afcf7d25891f967f3379226f",
+            "Content-Type": "application/json",
+        },
+            body: JSON.stringify(data),
+        };
+
+        fetch(url, options)
+        .then((response) => response.json())
+        .then((result) => console.log(result))
+        .catch((error) => console.log(error));
+
+    },
+    onSendData() {
+        // Set `submitted` to true so the form knows not to allow back/forward
+        // navigation anymore.
+        this.$refs.flowform.submitted = true
+        this.submitted = true
+        /* eslint-disable-next-line no-unused-vars */
+        const data = this.getData()
+        /*
+          You can use Fetch API to send the data to your server, eg.:
+          fetch(url, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+          })
+        */
+        alert("Test");
+    },
+    getData() {
+    const data = {
+        questions: [],
+        answers: []
+    }
+    this.questions.forEach(question => {
+        if (question.title) {
+        let answer = question.answer
+        if (Array.isArray(answer)) {
+            answer = answer.join(', ')
+        }
+        data.questions.push(question.title)
+        data.answers.push(answer)
+        }
+    })
+    return data
+    }
+  }
+}).component('FlowForm', VueFlowForm.FlowForm);
+
+const vm = app.mount('#app');
+    </script>
+  </body>
+</html>
