@@ -6,7 +6,7 @@ newsletter: true
 comments: true
 author: Amando Abreu
 category: WordPress
-date: 2023-01-28 11:13:32
+date: 2023-01-28 09:13:32
 ---
 I﻿ didn't want to add the entire WooCommerce plugin to my site in order to process payments with Stripe, so I made this plugin.\
 \
