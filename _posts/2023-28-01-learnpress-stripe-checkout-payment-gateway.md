@@ -8,4 +8,6 @@ author: Amando Abreu
 category: WordPress
 date: 2024-10-05 08:38:01
 ---
-I﻿ didn't want to add the entire WooCommerce plugin to my site in order to process payments with Stripe, so I made this plugin
+I﻿ didn't want to add the entire WooCommerce plugin to my site in order to process payments with Stripe, so I made this plugin.\
+\
+\[﻿page incomplete]
