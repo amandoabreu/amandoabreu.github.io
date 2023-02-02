@@ -1,5 +1,5 @@
 ---
-title: "[Fixed] Error [OR-CCSEH-26]"
+title: How to fix Error OR-CCSEH-26 (Works in 2023)
 description: How to fix error OR-CCSEH-26
 layout: post
 image: /assets/images/posts/youtubethumbnail-2-.png
