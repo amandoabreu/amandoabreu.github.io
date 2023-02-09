@@ -1,6 +1,6 @@
 ---
-title: I made a WordPress plugin with chatGPT – Here's how it went
-description: I made a WordPress plugin with chatGPT – Here's how it went
+title: I asked chatGPT to make a WordPress plugin – Here's how it went
+description: I asked chatGPT to make a WordPress plugin – Here's how it went
 layout: post
 newsletter: false
 comments: true
