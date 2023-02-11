@@ -7,7 +7,7 @@ newsletter: true
 comments: true
 author: Amando Abreu
 category: fixes
-date: 2022-12-01 11:28:51
+date: 2023-02-11 11:03:53
 ---
 You probably tried paying for something with your card, and it gets declined with the following error "\[OR-CCSEH-26]".
 
