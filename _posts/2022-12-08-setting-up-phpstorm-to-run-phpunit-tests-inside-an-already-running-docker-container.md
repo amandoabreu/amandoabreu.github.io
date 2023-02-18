@@ -8,7 +8,7 @@ image: /assets/images/posts/screenshot-2022-08-12-at-15.56.27.png
 newsletter: true
 comments: true
 author: Amando Abreu
-date: 2022-08-12 12:15:00
+date: 2023-02-18 04:44:03
 ---
 Let's make some assumptions:
 
