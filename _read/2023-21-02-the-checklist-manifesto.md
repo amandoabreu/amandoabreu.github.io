@@ -7,7 +7,7 @@ cover_header: true
 comments: true
 author: Amando Abreu
 book_author: Atul Gawande
-date: 2023-02-21 07:49:20
+date: 2023-02-20 07:49:20
 ---
 Atul Gawande's "The Checklist Manifesto" is a book about how checklists can help us manage complexity, increase efficiency, and reduce errors in any field. Gawande draws on examples from a range of industries, including aviation, construction, and medicine, to show how checklists can be a powerful tool for improving performance and achieving success.
 
