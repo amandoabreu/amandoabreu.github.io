@@ -67,6 +67,3 @@ DEPENDENCIES
   bundler (~> 1.12)
   rake (~> 10.0)
   simples-jekyll!
-
-BUNDLED WITH
-   1.17.3
