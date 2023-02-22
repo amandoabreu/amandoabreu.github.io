@@ -9,18 +9,20 @@ author: Amando Abreu
 book_author: Jeremy Kun
 date: 2021-01-16 08:07:00
 ---
-A Programmer's Introduction to Mathematics uses your familiarity with ideas from programming and software to teach mathematics. You'll learn about the central objects and theorems of mathematics, including graphs, calculus, linear algebra, eigenvalues, optimization, and more. You'll also be immersed in the often unspoken cultural attitudes of mathematics, learning both how to read and write proofs while understanding why mathematics is the way it is. 
+A Programmer's Introduction to Mathematics is a book written by Dr. Jeremy Kun, which aims to introduce basic mathematical concepts to computer programmers. The book covers topics such as set theory, logic, number theory, algebra, and calculus. It is designed to help programmers understand the mathematical principles behind the algorithms and data structures they use in their daily work.
 
-Between each technical chapter is an essay describing a different aspect of mathematical culture, and discussions of the insights and meta-insights that constitute mathematical intuition. As you learn, we'll use new mathematical ideas to create wondrous programs, from cryptographic schemes to neural networks to hyperbolic tessellations. Each chapter also contains a set of exercises that have you actively explore mathematical topics on your own. In short, this book will teach you to engage with mathematics.
+The key takeaways from this book are:
 
-#### Expectations for reading A Programmer's Introduction to Mathematics
+1. Understanding the principles of mathematics can help programmers write more efficient and effective code.
+2. Mathematics provides a powerful toolkit for solving complex problems.
+3. Mathematical thinking can be applied to a wide range of programming challenges.
 
-I wasn't the best in mathematics at school. But on my spare time I was teaching myself how to write code and some basic algorithms. I ever made the connection that a program was very similar to a proof until I took the Andrew Ng course on Machine Learning. 
+Some of the key learnings from this book include:
 
-**It suddenly hit me that Σ was basically a "for loop".** And I couldn't help but wonder what other parallels there were. I looked around for a book and one didn't exist, but this one came out soon after I started wondering about it.
+1. Sets and set theory are fundamental to computer science, providing a way to organize and classify data.
+2. Logic is essential to programming, providing a foundation for algorithms and decision-making.
+3. Number theory can be used to solve problems related to encryption and data security.
+4. Algebra is useful for solving problems related to optimization and data analysis.
+5. Calculus can be used to understand the behavior of complex systems and to optimize algorithms.
 
-The point for reading this book is to not get completely lost when the mathematicians start talking :) just knowing the terminology helps significantly.
-
-But the most amazing part for me is that I was unknowingly learning more advanced mathematical concepts whilst reaching myself to code, and at the same time failing basic math in school. Coding created a "why" for me, solving problems for the sake of it at school isn't a big motivator.
-
-**This is a long, heavy, hands-on read, I will change this document as I go.**
+In summary, A Programmer's Introduction to Mathematics is an essential resource for programmers looking to improve their mathematical skills. The book provides a clear and concise introduction to key mathematical concepts, and offers practical advice on how to apply these principles to programming challenges. By mastering the principles of mathematics, programmers can become more effective problem solvers, and write more efficient and effective code.
