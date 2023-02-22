@@ -64,6 +64,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.12)
+  bundler (~> 2.4.7)
   rake (~> 10.0)
   simples-jekyll!
