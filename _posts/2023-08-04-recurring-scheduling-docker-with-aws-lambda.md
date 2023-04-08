@@ -13,4 +13,6 @@ T﻿he Dockerfile\
 \
 P﻿ushing the docker image\
 \
-E﻿vent Bridge
+E﻿vent Bridge\
+\
+T﻿erraform
