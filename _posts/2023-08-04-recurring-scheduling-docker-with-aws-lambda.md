@@ -1,5 +1,5 @@
 ---
-title: "Recurring scheduling docker with aws lambda "
+title: "Scheduling dockerized script with aws lambda "
 description: sss
 layout: post
 newsletter: false
