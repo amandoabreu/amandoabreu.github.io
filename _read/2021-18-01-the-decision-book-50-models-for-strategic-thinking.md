@@ -7,7 +7,7 @@ cover_header: true
 comments: true
 author: Amando Abreu
 book_author: Mikael Krogerus  & Roman Tschäppeler
-date: 2118-01-19 12:02:00
+date: 2023-05-03 02:40:53
 ---
 The Decision Book: Fifty Models for Strategic Thinking by Mikael Krogerus and Roman Tschäppeler is a concise guide to different decision-making models that can be used to make better strategic decisions in business and life. The book covers various models from psychology, economics, and other fields that can help in the decision-making process.
 
