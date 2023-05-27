@@ -41,10 +41,10 @@ On a single 1-hour call, that will cost you around $300 with me, you will potent
 
 <ul class="listing">
     <li class="listing__li">
-        <a class="listing__link block" href="/book-appointment/">
+        <a class="listing__link block" href="/fractional-cto/">
             <div class="listing__item">
-                <div class="listing__type">Does this sound good?</div>
-                <h3 class="listing__title">Click here to get in touch</h3>
+                <div class="listing__type">Read next:</div>
+                <h3 class="listing__title">Fractional CTO for business owners</h3>
             </div>
         </a>
     </li>
