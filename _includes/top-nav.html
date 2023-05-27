@@ -69,16 +69,26 @@
         </li>
         {% endfor %}-->
             <li class="main-nav__element main-nav__element--separator">
-            <a class="main-nav__link" href="blog/">
-                Blog
-            </a>
-            </li>
-            {% for post in site.posts limit:4 %}
-            <li class="main-nav__element">
-                <a class="main-nav__link" href="{{ post.url }}">
-                    {{ post.title }}
+                <a class="main-nav__link" href="#">
+                    Services
                 </a>
             </li>
+            <li class="main-nav__element">
+                <a class="main-nav__link" href="/fractional-cto">
+                    Fractional CTO for business owners
+                </a>
+            </li>
+            <li class="main-nav__element">
+                <a class="main-nav__link" href="/i-have-an-idea">
+                    "I have an idea for a business..."
+                </a>
+            </li>
+            {% for post in site.posts limit:4 %}
+                <!--<li class="main-nav__element">
+                    <a class="main-nav__link" href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </li>-->
             {% endfor %}
             <li class="main-nav__element main-nav__element--separator">
             <a class="main-nav__link" href="read/">
