@@ -48,6 +48,20 @@ It's important to have a good base and processes to work on. Business and engine
 - **Show you how to simplify your product/features (why take 6 weeks building something that can be built in a couple of days?)**
 - **Help with MVPs, POCs, and customer conversations**
 - **Help with requirements gathering (it's very hard to solve a badly defined problem, I know exactly what to ask from an engineering perspective)**
+- **Help with hiring (I've hired dozens of engineers over the years)**
+- **Help with investor conversations (I've raised money before)**
+- **Help with technical documentation**
+
+<ul class="listing">
+    <li class="listing__li">
+        <a class="listing__link block" href="/book-appointment/">
+            <div class="listing__item">
+                <div class="listing__type">Does this sound good?</div>
+                <h3 class="listing__title">Click here to get in touch</h3>
+            </div>
+        </a>
+    </li>
+</ul>
 
 ### Series A/A+
 At this stage, you know what your product does and you're likely making cash. Congrats! 🚀 
