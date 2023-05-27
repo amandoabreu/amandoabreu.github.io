@@ -22,7 +22,7 @@ keywords: >
   Amando Abreu, Chief technology officer; Business Development, IT, DevOps, Development, Web Development, Infrastructure
 baseurl: "/" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-url: "https://amandoabreu.com/"
+url: "https://amandoabreu.com"
 #baseurl: "//amando-abr.eu/"
 twitter_username: amandoabreu
 github:  amandoabreu
