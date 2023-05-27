@@ -44,7 +44,7 @@ On a single 1-hour call, that will cost you around $300 with me, you will potent
         <a class="listing__link block" href="/fractional-cto/">
             <div class="listing__item">
                 <div class="listing__type">Read next:</div>
-                <h3 class="listing__title">Fractional CTO for business owners</h3>
+                <h3 class="listing__title">Fractional CTO services for business owners</h3>
             </div>
         </a>
     </li>
