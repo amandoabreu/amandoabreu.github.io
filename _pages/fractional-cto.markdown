@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fractional CTO for business owners
+title: Fractional CTO services for business owners
 listed: yes
 ---
 
