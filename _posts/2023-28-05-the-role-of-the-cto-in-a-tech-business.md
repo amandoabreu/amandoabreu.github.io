@@ -7,7 +7,7 @@ newsletter: true
 comments: true
 author: Amando Abreu
 category: fCTO
-date: 2023-05-27 09:13:32
+date: 2023-05-28 09:13:32
 ---
 Warning: This is a highly opinionated article after 10+ years interacting with non-technical business owners in tech businesses.
 
