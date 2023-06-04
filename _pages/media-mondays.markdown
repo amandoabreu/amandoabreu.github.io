@@ -7,7 +7,7 @@ listed: no
 
 ![](/images/amando.jpeg)
 
-Here you can download the presentation: [Media Mondays - SEO](https://docs.google.com/presentation/d/1z29NuWZh4dV9WVcaoUz0eIU__VV9oDfrIGCUSrRh7PY/edit?usp=sharing)
+Download the presentation here: [Media Mondays - SEO](https://docs.google.com/presentation/d/1z29NuWZh4dV9WVcaoUz0eIU__VV9oDfrIGCUSrRh7PY/edit?usp=sharing)
 
 Drop your email below for tips, tricks, and awesome tools that save you money and time. A little bird told me a programmatic SEO tool is coming out soon 👀
 
