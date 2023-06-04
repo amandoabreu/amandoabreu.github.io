@@ -5,7 +5,7 @@ listed: no
 ---
 <h2>Nice to see you again :)</h2>
 
-![](/images/amando.jpeg)
+![Amando](/images/amando.jpeg "Amando")
 
 Download the presentation here: [Media Mondays - SEO](https://docs.google.com/presentation/d/1z29NuWZh4dV9WVcaoUz0eIU__VV9oDfrIGCUSrRh7PY/edit?usp=sharing)
 
