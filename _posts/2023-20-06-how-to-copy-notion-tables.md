@@ -30,9 +30,8 @@ rowElements.forEach((rowElement, rowIndex) => {
     let cellText = nestedDivs.map(div => div.textContent.trim()).join(' ');
 
     // Check if text contains at least 3 alphanumeric characters
-    if (cellText && /\w{3,}/.test(cellText)) {
-      row[`Cell ${cellIndex + 1}`] = cellText;
-    }
+    
+    row[`Cell ${cellIndex + 1}`] = cellText;
   });
 
   // Only add rows that have at least one cell
@@ -42,5 +41,4 @@ rowElements.forEach((rowElement, rowIndex) => {
 });
 
 console.table(rows);
-
 ```
