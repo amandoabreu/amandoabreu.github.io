@@ -1,0 +1,46 @@
+---
+title: How to copy notion tables
+description: Someone sent you a table using notion, and you can't copy/paste it? Do this
+layout: post
+newsletter: false
+comments: true
+author: Amando Abreu
+date: 2023-06-20 12:42:20
+---
+A﻿ pet peeve of mine is when someone shares a table of some content that I want to save, but it's on notion, and seemingly impossible to copy.
+
+S﻿o I made this javascript file.
+
+O﻿pen up the console and paste away!
+
+```javascript
+let rowElements = document.querySelectorAll('.notion-selectable.notion-page-block.notion-collection-item');
+let rows = [];
+
+rowElements.forEach((rowElement, rowIndex) => {
+  // Get top level div elements (direct children of rowElement)
+  let cellElements = Array.from(rowElement.children);
+  let row = {};
+
+  cellElements.forEach((cellElement, cellIndex) => {
+    // Get all nested div elements within the cell
+    let nestedDivs = Array.from(cellElement.querySelectorAll('div'));
+
+    // Concatenate the textContent of all nested divs
+    let cellText = nestedDivs.map(div => div.textContent.trim()).join(' ');
+
+    // Check if text contains at least 3 alphanumeric characters
+    if (cellText && /\w{3,}/.test(cellText)) {
+      row[`Cell ${cellIndex + 1}`] = cellText;
+    }
+  });
+
+  // Only add rows that have at least one cell
+  if (Object.keys(row).length > 0) {
+    rows.push(row);
+  }
+});
+
+console.table(rows);
+
+```
