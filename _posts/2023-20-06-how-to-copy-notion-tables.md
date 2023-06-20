@@ -30,8 +30,6 @@ rowElements.forEach((rowElement, rowIndex) => {
 
     // Concatenate the textContent of all nested divs
     let cellText = nestedDivs.map(div => div.textContent.trim()).join(' ');
-
-    // Check if text contains at least 3 alphanumeric characters
     
     row[`Cell ${cellIndex + 1}`] = cellText;
   });
