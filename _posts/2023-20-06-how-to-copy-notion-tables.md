@@ -42,3 +42,5 @@ rowElements.forEach((rowElement, rowIndex) => {
 
 console.table(rows);
 ```
+
+T﻿his code will output a table you can copy/paste into excel, csv, etc.
