@@ -13,6 +13,8 @@ S﻿o I made this javascript file.
 
 O﻿pen up the console and paste away!
 
+Before running the code, make sure the entire table is visible. You might need to scroll all the way to the bottom of the table and click "Load more" a few times.
+
 ```javascript
 let rowElements = document.querySelectorAll('.notion-selectable.notion-page-block.notion-collection-item');
 let rows = [];
