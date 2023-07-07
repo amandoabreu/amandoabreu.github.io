@@ -5,5 +5,5 @@ date:   2016-11-24 22:34:06 +0100
 me: "Amando Abreu"
 hello: "Hey there!"
 ---
-I speed your software deliveries and reduce your development costs up to 90% by eliminating ambiguous requirements and using an iterative approach to building software. <a href="https://amandoabreu.com/fractional-cto/">check it out!</a>
+I de-risk your software product launches by eliminating ambiguous requirements and using an iterative approach to building acquisition channels and software. <a href="https://amandoabreu.com/fractional-cto/">check it out!</a>
  
