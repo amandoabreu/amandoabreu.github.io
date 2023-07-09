@@ -82,51 +82,7 @@
 
     </style>
     <script>
-        window.onload = function() {
-            var acceptButton = document.getElementById("cookie-accept");
-            var rejectButton = document.getElementById("cookie-reject");
-            var notice = document.getElementById("cookie-notice");
-
-            // Check if user has already made a choice regarding cookies
-            var cookieChoice = getCookie("cookieChoice");
-            if (cookieChoice === "") {
-                notice.style.display = "block";
-            }
-
-            acceptButton.onclick = function() {
-                setCookie("cookieChoice", "accept", 365);
-                notice.style.display = "none";
-            };
-
-            rejectButton.onclick = function() {
-                setCookie("cookieChoice", "reject", 365);
-                notice.style.display = "none";
-            };
-
-            // Function to set a cookie
-            function setCookie(name, value, days) {
-                var expires = "";
-                if (days) {
-                    var date = new Date();
-                    date.setTime(date.getTime() + (days*24*60*60*1000));
-                    expires = "; expires=" + date.toUTCString();
-                }
-                document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-            }
-
-            // Function to get a cookie
-            function getCookie(name) {
-                var nameEQ = name + "=";
-                var ca = document.cookie.split(';');
-                for(var i=0; i < ca.length; i++) {
-                    var c = ca[i];
-                    while (c.charAt(0)==' ') c = c.substring(1, c.length);
-                    if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
-                }
-                return "";
-            }
-        }
-
+        window.onload=function(){var e=document.getElementById("cookie-accept"),t=document.getElementById("cookie-reject"),n=document.getElementById("cookie-notice"),o=function(e,t,n){var o="";n&&(o=(d=new Date).setTime(d.getTime()+24*n*60*60*1e3),o="; expires="+d.toUTCString());document.cookie=e+"="+(t||"")+o+"; path=/"},c=function(e){for(var t=e+"=",n=document.cookie.split(";"),o=0;o<n.length;o++){for(var c=n[o];" "==c.charAt(0);)c=c.substring(1,c.length);if(0==c.indexOf(t))return c.substring(t.length,c.length)}return""}("");""===c&&("block"===n.style.display?n.style.display="none":n.style.display="block"),e.onclick=function(){o("cookieChoice","accept",365),n.style.display="none"},t.onclick=function(){o("cookieChoice","reject",365),n.style.display="none"}};
     </script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5737396086470627"
             crossorigin="anonymous"></script>
