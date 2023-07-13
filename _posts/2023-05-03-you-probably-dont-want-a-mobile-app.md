@@ -2,7 +2,7 @@
 title: You probably don't want a mobile app
 description: You probably don't want a mobile app
 layout: post
-image: /assets/images/posts/aabreu_derelict_dead_app_store_in_the_deserted_american_south_65185bdc-6995-41d3-9c18-1726a7554999.png
+image: /assets/images/posts/aabreu_derelict_dead_app_store_in_the_deserted_american_south_65185bdc-6995-41d3-9c18-1726a7554999.jpeg
 newsletter: true
 comments: true
 author: Amando Abreu
