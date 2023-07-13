@@ -2,7 +2,7 @@
 title: Programming Languages Leonardo DiCaprio Would Use
 description: programming languages Leonardo DiCaprio would use based on how old they are
 layout: post
-image: /assets/images/posts/cover-leo.jpg
+image: /assets/images/posts/cover-leo-small.jpg
 newsletter: true
 comments: true
 author: Amando Abreu
