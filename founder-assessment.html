@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Startup Founder Assessment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        .main {
+            flex: 1 0 auto;
+        }
+
+        /* CSS */
+        .tooltip-icon {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-bottom: 1px dotted #000000; /* More styling as you see fit */
+        }
+
+        .tooltip-icon:hover::after {
+            content: attr(data-tooltip);
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #333;
+            color: #fff;
+            padding: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+            width: max-content;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .select-wrapper+label {
+            top: -36px !important;
+        }
+
+        .input-field {
+            margin-bottom: 4rem !important;
+        }
+
+    </style>
+</head>
+<body class="grey lighten-4">
+<div class="container">
+    <h1 class="center-align">Startup Founder Assessment</h1>
+    <p class="center-align">You're considering joining a startup and you're not sure where the founder(s) are in the Visionary <> Clueless spectrum. This resource aims to help you think about the right things to help you assess your particular situation.<p>
+    <p class="center-align">With example questions you can ask them, and common things true visionaries say versus things the truly clueless say.</p>
+    <ul class="collapsible popout">
+        <li>
+            <div class="collapsible-header"><i class="material-icons">help_outline</i>Sample Questions to Ask</div>
+            <div class="collapsible-body">
+                    <span>
+                        <div class="section">
+    <p>Here are some example questions you could ask the founder to gain insight related to the questions from the questionnaire:</p>
+    <ul class="collection">
+        <li class="collection-item"><b>Track Record:</b>
+            <ul>
+                <li>Can you share the history of your past ventures and their outcomes?</li>
+                <li>What were some of the key lessons you learned from these experiences?</li>
+            </ul>
+        </li>
+        <li class="collection-item"><b>Details and Understanding:</b>
+            <ul>
+                <li>Can you walk me through your business model?</li>
+                <li>How does your solution address the problem you've identified?</li>
+                <li>Can you describe your target market and key competitors?</li>
+            </ul>
+        </li>
+        <li class="collection-item"><b>Flexibility and Openness to Feedback:</b>
+            <ul>
+                <li>Can you share an example where you received critical feedback and how you handled it?</li>
+                <li>How open are you to pivot your business model if necessary?</li>
+            </ul>
+        </li>
+        <li class="collection-item"><b>Transparency:</b>
+            <ul>
+                <li>Can you talk about the biggest challenges your startup is currently facing?</li>
+                <li>How do you plan to overcome them?</li>
+                <li>Can you explain how you manage financial resources and investor relations?</li>
+                <li>Can I interview your top customers?</li>
+            </ul>
+        </li>
+        <li class="collection-item"><b>Passion vs Obsession:</b>
+            <ul>
+                <li>What drives your passion for this project?</li>
+                <li>How do you maintain a work-life balance while running a startup?</li>
+                <li>Can you provide an example of a time when you had to make a difficult decision for the benefit of your startup, even if it was personally hard for you?</li>
+            </ul>
+        </li>
+        <li class="collection-item"><b>Honesty about Risks and Challenges:</b>
+            <ul>
+                <li>What are the potential risks your startup might face?</li>
+                <li>How are you planning to mitigate these risks?</li>
+                <li>Can you describe the most significant challenges you foresee for your business?</li>
+            </ul>
+        </li>
+        <li class="collection-item"><b>Team and Advisors:</b>
+            <ul>
+                <li>Who are the key members of your team, and what are their backgrounds?</li>
+                <li>How many team members have left? What made them leave?</li>
+                <li>How do you select your advisors?</li>
+                <li>Can you share an instance where your team or advisors made a significant contribution to your startup?</li>
+                <li>Do you have a board?</li>
+            </ul>
+        </li>
+    </ul>
+    <p>Remember, the responses to these questions should be evaluated critically. Where possible, verify the information provided independently. Founders who are transparent, honest, and open to feedback are often more reliable and trustworthy.</p>
+</div>
+
+
+                    </span>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header"><i class="material-icons chat-bubble-outline">chat_bubble_outline</i>Potential Responses</div>
+            <div class="collapsible-body">
+                <div class="section">
+                    <p>Here's an example of potential responses for each category. However, please note that these are just illustrative and real-life responses can vary greatly based on context and the individual's communication style.</p>
+                    <ul class="collection">
+                        <li class="collection-item">
+                            <b>Track Record:</b>
+                            <ul>
+                                <li><b>Visionary:</b> "I previously co-founded a software startup that was acquired by XYZ Corporation after we demonstrated substantial user growth and product-market fit."</li>
+                                <li><b>Clueless:</b> "I've had a couple of business ideas before, none of them really took off but this one is different."</li>
+                            </ul>
+                        </li>
+                        <li class="collection-item">
+                            <b>Details and Understanding:</b>
+                            <ul>
+                                <li><b>Visionary:</b> "We're creating a unique value proposition by combining AI and blockchain to disrupt the supply chain industry. Here are the steps we're going to take..."</li>
+                                <li><b>Clueless:</b> "We're doing something with AI and blockchain. I'm not sure about the specifics but it's going to be huge."</li>
+                            </ul>
+                        </li>
+                        <li class="collection-item">
+                            <b>Flexibility and Openness to Feedback:</b>
+                            <ul>
+                                <li><b>Visionary:</b> "We have a clear plan but we're prepared to pivot based on market feedback and new opportunities. In fact, we already did so once when..."</li>
+                                <li><b>Clueless:</b> "Our plan is perfect. We don't see any reason to change it."</li>
+                            </ul>
+                        </li>
+                        <li class="collection-item">
+                            <b>Transparency:</b>
+                            <ul>
+                                <li><b>Visionary:</b> "We're facing some challenges around customer acquisition and regulatory compliance, but here's how we're addressing them..."</li>
+                                <li><b>Clueless:</b> "Everything's great, we don't have any problems."</li>
+                            </ul>
+                        </li>
+                        <li class="collection-item">
+                            <b>Passion vs Obsession:</b>
+                            <ul>
+                                <li><b>Visionary:</b> "I love what I'm doing and I'm committed to making this work, but I also understand the importance of maintaining a balanced perspective and taking care of my team."</li>
+                                <li><b>Clueless:</b> "I work 24/7 and expect my team to do the same. We're all in this 100%, there's no room for slackers."</li>
+                            </ul>
+                        </li>
+                        <li class="collection-item">
+                            <b>Honesty about Risks and Challenges:</b>
+                            <ul>
+                                <li><b>Visionary:</b> "While we believe in our vision and potential, we are mindful of certain risks such as..."</li>
+                                <li><b>Clueless:</b> "There are no real challenges or risks. I'm confident this is a billion-dollar idea."</li>
+                            </ul>
+                        </li>
+                        <li class="collection-item">
+                            <b>Team and Advisors:</b>
+                            <ul>
+                                <li><b>Visionary:</b> "We have a diverse team with complementary skills, and we're advised by industry veterans. Here's how they've contributed so far..."</li>
+                                <li><b>Clueless:</b> "We don't have a full team yet, but my cousin's going to help out when he finishes school. And my friend's dad knows a lot about business, so we're covered there."</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </li>
+    </ul>
+    <br/>
+    <p>Below is a form. Answer the questions and get an assessment.</p>
+    <br/>
+    <form id="founderAssessment">
+
+        <!-- Track Record -->
+        <div class="input-field">
+            <select id="trackRecord" name="trackRecord">
+                <option disabled selected>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="trackRecord">Is the founder experienced?<a class="modal-trigger" href="#modal1"><i class="material-icons">info_outline</i></a></label>
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Question Details</h4>
+                <p>Does the founder have a track record of success in similar ventures? (have they founded something successful before?)</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- Details Understanding -->
+        <div class="input-field">
+            <select id="detailsUnderstanding" name="detailsUnderstanding">
+                <option disabled selected>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="detailsUnderstanding">Can the founder explain their business?<a class="modal-trigger" href="#modal2"><i class="material-icons">info_outline</i></a></label>
+        </div>
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <h4>Question Details</h4>
+                <p>Can the founder explain in detail how their business idea will work and how they will achieve it?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- Openness To Feedback -->
+        <div class="input-field">
+            <select id="opennessToFeedback" name="opennessToFeedback">
+                <option disabled selected>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="opennessToFeedback">Is the founder open to criticism?<a class="modal-trigger" href="#modal3"><i class="material-icons">info_outline</i></a></label>
+        </div>
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <h4>Question Details</h4>
+                <p>Is the founder open to criticism and willing to adapt their plans?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- Transparency -->
+        <div class="input-field">
+            <select id="transparency" name="transparency">
+                <option disabled selected>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="transparency">Is the founder transparent?<a class="modal-trigger" href="#modal4"><i class="material-icons">info_outline</i></a></label>
+        </div>
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <h4>Question Details</h4>
+                <p>Is the founder transparent about their operations and challenges?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- Passion -->
+        <div class="input-field">
+            <select id="passion" name="passion">
+                <option disabled selected>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="passion">Is the founder passionate?<a class="modal-trigger" href="#modal5"><i class="material-icons">info_outline</i></a></label>
+        </div>
+        <div id="modal5" class="modal">
+            <div class="modal-content">
+                <h4>Question Details</h4>
+                <p>Is the founder passionate about their idea without being obsessive?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- Honesty About Risks -->
+        <div class="input-field">
+            <select id="honestyAboutRisks" name="honestyAboutRisks">
+                <option disabled selected>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="honestyAboutRisks">Is the founder honest about risks?<a class="modal-trigger" href="#modal6"><i class="material-icons">info_outline</i></a></label>
+        </div>
+        <div id="modal6" class="modal">
+            <div class="modal-content">
+                <h4>Question Details</h4>
+                <p>Is the founder honest about the potential risks and challenges of their venture?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <!-- Team And Advisors -->
+        <div class="input-field">
+            <select id="teamAndAdvisors" name="teamAndAdvisors">
+                <option disabled selected>Select</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="teamAndAdvisors">Does the founder have a good team?<a class="modal-trigger" href="#modal7"><i class="material-icons">info_outline</i></a></label>
+        </div>
+        <div id="modal7" class="modal">
+            <div class="modal-content">
+                <h4>Question Details</h4>
+                <p>Does the founder surround themselves with reputable and experienced individuals? What do they think?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+        </div>
+
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+        </button>
+
+    </form>
+
+
+
+    <p id="result"></p>
+</div>
+
+<footer class="page-footer grey darken-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Startup Founder Assessment Tool</h5>
+                <p class="grey-text text-lighten-4">This tool is intended to provide a high-level assessment based on responses to key questions. It does not replace comprehensive due diligence.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems);
+
+        var elems2 = document.querySelectorAll('.collapsible');
+        var instances2 = M.Collapsible.init(elems2);
+
+        var elems3 = document.querySelectorAll('.modal');
+        var instances3 = M.Modal.init(elems3);
+    });
+
+    document.getElementById('founderAssessment').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        var score = 0;
+        var questions = ['trackRecord', 'detailsUnderstanding', 'opennessToFeedback', 'transparency', 'passion', 'honestyAboutRisks', 'teamAndAdvisors'];
+        questions.forEach(function(question) {
+            var answer = document.getElementById(question).value;
+            if (answer === 'yes') {
+                score++;
+            }
+        });
+
+        var result = '';
+        if (score >= 5) {
+            result = 'The founder leans more towards being a visionary based on the questionnaire.'
+        } else {
+            result = 'The founder leans more towards being potentially delusional or clueless based on the questionnaire.'
+        }
+
+        document.getElementById('result').innerText = result;
+    });
+</script>
+</body>
+</html>
