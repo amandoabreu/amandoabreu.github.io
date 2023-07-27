@@ -1,10 +1,11 @@
 ---
 title: Bug or defect?
+description: ssss
 layout: post
 image: /assets/images/posts/bug.png
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2023-07-20 11:38:12
+date: 2024-09-07 11:38:12
 ---
 ytrytreytreytreyetr
