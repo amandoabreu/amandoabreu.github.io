@@ -13,10 +13,9 @@ Narcissism, often characterized by an inflated sense of one's abilities and an o
 
 This can be interesting to take into consideration if you’re needing to evaluate founders for whatever reason:
 
-
-You are considering working for one
-You are considering investing in one
-You are considering buying something from one
+- You are considering working with one
+- You are considering investing in one
+- You are considering buying something from one
 
 ### The Positive Aspects of Narcissism in Startups
 
