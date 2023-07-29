@@ -13,7 +13,13 @@
     <meta name="author" content="{{ site.name }}">
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
     <base href="{{ site.baseurl }}">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <!--<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">-->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = '//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
     <link rel="stylesheet" href="/assets/css/main.css?v=1.0">
     <link rel="icon" href="{{ site.distribution_base }}/assets/images/img/amandoabreu.png">
     <meta name="theme-color" content="#3E73B8">
@@ -30,7 +36,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
     <meta name="google-site-verification" content="KgO1295efUphG-1kTpk8ASGclNTZig68Sl4ixjQcCl0" />
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!--<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>-->
     <style>
         .head-read:after {
             width: 100%;
