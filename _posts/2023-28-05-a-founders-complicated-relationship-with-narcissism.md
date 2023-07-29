@@ -99,7 +99,7 @@ Here's a list of some telltale signs you might be dealing with an overly narciss
 - Grandiose Plans or Visions: They may have unrealistic or overly ambitious plans for the company, which are often based more on their own self-image than realistic expectations or market conditions. A certain level of this is required, but if it has zero grounding in reality, it's probably hot air.
 - Absolute need to be in control of everything, potentially whilst at the same time saying they don't want to  micromanage
 - Completely unable to integrate feedback from others into their own thinking
-- Inability to respect boundaries 
+- Inability to respect boundaries; Constantly stretching boundaries.
 
 ### Conclusion
 
