@@ -1,11 +1,24 @@
 from PIL import Image
 import os
+import tempfile
 
-def compress_image(image_path, quality=85):
+def compress_image(image_path, quality=60):
     try:
         with Image.open(image_path) as img:
-            img.save(image_path, quality=quality)
-            print(f"Compressed {image_path}")
+            # Create a temporary file to hold the compressed image
+            with tempfile.NamedTemporaryFile(suffix='.jpg', delete=False) as temp_file:
+                temp_path = temp_file.name
+                img.save(temp_path, quality=quality)
+
+            original_size = os.path.getsize(image_path)
+            compressed_size = os.path.getsize(temp_path)
+
+            if compressed_size < original_size:
+                os.replace(temp_path, image_path)
+                print(f"Compressed {image_path}")
+            else:
+                os.remove(temp_path)
+                print(f"Skipped {image_path}, compressed image is larger.")
     except Exception as e:
         print(f"Could not compress {image_path}. Error: {str(e)}")
 
