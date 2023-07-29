@@ -5,5 +5,5 @@ date:   2023-07-08 22:34:06 +0100
 me: "Amando Abreu"
 hello: "Hey there!"
 ---
-I can help you with software teams and products <a href="https://amandoabreu.com/fractional-cto/">check it out!</a>
+I help you with software teams and products <a href="https://amandoabreu.com/fractional-cto/">check it out!</a>
  
