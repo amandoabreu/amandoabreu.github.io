@@ -2,7 +2,7 @@
 title: A founder's complicated relationship with narcissism
 description: Explore the dual nature of narcissism in startup success, highlight its benefits and pitfalls, discuss strategies for management, and examine ways to detect unhealthy narcissistic tendencies in founders.
 layout: post
-image: /assets/images/posts/cto-always-has-been.jpeg
+image: /assets/images/What-is-narcissism.jpg
 newsletter: true
 comments: true
 author: Amando Abreu

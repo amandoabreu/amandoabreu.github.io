@@ -2,16 +2,17 @@
 title: How to copy notion tables
 description: Someone sent you a table using notion, and you can't copy/paste it? Do this
 layout: post
+image: /assets/images/table-view-databases.jpg
 newsletter: false
 comments: true
 author: Amando Abreu
 date: 2023-06-19 12:42:20
 ---
-A﻿ pet peeve of mine is when someone shares a table of some content that I want to save, but it's on notion, and seemingly impossible to copy.
+A pet peeve of mine is when someone shares a table of some content that I want to save, but it's on notion, and seemingly impossible to copy.
 
-S﻿o I made this javascript file.
+So I made this javascript file.
 
-O﻿pen up the console and paste away!
+Open up the console and paste away!
 
 Before running the code, make sure the entire table is visible. You might need to scroll all the way to the bottom of the table and click "Load more" a few times.
 
@@ -43,4 +44,4 @@ rowElements.forEach((rowElement, rowIndex) => {
 console.table(rows);
 ```
 
-T﻿his code will output a table you can copy/paste into excel, csv, etc.
+This code will output a table you can copy/paste into excel, csv, etc.
