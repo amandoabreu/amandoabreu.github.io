@@ -116,7 +116,7 @@
     <p>Take a look at some recent posts instead:</p>
     <div class="post-search-listing">
     {% for post in site.posts %}
-        <a class="post-search-listing__link block" href="{{ post.url }}">
+        <a class="post-search-listing__link block" href="{{ post.url }}" alt="{{ post.title }}">
             <h4>{{ post.title }}</h4>
             <p class="post-search-listing__description">
                 {{ post.excerpt | truncatewords: 20 }}
