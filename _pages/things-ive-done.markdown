@@ -27,3 +27,12 @@ layout: page
 ## Ages ago
 - Got into web and mobile development for fun
 - Taught myself how to code as a kid due to hobby robotics
+
+## Industries I've worked in:
+- Online travel agencies
+- Insurance
+- Construction & Real Estate
+- E-commerce
+- SaaS
+- Human resources
+- Telecom
