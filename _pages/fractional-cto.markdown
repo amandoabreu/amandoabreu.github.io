@@ -10,11 +10,11 @@ This is where I operate.
 
 ## A little bit about me
 
-I'm an experienced engineer, engineering manager, and chief technology officer with 10+ years shipping/maintaining products in various industries; and building teams both in offices and 100% remote.
+I'm an <a href="https://amandoabreu.com/things-ive-done" target="_blank">experienced</a> engineer, engineering manager, and chief technology officer with 10+ years shipping/maintaining products in various industries; and building teams both in offices and 100% remote.
 
 With a strong business and product knowledge I'm able to identify and maximise business opportunities through technology, identify and manage technical risk; and ensure business and product scalability.
 
-I love talking to people; defining problems; gathering requirements; problem solving; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
+I love talking to people; defining problems; gathering requirements; solving problems; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
 
 If something can be automated, it will be. 
 
