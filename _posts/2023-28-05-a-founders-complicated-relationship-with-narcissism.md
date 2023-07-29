@@ -85,7 +85,7 @@ Unhealthy narcissism not only affects the individual founder but can permeate th
 
 **4. Reputational Risk:** The behaviors associated with unhealthy narcissism can damage the reputation of the company. This reputational risk might deter potential customers, investors, or partners, and have lasting impacts on the business.
 
-**5. HiPPO Culture:** <a href=”https://amandoabreu.com/wrote/introducing-hippo-driven-development/” target=”_blank”>HiPPOs</a> are leaders that are so blindly sure of their own decision-making skills that they don’t take into account anyone else’s ideas, opinions, actual real-life usage data, or user feedback.
+**5. HiPPO Culture:** <a href="https://amandoabreu.com/wrote/introducing-hippo-driven-development/" target="_blank">HiPPOs</a> are leaders that are so blindly sure of their own decision-making skills that they don’t take into account anyone else’s ideas, opinions, actual real-life usage data, or user feedback.
 
 
 ### Conclusion
