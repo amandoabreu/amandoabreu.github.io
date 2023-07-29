@@ -87,6 +87,15 @@ Unhealthy narcissism not only affects the individual founder but can permeate th
 
 **5. HiPPO Culture:** <a href="https://amandoabreu.com/wrote/introducing-hippo-driven-development/" target="_blank">HiPPOs</a> are leaders that are so blindly sure of their own decision-making skills that they don’t take into account anyone else’s ideas, opinions, actual real-life usage data, or user feedback.
 
+### Telltale signs
+Here's a list of some telltale signs you might be dealing with an overly narcissistic founder:
+
+- "If you don't like my way, you can always start your own company."
+- "Failure is not an option." -> Most learning comes from failure, if one makes failure not an option, they also make learning not an option 
+- "I expect everyone to work as hard as I do." -> Struggles to understand that other people are not themselves
+- Grandiose Plans or Visions: They may have unrealistic or overly ambitious plans for the company, which are often based more on their own self-image than realistic expectations or market conditions. A certain level of this is required, but if it has zero grounding in reality, it's probably hot air.
+- Absolute need to be in control of everything, potentially whilst at the same time saying they don't want to  micromanage
+- Completely unable to integrate feedback from others into their own thinking
 
 ### Conclusion
 
