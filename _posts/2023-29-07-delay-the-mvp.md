@@ -9,7 +9,7 @@ author: Amando Abreu
 category: fCTO
 date: 2023-07-29 09:13:32
 ---
-# Delaying the MVP: The Benefits of Manual Processes in the Early Stages of a Start-up
+# The Benefits of Manual Processes in the Early Stages of a Start-up
 
 Starting a new venture is an exhilarating process. As entrepreneurs, we are often told that building an MVP (Minimum Viable Product) is the first step to validate our ideas. However, I'd like to challenge that notion and present an alternative approach - delaying the MVP and beginning with manual processes. Here's why:
 
