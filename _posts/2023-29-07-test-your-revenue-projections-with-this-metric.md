@@ -19,12 +19,6 @@ High growth software companies often experience rapid expansion and are expected
 
 One way to check the validity of your revenue projections is to use the revenue-per-employee metric. This metric allows businesses to assess how much revenue each employee contributes to the company. By dividing your revenue by the number of employees, you can gauge whether your projections are in line with industry standards.
 
-### The Importance of Revenue-Per-Employee in Cost Projections
-
-Using the revenue-per-employee metric is not only vital for revenue projections but also essential for projecting costs, especially salaries. Assume a very conservative revenue-per-employee, such as $100k. So, if you project $100 million per year in revenue, you would project salaries for $100 million/$100k = 1000 employees. This realistic approach helps in aligning the financial strategy with human resources, ensuring that your cost structure and hiring plans are in line with your projected revenue.
-
-It will also significantly cut into your profit margins and will help you judge whether or not what you want to do is even feasible.
-
 ### The Pitfall in Projections
 
 Imagine you are projecting that you will make $100 million/year within 6 years, but the same projections show only 10 employees. In this scenario, you expect to make $10 million per employee. Unfortunately, this number is probably not attainable, and thus it can be a sign that your projections are off.
@@ -57,17 +51,20 @@ To ensure that your revenue-per-employee projections are realistic, it can be he
     - Revenue per Employee: $384,000
     - Number of Employees: Approximately 2,500
 
+
+### The Importance of Revenue-Per-Employee in Cost Projections
+
+Using the revenue-per-employee metric is not only vital for revenue projections but also essential for projecting costs, especially salaries. Assume a very conservative revenue-per-employee, such as $100k. So, if you project $100 million per year in revenue, you would project salaries for $100 million/$100k = 1000 employees. This realistic approach helps in aligning the financial strategy with human resources, ensuring that your cost structure and hiring plans are in line with your projected revenue.
+
+It will also significantly cut into your profit margins and will help you judge whether what you want to do is even feasible.
+
 ### Conclusion
 
 Testing your revenue projections against a straightforward and useful metric like revenue-per-employee can save your high growth software company from over-promising and under-delivering. It creates a foundation for realistic growth plans and ensures that you are more likely to meet or exceed the expectations of your stakeholders, including investors, and most importantly, yourself!
 
 By comparing your figures with those of established industry players, you can set achievable targets and align your hiring plans accordingly.
 
-This ultimately leads to a more transparent, effective, and responsible planning process, allowing you to focus on what's essential: building a successful, scalable business.
-
-### Tip:
-
-Check the average revenue-per-employee of similar businesses in your industry to get a realistic idea of what you’re competing against.
+This ultimately leads to a more transparent, effective, and responsible planning process, allowing you to focus on what's essential: building a successful, scalable business, grounded in reality.
 
 
 
