@@ -1,5 +1,5 @@
 ---
-title: Strategizing a Legacy Software Overhaul: A Case Study on Modernizing and Rewriting Software
+title: "Strategizing a Legacy Software Overhaul: A Case Study on Modernizing and Rewriting Software"
 description: "Explore the complexities of modernizing legacy software through a detailed case study. From complete rewrites to incremental updates or rebranding, this article evaluates various strategies, weighing pros and cons to guide software business owners in their decision-making. A must-read for anyone facing the challenge of updating or transforming outdated software applications."
 layout: post
 image: /assets/images/posts/pexels-markus-spiske-2004161.jpg
@@ -7,7 +7,7 @@ newsletter: true
 comments: true
 author: Amando Abreu
 category: fCTO
-date: 2023-07-30 09:13:32
+date: 2023-07-31 09:13:32
 ---
 Mike bought a piece of legacy software. It was written with a general purpose CMS (think WordPress, Joomla!, etc) and grew quite complex over 15 years of existence. 
 
