@@ -57,7 +57,7 @@ Questions Mike considers:
 
 ## Do I rewrite the whole application?
 
->** ⚠️Big warning:** I have NEVER seen a full one-go rewrite done right (on time or on budget). It's very hard to do it right, as it has to be treated like an entirely new application.
+>⚠️Big warning: I have NEVER seen a full one-go rewrite done right (on time or on budget). It's very hard to do it right, as it has to be treated like an entirely new application.
 
 The question of rewriting the entire application is a complex one and comes with its own set of advantages and challenges.
 
