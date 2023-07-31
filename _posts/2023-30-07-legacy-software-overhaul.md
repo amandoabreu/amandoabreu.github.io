@@ -100,13 +100,15 @@ A step-by-step rewrite, as suggested by another development agency, could offer 
 
 ## Conclusion 
 
-This is a lengthy process regardless of what you choose. I tend to recommend a gradual rewrite. It’s less risky and you can always stop if you see it’s not working out, or if you run out of money. 
+**This is a lengthy process regardless of what you choose.** I tend to recommend a gradual rewrite. It’s less risky and you can always stop if you see it’s not working out, or if you run out of money. 
 
-Although: This is a highly sensitive subject and has to be taken on a case-by-case basis. The constraints and parameters of your specific case have to be carefully measured and assessed.
+This is a highly sensitive subject and has to be taken on a case-by-case basis. The constraints and parameters of your specific case have to be carefully measured and assessed.
 
 The more you want to spend on research and discovery to map out what your current application truly is: The more likely a full rewrite is to succeed. 
 
 The less you want to spend on research and discovery: The more likely a gradual rewrite is to succeed. gradual means you discover as you go.
+
+The worst is to go for a full big rewrite and do gradual discovery. **That’s a recipe for disaster.**
 
 >**A full rewrite is a big bet. A gradual rewrite is a series of small bets.**
 
