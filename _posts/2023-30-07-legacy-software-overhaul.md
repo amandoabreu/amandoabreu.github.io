@@ -9,7 +9,9 @@ author: Amando Abreu
 category: fCTO
 date: 2023-07-30 09:13:32
 ---
-Mike bought a piece of legacy software. It was written with a general purpose CMS (think WordPress, Joomla!, etc) and grew quite complex over 15 years of existence. A lot of systems were custom built, such as analytics, customer support, ticketing system, newsletter systems, and other miscellaneous features.
+Mike bought a piece of legacy software. It was written with a general purpose CMS (think WordPress, Joomla!, etc) and grew quite complex over 15 years of existence. 
+
+A lot of systems were custom built, such as analytics, customer support, ticketing system, newsletter systems, and other miscellaneous features.
 
 The sale came with an existing dev team, existing employees, and a considerable user base who know this application very well.
 
