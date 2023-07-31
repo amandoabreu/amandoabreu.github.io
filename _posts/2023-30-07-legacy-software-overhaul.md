@@ -95,7 +95,7 @@ A step-by-step rewrite, as suggested by another development agency, could offer 
 
 1. **Longer Overall Timeline:** While mitigating some risks, a gradual approach might extend the overall timeline, but:
    1. Your software is always in a usable state; If you want to scale down IT costs to $0, you will always have a usable application. If you decide to rewrite, you could end up with half-baked stuff
-   2. Less waste: You build stuff and put it in front of users much faster; Instead of long-running development that nobody uses. See: <a href=”https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap” target=”_blank”>”Why you should expose your product to the market ASAP”</a>
+   2. Less waste: You build stuff and put it in front of users much faster; Instead of long-running development that nobody uses. See: <a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap" target="_blank">”Why you should expose your product to the market ASAP”</a>
 2. **Compatibility Challenges:** Ensuring that new components work seamlessly with legacy parts might prove to be technically challenging and time-consuming.
 
 ## Conclusion 
