@@ -35,7 +35,7 @@ I know a lot about:
 
 If you don't have a solid idea yet, check out: <a href="/i-have-an-idea">I have an idea</a>.
 
-### Pre-seed/seed
+### Pre-product/Early stage
 At this stage, change is the name of the game. The product will change and shift extremely quickly. You may build several prototypes and proof-of-concepts.
 
 It's important to have a good base and processes to work on. Business and engineering need to send and respond to feedback from one-another. Business people need to know how to communicate to engineers, and vice-versa.
@@ -63,7 +63,7 @@ It's important to have a good base and processes to work on. Business and engine
     </li>
 </ul>
 
-### Series A/A+
+### Later stages
 At this stage, you know what your product does and you're likely making cash. Congrats! 🚀 
 
 The mistakes here range from hiring way more engineers than you need and inadvertedly slowing down your development, to creating silos in between business/tech, or even within the tech. 
@@ -77,6 +77,9 @@ Engineers may start to leave, and unless you want a revolving door, something wi
 - **Create an environment people want to work in**
 - **Identify and minimise silo'd information**
 - **Make your processes more effective**
+- **If you're acquiring: Audit code before an acquisition**
+- **Mediate and manage your dev agency for you**
+- **Help with long term software strategy: Do you need a rewrite? Is some important component of your stack going to be deprecated? + much more to think about**
 - **Audit your information security and put you on the path to ISO27001 standards**
 
 <ul class="listing">
