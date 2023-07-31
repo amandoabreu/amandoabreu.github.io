@@ -55,7 +55,7 @@ Questions Mike considers:
 4. Losing competitive edge to more modern and user-friendly competitors
 5. Increased maintenance costs over time
 
-## Do I rewrite the whole application?
+## Do I rewrite the whole application in one go?
 
 >⚠️Big warning: I have NEVER seen a full one-go rewrite done right (on time or on budget). It's very hard to do it right, as it has to be treated like an entirely new application.
 
@@ -81,7 +81,7 @@ The question of rewriting the entire application is a complex one and comes with
 5. **Potential Loss of SEO Ranking:** Redesigning the whole website might lead to a temporary loss in SEO ranking and organic traffic.
 
 
-## Step-by-Step Rewrite: A Middle Ground
+## Step-by-Step Rewrite
 
 A step-by-step rewrite, as suggested by another development agency, could offer a balance between these extremes.
 
@@ -94,7 +94,7 @@ A step-by-step rewrite, as suggested by another development agency, could offer 
 ### Cons
 
 1. **Longer Overall Timeline:** While mitigating some risks, a gradual approach might extend the overall timeline, but:
-   1. Your software is always in a usable state; If you want to scale down IT costs to $0, you will always have a usable application. If you decide to rewrite, you could end up with half-baked stuff
+   1. Your software is always in a usable state; If you want to scale down IT costs to $0, you will always have a usable application. If you decide to rewrite in one-go, you could end up with half-baked stuff
    2. Less waste: You build stuff and put it in front of users much faster; Instead of long-running development that nobody uses. See: <a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap" target="_blank">”Why you should expose your product to the market ASAP”</a>
 2. **Compatibility Challenges:** Ensuring that new components work seamlessly with legacy parts might prove to be technically challenging and time-consuming.
 
@@ -116,7 +116,7 @@ The worst is to go for a full rewrite and gradual discovery. **That’s a recipe
 
 Some functionality can be outsourced, such as:
 - newsletter system
-- Customer suport systems
+- Customer support systems
 - Other systems that are not core to your business
 
 You only get good at this when you've spent $1mm+ on mistakes doing it wrong. (ask how I know!)
