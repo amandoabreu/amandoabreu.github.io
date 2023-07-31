@@ -1,6 +1,6 @@
 ---
 title: Strategizing a Legacy Software Overhaul: A Case Study on Modernizing and Rewriting Software
-description: Explore the complexities of modernizing legacy software through a detailed case study. From complete rewrites to incremental updates or rebranding, this article evaluates various strategies, weighing pros and cons to guide software business owners in their decision-making. A must-read for anyone facing the challenge of updating or transforming outdated software applications.
+description: "Explore the complexities of modernizing legacy software through a detailed case study. From complete rewrites to incremental updates or rebranding, this article evaluates various strategies, weighing pros and cons to guide software business owners in their decision-making. A must-read for anyone facing the challenge of updating or transforming outdated software applications."
 layout: post
 image: /assets/images/posts/pexels-markus-spiske-2004161.jpg
 newsletter: true
