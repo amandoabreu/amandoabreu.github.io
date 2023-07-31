@@ -90,33 +90,35 @@ A step-by-step rewrite, as suggested by another development agency, could offer 
 1. **Incremental Improvements:** Users can benefit from gradual enhancements without being shocked by a complete overhaul.
 2. **Reduced Risk:** By rewriting in stages, the team can assess the impact of each change, reducing the risk of a negative reaction from the existing user base.
 3. **Financial Flexibility:** Spreading the rewrite over time might allow for better budget management.
+4. Your software is always in a usable state: If you want to scale down IT costs to $0, you will always have a usable application. If you decide to rewrite in one-go, you could end up with half-baked stuff
+5. Less waste: You build stuff and put it in front of users much faster; Instead of long-running development that nobody uses. See: <a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap" target="_blank">”Why you should expose your product to the market ASAP”</a>
 
 ### Cons
 
-1. **Longer Overall Timeline:** While mitigating some risks, a gradual approach might extend the overall timeline, but:
-   1. Your software is always in a usable state; If you want to scale down IT costs to $0, you will always have a usable application. If you decide to rewrite in one-go, you could end up with half-baked stuff
-   2. Less waste: You build stuff and put it in front of users much faster; Instead of long-running development that nobody uses. See: <a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap" target="_blank">”Why you should expose your product to the market ASAP”</a>
+1. **Long Timeline:** While mitigating some risks, a gradual approach might extend the overall timeline
 2. **Compatibility Challenges:** Ensuring that new components work seamlessly with legacy parts might prove to be technically challenging and time-consuming.
 
 ## Conclusion 
 
 **This is a lengthy process regardless of what you choose.** I tend to recommend a gradual rewrite. It’s less risky and you can always stop if you see it’s not working out, or if you run out of money. 
 
-This is a highly sensitive subject and has to be taken on a case-by-case basis. The constraints and parameters of your specific case have to be carefully measured and assessed.
+It's a sensitive subject and has to be taken on a case-by-case basis. The constraints and parameters of your specific case have to be carefully measured and assessed.
 
-The more you want to spend on research and discovery to map out what your current application truly is: The more likely a full rewrite is to succeed. **Full-on discovery and full-on rewrite.**
+The more time and money you spend on research and discovery to map out what your current application truly is: The more likely a full rewrite is to succeed. **Full-on discovery and full-on rewrite.**
 
-The less you want to spend on research and discovery: The more likely a gradual rewrite is to succeed. gradual means you discover as you go. **Gradual discovery and gradual rewrite.**
+The less you spend on research and discovery: The more likely a gradual rewrite is to succeed. gradual means you discover as you go. **Gradual discovery and gradual rewrite.**
 
-The worst is to go for a full rewrite and gradual discovery. **That’s a recipe for disaster.** and sadly the one I see most dev agencies make. They sell you on a full rewrite, but they don’t do the research to make it a success. The longer you're with them the more they net! So the incentive is skewed.
+The worst is to go for a full one-go rewrite and gradual discovery. **That’s a recipe for disaster.** and sadly the one I see most dev agencies make. They sell you on a full one-go rewrite, but they don’t do the research to make it a success. The longer you're with them the more they net! So the incentive is skewed.
 
 >**A full rewrite is a big bet. A gradual rewrite is a series of small bets.**
 
-**⚠️Big warning:** I have NEVER seen a full one-go rewrite done right (on time or on budget). It's very hard to do it right, as it has to be treated like an entirely new application. Research must be done to dig into every little bit of functionality that has been made over potentially decades of development (I've heard "Oh but we assumed [...] many times". 
+**⚠️Big warning:** I have NEVER seen a full one-go rewrite done right (on time or on budget) in an SMB. It's very hard to do it right, as it has to be treated like an entirely new application. Research must be done to dig into every little bit of functionality that has been made over potentially decades of development (I've heard "Oh but we assumed [...] many times". 
 
-Some functionality can be outsourced, such as:
+Some functionality can be outsourced and not built again, such as:
 - newsletter system
 - Customer support systems
+- analytics
+- ticket system
 - Other systems that are not core to your business
 
 You only get good at this when you've spent $1mm+ on mistakes doing it wrong. (ask how I know!)
