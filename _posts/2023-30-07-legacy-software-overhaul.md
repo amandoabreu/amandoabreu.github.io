@@ -104,15 +104,20 @@ A step-by-step rewrite, as suggested by another development agency, could offer 
 
 This is a highly sensitive subject and has to be taken on a case-by-case basis. The constraints and parameters of your specific case have to be carefully measured and assessed.
 
-The more you want to spend on research and discovery to map out what your current application truly is: The more likely a full rewrite is to succeed. 
+The more you want to spend on research and discovery to map out what your current application truly is: The more likely a full rewrite is to succeed. **Full-on discovery and full-on rewrite.**
 
-The less you want to spend on research and discovery: The more likely a gradual rewrite is to succeed. gradual means you discover as you go.
+The less you want to spend on research and discovery: The more likely a gradual rewrite is to succeed. gradual means you discover as you go. **Gradual discovery and gradual rewrite.**
 
-The worst is to go for a full big rewrite and do gradual discovery. **That’s a recipe for disaster.**
+The worst is to go for a full rewrite and gradual discovery. **That’s a recipe for disaster.** and sadly the one I see most dev agencies make. They sell you on a full rewrite, but they don’t do the research to make it a success. The longer you're with them the more they net! So the incentive is skewed.
 
 >**A full rewrite is a big bet. A gradual rewrite is a series of small bets.**
 
-** ⚠️Big warning:** I have NEVER seen a full one-go rewrite done right (on time or on budget). It's very hard to do it right, as it has to be treated like an entirely new application. Research must be done to dig into every little bit of functionality that has been made over potentially decades of development (I've heard "Oh but we assumed [...] many times". 
+**⚠️Big warning:** I have NEVER seen a full one-go rewrite done right (on time or on budget). It's very hard to do it right, as it has to be treated like an entirely new application. Research must be done to dig into every little bit of functionality that has been made over potentially decades of development (I've heard "Oh but we assumed [...] many times". 
+
+Some functionality can be outsourced, such as:
+- newsletter system
+- Customer suport systems
+- Other systems that are not core to your business
 
 You only get good at this when you've spent $1mm+ on mistakes doing it wrong. (ask how I know!)
 
