@@ -31,9 +31,6 @@ Questions Mike considers:
 2. Do I rewrite the whole application?
    1. One dev agency said to rewrite all at once
    2. Another dev agency suggested a step by step rewrite
-      1. First they rewrite the frontend into a single-page-application using a typical frontend framework (React, Vue, etc)
-      2. They keep using the current application only for the backend
-      3. Later on they migrate the backend too (if it’s even necessary at this point; decoupling the frontend and backend could be enough to allow more changes to be made)
 
 
 ## Do I keep making changes to this old application?
