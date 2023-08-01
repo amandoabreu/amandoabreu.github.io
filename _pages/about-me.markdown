@@ -10,6 +10,7 @@ listed: yes
     display: flex;
     align-items: center;
     padding: 10px;
+    justify-content: center;
 }
 
 .profile-image {
@@ -45,6 +46,8 @@ Serial entrepreneur and tech executive with an engineering background who has be
 Although I'm a tech guy (the how), I don't limit myself to only tech, having quite broad experienced building products (the what) and businesses (the why). 
 
 I like how the internet works and have first-hand experience with e-commerce, SEO, paid ads, and social media marketing. 
+
+You can reach me at hello@amandoabreu.com, or on <a href="https://www.linkedin.com/in/amandoabreu/" target="_blank">linkedin</a>
 
 1) Nonlinear/divergent thinker
 
