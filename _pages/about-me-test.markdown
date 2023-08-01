@@ -91,21 +91,21 @@ Serial entrepreneur and tech executive with an engineering background who has be
     <div class="testimonial">
         <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 1">
         <div class="name">Jane Doe</div>
-        <div class="company">Company ABC</div>
+        <div class="company">CEO @ Foundraisr</div>
         <div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus malesuada luctus."</p>
+        <p>"Amando is an absolute machine. Built us a YouTube personalisation SaaS in one evening. Something that would be easily quoted $650k and 9 months by the average dev agency."</p>
     </div>
     <div class="testimonial">
         <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 2">
         <div class="name">John Smith</div>
-        <div class="company">Company XYZ</div>
+        <div class="company">CEO @ Sempervirens AS</div>
 <div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
         <p>"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."</p>
     </div>
     <div class="testimonial">
         <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 3">
         <div class="name">Emily Johnson</div>
-        <div class="company">Company LMN</div>
+        <div class="company">Head of Strategy, OBOS Bank</div>
 <div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
         <p>"Cras venenatis, lectus ac efficitur dapibus, odio mauris ullamcorper orci, nec laoreet est nisl ut arcu."</p>
     </div>
