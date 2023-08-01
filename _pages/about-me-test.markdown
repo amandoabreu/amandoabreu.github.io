@@ -66,10 +66,6 @@ listed: no
             .profile-name {
                 font-size: 3em;
             }
-
-            .testimonial {
-                flex-basis: calc(50% - 20px);
-            }
         }
 
         @media screen and (max-width: 480px) {
