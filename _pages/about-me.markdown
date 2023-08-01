@@ -5,6 +5,8 @@ newsletter: no
 comments: no
 listed: yes
 ---
+
+
 1) Hate writing about myself so it will be in list form
 
 2) Nonlinear/divergent thinker 
