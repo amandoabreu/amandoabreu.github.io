@@ -25,54 +25,60 @@ listed: no
 }
 
 .testimonial-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-        }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
 
-        .testimonial {
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
-            margin: 10px;
-            flex-basis: calc(33.333% - 20px);
-            text-align: center;
-        }
+.testimonial {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    flex-basis: calc(33.333% - 20px);
+    text-align: center;
+}
 
-        .avatar {
-            width: 80px;
-            border-radius: 50%;
-        }
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+}
 
-        .name {
-            font-weight: bold;
-            margin: 10px 0;
-        }
+.name {
+    font-weight: bold;
+    margin: 10px 0;
+}
 
-        .company {
-            color: #777;
-            margin-bottom: 15px;
-        }
+.company {
+    color: #777;
+    margin-bottom: 15px;
+}
 
-        /* Responsive design for screens larger than 768px */
-        @media (min-width: 768px) {
-            .profile-image {
-                width: 100px;
-                height: 100px;
-            }
-        
-            .profile-name {
-                font-size: 3em;
-            }
-        }
+.linkedin {
+    color: #0077b5;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
 
-        @media screen and (max-width: 480px) {
-            .testimonial {
-                flex-basis: 100%;
-            }
-        }
+/* Responsive design for screens larger than 768px */
+@media (min-width: 768px) {
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-name {
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .testimonial {
+        flex-basis: 100%;
+    }
+}
 </style>
 <div class="profile-container">
     <img class="profile-image" width="70" height="70" src="https://amandoabreu.com/assets/images/amando.png" alt="Profile Image">
@@ -86,18 +92,21 @@ Serial entrepreneur and tech executive with an engineering background who has be
         <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 1">
         <div class="name">Jane Doe</div>
         <div class="company">Company ABC</div>
+        <div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus malesuada luctus."</p>
     </div>
     <div class="testimonial">
         <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 2">
         <div class="name">John Smith</div>
         <div class="company">Company XYZ</div>
+<div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
         <p>"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."</p>
     </div>
     <div class="testimonial">
         <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 3">
         <div class="name">Emily Johnson</div>
         <div class="company">Company LMN</div>
+<div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
         <p>"Cras venenatis, lectus ac efficitur dapibus, odio mauris ullamcorper orci, nec laoreet est nisl ut arcu."</p>
     </div>
 </div>
