@@ -1,7 +1,7 @@
 
-{% if page.image %} <div class="head" style="background-image:url( {{ page.image }} )"> {% else %}  {% endif %}
+{% if page.image %} <div class="head" style="background-image:url( {{ page.image }} )"> {% else %} <div class="head head--no-image"> {% endif %}
     <div class="centerwrapper centerwrapper--medium">
         <h1 class="header header--one text--center shadow white">{{ page.title }}</h1>
         {% include page/page-details.html %}
     </div>
-    {% if page.image %} </div> {% else %}  {% endif %}
+</div>
