@@ -5,44 +5,79 @@ newsletter: no
 comments: no
 listed: yes
 ---
+<style type="text/css">
+.profile-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
 
+.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    margin-right: 10px;
+}
 
-1) Hate writing about myself so it will be in list form
+.profile-name {
+    font-size: 2em;
+}
 
-2) Nonlinear/divergent thinker 
+/* Responsive design for screens larger than 768px */
+@media (min-width: 768px) {
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
 
-3) Got into electronics at age 9 and built some basic robots
+    .profile-name {
+        font-size: 3em;
+    }
+}
+</style>
+<div class="profile-container">
+    <img class="profile-image" width="70" height="70" src="https://amandoabreu.com/assets/images/amando.png" alt="Profile Image">
+    <div class="profile-name">Amando Abreu</div>
+</div>
 
-4) Self-taught how to code(C for microcontrollers) at age 14 (6 months after getting internet) 
+Serial entrepreneur and tech executive with an engineering background who has been involved in several startups and launched dozens of products. I've worked with companies such as trivago, Portugal Telecom, and Vizrt. Experience in several industries, most notably e-commerce, SaaS, media, travel, insurance, property development, and construction.
 
-5) Extremely intrinsically motivated towards making/creating things
+Although I'm a tech guy (the how), I don't limit myself to only tech, having quite broad experienced building products (the what) and businesses (the why). 
 
-6) Can hyperfocus on a single topic for years if the occasion requires it
+I like how the internet works and have first-hand experience with e-commerce, SEO, paid ads, and social media marketing. 
 
-7) Think very slowly but usually very accurately (I like to sleep on important/complex decisions)
+1) Nonlinear/divergent thinker
 
-8) Extremely solution oriented 
+2) Got into electronics at age 9 and built some basic robots
 
-9) Love to look at things from very different points of view and modes of thinking
+3) Self-taught how to code(C for microcontrollers) at age 14 (6 months after getting internet)
 
-10) Change my opinion based on new information
+4) Extremely intrinsically motivated towards making/creating things
 
-11) Have a deep need to learn new things and usually choose what to do based on learning potential
+5) Can hyperfocus on a single topic for years if the occasion requires it
 
-12) Love to challenge myself in different ways
+6) Think very slowly but usually very accurately (I like to sleep on important/complex decisions)
 
-13) Read a lot 
+7) Extremely solution oriented
 
-14) I don't fight uphill battles. If something fails a quantitative effort/reward analysis, I won't do it.
+8) Love to look at things from very different points of view and modes of thinking
 
-15) No patience for corporate dogmas that punish everyone for a mistake someone did in a distant past 
+9) Change my opinion based on new information
 
-16) Noise is my kryptonite 
+10) Have a deep need to learn new things and usually choose what to do based on learning potential
 
-17) Odd blend of being a dreamer yet very practical and reality-driven 
+11) Love to challenge myself in different ways
 
-18) High energy
+12) Read a lot
 
-19) Often outside doing all sorts of sports
+13) I don't fight uphill battles. If something fails a quantitative effort/reward analysis, I won't do it.
 
-20) The only person I know that actually profitted from bitcoin
+14) No patience for corporate dogmas 
+
+15) Noise is my kryptonite
+
+16) Odd blend of being a dreamer yet very practical and reality-driven
+
+17) High energy
+
+18) Often outside doing all sorts of sports
