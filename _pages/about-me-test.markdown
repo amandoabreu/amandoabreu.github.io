@@ -28,7 +28,7 @@ listed: no
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .testimonial {
