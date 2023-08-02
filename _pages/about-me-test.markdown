@@ -85,7 +85,7 @@ listed: no
     <div class="profile-name">Amando Abreu</div>
 </div>
 
-Serial entrepreneur and tech executive with an engineering background who has been involved in several startups and launched dozens of products. I've worked with companies such as trivago, Portugal Telecom, and Vizrt. 
+Serial entrepreneur and tech executive with an engineering background who has been involved in several startups and launched over 100 products since 2010. I've worked with companies such as trivago, Portugal Telecom, and Vizrt. 
 
 <div class="testimonial-container">
     <div class="testimonial">
