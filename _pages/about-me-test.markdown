@@ -98,7 +98,7 @@ Serial entrepreneur and tech executive with an engineering background who has be
     <div class="testimonial">
         <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 2">
         <div class="name">John Smith</div>
-        <div class="company">CEO @ Sempervirens AS</div>
+        <div class="company">CEO @ <a href="https://www.sempervirensas.com" target="_blank">Sempervirens AS</a></div>
 <div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
         <p>"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae."</p>
     </div>
