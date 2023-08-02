@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "XSS by including JavaScript in image metadata"
-date:   2023-08-02 16:00:00 +0200
+date:   2023-08-02 09:00:00 +0200
 author: Amando Abreu
 categories: pentesting security
 comments: true
