@@ -41,13 +41,7 @@ listed: yes
     <div class="profile-name">Amando Abreu</div>
 </div>
 
-Serial entrepreneur and tech executive with an engineering background who has been involved in several startups and launched dozens of products. I've worked with companies such as trivago, Portugal Telecom, and Vizrt. 
-
-I've been a CTO at DigitalXBO, an Obos spin-off, and a co-founded <a href="https://perlo.io" target="_blank">Perlo.io</a>.
-
-I've done fractional CTO work for multiple startups in all sorts of verticals worldwide.
-
-Experience in several industries, most notably e-commerce, SaaS, media, travel, insurance, property development, and construction.
+Serial entrepreneur and tech executive with an engineering background who has been involved in several startups and launched dozens of products. I've worked with companies such as trivago, Portugal Telecom, and Vizrt. <a href="https://amandoabreu.com/things-ive-done" target="_blank">See other things I've done</a>
 
 Although I'm a tech guy (the how), I don't limit myself to only tech, having quite broad experience building products with customers answering *the what* and *the why*. 
 
