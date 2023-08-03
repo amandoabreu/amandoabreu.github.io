@@ -43,7 +43,7 @@ listed: yes
 
 Serial entrepreneur and tech executive with an engineering background who has been involved in several startups and launched dozens of products. I've worked with companies such as trivago, Portugal Telecom, and Vizrt. <a href="https://amandoabreu.com/things-ive-done" target="_blank">See other things I've done</a>
 
-Although I'm a tech guy (the how), I don't limit myself to only tech, having quite broad experience building products with customers answering *the what* and *the why*. 
+Although I have deep knowledge of tech (the how), I don't limit myself to only tech, having quite broad experience building products with customers answering *the what*, *the why*, and the *how much*.
 
 I like how the internet works and have first-hand experience with e-commerce, SEO, paid ads, and social media marketing. 
 
