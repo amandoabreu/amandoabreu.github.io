@@ -90,8 +90,8 @@ A step-by-step rewrite, as suggested by another development agency, could offer 
 1. **Incremental Improvements:** Users can benefit from gradual enhancements without being shocked by a complete overhaul.
 2. **Reduced Risk:** By rewriting in stages, the team can assess the impact of each change, reducing the risk of a negative reaction from the existing user base.
 3. **Financial Flexibility:** Spreading the rewrite over time might allow for better budget management.
-4. Your software is always in a usable state: If you want to scale down IT costs to $0, you will always have a usable application. If you decide to rewrite in one-go, you could end up with half-baked stuff
-5. Less waste: You build stuff and put it in front of users much faster; Instead of long-running development that nobody uses. See: <a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap" target="_blank">”Why you should expose your product to the market ASAP”</a>
+4. **Your software is always in a usable state:** If you want to scale down IT costs to $0, you will always have a usable application. If you decide to rewrite in one-go, you could end up with half-baked stuff
+5. **Less waste:** You build stuff and put it in front of users much faster; Instead of long-running development that nobody uses, which creates some dangers. See: <a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap" target="_blank">”Why you should expose your product to the market ASAP”</a>
 
 ### Cons
 
@@ -100,7 +100,7 @@ A step-by-step rewrite, as suggested by another development agency, could offer 
 
 ## Conclusion 
 
-**This is a lengthy process regardless of what you choose.** I tend to recommend a gradual rewrite. It’s less risky and you can always stop if you see it’s not working out, or if you run out of money. 
+**This is a lengthy process regardless of what you choose.** I tend to recommend a gradual rewrite. It’s less risky and you can always stop if you see it’s not working out, or if you need to scale down development costs due to changes in revenue, etc.
 
 It's a sensitive subject and has to be taken on a case-by-case basis. The constraints and parameters of your specific case have to be carefully measured and assessed.
 
@@ -112,7 +112,9 @@ The worst is to go for a full one-go rewrite and gradual discovery. **That’s a
 
 >**A full rewrite is a big bet. A gradual rewrite is a series of small bets.**
 
-**⚠️Big warning:** I have NEVER seen a full one-go rewrite done right (on time or on budget) in an SMB. It's very hard to do it right, as it has to be treated like an entirely new application. Research must be done to dig into every little bit of functionality that has been made over potentially decades of development (I've heard "Oh but we assumed [...] many times". 
+**⚠️Big warning:** I have NEVER seen a full one-go rewrite done right (on time or on budget) in an SMB. It's very hard to do it right. It has to be treated like an entirely new application. Research must be done to dig into every little bit of functionality that has been made over potentially decades of development. 
+
+I've heard "Oh but we assumed [...] many times". 
 
 Some functionality can be outsourced and not built again, such as:
 - newsletter system
