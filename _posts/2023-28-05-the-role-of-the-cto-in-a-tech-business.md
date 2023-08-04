@@ -14,13 +14,15 @@ Warning: This is a highly opinionated article after 10+ years interacting with n
 
 Business owners, especially non-technical ones, seem to have a fundamental misunderstanding of what a CTO is.
 
-The **T** stands for **t**echnology, not **e**ngineering. In a technology business where technology is a central part of the business, **business IS technology**.
+The **T** stands for **t**echnology, not **e**ngineering. In a technology business where technology is a central part of the business, the CTO is a business role.
+
+If you have a business that relies on technology but it's not a central part of it, the CTO can be less businessy and more technical. For example: You have a business that sells shoes online. The technology is not a central part of the business, it's just a tool to sell shoes. In this case, the CTO is more technical and less businessy.
 
 How can a technologist make technology that serves the business if they are not businessy in nature? They can’t. And how can a business person make a business from technology if they don't understand technology? They can’t!
 
 If you understand business but not technology, you are missing key info. And on the other hand, if you only understand technology and not business, you are also missing info.
 
-As a business owner, you need a head that has knowledge and experience with BOTH technology and business, and how they interact. Otherwise you won’t understand your technical people, and they won’t understand you.
+As a business owner, you need a head that has knowledge and experience with BOTH technology and business, and how they interact. Otherwise, you won’t understand your technical people, and they won’t understand you.
 
 Many companies, when they put out a job ad for a CTO, the job description is actually that of a developer.
 
