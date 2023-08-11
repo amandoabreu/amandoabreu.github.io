@@ -51,6 +51,8 @@ To ensure that your revenue-per-employee projections are realistic, it can be he
     - Revenue per Employee: $384,000
     - Number of Employees: Approximately 2,500
 
+<img src="assets/images/posts/rev_per_e.gif" alt="Revenue per employee" />
+
 
 ### The Importance of Revenue-Per-Employee in Cost Projections
 
