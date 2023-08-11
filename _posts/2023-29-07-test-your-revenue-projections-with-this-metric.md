@@ -21,6 +21,8 @@ One way to check the validity of your revenue projections is to use the revenue-
 
 ### The Pitfall in Projections
 
+<img src="/assets/images/posts/10_mill.gif" alt="Revenue projections" class="img-fluid"/>
+
 Imagine you are projecting that you will make $100 million/year within 6 years, but the same projections show only 10 employees. In this scenario, you expect to make $10 million per employee. Unfortunately, this number is probably not attainable, and thus it can be a sign that your projections are off.
 
 ### Benchmarking Revenue-Per-Employee Metric
