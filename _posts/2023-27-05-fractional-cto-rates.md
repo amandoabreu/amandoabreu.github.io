@@ -19,7 +19,11 @@ The Fractional CTO model is a cost-effective approach, especially for startups a
 
 **Fractional CTO Rates: An Overview**
 
-Fractional CTO rates vary widely depending on various factors. However, these rates typically fall between $100 and $500 per hour as of 2023. Alternatively, many fractional CTOs might charge a monthly retainer, which can range from $2,000 to $10,000 per month. It's important to note that these figures are estimates and actual rates may vary.
+Fractional CTO rates vary widely depending on various factors. However, these rates typically fall between $100 and $500 per hour as of 2023. 
+
+<img src="assets/images/posts/cto_rates.gif" alt="Fractional CTO Rates" />
+
+Alternatively, many fractional CTOs might charge a monthly retainer, which can range from $2,000 to $10,000 per month. It's important to note that these figures are estimates and actual rates may vary.
 
 **Factors Influencing Fractional CTO Rates**
 
