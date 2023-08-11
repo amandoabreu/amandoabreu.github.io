@@ -31,7 +31,28 @@ I know a lot about:
 - Data
 - Software engineers
 
-## Here's what I do
+## Here's what you can get
+
+
+### Just fCTO                            
+I **will be your CTO** within 2-6 weeks for an engagement of 6-12 months.
+
+### Developers as a service           
+I will be your CTO, and I will also provide you with **a team of developers as-a-service** to work on your product.
+
+### fCTO & Devs as a service & I recruit your next CTO
+I will be your CTO, provide you with a team of developers as-a-service, and I will also **find your ideal full-time CTO to begin after I'm done.**
+
+<ul class="listing">
+    <li class="listing__li">
+        <a class="listing__link block" href="/book-appointment/">
+            <div class="listing__item">
+                <div class="listing__type">Does this sound good?</div>
+                <h3 class="listing__title">Click here to get in touch</h3>
+            </div>
+        </a>
+    </li>
+</ul>
 
 If you don't have a solid idea yet, check out: <a href="/i-have-an-idea">I have an idea</a>.
 
@@ -41,6 +62,7 @@ At this stage, change is the name of the game. The product will change and shift
 It's important to have a good base and processes to work on. Business and engineering need to send and respond to feedback from one-another. Business people need to know how to communicate to engineers, and vice-versa.
 
 **I will:**
+- **Help you define your product**
 - **Create the foundations of your engineering and communication processes**
 - **Address quality issues**
 - **Build your team (s)**
@@ -66,7 +88,7 @@ It's important to have a good base and processes to work on. Business and engine
 ### Later stages
 At this stage, you know what your product does and you're likely making cash. Congrats! 🚀 
 
-The mistakes here range from hiring way more engineers than you need and inadvertedly slowing down your development, to creating silos in between business/tech, or even within the tech. 
+The mistakes here range from hiring way more engineers than you need and inadvertently slowing down your development, to creating silos in between business/tech, or even within the tech. 
 
 And of course, the silent killer nobody expects to happen to them: security issues. A data leak at this stage could kill customer and investor relations.
 
@@ -80,7 +102,6 @@ Engineers may start to leave, and unless you want a revolving door, something wi
 - **If you're acquiring: Audit code before an acquisition**
 - **Mediate and manage your dev agency for you**
 - **Help with long term software strategy: Do you need a rewrite? Is some important component of your stack going to be deprecated? + much more to think about**
-- **Audit your information security and put you on the path to ISO27001 standards**
 
 <ul class="listing">
     <li class="listing__li">
@@ -94,7 +115,7 @@ Engineers may start to leave, and unless you want a revolving door, something wi
 </ul>
 
 ## Extra
-Although I fit many cases. I'm not always the right person for your business. I've partnered up with other fCTOs who have different skillsets and experiences. If I'm not the right person for you, I'll let you know and put you in touch with someone who is!
+Although I fit many cases. I'm not always the right person for your business. I've partnered up with other fCTOs who have different skills and experiences. If I'm not the right person for you, I'll let you know and put you in touch with someone who is!
 
 <ul class="listing">
     <li class="listing__li">
