@@ -15,6 +15,13 @@ In the ever-evolving world of technology, organizations are continually seeking 
 
 Before we delve into fractional CTO rates, it's essential to understand their role. A fractional CTO is a professional who serves as a part-time or interim CTO for a company. They provide strategic technological insights and expertise without the commitment or expense of a full-time role.
 
+| Attribute            | CTO                             | fCTO                                                                                      |
+|----------------------|---------------------------------|-------------------------------------------------------------------------------------------|
+| **Base Salary**      | Medium Base                     | High Base (but scalable!)                                                                 |
+| **Equity**           | High Equity                     | NO Equity                                                                                 |
+| **Risk**             | High Risk (you can't fire them!)| Low Risk (can work alongside your CTO, co-founder, or founding engineer)                  |
+
+
 The Fractional CTO model is a cost-effective approach, especially for startups and SMEs that need high-level tech leadership but cannot justify the cost of a full-time CTO. They also work well for businesses undergoing a digital transformation, requiring strategic guidance.
 
 **Fractional CTO Rates: An Overview**
