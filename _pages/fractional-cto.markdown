@@ -47,7 +47,7 @@ I will be your CTO, provide you with a team of developers as-a-service, and I wi
     <li class="listing__li">
         <a class="listing__link block" href="/book-appointment/">
             <div class="listing__item">
-                <div class="listing__type">Does this sound good?</div>
+                <div class="listing__type">Sound fair enough?</div>
                 <h3 class="listing__title">Click here to get in touch</h3>
             </div>
         </a>
@@ -78,7 +78,7 @@ It's important to have a good base and processes to work on. Business and engine
     <li class="listing__li">
         <a class="listing__link block" href="/book-appointment/">
             <div class="listing__item">
-                <div class="listing__type">Does this sound good?</div>
+                <div class="listing__type">Sound fair enough?</div>
                 <h3 class="listing__title">Click here to get in touch</h3>
             </div>
         </a>
@@ -107,7 +107,7 @@ Engineers may start to leave, and unless you want a revolving door, something wi
     <li class="listing__li">
         <a class="listing__link block" href="/book-appointment/">
             <div class="listing__item">
-                <div class="listing__type">Does this sound good?</div>
+                <div class="listing__type">Sound fair enough?</div>
                 <h3 class="listing__title">Click here to get in touch</h3>
             </div>
         </a>
@@ -121,7 +121,7 @@ Although I fit many cases. I'm not always the right person for your business. I'
     <li class="listing__li">
         <a class="listing__link block" href="/book-appointment/">
             <div class="listing__item">
-                <div class="listing__type">Does this sound good?</div>
+                <div class="listing__type">Sound fair enough?</div>
                 <h3 class="listing__title">Click here to get in touch</h3>
             </div>
         </a>
