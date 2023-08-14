@@ -4,30 +4,6 @@ title: Gifstats
 listed: yes
 ---
 
-<div class="centerwrapper centerwrapper--medium" style="margin-top:100px">
- <!-- Output copied to clipboard! -->
-
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 1.077 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β34
-* Mon Aug 14 2023 13:18:21 GMT-0700 (PDT)
-* Source doc: Untitled document
------>
-
 
 
 ## Go build something
@@ -248,5 +224,4 @@ I'll leave you with this:
 [^1]:
 Yes this is a simpsons reference
 
-</div>
 
