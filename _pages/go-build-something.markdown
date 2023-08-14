@@ -21,6 +21,21 @@ I purposely made this super short so we can get to the point: for you to stop co
 
 “What should I build?” you ask. Well, anything. I’ve outlined a few ideas of different things you can build at different levels of mastery. It’s all up to you, though. 
 
+### Table of contents
+
+- [Your body](#your-body)	
+- [Something Done Wrong](#something-done-wrong)
+- [Something Physical](#something-physical)
+- [Something Not Physical](#something-not-physical)
+- [A Business](#a-business)
+- [A Community](#a-community)
+- [Whatever you’re consuming](#whatever-youre-consuming))
+- [A Family](#a-family)
+- [Avoid Building](#avoid-building)
+- [Ignore this](#ignore-this)
+- [99.9% of information is complete bullshit](#999-of-information-is-complete-bullshit)
+
+
 ## Your body
 
 You can start by building your body.  
