@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gifstats
+title: Go Build Something
 listed: yes
 ---
 
