@@ -83,7 +83,7 @@ It’s OK to make mistakes. I’d say even better than not making any, because i
 
 ## Something Physical
 
-Last year I got tired of paying someone else’s mortgage in the form of rent, so I converted a van into a micro-camper and hit the road.
+A few years ago I got tired of paying someone else’s mortgage in the form of rent, so I converted a van into a micro-camper and hit the road.
 
 The process of building that van was the thing I was the most proud of for some time. Cutting wood, making the electrical system, plumbing, heating, installing a solar panel, hooking up my second battery to the alternator, etc.
 
