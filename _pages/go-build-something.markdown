@@ -34,7 +34,6 @@ I purposely made this super short so we can get to the point: for you to stop co
 - [Ignore this](https://amandoabreu.com/go-build-something/#ignore-this)
 - [99.9% of information is complete bullshit](https://amandoabreu.com/go-build-something/#999-of-information-is-complete-bullshit)
 
-
 ## Your body
 
 You can start by building your body.  
