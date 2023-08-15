@@ -196,7 +196,7 @@ Open your phone right now and uninstall the social media apps that use up most o
 
 ## 99.99% of information is complete bullshit
 
-<img src="/assets/images/posts/9999.gif alt="Yeh"/>
+<img src="/assets/images/posts/9999.gif alt="Yeh" />
 
 Seriously. Ignore it. Build shit, learn from doing.
 
