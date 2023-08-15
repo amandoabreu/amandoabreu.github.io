@@ -31,7 +31,6 @@ I purposely made this super short so we can get to the point: for you to stop co
 - [A Community](https://amandoabreu.com/go-build-something/#a-community)
 - [Whatever you’re consuming](https://amandoabreu.com/go-build-something/#whatever-youre-consuming))
 - [A Family](https://amandoabreu.com/go-build-something/#a-family)
-- [Avoid Building](https://amandoabreu.com/go-build-something/#avoid-building)
 - [Ignore this](https://amandoabreu.com/go-build-something/#ignore-this)
 - [99.9% of information is complete bullshit](https://amandoabreu.com/go-build-something/#999-of-information-is-complete-bullshit)
 
@@ -184,32 +183,6 @@ Create what you’re currently consuming. You should have a decent grasp of the 
 If you suck at building shit and can’t spell, just make some kids. Of course, it’s hard to find someone trustworthy to have kids with these days. But relationships and marriage have always been about the kids, not the adults involved.
 
 Spoiler: I don’t have kids and this is beyond my depth, but I’ve spoken to many who have and no one regrets it, even though they tell me they envy my life(even when living in a van) because they’re tired of changing diapers. I feel the payoff of having kids when you’re old is something no one regrets. I see this with my own parents and often wonder if my mom would still be here if it weren’t for me and my brother. Life is hard when you have nothing to live for.
-
-## Avoid Building
-
-I’ve given you some ideas about what to build. But it’s also important to avoid building certain things for your sake and the sake of the world.
-
-Below is a list of things you shouldn’t build and why.
-
-### Things that are based on hating something or someone.
-
-There are a few subsets of the population who get together because of their hate towards a common enemy. These communities form organically and their _leaders_ don’t always realise what they’re doing.
-
-An example is the “pick up artist” communities that mock women. Sooner or later the only reason they’re still around is because they attracted men that hated women and stayed because the community was friendly to those that hate women. The leaders profit off of content that may have a “scientific” side to it, but ends up being used for hating women. This rewards the leaders for that content, and in turn attracts more people that hate women.
-
-Don’t create based on hate. It’s impure, and frankly, too easy. Do better.
-
-Hate and resentment are very powerful emotions. Stronger than love or anything else you can think of. It’s VERY powerful and profitable to tap into the hate that all of us have within. But I do ask nicely that you don’t. If you do, you leave me no choice but to ask you nicely again.[^1]
-
-To not be a hate-creator:
-
-1. Make sure you’re not doing something purely for the hate of X
-2. If you can hold views that haters of X can’t, you’re not a hater of X.
-3. Life is made out of shades of grey, not black & white, make that clear to whomever you’re interacting with and they will stop following you, ensuring you don’t end up in a hate echochamber
-4. Pay attention to the feedback you get as a way to tell you when you’ve crossed a line
-5. Don’t tell people exactly what they want to hear without also getting into things they don’t want to hear
-
-Parody and humour are different. Some things need to be parodied to bring light to their uselessness or inherent idiocy (eg: Titania McGrath on twitter) . But it’s different from all-out hate.
 
 ## Ignore this
 
