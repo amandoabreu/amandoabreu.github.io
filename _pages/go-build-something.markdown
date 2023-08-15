@@ -29,7 +29,7 @@ I purposely made this super short so we can get to the point: for you to stop co
 - [Something Not Physical](https://amandoabreu.com/go-build-something/#something-not-physical)
 - [A Business](https://amandoabreu.com/go-build-something/#a-business)
 - [A Community](https://amandoabreu.com/go-build-something/#a-community)
-- [Whatever you’re consuming](https://amandoabreu.com/go-build-something/#whatever-youre-consuming))
+- [Whatever you’re consuming](https://amandoabreu.com/go-build-something/#whatever-youre-consuming)
 - [A Family](https://amandoabreu.com/go-build-something/#a-family)
 - [Ignore this](https://amandoabreu.com/go-build-something/#ignore-this)
 - [99.9% of information is complete bullshit](https://amandoabreu.com/go-build-something/#999-of-information-is-complete-bullshit)
