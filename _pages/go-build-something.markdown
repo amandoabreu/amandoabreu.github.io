@@ -195,7 +195,9 @@ I’m serious.
 Open your phone right now and uninstall the social media apps that use up most of your time. You can install them again later when your addiction is gone. Alternatively, buy a “dumb phone”. This is now the phone that you keep in your pocket. I’ve had one as a _backup_ in case I break my femur hiking in the woods or some shit, the theory being that the smartphone would be obliterated by me falling on it VS a simpler/stronger phone with a much longer battery life.
 
 
-## 99.9% of information is complete bullshit
+## 99.99% of information is complete bullshit
+
+<img src="/assets/images/posts/9999.gif alt="Yeh"/>
 
 Seriously. Ignore it. Build shit, learn from doing.
 
