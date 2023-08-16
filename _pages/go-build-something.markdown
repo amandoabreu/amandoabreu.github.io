@@ -30,7 +30,6 @@ I purposely made this super short so we can get to the point: for you to stop co
 - [A Business](https://amandoabreu.com/go-build-something/#a-business)
 - [A Community](https://amandoabreu.com/go-build-something/#a-community)
 - [Whatever you’re consuming](https://amandoabreu.com/go-build-something/#whatever-youre-consuming)
-- [A Family](https://amandoabreu.com/go-build-something/#a-family)
 - [Ignore this](https://amandoabreu.com/go-build-something/#ignore-this)
 - [99.9% of information is complete bullshit](https://amandoabreu.com/go-build-something/#999-of-information-is-complete-bullshit)
 
@@ -177,12 +176,6 @@ If you’re on tiktok all the time, start making tik toks, if you must.
 
 Create what you’re currently consuming. You should have a decent grasp of the community and what works and what doesn’t. Apply that knowledge when creating.
 
-## A Family
-
-If you suck at building shit and can’t spell, just make some kids. Of course, it’s hard to find someone trustworthy to have kids with these days. But relationships and marriage have always been about the kids, not the adults involved.
-
-Spoiler: I don’t have kids and this is beyond my depth, but I’ve spoken to many who have and no one regrets it, even though they tell me they envy my life(even when living in a van) because they’re tired of changing diapers. I feel the payoff of having kids when you’re old is something no one regrets. I see this with my own parents and often wonder if my mom would still be here if it weren’t for me and my brother. Life is hard when you have nothing to live for.
-
 ## Ignore this
 
 Stop giving attention to most of the things you currently give attention to, most of it is useless.  
@@ -206,11 +199,5 @@ I'll leave you with this:
 
 >“It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.”
 ― Theodore Roosevelt
-
-<!-- Footnotes themselves at the bottom. -->
-## Notes
-
-[^1]:
-Yes this is a simpsons reference
 
 
