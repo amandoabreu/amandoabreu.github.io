@@ -109,6 +109,13 @@ Serial entrepreneur and tech executive with an engineering background who has be
 <div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
         <p>"Cras venenatis, lectus ac efficitur dapibus, odio mauris ullamcorper orci, nec laoreet est nisl ut arcu."</p>
     </div>
+<div class="testimonial">
+        <img class="avatar" src="https://amandoabreu.com/assets/images/amando.png" alt="Avatar 3">
+        <div class="name">Denis</div>
+        <div class="company">Head of Strategy, <a href="https://www.obos.no/bank" target="_blank">OBOS Bank</a></div>
+<div><a class="linkedin" href="https://www.linkedin.com/in/emilyjohnson" target="_blank">View on LinkedIn</a></div>
+        <p>"Amando does it all, a perfect mix of coach, business hustler and founding engineer"</p>
+    </div>
 </div>
 
 I've been a CTO at DigitalXBO, an Obos spin-off, and a co-founded <a href="https://perlo.io" target="_blank">Perlo.io</a>.
@@ -117,7 +124,7 @@ I've done fractional CTO work for multiple startups in all sorts of verticals wo
 
 Experience in several industries, most notably e-commerce, SaaS, media, travel, insurance, property development, and construction.
 
-Although I'm a tech guy (the how), I don't limit myself to only tech, having quite broad experience building products with customers answering *the what* and *the why*. 
+Although I have a deep tech background (the how), I don't limit myself to only tech, having quite broad experience building products with customers answering *the what* and *the why*. 
 
 I like how the internet works and have first-hand experience with e-commerce, SEO, paid ads, and social media marketing. 
 
