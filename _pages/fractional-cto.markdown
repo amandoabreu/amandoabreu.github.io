@@ -3,10 +3,18 @@ layout: page
 title: Fractional CTO services for business owners
 listed: yes
 ---
+Do you need more clarity around your tech business? This is what I do.
 
-So you want a CTO... but you don't want/need a full-time one, and don't want to give away equity? Smart move :)
-
-This is where I operate.
+<ul class="listing">
+    <li class="listing__li">
+        <a class="listing__link block" href="https://amandoabreu.com/onboarding.html">
+            <div class="listing__item">
+                <div class="listing__type">Want clarity in your tech business?</div>
+                <h3 class="listing__title">Get in touch</h3>
+            </div>
+        </a>
+    </li>
+</ul>
 
 ## A little bit about me
 
