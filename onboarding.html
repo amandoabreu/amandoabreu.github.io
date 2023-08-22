@@ -49,29 +49,21 @@
             tagline: "Let's take it one step further...",
             title: 'What do you need help with? (select all that apply)',
             helpTextShow: false,
-            type: VueFlowForm.QuestionType.MultiplePictureChoice,
+            type: VueFlowForm.QuestionType.MultipleChoice,
             multiple: true,
             required: true,
             options: [
               new VueFlowForm.ChoiceOption({
-                imageSrc: 'assets/images/wolf.webp',
-                imageAlt: 'Facebook logo',
                 label: 'Dev agency problems'
               }),
               new VueFlowForm.ChoiceOption({
-                imageSrc: 'assets/images/chat.jpeg',
-                imageAlt: 'Twitter logo',
                 label: 'Development is too slow / expensive'
               }),
               new VueFlowForm.ChoiceOption({
-                imageAlt: 'Instagram logo',
-                imageSrc: 'assets/images/appointment.jpeg',
                 label: 'I need technical due diligence'
               }),
               new VueFlowForm.ChoiceOption({
-                imageAlt: 'TikTok logo',
-                label: 'I\'m not sure! Something feels wrong...',
-                imageSrc: 'assets/images/text.jpeg',
+                label: 'I\'m not sure! Something just feels wrong...',
               })
             ]
           }),
