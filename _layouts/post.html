@@ -16,7 +16,7 @@ layout: default
           {% endif %}
           <li class="listing__li">
               <a class="listing__link block" href="{{ page.previous.url }}">
-                  <div class="listing__item {% if img %} listing__item--with-overlay {% endif %}" {% if img %} style="background-image: url({{ img }});" {% endif %}>
+                  <div class="listing__item">
                       <div class="listing__type">Previous Article</div>
                       <h3 class="listing__title">{{ page.previous.title }}</h3>
                   </div>
