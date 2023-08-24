@@ -14,7 +14,7 @@ AppBrain stats reveal that a staggering 2.2 million apps on Google Play have les
 
 So why would anyone bother creating a native app for Android or iOS when a Progressive Web App (PWA) can do almost everything that a native app can do? PWAs don't require users to download and install an app, pay royalties on sales, or deal with the hassle of app store regulations.
 
-Here you can <a href="https://trailguide.no/news/why-not-native-app/" alt="pwa">read more</a> about why Bjørn from Trailguide decided to keep his product as a PWA.
+Here you can <a target="_blank" href="https://trailguide.no/news/why-not-native-app/" alt="pwa">read more</a> about why Bjørn from Trailguide decided to keep his product as a PWA.
 
 PWAs are "instantly there," as they can be accessed through a browser without the need to download a bloated 50MB app. Even game developers can export for WebGL instead of building a native app. It's a no-brainer.
 
