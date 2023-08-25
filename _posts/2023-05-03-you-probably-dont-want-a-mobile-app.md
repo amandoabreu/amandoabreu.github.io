@@ -8,14 +8,44 @@ comments: true
 author: Amando Abreu
 date: 2023-03-05 03:54:24
 ---
-Mobile app development used to be a surefire way to achieve exposure, but those days are gone. With over 2.7 million applications available on Google Play alone, it's become nearly impossible to stand out in the crowded app marketplace.
+Mobile apps used to be cool and a reasonable way to get software into mobile devices. But:
+
+- People are reluctant to install yet another app
+- App stores have too much control over what you can publish
+- App stores take too much of your in-app revenue
 
 AppBrain stats reveal that a staggering 2.2 million apps on Google Play have less than three ratings. This means that even the developers themselves have not downloaded the app or bothered to rate it. It's a ghost town out there.
 
-So why would anyone bother creating a native app for Android or iOS when a Progressive Web App (PWA) can do almost everything that a native app can do? PWAs don't require users to download and install an app, pay royalties on sales, or deal with the hassle of app store regulations.
+## What if there was a better way?
+
+Well, there is.
+
+It's a Progressive Web App (PWA)
+
+PWAs are essentially websites that deliver app-like experiences.
+
+Some quick facts:
+- Installation is optional
+- No royalties on sales
+- Zero control from an app store saying you can or can't do
 
 Here you can <a target="_blank" href="https://trailguide.no/news/why-not-native-app/" alt="pwa">read more</a> about why Bjørn from Trailguide decided to keep his product as a PWA.
 
+One of the biggest reasons, especially for early stage businesses without a lot of cash to throw away:
+
+>"Having one codebase: If we created Trailguide as a native app, we would need to have three codebases. One for iOS (Swift), one for Android (Java or Kotlin), and one for the Web (JavaScript). Having three codebases would require a lot more developer skills and resources, something we do not currently have." – Bjørn, Trailguide
+
+A PWA is a single codebase for your mobile users and computer users. This is BIG during early stages!
+
 PWAs are "instantly there," as they can be accessed through a browser without the need to download a bloated 50MB app. Even game developers can export for WebGL instead of building a native app. It's a no-brainer.
 
-In conclusion, the days of building a mobile app are over. The competition is too fierce, and the rewards are too low. If you're considering building a mobile app, think twice and consider a PWA instead. You'll save time, money, and headaches in the long run.
+## "But can I put this on an app store?"
+
+You can, but you don't have to.
+
+## "Does it work offline?"
+Yes! PWAs can be made "offline-first" just like a native app.
+
+## Conclusion
+Hope this made you consider a PWA! 
+
