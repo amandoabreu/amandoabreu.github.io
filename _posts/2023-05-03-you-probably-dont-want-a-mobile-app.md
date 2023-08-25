@@ -10,9 +10,11 @@ date: 2023-03-05 03:54:24
 ---
 Mobile apps used to be cool and a reasonable way to get software into mobile devices. But:
 
-- People are reluctant to install yet another app
-- App stores have too much control over what you can publish
-- App stores take too much of your in-app revenue
+* People are reluctant to install yet another app
+* App stores have too much control over what you can publish
+* App stores take too much of your in-app revenue
+
+![](/assets/images/posts/number_pills_fixed_pill-1-.gif)
 
 AppBrain stats reveal that a staggering 2.2 million apps on Google Play have less than three ratings. This means that even the developers themselves have not downloaded the app or bothered to rate it. It's a ghost town out there.
 
@@ -25,15 +27,16 @@ It's a Progressive Web App (PWA)
 PWAs are essentially websites that deliver app-like experiences.
 
 Some quick facts:
-- Installation is optional
-- No royalties on sales
-- Zero control from an app store saying you can or can't do
+
+* Installation is optional
+* No royalties on sales
+* Zero control from an app store saying you can or can't do
 
 Here you can <a target="_blank" href="https://trailguide.no/news/why-not-native-app/" alt="pwa">read more</a> about why Bjørn from Trailguide decided to keep his product as a PWA.
 
 One of the biggest reasons, especially for early stage businesses without a lot of cash to throw away:
 
->"Having one codebase: If we created Trailguide as a native app, we would need to have three codebases. One for iOS (Swift), one for Android (Java or Kotlin), and one for the Web (JavaScript). Having three codebases would require a lot more developer skills and resources, something we do not currently have." – Bjørn, Trailguide
+> "Having one codebase: If we created Trailguide as a native app, we would need to have three codebases. One for iOS (Swift), one for Android (Java or Kotlin), and one for the Web (JavaScript). Having three codebases would require a lot more developer skills and resources, something we do not currently have." – Bjørn, Trailguide
 
 A PWA is a single codebase for your mobile users and computer users. This is BIG during early stages!
 
@@ -44,8 +47,9 @@ PWAs are "instantly there," as they can be accessed through a browser without th
 You can, but you don't have to.
 
 ## "Does it work offline?"
+
 Yes! PWAs can be made "offline-first" just like a native app.
 
 ## Conclusion
-Hope this made you consider a PWA! 
 
+Hope this made you consider a PWA!
