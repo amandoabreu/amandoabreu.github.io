@@ -14,7 +14,7 @@ Mobile apps used to be cool and a reasonable way to get software into mobile dev
 * App stores have too much control over what you can publish
 * App stores take too much of your in-app revenue
 
-![](/assets/images/posts/number_pills_fixed_pill-1-.gif)
+![](/assets/images/posts/number_pills_fixed_pill.gif)
 
 AppBrain stats reveal that a staggering 2.2 million apps on Google Play have less than three ratings. This means that even the developers themselves have not downloaded the app or bothered to rate it. It's a ghost town out there.
 
