@@ -53,3 +53,18 @@ Yes! PWAs can be made "offline-first" just like a native app.
 ## Conclusion
 
 Hope this made you consider a PWA!
+
+Are you wondering if a PWA makes sense for you, or do you have other questions about the direction of your tech business?
+
+I offer fractional CTO services for businesses like yours. If you have hard problems you want to tackle but feel your organization lacks the perspective to tackle fully, get in touch! I guarantee to ask very hard questions that lead to solving hard problems.
+
+<ul class="listing">
+    <li class="listing__li">
+        <a class="listing__link block" href="/fractional-cto/">
+            <div class="listing__item">
+                <div class="listing__type">Read next:</div>
+                <h3 class="listing__title">Fractional CTO services for business owners</h3>
+            </div>
+        </a>
+    </li>
+</ul>
