@@ -41,7 +41,7 @@ Estudos comprovam que a velocidade de um site é um factor que influencia imenso
 
 Cada dia que passa há dispositivos novos no mercado, e somos obrigados a adaptar o nosso produto para funcionar para a maioria dos mesmos.
 
-![alt text](http://bradfrost.com/wp-content/uploads/2012/11/devices.jpg "Image of many different laptops and smartphones")
+![alt text](https://bradfrost.com/wp-content/uploads/2012/11/devices.jpg "Image of many different laptops and smartphones")
 **O seu site está optimizado para dispositivos móveis? É possível navegar em todas as páginas sem ter de fazer zoom para ler/carregar em botões?**
 
 Mesmo se o seu site for rápido, pode ter problemas de usabilidade a impedir os utilizadores de obterem uma boa experiência.
