@@ -24,9 +24,9 @@ This is frustrating, and if you don't pay, **your services might be suspended**.
 
 This error happens because your bank forces 2-factor authentication (2FA) to make payments and for other requests.
 
-In the case of switching cards on google workspace, it seems like the first time you add a card to google workspace, it uses 2FA, but when you add a new card, it skips that step for some reasons.
+In the case of switching cards on google workspace, it seems like the first time you add a card to google workspace, it uses 2FA, but when you add a new card, it skips that step for some reason.
 
-Long sotry short, google isn’t following your bank’s requirements. **This is google’s fault.**
+Long story short, google isn’t following your bank’s requirements. **This is google’s fault.**
 
 Even if you contact your bank and ask why it's happening, you won't resolve it, because the bank is doing everything right.
 
