@@ -62,9 +62,10 @@ Different sectors come with their unique challenges; it's crucial to recognize i
 Any combination of these could spell trouble for a startup.
 
 **10. Flawed Recruitment Process**
->"How they interview... run far away from uncollaborative leadership."
+>"How they interview. I’ve turned down a role because their interview process was so terrible they would have no way of differentiating good vs bad potential engineers. Doomed to fail
+I’ve also worked at a place where a single person made most of the decisions. They flopped so hard. Turns out 1 person is not smarter than a team of experts they hired - run far away from uncollaborative leadership"
 
-The way a startup hires reflects its values and future prospects.
+The way a startup hires reflects its values and future prospects. <a href="https://pre-screen.dev/" target="_blank">Hire the best people for the job.</a>
 
 **11. Internal Strife**
 >"High rate of team turnover... If remote, video calls with cameras off/lack of banter (reflects low morale/team enthusiasm)."
