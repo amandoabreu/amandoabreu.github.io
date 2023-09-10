@@ -1,6 +1,6 @@
 ---
 title: "Startup Red Flags: An Engineer's Perspective"
-description: "I asked 13 engineers what were, in hindsight, early signs that the startups they were working on would fail."
+description: "I asked 14 engineers what were, in hindsight, early signs that the startups they were working on would fail."
 layout: post
 image: /assets/images/posts/redflags.jpg
 newsletter: true
@@ -9,13 +9,15 @@ author: Amando Abreu
 category: fCTO
 date: 2023-09-10 09:13:32
 ---
-The startup world is an exhilarating place filled with innovation, opportunities, and challenges. It's not a path for everyone, and even the most promising ventures can hit roadblocks. What are some of the signs that hint at a startup's impending failure? We asked 13 engineers, and here are their insightful responses.
+The startup world is an exhilarating place filled with innovation, opportunities, and challenges. It's not a path for everyone, and even the most promising ventures can hit roadblocks. What are some of the signs that hint at a startup's impending failure? We asked 14 engineers, and here are their insightful responses.
 
 **1. Assess like an Investor**
 >"Whatever the founders SAY about their business is far less important than how the business is actually performing and whether it has legs long term. Do your homework. Like many others in this industry, I have been badly burned by well-meaning founders who TRULY BELIEVED they were going to make us all billionaires, only to fail to make payroll and end up insolvent.
 Do your homework."
 
 Startups should be evaluated based on their metrics such as revenue, growth projections, monthly active users, customer acquisition costs, and product/market fit, among others.
+
+You need to <a href="https://www.feeltheboot.com/blog/what-angel-investors-look-for" target="_blank">assess like an investor.</a>
 
 Words and hype are necessary to a degree, but without something solid behind them, it's a one way ticket to insolvency city.
 
@@ -52,7 +54,7 @@ Different sectors come with their unique challenges; it's crucial to recognize i
 **8. Ignoring Customers**
 >"The major indicators to watch are the customers and the customer interactions. If customers are being regularly ignored, it's a bad sign."
 
-Customer feedback is invaluable. If a startup disregards its customers, it's a concerning signal.
+<a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap/" target="_blank">Customer feedback is invaluable.</a> If a startup disregards its customers, it's a concerning signal.
 
 **9. Common Red Flags**
 >"No cash flow; no product/service market validation/fit; emotionally unstable founders; bad company culture."
@@ -78,6 +80,11 @@ Understanding a founder's motivation can be a window into the startup's potentia
 >"But my top answer is: bureaucracy... They said it wasn't fully thought out enough. Company crumbled 6 months later."
 
 When creativity is stifled by excessive bureaucracy, a startup's innovation and agility are compromised.
+
+**14. No planning, terminology or context about value creation.** 
+>"All the tickets, stories, plans, specs are about “feature completeness” and “cost reduction”."
+
+– <a href="https://craftingtechteams.substack.com/p/is-your-team-a-cost-centre-without" target="_blank">Denis Čahuk</a>
 
 **In Conclusion**
 
