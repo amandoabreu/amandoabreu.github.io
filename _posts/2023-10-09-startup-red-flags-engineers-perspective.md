@@ -83,7 +83,7 @@ When creativity is stifled by excessive bureaucracy, a startup's innovation and 
 
 Startups face numerous challenges on their path to success. Recognizing the signs of potential failure can help stakeholders make informed decisions. These insights from engineers, who are often at the heart of these ventures, offer a valuable perspective on navigating the unpredictable startup landscape.
 
-Do you need to make this decision? I offer fractional CTO services for businesses like yours. If you have hard problems you want to tackle but feel your organization lacks the perspective to tackle fully, get in touch! I guarantee to ask very hard questions that lead to solving hard problems.
+I offer fractional CTO services for businesses like yours. If you have hard problems you want to tackle but feel your organization lacks the perspective to tackle fully, get in touch! I guarantee to ask very hard questions that lead to solving hard problems.
 
 <ul class="listing">
     <li class="listing__li">
