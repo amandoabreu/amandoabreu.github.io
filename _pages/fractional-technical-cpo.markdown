@@ -1,8 +1,14 @@
 ---
 layout: page
-title: Fractional CPO services for business owners
+title: Fractional CT(P)O services for business owners
 listed: yes
 ---
+## First of all, what's a CTPO?
+
+My background is very technical. But over time I started to notice that many problems in tech businesses stem from way before the problem reaches the technical teams.
+
+Few product people have a technical background and know how to communicate with technical teams. As a former founder and creator of dozens of projects, I know what product "patterns" tend to lead to pain during development, and not only can I avoid them, I can dd it quickly :)
+
 
 ## A little bit about me
 
