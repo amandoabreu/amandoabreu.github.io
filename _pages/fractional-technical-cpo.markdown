@@ -4,24 +4,11 @@ title: Fractional CPO services for business owners
 listed: yes
 ---
 
-Do you need more clarity around your tech business? This is what I do.
-
-<ul class="listing">
-    <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/onboarding.html">
-            <div class="listing__item">
-                <div class="listing__type">Want clarity in your tech business?</div>
-                <h3 class="listing__title">Get in touch</h3>
-            </div>
-        </a>
-    </li>
-</ul>
-
 ## A little bit about me
 
 I'm an <a href="https://amandoabreu.com/things-ive-done" target="_blank">experienced</a> engineer, engineering manager, and chief technology officer with 10+ years shipping/maintaining products in various industries; and building teams both in offices and 100% remote.
 
-With a strong business and product knowledge I'm able to identify and maximise business opportunities through technology, identify and manage technical risk; and ensure business and product scalability.
+With strong business and product knowledge I'm able to identify and maximise business opportunities through technology, identify and manage technical risk; and ensure business and product scalability.
 
 I love talking to people; defining problems; gathering requirements; solving problems; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
 
@@ -30,6 +17,10 @@ If something can be automated, it will be.
 I know a lot about:
 - Product
 - Software businesses
+- Software engineering
+- Setting up teams
+- Agile software methodologies
+- Lean business methodologies
 - Talking to investors
 - Solutions engineering for SMBs and big corporates 
 - IT security
@@ -41,24 +32,14 @@ I know a lot about:
 - Data
 - Software engineers
 
-## Here's what you can get
-
-
-### Technical CPO on a fractional basis                          
-I **will be your technical CPO** within 2-6 weeks for an engagement of 6-12 months.
-
-### Developers as a service           
-I will be your CTO, and I will also provide you with **a team of developers as-a-service** to work on your product.
-
-### fCTO & Devs as a service & I recruit your next CTO
-I will be your CTO, provide you with a team of developers as-a-service, and I will also **find your ideal full-time CTO to begin after I'm done.**
+Is your organization struggling to deliver software? Get in touch. 
 
 <ul class="listing">
     <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/onboarding.html">
+        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
             <div class="listing__item">
-                <div class="listing__type">Sound fair enough?</div>
-                <h3 class="listing__title">Click here to get in touch</h3>
+                <div class="listing__type">Want clarity in your tech business?</div>
+                <h3 class="listing__title">Book an appointment</h3>
             </div>
         </a>
     </li>
@@ -66,13 +47,15 @@ I will be your CTO, provide you with a team of developers as-a-service, and I wi
 
 If you don't have a solid idea yet, check out: <a href="/i-have-an-idea">I have an idea</a>.
 
+## Here's what to expect:
+
 ### Pre-product/Early stage
 At this stage, change is the name of the game. The product will change and shift extremely quickly. You may build several prototypes and proof-of-concepts.
 
 It's important to have a good base and processes to work on. Business and engineering need to send and respond to feedback from one-another. Business people need to know how to communicate to engineers, and vice-versa.
 
 **I will:**
-- **Help you define your product**
+- **Help you (re)define your product**
 - **Create the foundations of your engineering and communication processes**
 - **Address quality issues**
 - **Build your team (s)**
@@ -86,10 +69,10 @@ It's important to have a good base and processes to work on. Business and engine
 
 <ul class="listing">
     <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/onboarding.html">
+        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
             <div class="listing__item">
-                <div class="listing__type">Sound fair enough?</div>
-                <h3 class="listing__title">Click here to get in touch</h3>
+                <div class="listing__type">Want clarity in your tech business?</div>
+                <h3 class="listing__title">Book an appointment</h3>
             </div>
         </a>
     </li>
@@ -115,10 +98,10 @@ Engineers may start to leave, and unless you want a revolving door, something wi
 
 <ul class="listing">
     <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/onboarding.html">
+        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
             <div class="listing__item">
-                <div class="listing__type">Sound fair enough?</div>
-                <h3 class="listing__title">Click here to get in touch</h3>
+                <div class="listing__type">Want clarity in your tech business?</div>
+                <h3 class="listing__title">Book an appointment</h3>
             </div>
         </a>
     </li>
@@ -129,10 +112,10 @@ Although I fit many cases. I'm not always the right person for your business. I'
 
 <ul class="listing">
     <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/onboarding.html">
+        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
             <div class="listing__item">
-                <div class="listing__type">Sound fair enough?</div>
-                <h3 class="listing__title">Click here to get in touch</h3>
+                <div class="listing__type">Want clarity in your tech business?</div>
+                <h3 class="listing__title">Book an appointment</h3>
             </div>
         </a>
     </li>
