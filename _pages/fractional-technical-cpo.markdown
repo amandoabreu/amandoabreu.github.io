@@ -1,128 +1,47 @@
----
-layout: page
-title: Fractional CT(P)O services for business owners
-listed: yes
----
-## First of all, what's a CTPO?
+Of course! Here's the list integrated with "Fractional" and "Part-time":
 
-My background is very technical. But over time I started to notice that many problems in tech businesses stem from way before the problem reaches the technical teams.
+1. **Fractional**:
+    - This model involves senior professionals offering their expertise to companies for a fraction of their time, serving possibly multiple companies simultaneously.
+    - Ideal for those who want to provide strategic direction and mentorship on a high-level without the commitment of a full-time role.
 
-Few product people have a technical background and know how to communicate with technical teams. As a former founder and creator of dozens of projects, I know what product "patterns" tend to lead to pain during development, and not only can I avoid them, I can do it quickly :)
+2. **Part-time**:
+    - A more traditional role where the consultant works fewer hours than a full-time position. This can be regular (e.g., every Tuesday and Thursday) or might vary based on client needs.
+    - Suitable for those who prefer to maintain a consistent but reduced work schedule.
 
+3. **Project-Based**:
+    - Consultants are hired to complete a specific project or solve a particular problem. Once the project is complete, their contract ends.
+    - Ideal for those who like shifting between different challenges and enjoy the clarity of defined outcomes.
 
-## A little bit about me
+4. **Retainer**:
+    - Companies pay a monthly fee to have the consultant available for a set number of hours or for specific tasks.
+    - Offers a steady income and allows companies to have consistent access to expertise.
 
-I'm an <a href="https://amandoabreu.com/things-ive-done" target="_blank">experienced</a> engineer, engineering manager, and chief technology officer with 10+ years shipping/maintaining products in various industries; and building teams both in offices and 100% remote.
+5. **Advisory Role**:
+    - An informal high-level strategic advice role without getting involved in daily operations.
+    - Useful for consultants who want to provide guidance without direct execution.
 
-With strong business and product knowledge I'm able to identify and maximise business opportunities through technology, identify and manage technical risk; and ensure business and product scalability.
+6. **Training & Workshops**:
+    - Specializing in training teams or leading workshops on specific topics.
+    - Best for those who enjoy sharing and imparting knowledge.
 
-I love talking to people; defining problems; gathering requirements; solving problems; selling ideas; developing proof-of-concepts; and leading teams towards successful and continuous deliveries.
+7. **Interim Executive**:
+    - A temporary leadership position to fill roles during transitions.
+    - Suitable for those who enjoy leadership roles and can adapt to new organizations quickly.
 
-If something can be automated, it will be. 
+8. **Audit & Assessment**:
+    - Consultants evaluate company processes and provide improvement recommendations.
+    - Perfect for those who can quickly identify gaps and suggest solutions.
 
-I know a lot about:
-- Product
-- Software businesses
-- Software engineering
-- Setting up teams
-- Agile software methodologies
-- Lean business methodologies
-- Talking to investors
-- Solutions engineering for SMBs and big corporates 
-- IT security
-- Operations 
-- Backend 
-- Frontend 
-- Mobile
-- Users
-- Data
-- Software engineers
+9. **Mentorship & Coaching**:
+    - A one-on-one approach to guide less experienced professionals.
+    - Great for those who enjoy aiding in the personal development of others.
 
-Is your organization struggling to deliver software? Get in touch. 
+10. **Speaker & Thought Leadership**:
+    - Establishing oneself as an industry expert through public speaking or writing.
+    - Suitable for those with public speaking skills wanting to establish themselves as industry leaders.
 
-<ul class="listing">
-    <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
-            <div class="listing__item">
-                <div class="listing__type">Want clarity in your tech business?</div>
-                <h3 class="listing__title">Book an appointment</h3>
-            </div>
-        </a>
-    </li>
-</ul>
+11. **Productized Services**:
+    - Offering standardized solutions or tools.
+    - Ideal for those with a repeatable solution for common industry problems.
 
-If you don't have a solid idea yet, check out: <a href="/i-have-an-idea">I have an idea</a>.
-
-## Here's what to expect:
-
-### Pre-product/Early stage
-At this stage, change is the name of the game. The product will change and shift extremely quickly. You may build several prototypes and proof-of-concepts.
-
-It's important to have a good base and processes to work on. Business and engineering need to send and respond to feedback from one-another. Business people need to know how to communicate to engineers, and vice-versa.
-
-**I will:**
-- **Help you (re)define your product**
-- **Create the foundations of your engineering and communication processes**
-- **Address quality issues**
-- **Build your team (s)**
-- **Show you how to communicate with your engineers**
-- **Show you how to simplify your product/features (why take 6 weeks building something that can be built in a couple of days?)**
-- **Help with MVPs, POCs, and customer conversations**
-- **Help with requirements gathering (it's very hard to solve a badly defined problem, I know exactly what to ask from an engineering perspective)**
-- **Help with hiring (I've hired dozens of engineers over the years)**
-- **Help with investor conversations (I've raised money before)**
-- **Help with technical documentation**
-
-<ul class="listing">
-    <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
-            <div class="listing__item">
-                <div class="listing__type">Want clarity in your tech business?</div>
-                <h3 class="listing__title">Book an appointment</h3>
-            </div>
-        </a>
-    </li>
-</ul>
-
-### Later stages
-At this stage, you know what your product does and you're likely making cash. Congrats! 🚀 
-
-The mistakes here range from hiring way more engineers than you need and inadvertently slowing down your development, to creating silos in between business/tech, or even within the tech. 
-
-And of course, the silent killer nobody expects to happen to them: security issues. A data leak at this stage could kill customer and investor relations.
-
-Engineers may start to leave, and unless you want a revolving door, something will need to happen.
-
-**I will help you:**
-- **Build the right teams for your organisation**
-- **Create an environment people want to work in**
-- **Identify and minimise silo'd information**
-- **Make your processes more effective**
-- **If you're acquiring: Audit code before an acquisition**
-- **Mediate and manage your dev agency for you**
-- **Help with long term software strategy: Do you need a rewrite? Is some important component of your stack going to be deprecated? + much more to think about**
-
-<ul class="listing">
-    <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
-            <div class="listing__item">
-                <div class="listing__type">Want clarity in your tech business?</div>
-                <h3 class="listing__title">Book an appointment</h3>
-            </div>
-        </a>
-    </li>
-</ul>
-
-## Extra
-Although I fit many cases. I'm not always the right person for your business. I've partnered up with other fCTOs who have different skills and experiences. If I'm not the right person for you, I'll let you know and put you in touch with someone who is!
-
-<ul class="listing">
-    <li class="listing__li">
-        <a class="listing__link block" href="https://amandoabreu.com/book-30-minutes">
-            <div class="listing__item">
-                <div class="listing__type">Want clarity in your tech business?</div>
-                <h3 class="listing__title">Book an appointment</h3>
-            </div>
-        </a>
-    </li>
-</ul>
+By exploring these various formats, senior technical professionals can determine which approach aligns best with their skills, preferences, and career goals, and can cater to a wider range of potential clients.
