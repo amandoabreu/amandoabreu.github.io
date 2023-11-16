@@ -11,7 +11,7 @@ So, as time went by and I founded my own projects, I honed my product skills to 
 
 The only thing I love more than building things is building **things people actually use**.
 
-So, I've become pretty good at the strategy part **before** building anything. Such as finding out exactly **what** to build **when**, **why**, and for **whom**. This makes anything I build extremely surgical and precise, without waste, with a much shorter time-to-market.
+So, I've become pretty good at the strategy part **before** building anything. Such as finding out exactly **what** to build **when**, **why**, and for **whom**. This makes anything I build extremely surgical and precise, without waste, with a much shorter time-to-market. (<a href="https://saasstarters.com/blog/2022-10-22-why-you-should-expose-your-product-to-the-market-asap/" target="_blank">here's</a> why you should expose your product to the market as fast as possible)
 
 I've seen just about every mistake one can make when launching a software project, and I'm pretty good at detecting wrong directions.
 
