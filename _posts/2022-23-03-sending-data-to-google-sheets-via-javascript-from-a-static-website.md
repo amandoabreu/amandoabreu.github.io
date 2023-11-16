@@ -6,7 +6,7 @@ image: /assets/images/posts/screenshot-2022-03-23-at-12.27.07.png
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2023-11-09 09:16:45
+date: 2090-11-09 09:16:45
 ---
 I have a static website. And in it I have a search field that I urger users to use, to find out what they are looking for when they land on my website.
 
