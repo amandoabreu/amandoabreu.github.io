@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Data driven decisions explained with hamburgers"
-date:   2017-10-26 12:00:00 +0200
+title:  "Why Time-to-market is a big deal"
+date:   2117-10-26 12:00:00 +0200
 author: Amando Abreu
-categories: wordpress php
+categories: business
 comments: true
 image: /assets/images/posts/burger-hq.jpeg
 ---
