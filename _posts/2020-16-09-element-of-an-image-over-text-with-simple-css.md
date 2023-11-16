@@ -6,7 +6,8 @@ newsletter: false
 comments: true
 author: Amando Abreu
 category: css, design
-date: 2016-04-10 03:01:00
+date: 2116-04-10 03:01:00
+show: false
 ---
 ![](/assets/images/posts/imageovertext.jpg)
 
