@@ -17,7 +17,7 @@ I've seen just about every mistake one can make when launching a software projec
 
 It's inherently very hard to predict success, but it's super easy to predict and avoid total failure. (which is still 90%+ of startups!)
 
-Consider me a deeply technical product person that can build just about anything, yet still have very high-level discussions with C-level and investors.
+Consider me a deeply technical product person that can build just about anything, yet still have very high-level discussions with C-level and investors, and read the minds of customers.
 
 I'd love to hear about your project. Let's talk!
 
