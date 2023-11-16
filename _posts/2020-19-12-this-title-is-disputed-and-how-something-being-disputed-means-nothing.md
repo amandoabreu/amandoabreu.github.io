@@ -5,7 +5,7 @@ image: /assets/images/posts/galileo-disputed.png
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2020-12-19 02:46:27
+date: 2120-12-19 02:46:27
 ---
 TL;DR; Mostly everything is or can be disputed.
 

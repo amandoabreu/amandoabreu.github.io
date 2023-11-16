@@ -7,7 +7,7 @@ newsletter: false
 comments: true
 author: Amando Abreu
 category: robotics robot
-date: 2010-07-29 02:18:00
+date: 2110-07-29 02:18:00
 ---
 AATV stands for Autonomous All Terrain Vehicle.
 
