@@ -1,47 +1,28 @@
-Of course! Here's the list integrated with "Fractional" and "Part-time":
+---
+layout: page
+title: Fractional CP(T)O services
+listed: yes
+---
+Hey! My background is deeply technical, but throughout the years it came to my attention that projects rarely fail due to technical issues. 
 
-1. **Fractional**:
-    - This model involves senior professionals offering their expertise to companies for a fraction of their time, serving possibly multiple companies simultaneously.
-    - Ideal for those who want to provide strategic direction and mentorship on a high-level without the commitment of a full-time role.
+In fact, most of the time it's a business issue!
 
-2. **Part-time**:
-    - A more traditional role where the consultant works fewer hours than a full-time position. This can be regular (e.g., every Tuesday and Thursday) or might vary based on client needs.
-    - Suitable for those who prefer to maintain a consistent but reduced work schedule.
+So, as time went by and I founded my own projects, I honed my product skills to deliver more value instead of just delivering code.
 
-3. **Project-Based**:
-    - Consultants are hired to complete a specific project or solve a particular problem. Once the project is complete, their contract ends.
-    - Ideal for those who like shifting between different challenges and enjoy the clarity of defined outcomes.
+I love building things, and I'm pretty good at the strategy part *before* building anything. Such as finding out what to build when, why, and for whom. This makes anything I build extremely surgical and precise, without waste.
 
-4. **Retainer**:
-    - Companies pay a monthly fee to have the consultant available for a set number of hours or for specific tasks.
-    - Offers a steady income and allows companies to have consistent access to expertise.
+I've seen just about every mistake one can make when launching a software project, and I'm pretty good at detecting wrong directions.
 
-5. **Advisory Role**:
-    - An informal high-level strategic advice role without getting involved in daily operations.
-    - Useful for consultants who want to provide guidance without direct execution.
+It's inherently very hard to predict success, but it's super easy to predict and avoid total failure.
 
-6. **Training & Workshops**:
-    - Specializing in training teams or leading workshops on specific topics.
-    - Best for those who enjoy sharing and imparting knowledge.
+<ul class="listing">
+    <li class="listing__li">
+        <a class="listing__link block" href="/book-appointment/">
+            <div class="listing__item">
+                <div class="listing__type">Shall we talk?</div>
+                <h3 class="listing__title">Click here to get in touch</h3>
+            </div>
+        </a>
+    </li>
+</ul>
 
-7. **Interim Executive**:
-    - A temporary leadership position to fill roles during transitions.
-    - Suitable for those who enjoy leadership roles and can adapt to new organizations quickly.
-
-8. **Audit & Assessment**:
-    - Consultants evaluate company processes and provide improvement recommendations.
-    - Perfect for those who can quickly identify gaps and suggest solutions.
-
-9. **Mentorship & Coaching**:
-    - A one-on-one approach to guide less experienced professionals.
-    - Great for those who enjoy aiding in the personal development of others.
-
-10. **Speaker & Thought Leadership**:
-    - Establishing oneself as an industry expert through public speaking or writing.
-    - Suitable for those with public speaking skills wanting to establish themselves as industry leaders.
-
-11. **Productized Services**:
-    - Offering standardized solutions or tools.
-    - Ideal for those with a repeatable solution for common industry problems.
-
-By exploring these various formats, senior technical professionals can determine which approach aligns best with their skills, preferences, and career goals, and can cater to a wider range of potential clients.
