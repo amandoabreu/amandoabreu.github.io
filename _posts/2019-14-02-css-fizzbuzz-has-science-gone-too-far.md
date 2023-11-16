@@ -5,7 +5,7 @@ image: /assets/images/posts/pic-fizzbuzz.png
 newsletter: false
 comments: true
 author: Amando Abreu
-date: '2017-08-14 03:28:00'
+date: '2117-08-14 03:28:00'
 ---
 Recently at an interview instead of checking whether or not I had a pulse, it was requested that I solve the FizzBuzz challenge in a language of my choice. 
 
