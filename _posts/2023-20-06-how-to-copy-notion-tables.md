@@ -6,7 +6,7 @@ image: /assets/images/table-view-databases.jpg
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2023-06-19 12:42:20
+date: 2123-06-19 12:42:20
 ---
 A pet peeve of mine is when someone shares a table of some content that I want to save, but it's on notion, and seemingly impossible to copy.
 

@@ -6,7 +6,7 @@ image: https://images.pexels.com/photos/9915961/pexels-photo-9915961.jpeg?auto=c
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2023-05-12 04:06:17
+date: 2123-05-12 04:06:17
 ---
 # If PHP Were Norwegian
 
