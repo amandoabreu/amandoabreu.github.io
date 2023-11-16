@@ -5,7 +5,7 @@ image: /assets/images/posts/norwayskis.jpg
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2021-01-29 02:27:00
+date: 2121-01-29 02:27:00
 ---
 # Coronavirus Search Trends
 

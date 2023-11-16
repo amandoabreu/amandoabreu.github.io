@@ -6,7 +6,7 @@ newsletter: true
 comments: true
 author: Amando Abreu
 category: WordPress
-date: 2019-02-18 10:53:00
+date: 2109-02-18 10:53:00
 ---
 A common attack vector for WordPress is to enumerate users and see what juicy data you can get, and potentially try to bruteforce the password, or even use known passwords from leaks on other services.
 
