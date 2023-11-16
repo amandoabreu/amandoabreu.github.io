@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My journey migrating from Wordpress to jekyll and why I will use Hugo instead"
-date: 2017-03-20 12:00:00 +0200
+date: 2117-03-20 12:00:00 +0200
 author: Amando Abreu
 categories: jekyll cms wordpress
 comments: true

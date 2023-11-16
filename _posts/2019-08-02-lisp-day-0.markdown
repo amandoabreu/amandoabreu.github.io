@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lisp: Day 0"
-date:   2019-02-08 08:00:00 +0200
+date:   2119-02-08 08:00:00 +0200
 author: Amando Abreu
 categories: lisp programming
 comments: true

@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Dynamically creating unique widget area on a page"
-date:   2015-08-01 12:00:00 +0200
+date:   2100-08-01 12:00:00 +0200
 author: Amando Abreu
 categories: wordpress php
 comments: true
 image: https://c7.staticflickr.com/8/7667/16973136358_1407846425_h.jpg
+listed: false
 ---
 Sometimes we want to have a page with a unique widget area that won’t appear on all pages, like widgets in the sidebar do.
 

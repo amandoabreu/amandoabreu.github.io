@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wordpress: Create a plugin that automatically creates publicly facing page"
-date:   2017-05-25 12:00:00 +0200
+date:   2117-05-25 12:00:00 +0200
 author: Amando Abreu
 categories: wordpress plugin page frontend user public
 comments: true
