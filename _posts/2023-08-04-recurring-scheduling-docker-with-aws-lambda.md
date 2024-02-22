@@ -7,12 +7,12 @@ comments: true
 author: Amando Abreu
 date: 2024-04-12 02:19:02
 ---
-T﻿he script\
+The script\
 \
-T﻿he Dockerfile\
+The Dockerfile\
 \
-P﻿ushing the docker image\
+Pushing the docker image\
 \
-E﻿vent Bridge\
+Event Bridge\
 \
-T﻿erraform
+Terraform

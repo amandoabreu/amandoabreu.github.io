@@ -13,11 +13,11 @@ Process LearnPress payments with Stripe Checkout with this WordPress plugin.
 
 ![](/assets/images/posts/screenshot-2023-01-28-at-23.16.44.png)
 
-A﻿fter activating the plugin you get the "Stripe" option in LearnPress payment settings.
+After activating the plugin you get the "Stripe" option in LearnPress payment settings.
 
 ![](/assets/images/posts/screenshot-2023-01-28-at-23.16.27.png)
 
-F﻿ill in your settings (guide on how to get API keys from Stripe, here: <https://stripe.com/docs/keys>
+Fill in your settings (guide on how to get API keys from Stripe, here: <https://stripe.com/docs/keys>
 
 
 Custom order success & order cancelled pages to give you more control over user flow.
@@ -30,4 +30,4 @@ Once enabled, the Stripe optiob shows up under paypal.
 
 And when the user selects it, the Stripe Checkout procedure starts.
 
-C﻿Heck it out on [Gumroad](https://amandoabreu.gumroad.com/l/stripe-checkout-for-learnpress)
+CHeck it out on [Gumroad](https://amandoabreu.gumroad.com/l/stripe-checkout-for-learnpress)

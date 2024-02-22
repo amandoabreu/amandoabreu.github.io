@@ -7,4 +7,4 @@ comments: true
 author: Amando Abreu
 date: 2024-11-30 12:11:59
 ---
-y﻿es
+yes
