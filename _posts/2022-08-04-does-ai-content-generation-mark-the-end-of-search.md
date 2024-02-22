@@ -5,7 +5,7 @@ layout: post
 newsletter: true
 comments: true
 author: Amando Abreu
-date: 2023-11-25 08:56:52
+date: 2029-11-25 08:56:52
 ---
 Than's an interesting one though I'm totally against AI content as it's super unethical and wrong in many ways.
 Ask yourself, would you like to see all Google results being auto-generated content? Then the whole internet would be useless and filled with garbage.
