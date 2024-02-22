@@ -23,7 +23,7 @@ Long story short, it successfully helped me create a fully working WordPress plu
 
 # Things I learned
 ## I no longer need a developer to create quick POCs or small apps
-I'm technical. And I know what to ask to get great results. But being able to ask chatGOT and get immediate feedback makes this faster than interacting with a human developer.
+I'm technical. And I know what to ask to get great results. But being able to ask chatGPT and get immediate feedback makes this faster than interacting with a human developer.
 
 ## Things chatGPT is really good at:
 ### Using popular APIs 
