@@ -20,7 +20,9 @@ I've been using AI for professional programming for over a year, here's what I'v
 * You still need to know what you’re doing, sometimes
 * You can learn faster – with the right questions
 
-Overall, generative AI is a serious productivity tool that nobody, especially software engineers, should be outright dismissing. The future isn’t just AI, it’s you + AI.
+Overall, generative AI is a serious productivity tool that nobody, especially software engineers, should be outright dismissing. I'm not saying you should use AI now and forever, I'm just saying you shouldn't dismiss it without thought :)
+
+The future isn’t just AI, it’s you + AI.
 
 I’ve heard some technical peers say it takes the fun out of solving certain problems, which is a point – but you get no extra points for having fun for 5 hours solving something versus someone solving that same thing in 5 minutes without having fun.
 
