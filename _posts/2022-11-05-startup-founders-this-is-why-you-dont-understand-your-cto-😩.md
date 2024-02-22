@@ -7,7 +7,7 @@ newsletter: true
 comments: true
 author: Amando Abreu
 category: startups
-date: 2023-12-07 11:10:35
+date: 2025-12-07 11:10:35
 ---
 Ok so you're C-level at a tech startup. Cool! 🚀 
 
