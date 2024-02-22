@@ -8,12 +8,11 @@ author: Amando Abreu
 date: 2023-02-02 06:57:55
 image: /assets/images/posts/learnpress-stripe-bigger.png
 ---
-I run a course platform with the popular WP LMS called LearnPress. Before making this plugin, I could only accept payments via paypal, but this was costing me sales.\
-\
-LearnPress has a Stripe integration as a plugin, but I wanted to make it myself, and I specifically wanted to use [Stripe Checkout](https://stripe.com/docs/payments/checkout)\
-\
-I asked chatGPT "make a LearnPress Add-on to allow stripe checkout payments"\
-\
+I run a course platform with the popular WP LMS called LearnPress. Before making this plugin, I could only accept payments via paypal, but this was costing me sales. 
+
+LearnPress has a Stripe integration as a plugin, but I wanted to make it myself, and I specifically wanted to use [Stripe Checkout](https://stripe.com/docs/payments/checkout) 
+
+I asked chatGPT "make a LearnPress Add-on to allow stripe checkout payments"
 
 You can see the full chat history here:
 
