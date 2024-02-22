@@ -46,3 +46,5 @@ For example, instead of feeding it your whole program and asking for a change, a
 ## Thanks for reading!
 
 You can see the fully working plugin here: [github](https://github.com/amandoabreu/learnpress-stripe)
+
+You can read more about programming with ChatGPT [here](https://amandoabreu.com/wrote/programming-with-ai-over-a-year/).
