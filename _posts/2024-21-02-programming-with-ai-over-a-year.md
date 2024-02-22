@@ -5,7 +5,7 @@ layout: post
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2024-21-02 06:57:55
+date: 2024-02-21 06:57:55
 image: /assets/images/posts/learnpress-stripe-bigger.png
 ---
 I've been using AI for professional programming for over a year, here's what I've learned:
