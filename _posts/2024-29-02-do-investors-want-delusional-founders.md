@@ -5,7 +5,7 @@ layout: post
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2029-21-02 06:57:55
+date: 2029-12-02 06:57:55
 image: /assets/images/posts/learnpress-stripe-bigger.png
 ---
 WeWork.
