@@ -34,7 +34,7 @@ This is something I noticed when using github copilot. You can nearly skip doc-r
 Eg: Stripe API; WordPress APIs
 
 ### Finding bugs
-If something doesn't work they way it should and you can't figure it out, ChatGPT usually can find it very quickly. Sometimes it does what a linter would catch anyway, so be sure to use the right tool for the job.
+If something doesn't work the way it should, and you can't figure it out, ChatGPT usually can find it very quickly. Sometimes it does what a linter would catch anyway, so be sure to use the right tool for the job.
 
 ## Things ChatGPT is bad at:
 ### Keeping track of a lot of logic in a large program
