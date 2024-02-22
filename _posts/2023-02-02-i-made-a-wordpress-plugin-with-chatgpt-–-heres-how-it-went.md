@@ -16,8 +16,8 @@ I asked chatGPT "make a LearnPress Add-on to allow stripe checkout payments"
 
 You can see the full chat history here:
 
-https://chat.openai.com/share/15092d55-2593-41a5-9487-029b0275ae08
-https://chat.openai.com/share/95388e81-ab0e-4f04-a3dd-0816474133cc
+[Chat 1](https://chat.openai.com/share/15092d55-2593-41a5-9487-029b0275ae08)
+[Chat 2](https://chat.openai.com/share/95388e81-ab0e-4f04-a3dd-0816474133cc)
 
 Long story short, it successfully helped me create a fully working WordPress plugin that integrated with LearnPress, which is quite impressive!
 
@@ -44,4 +44,4 @@ For example, instead of feeding it your whole program and asking for a change, a
 
 ## Thanks for reading!
 
-You can see the fully working plugin here: https://github.com/amandoabreu/learnpress-stripe
+You can see the fully working plugin here: [github](https://github.com/amandoabreu/learnpress-stripe)
