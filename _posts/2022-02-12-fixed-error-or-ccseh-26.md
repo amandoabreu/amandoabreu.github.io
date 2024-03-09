@@ -1,5 +1,5 @@
 ---
-title: How to fix Error OR-CCSEH-26 (Works in 2023)
+title: How to fix Error OR-CCSEH-26 (Works in 2024)
 description: How to fix error OR-CCSEH-26
 layout: post
 image: /assets/images/posts/youtubethumbnail-2-.png
@@ -7,7 +7,7 @@ newsletter: true
 comments: true
 author: Amando Abreu
 category: fixes
-date: 2023-08-28 11:03:53
+date: 2024-03-08 11:03:53
 ---
 # Context of OR-CCSEH-26
 You probably tried doing one of the following:
