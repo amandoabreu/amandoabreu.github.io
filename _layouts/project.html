@@ -18,10 +18,9 @@ layout: default
                 <div class="carousel__item carousel__item--mobile">
                     {% for img in page.mobile_images %}
                     <div class="carousel__slide">
-                        <div class="carousel__image carousel__image--mobile" style="background-image:url({{ site.distribution_base }}/{{ img.image_path }} )">
+                        <div class="carousel__image carousel__image--mobile" style="background-image:url({% if img.image_path starts_with 'images/' %}{{ img.image_path }}{% else %}{{ site.distribution_base }}/{{ img.image_path }}{% endif %})"></div>
 
                         </div>
-                    </div>
                     {% endfor %}
 
                 </div>
