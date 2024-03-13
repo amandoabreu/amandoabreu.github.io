@@ -1,12 +1,15 @@
 version: '3'
 services:
   jekyll:
-      image: jekyll/jekyll:3.3
-      environment:
-        - JEKYLL_ENV=development
-      command: bundle exec jekyll serve --watch --incremental --config _config.yml --host 0.0.0.0
-      ports:
-          - 4000:4000
-      volumes:
-          - .:/srv/jekyll:cached
-          - ./vendor/bundle:/usr/local/bundle:cached
+    build: . # This tells Docker Compose to build the Dockerfile in the current directory
+    environment:
+      - JEKYLL_ENV=development
+    command: /bin/bash -c "bundle exec jekyll serve --watch --incremental --config _config.yml --host 0.0.0.0"
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+      - vendor_bundle:/usr/local/bundle
+
+volumes:
+  vendor_bundle:
