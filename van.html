@@ -474,6 +474,47 @@
             },
 
 
+            updateURL() {
+                const params = new URLSearchParams();
+
+                if (this.selectedInput) params.set('input', this.selectedInput.name); // Assuming 'name' is a unique identifier
+                if (this.selectedStorage) params.set('storage', this.selectedStorage.name);
+                if (this.selectedAccessories.length > 0) {
+                    const accessoryNames = this.selectedAccessories.map(acc => acc.name).join(',');
+                    params.set('accessories', accessoryNames);
+                }
+
+                window.history.pushState({}, '', `${window.location.pathname}?${params}`);
+            },
+
+            initializeFromURL() {
+                const params = new URLSearchParams(window.location.search);
+
+                if (params.has('input')) {
+                    const inputName = params.get('input');
+                    console.log(inputName);
+                    this.selectedInput = this.inputs.find(input => input.name === inputName) || null;
+                }
+                if (params.has('storage')) {
+                    const storageName = params.get('storage');
+                    this.selectedStorage = this.storages.find(storage => storage.name === storageName) || null;
+                }
+                if (params.has('accessories')) {
+                    const accessoryNames = params.get('accessories').split(',');
+                    this.selectedAccessories = this.accessories.filter(acc => accessoryNames.includes(acc.name));
+                }
+            },
+
+
+
+        },
+        watch: {
+            selectedInput: "updateURL",
+            selectedStorage: "updateURL",
+            selectedAccessories: {
+                handler: "updateURL",
+                deep: true,
+            },
         },
         computed: {
             allItems() {
@@ -541,6 +582,9 @@
                 return total;
             },
         },
+        created() {
+            this.initializeFromURL();
+        }
     });
 </script>
 
