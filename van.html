@@ -25,13 +25,13 @@
             <v-container>
                 <v-row style="padding: 40px 0;">
                     <v-col>
-                    <h1 class="text-h2">Offgrid & Van power simulator</h1>
+                    <h1 class="text-h2">Offgrid & Van power system builder</h1>
                     </v-col>
                 </v-row>
                 <v-row>
                     <v-col>
-                        <p>This simulator helps you choose your van & offgrid charging source, battery, and accessories by showing you clearly how much power goes into and out of your battery based on charging method and chosen accessories.</p>
-                        <p><b>1) Choosing a charging source:</b>Your charging source will most likely be solar if you're going for offgrid. And maybe aided by a generator.<b> If you have a van, you also have the option for DC-to-DC chargers.</b> Which provide a lot of power regardless of how sunny it is. They're a great option especially if you have a lithium battery. If you plan to drive often, you may not need a solar panel at all. Select the charging source you want in the form below.</p>
+                        <p>This builder helps you choose your van & offgrid charging source, battery, and accessories by showing you clearly how much power goes into and out of your battery based on charging method and chosen accessories.</p>
+                        <p><b>1) Choosing a charging source:</b> Your charging source will most likely be solar if you're going for offgrid. And maybe aided by a generator.<b> If you have a van, you also have the option for DC-to-DC chargers.</b> Which provide a lot of power regardless of how sunny it is. They're a great option especially if you have a lithium battery. If you plan to drive often, you may not need a solar panel at all. Select the charging source you want in the form below.</p>
                         <p><b>2) Choosing a battery: </b>It's possible to run a lot of accessories directly from the solar panel alone, without a battery. But this way you <b>only have power when the sun is out.</b><br/>
                             The capacity of your battery will depend on how long you need power without the sun, and if you want to run accessories that need more power than the solar panel can provide on its own.
                         </p>
@@ -355,10 +355,10 @@
             accessories: [
                 { name: "LED Light", volt: 12, ampHourAvg: 2, whAvgPerDay: 24, powerConsumption: 5, hoursOnPerDay: 4, enabled: true, price: 10, weight: 1, image: "https://m.media-amazon.com/images/I/711+wL8KJQL._AC_SX679_.jpg" },
                 { name: "Refrigerator - Alpicool C50", volt: 12, ampHourAvg: 1, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 300, weight: 12 },
-                { name: "Refrigerator - Alpicool CX40", volt: 12, ampHourAvg: 3.5, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 320, weight: 12.6, image: "https://alpicool.no/wp-content/uploads/2024/03/1032126_XL.jpg", link: "jjjj" },
-                { name: "Refrigerator - SMETA Update 12 Volt RV Refrigerator", volt: 12, ampHourAvg: 3.5, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 329.90, weight: 12.6, image: "https://m.media-amazon.com/images/I/61tAtgrhrIL._AC_SX679_.jpg", link: "https://www.amazon.com/SMETA-Electric-Freightliner-Cascadia-Refrigerator/dp/B06XW9JS57/ref=sr_1_17?crid=39EK8TSJ1GV71&dib=eyJ2IjoiMSJ9.0MJ1ZkS2uiasMrUZSSyQCNg7jUY1YQhtrJ6xdG_aOcbAHwSEpOKDlJOvS4ClrZoUhUAZnzA4ri0EISHv84XT-fEBwqymAm_kCocpWIBVppgiSWzNYyJ9P1_KZhpAfODTAaPfoUX7tOoOKnf4oxtbnJPJFH-d1Um1J_3b9JBuE3gXJFfJGhkxoiIMZ1kp4aKoVXn02gwYusEVug3P85wbVV-SanHJy52FfYSUcS1NGgJFFGb5WWEXcuyW68n4Dsm3UcKxtEaq-iH0P8JizW1HzptYcEWUDr0PWxNy6zV60fA.FOQhBn12VfPZ0tmkgb1IN3tuwYJXz79KQyLA2IyuNvg&dib_tag=se&keywords=12v%2Bfridge&qid=1711835368&sprefix=12v%2Bfridge%2Caps%2C197&sr=8-17&th=1" },
+                { name: "Alpicool CX40 Compressor Refrigerator", volt: 12, ampHourAvg: 3.5, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 320, weight: 12.6, image: "https://alpicool.no/wp-content/uploads/2024/03/1032126_XL.jpg", link: "jjjj" },
+                { name: "SMETA Update 12 Volt RV Refrigerator", volt: 12, ampHourAvg: 3.5, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 329.90, weight: 12.6, image: "https://m.media-amazon.com/images/I/61tAtgrhrIL._AC_SX679_.jpg", link: "https://www.amazon.com/SMETA-Electric-Freightliner-Cascadia-Refrigerator/dp/B06XW9JS57/ref=sr_1_17?crid=39EK8TSJ1GV71&dib=eyJ2IjoiMSJ9.0MJ1ZkS2uiasMrUZSSyQCNg7jUY1YQhtrJ6xdG_aOcbAHwSEpOKDlJOvS4ClrZoUhUAZnzA4ri0EISHv84XT-fEBwqymAm_kCocpWIBVppgiSWzNYyJ9P1_KZhpAfODTAaPfoUX7tOoOKnf4oxtbnJPJFH-d1Um1J_3b9JBuE3gXJFfJGhkxoiIMZ1kp4aKoVXn02gwYusEVug3P85wbVV-SanHJy52FfYSUcS1NGgJFFGb5WWEXcuyW68n4Dsm3UcKxtEaq-iH0P8JizW1HzptYcEWUDr0PWxNy6zV60fA.FOQhBn12VfPZ0tmkgb1IN3tuwYJXz79KQyLA2IyuNvg&dib_tag=se&keywords=12v%2Bfridge&qid=1711835368&sprefix=12v%2Bfridge%2Caps%2C197&sr=8-17&th=1" },
                 { name: "Chinese 5Kw Diesel heater", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 48, hoursOnPerDay: 8, enabled: true, price: 123, weight: 8, image: "https://m.media-amazon.com/images/I/712B3muQM5L._AC_SX679_.jpg", link: "https://www.amazon.com/VEVOR-Bluetooth-Automatic-Altitude-Adjustment/dp/B0CKW4VXFB/ref=sr_1_4?crid=9KVWRWASY6U9&dib=eyJ2IjoiMSJ9.gIbykYTMlIRUGlwfZtmYL6XO9SP7agAcISERgXVr9ccPuR7Yltp9Zr_64qwJQNjFg3SasnjUhwgnlmQMb4pRfkusI6tyAOv-FHDotKBFKvgnzR1lMCwYUQ8jbdJFVrUVYKGPbiCF39WQqpizyt7GOXb_Tr-SjCl_hCGs8jtKpkA_Ta0No3ATQZxI907Q0s6PeCTJzSQamQigdDerPwiTTmXxIZ26vYOmvb6_n4u3c5K-XUI6ksOr854gJn_KvKz57q6KHBD90WinUniUiJDgZPvEHbjCnd0dk-ml2OqDu_s.iolPhoKaaEypAsA6U3l7Z_VzzOEV898LaqqExmyqzCM&dib_tag=se&keywords=5kw%2Bheater&qid=1711826548&sprefix=5kw%2Bheate%2Caps%2C173&sr=8-4&th=1" },
-                { name: "DIsel heater - Eberspacher 2.2kW 7500BTU", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 48, hoursOnPerDay: 8, enabled: true, price: 1045, weight: 5, image: "https://m.media-amazon.com/images/I/61nzGMLbDaL._AC_SX679_.jpg", link: "https://www.amazon.com/Eberspacher-Airtronic-EasyStart-Automatic-Adjustment/dp/B082T3T6R7/ref=sr_1_2?crid=22VQP9N4IOWEM&dib=eyJ2IjoiMSJ9.B4JUBat2GjvEEploGwN5rR97v6j-G29zXF5xsPQb1eKRmA0tmcAiTk6ZR9CcSG29MKM4eS9PxS5yp9NG79hFUo36Y6fDEmflMsPSfKIdzpRxLIVIZui9TyI-DpLIeodXMuPbfnB9SShfVG61WU5DZknqOwaHRsa1ilpu2KpZbN7aSp-8mjSTMJnIsT9UOsqfS33VNGfDeVtSZ6nsqd0n5He6NsYHxXTGKeksGTDAoeraMgstn7vWWIpyyb3LR6UOya2E52Fzle6jfSsWpHh0dP-6P2YFXoxhBvq3Od0gR1o.dqH3w7Y52X5XDG36oNVjlJOtQCShTGGueN1EUpJAms8&dib_tag=se&keywords=eberspacher+diesel+heater&qid=1711835968&sprefix=ebersp%2Caps%2C204&sr=8-2" },
+                { name: "Diesel heater - Eberspacher 2.2kW 7500BTU", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 48, hoursOnPerDay: 8, enabled: true, price: 1045, weight: 5, image: "https://m.media-amazon.com/images/I/61nzGMLbDaL._AC_SX679_.jpg", link: "https://www.amazon.com/Eberspacher-Airtronic-EasyStart-Automatic-Adjustment/dp/B082T3T6R7/ref=sr_1_2?crid=22VQP9N4IOWEM&dib=eyJ2IjoiMSJ9.B4JUBat2GjvEEploGwN5rR97v6j-G29zXF5xsPQb1eKRmA0tmcAiTk6ZR9CcSG29MKM4eS9PxS5yp9NG79hFUo36Y6fDEmflMsPSfKIdzpRxLIVIZui9TyI-DpLIeodXMuPbfnB9SShfVG61WU5DZknqOwaHRsa1ilpu2KpZbN7aSp-8mjSTMJnIsT9UOsqfS33VNGfDeVtSZ6nsqd0n5He6NsYHxXTGKeksGTDAoeraMgstn7vWWIpyyb3LR6UOya2E52Fzle6jfSsWpHh0dP-6P2YFXoxhBvq3Od0gR1o.dqH3w7Y52X5XDG36oNVjlJOtQCShTGGueN1EUpJAms8&dib_tag=se&keywords=eberspacher+diesel+heater&qid=1711835968&sprefix=ebersp%2Caps%2C204&sr=8-2" },
                 { name: "Hair dryer", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 2000, hoursOnPerDay: 0.25, enabled: true, price: 200, weight: 1 },
                 { name: "Small blender", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 300, hoursOnPerDay: 0.25, enabled: true, price: 30, weight: 1 },
                 { name: "Laptop charger - 140 Watt", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 140, hoursOnPerDay: 2, enabled: true, price: 30, weight: 1 },
@@ -477,22 +477,22 @@
             updateURL() {
                 const params = new URLSearchParams();
 
-                if (this.selectedInput) params.set('input', this.selectedInput.name); // Assuming 'name' is a unique identifier
+                if (this.selectedInput) params.set('input', this.selectedInput.name);
                 if (this.selectedStorage) params.set('storage', this.selectedStorage.name);
                 if (this.selectedAccessories.length > 0) {
-                    const accessoryNames = this.selectedAccessories.map(acc => acc.name).join(',');
-                    params.set('accessories', accessoryNames);
+                    const accessoryDetails = this.selectedAccessories.map(acc => `${acc.name}:${acc.powerConsumption}:${acc.hoursOnPerDay}`).join(';');
+                    params.set('accessories', encodeURIComponent(accessoryDetails));
                 }
 
                 window.history.pushState({}, '', `${window.location.pathname}?${params}`);
             },
+
 
             initializeFromURL() {
                 const params = new URLSearchParams(window.location.search);
 
                 if (params.has('input')) {
                     const inputName = params.get('input');
-                    console.log(inputName);
                     this.selectedInput = this.inputs.find(input => input.name === inputName) || null;
                 }
                 if (params.has('storage')) {
@@ -500,10 +500,18 @@
                     this.selectedStorage = this.storages.find(storage => storage.name === storageName) || null;
                 }
                 if (params.has('accessories')) {
-                    const accessoryNames = params.get('accessories').split(',');
-                    this.selectedAccessories = this.accessories.filter(acc => accessoryNames.includes(acc.name));
+                    const accessoryDetails = decodeURIComponent(params.get('accessories')).split(';');
+                    this.selectedAccessories = accessoryDetails.map(detail => {
+                        const [name, powerConsumption, hoursOnPerDay] = detail.split(':');
+                        const accessory = this.accessories.find(acc => acc.name === name);
+                        if (accessory) {
+                            return { ...accessory, powerConsumption: parseFloat(powerConsumption), hoursOnPerDay: parseFloat(hoursOnPerDay) };
+                        }
+                        return null;
+                    }).filter(acc => acc !== null);
                 }
             },
+
 
 
 
