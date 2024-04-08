@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VueJS + Vuetify Calculator</title>
+    <title>Powerbank Calculator</title>
     <link href="https://cdn.jsdelivr.net/npm/vuetify@2.6.0/dist/vuetify.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet">
     <style>
-        .v-menu__content.theme--light.menuable__content__active {
-            min-height:70vh;
-        }
+        /* .v-menu__content.theme--light.menuable__content__active {
+             min-height:70vh;
+         }*/
     </style>
 
     <meta name="robots" content="noindex">
     <style>
-        body { font-family: Roboto, Helvetica, Arial, sans-serif; }
+        body {
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -25,22 +27,47 @@
             <v-container>
                 <v-row style="padding: 40px 0;">
                     <v-col>
-                    <h1 class="text-h2">Offgrid & Van power system builder</h1>
+                        <h1 class="text-h2">Offgrid & Van power system builder</h1>
                     </v-col>
                 </v-row>
                 <v-row>
                     <v-col>
-                        <p>This builder helps you choose your van & offgrid charging source, battery, and accessories by showing you clearly how much power goes into and out of your battery based on charging method and chosen accessories.</p>
-                        <p><b>1) Choosing a charging source:</b> Your charging source will most likely be solar if you're going for offgrid. And maybe aided by a generator.<b> If you have a van, you also have the option for DC-to-DC chargers.</b> Which provide a lot of power regardless of how sunny it is. They're a great option especially if you have a lithium battery. If you plan to drive often, you may not need a solar panel at all. Select the charging source you want in the form below.</p>
-                        <p><b>2) Choosing a battery: </b>It's possible to run a lot of accessories directly from the solar panel alone, without a battery. But this way you <b>only have power when the sun is out.</b><br/>
-                            The capacity of your battery will depend on how long you need power without the sun, and if you want to run accessories that need more power than the solar panel can provide on its own.
+                        <p>This builder helps you choose your van & offgrid charging source, battery, and accessories by
+                            showing you clearly how much power goes into and out of your battery based on charging
+                            method and chosen accessories.</p>
+                        <p><b>1) Choosing a charging source:</b> Your charging source will most likely be solar if
+                            you're going for offgrid. And maybe aided by a generator.<b> If you have a van, you also
+                                have the option for DC-to-DC chargers.</b> Which provide a lot of power regardless of
+                            how sunny it is. They're a great option especially if you have a lithium battery. If you
+                            plan to drive often, you may not need a solar panel at all. Select the charging source you
+                            want in the form below.</p>
+                        <p><b>2) Choosing a battery: </b>It's possible to run a lot of accessories directly from the
+                            solar panel alone, without a battery. But this way you <b>only have power when the sun is
+                                out.</b><br/>
+                            The capacity of your battery will depend on how long you need power without the sun, and if
+                            you want to run accessories that need more power than the solar panel can provide on its
+                            own.
                         </p>
-                        <p><b>3) Choosing accessories:</b> the most common things people want are a way to keep food cold; A way to illuminate at night; And some sort of heating or cooling.<br/>
-                            You can search popular options and add them to your accessories list by clicking on them. The tool will automatically calculate how long your selected battery will last based on the accessories you choose.<br/>
-                            Some accessories don't need to be on all the time, such as heaters. After adding an accessory you can choose how long you choose to use it per day, and this will greatly increase your battery time.
+                        <p><b>3) Choosing accessories:</b> the most common things people want are a way to keep food
+                            cold; A way to illuminate at night; And some sort of heating or cooling.<br/>
+                            You can search popular options and add them to your accessories list by clicking on them.
+                            The tool will automatically calculate how long your selected battery will last based on the
+                            accessories you choose.<br/>
+                            Some accessories don't need to be on all the time, such as heaters. After adding an
+                            accessory you can choose how long you choose to use it per day, and this will greatly
+                            increase your battery time.
                         </p>
                     </v-col>
+
                 </v-row>
+                <!--<v-row>
+                    <v-col>
+                        <v-select v-model="selectedBrands" :items="brands" label="Filter by Brand" clearable></v-select>
+                    </v-col>
+                    <v-col>
+                        <v-select v-model="selectedStores" :items="stores" label="Filter by Store" clearable></v-select>
+                    </v-col>
+                </v-row>-->
                 <v-row>
                     <v-col>
                         <v-select
@@ -168,17 +195,21 @@
                 </v-row>
 
 
-
-
                 <!--<h2>Calculated Statistics</h2>-->
 
                 <v-row>
                     <v-col>
                         <v-card :class="getDaysWithoutChargeColor(daysWithoutCharge)" class="mx-auto" outlined>
                             <v-card-text style="color:black;">
-                                <div class="display-1 text--primary">{{ Math.ceil(daysWithoutCharge.toFixed(2)) }} Days until empty {{getDaysWithoutChargeEmoji(daysWithoutCharge)}}</div>
+                                <div class="display-1 text--primary">{{ Math.ceil(daysWithoutCharge.toFixed(2)) }} Days
+                                    until empty {{getDaysWithoutChargeEmoji(daysWithoutCharge)}}
+                                </div>
                                 <p></p>
-                                <div class="caption">If you don't charge at all, this is how long your battery will last with your selected accessories and planned use. We recommend 2+ days of battery without charging. This allows for cloudy weather which affects how fast you can charge from solar power.</div>
+                                <div class="caption">If you don't charge at all, this is how long your battery will last
+                                    with your selected accessories and planned use. We recommend 2+ days of battery
+                                    without charging. This allows for cloudy weather which affects how fast you can
+                                    charge from solar power.
+                                </div>
                                 <div class="caption">
                                     <b>To increase this number</b>, you can:
                                     <ul>
@@ -206,7 +237,11 @@
                                     <v-divider></v-divider>
 
                                     <v-card-text>
-                                        I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+                                        I'm a thing. But, like most politicians, he promised more than he could deliver.
+                                        You won't have time for sleeping, soldier, not with all the bed making you'll be
+                                        doing. Then we'll go with that data file! Hey, you add a one and two zeros to
+                                        that or we walk! You're going to do his laundry? I've got to find a way to
+                                        escape.
                                     </v-card-text>
                                 </div>
                             </v-expand-transition>
@@ -219,12 +254,18 @@
                                 <div class="display-1 text--primary">${{ totalPrice.toFixed(2) }} Total price</div>
                                 <v-list dense style="padding-top:0;">
                                     <v-subheader style="padding-left:0">Cost breakdown</v-subheader>
-                                    <v-list-item v-for="accessory in allItems" :key="accessory.name" style="padding-left:0; padding-top: 0; padding-bottom: 0; min-height: 25px;">
+                                    <v-list-item v-for="accessory in allItems" :key="accessory.name"
+                                                 style="padding-left:0; padding-top: 0; padding-bottom: 0; min-height: 25px;">
                                         <v-list-item-content style="padding-top:0; padding-bottom: 0;">
                                             <v-list-item-subtitle>
                                                 {{ accessory.name }} |
                                                 ${{ accessory.price }}
-                                                <span v-if="accessory.link">| URL: <a :href="accessory.link" target="_blank">{{ accessory.link }}</a></span>
+                                                <div v-if="accessory.links && accessory.links.length">
+                                                    Buy on:
+                                                    <span v-for="(link, index) in accessory.links" :key="index">
+                                                        <a :href="link.url" target="_blank">{{ link.name }}</a> |
+                                                    </span>
+                                                </div>
                                             </v-list-item-subtitle>
                                         </v-list-item-content>
                                     </v-list-item>
@@ -243,7 +284,12 @@
                                     Hours until fully charged
                                 </v-card-title>
                                 <div class="caption" v-if="selectedInput && selectedStorage">
-                                    The battery you selected has a maximum charge input of {{this.selectedStorage.maxInput}} Watts. Your charging source will take {{ hoursUntilFullyCharged.toFixed(2) }} hours to charge this {{this.selectedStorage ? this.selectedStorage.capacity : ""}} Wh battery from 0 to 100%. {{ this.selectedStorage.maxInput < this.selectedInput.output ? "Even though your charge source puts out "+this.selectedInput.output+" Watts, your battery can only charge at a maximum of "+this.selectedStorage.maxInput+" Watts" : ""}}
+                                    The battery you selected has a maximum charge input of
+                                    {{this.selectedStorage.maxInput}} Watts. Your charging source will take
+                                    {{ hoursUntilFullyCharged.toFixed(2) }} hours to charge this
+                                    {{this.selectedStorage ? this.selectedStorage.capacity : ""}} Wh battery from 0 to
+                                    100%.
+                                    {{ this.selectedStorage.maxInput < this.selectedInput.output ? "Even though your charge source puts out " + this.selectedInput.output + " Watts, your battery can only charge at a maximum of " + this.selectedStorage.maxInput + " Watts" : ""}}
                                 </div>
                             </v-card-text>
                             <v-card-actions>
@@ -266,9 +312,15 @@
                                     <v-card-text>
                                         <p>1) Charge time is affected first and foremost by the type of battery.</p>
 
-                                        <p>2) Lithium batteries can "pull" much more charge and much faster than lead-acid or AGM batteries. For example, if you hook up a lead-acid battery to a 600 watt charging source, the lead-acid battery would <i>absorb</i> about 10-20% of that power. Meanwhile, a lithium battery hooked to the same power source would absorb 100% of that power.</p>
+                                        <p>2) Lithium batteries can "pull" much more charge and much faster than
+                                            lead-acid or AGM batteries. For example, if you hook up a lead-acid battery
+                                            to a 600 watt charging source, the lead-acid battery would <i>absorb</i>
+                                            about 10-20% of that power. Meanwhile, a lithium battery hooked to the same
+                                            power source would absorb 100% of that power.</p>
 
-                                        <p>3) When charging from a solar panel you have to take into account that the sun isn't always at an optimal angle. This heavily affects how effective a solar panel is.</p>
+                                        <p>3) When charging from a solar panel you have to take into account that the
+                                            sun isn't always at an optimal angle. This heavily affects how effective a
+                                            solar panel is.</p>
 
                                         <p>4) Lithium batteries cannot charge below 0 degrees celcius</p>
 
@@ -281,13 +333,18 @@
                     <v-col>
                         <v-card class="mx-auto" outlined>
                             <v-card-text>
-                                <div class="display-1 text--primary">{{ estimatedDailyUsagePercentage.toFixed(1) }}%</div>
+                                <div class="display-1 text--primary">{{ estimatedDailyUsagePercentage.toFixed(1) }}%
+                                </div>
                                 <v-card-title style="padding-left: 0;">
                                     Daily usage as % of your capacity
                                 </v-card-title>
                                 <div class="caption"><p>
-                                    This means every day with your expected load, you will use {{ estimatedDailyUsagePercentage.toFixed(1) }}% of your total battery capacity.</p>
-                                    <p>Based on your {{this.selectedInput ? this.selectedInput.output : ""}} Watt input, it will take {{ (hoursUntilFullyCharged * (estimatedDailyUsagePercentage.toFixed(1) / 100)).toFixed(1) }} hours to replenish your daily use.</p>
+                                    This means every day with your expected load, you will use
+                                    {{ estimatedDailyUsagePercentage.toFixed(1) }}% of your total battery capacity.</p>
+                                    <p>Based on your {{this.selectedInput ? this.selectedInput.output : ""}} Watt input,
+                                        it will take
+                                        {{ (hoursUntilFullyCharged * (estimatedDailyUsagePercentage.toFixed(1) / 100)).toFixed(1)
+                                        }} hours to replenish your daily use.</p>
                                 </div>
                             </v-card-text>
                         </v-card>
@@ -322,46 +379,418 @@
         vuetify: new Vuetify(),
         data: () => ({
             inputs: [
-                { name: "Solar Panel - 160watt", inputType: "solar", output: 160, price: 300, link: "http://example.com", weight: 10, image: "https://assets.cdn.jula.com/preset:jpgoptimized/w:828/Dmm3BWSV3/assetstream.aspx?assetId=14046&mediaformatid=50137&destinationid=10016&lastmodified=19790101000000" },
-                {name: "Goal Zero Nomad 400W Folding Solar", inputType: "solar", output: 400, price: 799.89, link: "https://www.goalzero.com/collections/solar-panels/products/nomad-400-portable-solar-panel", weight: 10, image: "https://www.goalzero.com/cdn/shop/files/22220_SherpaPD_ECOMM_07-Edit1_3_690x.png?v=1699032156" },
-                {name: "Goal Zero Nomad 200W Folding Solar", inputType: "solar", output: 200, price: 399.89, link: "https://www.goalzero.com/collections/solar-panels/products/nomad-200-solar-panel", weight: 10, image: "https://www.goalzero.com/cdn/shop/products/36fd771f2766b1a0b050bc8dfff167b1_690x.png?v=1620032540" },
-                {name: "Goal Zero Boulder 100 Briefcase", inputType: "solar", output: 100, price: 239.89, link: "https://www.goalzero.com/collections/solar-panels/products/boulder-100-solar-panel-briefcase", weight: 10, image: "https://www.goalzero.com/cdn/shop/products/0d9ae9f50c1174aafd4ddb4c349b456e_690x.jpg?v=1615295161" },
-                {name: "Goal Zero Flex 100i", inputType: "solar", output: 100, price: 149.95, link: "https://www.goalzero.com/collections/solar-panels/products/flex-100i-flexible-solar-panel", weight: 10, image: "https://www.goalzero.com/cdn/shop/files/flex2_690x.png?v=1710188301" },
-                {name: "Goal Zero Ranger 300 Briefcase", inputType: "solar", output: 300, price: 699.95, link: "https://www.goalzero.com/collections/solar-panels/products/ranger-300-briefcase", weight: 10, image: "https://www.goalzero.com/cdn/shop/products/01f2bb2cba337d060db9dddd94d6561d_1_690x.jpg?v=1630923137" },
-                { name: "Solar Panel - 200 watt", inputType: "solar", output: 200, price: 300, link: "http://example.com", weight: 10, image: "https://assets.cdn.jula.com/preset:jpgoptimized/w:828/Dmm3BWSV3/assetstream.aspx?assetId=14046&mediaformatid=50137&destinationid=10016&lastmodified=19790101000000" },
-                { name: "Solar Panel - 300 watt", inputType: "solar", output: 300, price: 300, link: "http://example.com", weight: 10, image: "https://assets.cdn.jula.com/preset:jpgoptimized/w:828/Dmm3BWSV3/assetstream.aspx?assetId=14046&mediaformatid=50137&destinationid=10016&lastmodified=19790101000000" },
-                { name: "Goal Zero Yeti Link Vehicle integration kit", inputType: "dc-to-dc", output: 600, price: 449.95, link: "https://www.goalzero.com/collections/power-station-accessories/products/yeti-link-vehicle-integration-kit", weight: 10, image: "https://www.goalzero.com/cdn/shop/products/438c851a516baaae7b3b0dcebbc639ea_1_1050x.jpg?v=1630930751" },
-                {name: "Honda EU2200IC 2200-Watt Companion Super Quiet Portable Inverter Generator", inputType: "generator", output: 2200, price: 1290, link: "#", weight: 20, image: "https://m.media-amazon.com/images/I/71j8wLS2R4L._AC_SX679_.jpg"}
+                {
+                    store: "Amazon",
+                    brand: "",
+                    name: "Solar Panel - 160watt",
+                    inputType: "solar",
+                    output: 160,
+                    price: 300,
+                    link: "http://example.com",
+                    links: [
+                        {
+                            name: "Jula",
+                            url: "https://www.jula.no/catalog/fritid/friluftsliv-og-camping/solceller-og-stromforsyning/solcellepaneler/solcellepakke-013670/"
+                        },
+                        {
+                            name: "Somewhere else",
+                            url: "h"
+                        }
+                    ],
+                    weight: 10,
+                    image: "https://assets.cdn.jula.com/preset:jpgoptimized/w:828/Dmm3BWSV3/assetstream.aspx?assetId=14046&mediaformatid=50137&destinationid=10016&lastmodified=19790101000000"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Nomad 400W Folding Solar",
+                    inputType: "solar",
+                    output: 400,
+                    price: 799.89,
+                    link: "https://www.goalzero.com/collections/solar-panels/products/nomad-400-portable-solar-panel",
+                    links: [
+                        {
+                            name: "Goal Zero",
+                            url: "https://www.goalzero.com/collections/solar-panels/products/nomad-400-portable-solar-panel"
+                        },
+                        {
+                            name: "Amazon.com",
+                            url: "https://www.amazon.com/Goal-Zero-400-Watt-Solar-Panel-Kickstand/dp/B0CNQ9YK5V/ref=sr_1_3?crid=3TKFLURO00A1Z&dib=eyJ2IjoiMSJ9.ybZl8pFTQi4nnCqyOPWrch-G6nGU4-UE77FmWx2HnbvRyWvkV_8P5jXWoBPsOAFDSCfLTbhpUcq_NcjIKRtUEUKFegK_0AY69ymyFDb_Hpg5WGBRnaDU-oryf7zsgzxXJ_LofBiACHD5BSRv-rCquFxaLw-GlNVQR-fuWhEoIrg3RO3DD2dFrVCcVVNlUUInCkDsRT3xB5p8HguUmDAJPw.q_0GRCVtnONIe9GJ6148W57d96bdULcSR0lxpwTZjDs&dib_tag=se&keywords=Goal+Zero+Nomad+400W&qid=1712315414&sprefix=goal+zero+nomad+400w%2Caps%2C167&sr=8-3"
+                        }
+                    ],
+                    weight: 10,
+                    image: "https://www.goalzero.com/cdn/shop/files/22220_SherpaPD_ECOMM_07-Edit1_3_690x.png?v=1699032156"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Nomad 200W Folding Solar",
+                    inputType: "solar",
+                    output: 200,
+                    price: 399.89,
+                    link: "https://www.goalzero.com/collections/solar-panels/products/nomad-200-solar-panel",
+                    weight: 10,
+                    image: "https://www.goalzero.com/cdn/shop/products/36fd771f2766b1a0b050bc8dfff167b1_690x.png?v=1620032540"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Boulder 100 Briefcase",
+                    inputType: "solar",
+                    output: 100,
+                    price: 239.89,
+                    link: "https://www.goalzero.com/collections/solar-panels/products/boulder-100-solar-panel-briefcase",
+                    weight: 10,
+                    image: "https://www.goalzero.com/cdn/shop/products/0d9ae9f50c1174aafd4ddb4c349b456e_690x.jpg?v=1615295161"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Flex 100i",
+                    inputType: "solar",
+                    output: 100,
+                    price: 149.95,
+                    link: "https://www.goalzero.com/collections/solar-panels/products/flex-100i-flexible-solar-panel",
+                    weight: 10,
+                    image: "https://www.goalzero.com/cdn/shop/files/flex2_690x.png?v=1710188301"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Ranger 300 Briefcase",
+                    inputType: "solar",
+                    output: 300,
+                    price: 699.95,
+                    link: "https://www.goalzero.com/collections/solar-panels/products/ranger-300-briefcase",
+                    weight: 10,
+                    image: "https://www.goalzero.com/cdn/shop/products/01f2bb2cba337d060db9dddd94d6561d_1_690x.jpg?v=1630923137"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Solar Panel - 200 watt",
+                    inputType: "solar",
+                    output: 200,
+                    price: 300,
+                    link: "http://example.com",
+                    weight: 10,
+                    image: "https://assets.cdn.jula.com/preset:jpgoptimized/w:828/Dmm3BWSV3/assetstream.aspx?assetId=14046&mediaformatid=50137&destinationid=10016&lastmodified=19790101000000"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Solar Panel - 300 watt",
+                    inputType: "solar",
+                    output: 300,
+                    price: 300,
+                    link: "http://example.com",
+                    weight: 10,
+                    image: "https://assets.cdn.jula.com/preset:jpgoptimized/w:828/Dmm3BWSV3/assetstream.aspx?assetId=14046&mediaformatid=50137&destinationid=10016&lastmodified=19790101000000"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Yeti Link Vehicle integration kit",
+                    inputType: "dc-to-dc",
+                    output: 600,
+                    price: 449.95,
+                    link: "https://www.goalzero.com/collections/power-station-accessories/products/yeti-link-vehicle-integration-kit",
+                    weight: 10,
+                    image: "https://www.goalzero.com/cdn/shop/products/438c851a516baaae7b3b0dcebbc639ea_1_1050x.jpg?v=1630930751"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Honda EU2200IC 2200-Watt Companion Super Quiet Portable Inverter Generator",
+                    inputType: "generator",
+                    output: 2200,
+                    price: 1290,
+                    link: "#",
+                    weight: 20,
+                    image: "https://m.media-amazon.com/images/I/71j8wLS2R4L._AC_SX679_.jpg"
+                }
             ],
             storages: [
-                { name: "Goal Zero Yeti PRO 8000", storageType: "powerstation", maxInput: 1800, capacity: 8000, inverter: 3600, price: 5399.89, link: "https://www.goalzero.com/collections/portable-power/products/yeti-pro-4000-tank-pro-4000-lifepo4-battery", weight: 52.5, image:"https://www.goalzero.com/cdn/shop/files/Yeti_Tank_1_1050x.png?v=1695921536" },
-                { name: "Goal Zero Yeti 6000x", storageType: "powerstation", maxInput: 600, capacity: 6000, inverter: 2000, price: 4000, link: "#", weight: 65 },
-                { name: "Goal Zero Yeti 3000x", storageType: "powerstation", maxInput: 600, capacity: 3036, inverter: 2000, price: 2000, link: "https://www.goalzero.com/products/goal-zero-yeti-3000x-portable-power-station", weight: 42, image: "https://www.goalzero.com/cdn/shop/products/d944a11eca5a202e7e3d059218934a4c_1050x.png?v=1613634925" },
-                { name: "Goal Zero Yeti 1500x", storageType: "powerstation",capacity: 1500, inverter: 2000, price: 1200, link: "https://www.amazon.com/Goal-Zero-Watt-Hours-Solar-Powered-Generator/dp/B08FX3S5LF/ref=sr_1_1?crid=219EQNQ6TR226&dib=eyJ2IjoiMSJ9.w4UQdU4ZRDecv3Oza_Dt9F0I1bBTP57sVUn865rhc9XJOvXYM3KSr-ueZSeCOtced__liY1UGpKl6_8Qff-UFGgOTAJA3YpLaWK_NTXPID5WgyCCHFYhCGwxlaxU9ceiRj_Q8dFRi8oYqoSkjfnV690GTMfBUMR_GjWQRFSyOd0hlG6IBNudoPOCc9801YaPb8YWIqG4dzlF5YtfhtveEg8xI6sKLdvuatPiIMNPVVs.lv3Tba2Ql_r0up3xh8DlaNHAj-BK_Aa9Z-BvPv_sFAw&dib_tag=se&keywords=goal%2Bzero%2Byeti%2B3000&qid=1711650461&sprefix=goal%2Bzero%2Byeti%2B3000%2Caps%2C170&sr=8-1&th=1", weight: 35, image: "https://m.media-amazon.com/images/I/711+wL8KJQL._AC_SX679_.jpg" },
-                { name: "Goal Zero Yeti 700", storageType: "powerstation",capacity: 677, inverter: 600, price: 599.95, link: "https://www.goalzero.com/collections/portable-power/products/yeti-700-portable-power-station-lfp-batteries", weight: 35, image: "https://www.goalzero.com/cdn/shop/files/ScreenShot2022-03-09at1.1925_1080x.png?v=1708124852" },
-                { name: "Battery Bank 2x105Ah", storageType: "standalonebattery",capacity: 1260, inverter: 300, price: 300, link: "#", weight: 45 },
-                { name: "Anker SOLIX C1000", storageType: "powerstation",capacity: 1056, inverter: 1800, price: 1000, link: "#", weight: 0 },
-                { name: "Bluetti AC180", storageType: "powerstation",capacity: 1152, inverter: 1800, price: 1000, link: "#", weight: 0 },
-                { name: "Dakota Lithium PowerBox", storageType: "powerstation",capacity: 720, inverter: 300, price: 900, link: "#", weight: 0 },
-                { name: "Ecoflow Delta 2", storageType: "powerstation",capacity: 1024, inverter: 1800, price: 1000, link: "#", weight: 0 },
-                { name: "Goal Zero Yeti 700", storageType: "powerstation",capacity: 677, inverter: 600, price: 600, link: "#", weight: 0 },
-                { name: "Lion Energy Summit", storageType: "powerstation",capacity: 665, inverter: 530, price: 600, link: "#", weight: 0 },
-                { name: "Ugreen PowerRoam", storageType: "powerstation",capacity: 1024, inverter: 1200, price: 1000, link: "#", weight: 0 },
-                { name: "Vtoman FlashSpeed 1500", storageType: "powerstation",capacity: 1548, inverter: 1500, price: 1600, link: "#", weight: 0 },
-                { name: "EF Ecoflow Portable Delta", storageType: "powerstation",capacity: 1260, inverter: 1800, price: 900, link: "#", weight: 0 },
-                { name: "Jackery Explorer 500", storageType: "powerstation",capacity: 518, inverter: 500, price: 300, link: "#", weight: 0 }
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Yeti PRO 8000",
+                    storageType: "powerstation",
+                    maxInput: 1800,
+                    capacity: 8000,
+                    inverter: 3600,
+                    price: 5399.89,
+                    link: "https://www.goalzero.com/collections/portable-power/products/yeti-pro-4000-tank-pro-4000-lifepo4-battery",
+                    weight: 52.5,
+                    image: "https://www.goalzero.com/cdn/shop/files/Yeti_Tank_1_1050x.png?v=1695921536"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Yeti 6000x",
+                    storageType: "powerstation",
+                    maxInput: 600,
+                    capacity: 6000,
+                    inverter: 2000,
+                    price: 4000,
+                    link: "#",
+                    weight: 65
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Yeti 3000x",
+                    storageType: "powerstation",
+                    maxInput: 600,
+                    capacity: 3036,
+                    inverter: 2000,
+                    price: 2000,
+                    link: "https://www.goalzero.com/products/goal-zero-yeti-3000x-portable-power-station",
+                    weight: 42,
+                    image: "https://www.goalzero.com/cdn/shop/products/d944a11eca5a202e7e3d059218934a4c_1050x.png?v=1613634925"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Yeti 1500x",
+                    storageType: "powerstation",
+                    capacity: 1500,
+                    inverter: 2000,
+                    price: 1200,
+                    link: "https://www.amazon.com/Goal-Zero-Watt-Hours-Solar-Powered-Generator/dp/B08FX3S5LF/ref=sr_1_1?crid=219EQNQ6TR226&dib=eyJ2IjoiMSJ9.w4UQdU4ZRDecv3Oza_Dt9F0I1bBTP57sVUn865rhc9XJOvXYM3KSr-ueZSeCOtced__liY1UGpKl6_8Qff-UFGgOTAJA3YpLaWK_NTXPID5WgyCCHFYhCGwxlaxU9ceiRj_Q8dFRi8oYqoSkjfnV690GTMfBUMR_GjWQRFSyOd0hlG6IBNudoPOCc9801YaPb8YWIqG4dzlF5YtfhtveEg8xI6sKLdvuatPiIMNPVVs.lv3Tba2Ql_r0up3xh8DlaNHAj-BK_Aa9Z-BvPv_sFAw&dib_tag=se&keywords=goal%2Bzero%2Byeti%2B3000&qid=1711650461&sprefix=goal%2Bzero%2Byeti%2B3000%2Caps%2C170&sr=8-1&th=1",
+                    weight: 35,
+                    image: "https://m.media-amazon.com/images/I/711+wL8KJQL._AC_SX679_.jpg"
+                },
+                {
+                    store: "Goal Zero",
+                    brand: "Goal Zero",
+                    name: "Goal Zero Yeti 700",
+                    storageType: "powerstation",
+                    capacity: 677,
+                    inverter: 600,
+                    price: 599.95,
+                    link: "https://www.goalzero.com/collections/portable-power/products/yeti-700-portable-power-station-lfp-batteries",
+                    weight: 35,
+                    image: "https://www.goalzero.com/cdn/shop/files/ScreenShot2022-03-09at1.1925_1080x.png?v=1708124852"
+                },
+                {
+                    name: "Battery Bank 2x105Ah",
+                    storageType: "standalonebattery",
+                    capacity: 1260,
+                    inverter: 300,
+                    price: 300,
+                    link: "#",
+                    weight: 45
+                },
+                {
+                    name: "Anker SOLIX C1000",
+                    storageType: "powerstation",
+                    capacity: 1056,
+                    inverter: 1800,
+                    price: 1000,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Bluetti AC180",
+                    storageType: "powerstation",
+                    capacity: 1152,
+                    inverter: 1800,
+                    price: 1000,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Dakota Lithium PowerBox",
+                    storageType: "powerstation",
+                    capacity: 720,
+                    inverter: 300,
+                    price: 900,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Ecoflow Delta 2",
+                    storageType: "powerstation",
+                    capacity: 1024,
+                    inverter: 1800,
+                    price: 1000,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Goal Zero Yeti 700",
+                    storageType: "powerstation",
+                    capacity: 677,
+                    inverter: 600,
+                    price: 600,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Lion Energy Summit",
+                    storageType: "powerstation",
+                    capacity: 665,
+                    inverter: 530,
+                    price: 600,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Ugreen PowerRoam",
+                    storageType: "powerstation",
+                    capacity: 1024,
+                    inverter: 1200,
+                    price: 1000,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Vtoman FlashSpeed 1500",
+                    storageType: "powerstation",
+                    capacity: 1548,
+                    inverter: 1500,
+                    price: 1600,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "EF Ecoflow Portable Delta",
+                    storageType: "powerstation",
+                    capacity: 1260,
+                    inverter: 1800,
+                    price: 900,
+                    link: "#",
+                    weight: 0
+                },
+                {
+                    name: "Jackery Explorer 500",
+                    storageType: "powerstation",
+                    capacity: 518,
+                    inverter: 500,
+                    price: 300,
+                    link: "#",
+                    weight: 0
+                }
             ],
 
             accessories: [
-                { name: "LED Light", volt: 12, ampHourAvg: 2, whAvgPerDay: 24, powerConsumption: 5, hoursOnPerDay: 4, enabled: true, price: 10, weight: 1, image: "https://m.media-amazon.com/images/I/711+wL8KJQL._AC_SX679_.jpg" },
-                { name: "Refrigerator - Alpicool C50", volt: 12, ampHourAvg: 1, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 300, weight: 12 },
-                { name: "Alpicool CX40 Compressor Refrigerator", volt: 12, ampHourAvg: 3.5, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 320, weight: 12.6, image: "https://alpicool.no/wp-content/uploads/2024/03/1032126_XL.jpg", link: "jjjj" },
-                { name: "SMETA Update 12 Volt RV Refrigerator", volt: 12, ampHourAvg: 3.5, whAvgPerDay: 12, powerConsumption: 12, hoursOnPerDay: 24, enabled: true, price: 329.90, weight: 12.6, image: "https://m.media-amazon.com/images/I/61tAtgrhrIL._AC_SX679_.jpg", link: "https://www.amazon.com/SMETA-Electric-Freightliner-Cascadia-Refrigerator/dp/B06XW9JS57/ref=sr_1_17?crid=39EK8TSJ1GV71&dib=eyJ2IjoiMSJ9.0MJ1ZkS2uiasMrUZSSyQCNg7jUY1YQhtrJ6xdG_aOcbAHwSEpOKDlJOvS4ClrZoUhUAZnzA4ri0EISHv84XT-fEBwqymAm_kCocpWIBVppgiSWzNYyJ9P1_KZhpAfODTAaPfoUX7tOoOKnf4oxtbnJPJFH-d1Um1J_3b9JBuE3gXJFfJGhkxoiIMZ1kp4aKoVXn02gwYusEVug3P85wbVV-SanHJy52FfYSUcS1NGgJFFGb5WWEXcuyW68n4Dsm3UcKxtEaq-iH0P8JizW1HzptYcEWUDr0PWxNy6zV60fA.FOQhBn12VfPZ0tmkgb1IN3tuwYJXz79KQyLA2IyuNvg&dib_tag=se&keywords=12v%2Bfridge&qid=1711835368&sprefix=12v%2Bfridge%2Caps%2C197&sr=8-17&th=1" },
-                { name: "Chinese 5Kw Diesel heater", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 48, hoursOnPerDay: 8, enabled: true, price: 123, weight: 8, image: "https://m.media-amazon.com/images/I/712B3muQM5L._AC_SX679_.jpg", link: "https://www.amazon.com/VEVOR-Bluetooth-Automatic-Altitude-Adjustment/dp/B0CKW4VXFB/ref=sr_1_4?crid=9KVWRWASY6U9&dib=eyJ2IjoiMSJ9.gIbykYTMlIRUGlwfZtmYL6XO9SP7agAcISERgXVr9ccPuR7Yltp9Zr_64qwJQNjFg3SasnjUhwgnlmQMb4pRfkusI6tyAOv-FHDotKBFKvgnzR1lMCwYUQ8jbdJFVrUVYKGPbiCF39WQqpizyt7GOXb_Tr-SjCl_hCGs8jtKpkA_Ta0No3ATQZxI907Q0s6PeCTJzSQamQigdDerPwiTTmXxIZ26vYOmvb6_n4u3c5K-XUI6ksOr854gJn_KvKz57q6KHBD90WinUniUiJDgZPvEHbjCnd0dk-ml2OqDu_s.iolPhoKaaEypAsA6U3l7Z_VzzOEV898LaqqExmyqzCM&dib_tag=se&keywords=5kw%2Bheater&qid=1711826548&sprefix=5kw%2Bheate%2Caps%2C173&sr=8-4&th=1" },
-                { name: "Diesel heater - Eberspacher 2.2kW 7500BTU", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 48, hoursOnPerDay: 8, enabled: true, price: 1045, weight: 5, image: "https://m.media-amazon.com/images/I/61nzGMLbDaL._AC_SX679_.jpg", link: "https://www.amazon.com/Eberspacher-Airtronic-EasyStart-Automatic-Adjustment/dp/B082T3T6R7/ref=sr_1_2?crid=22VQP9N4IOWEM&dib=eyJ2IjoiMSJ9.B4JUBat2GjvEEploGwN5rR97v6j-G29zXF5xsPQb1eKRmA0tmcAiTk6ZR9CcSG29MKM4eS9PxS5yp9NG79hFUo36Y6fDEmflMsPSfKIdzpRxLIVIZui9TyI-DpLIeodXMuPbfnB9SShfVG61WU5DZknqOwaHRsa1ilpu2KpZbN7aSp-8mjSTMJnIsT9UOsqfS33VNGfDeVtSZ6nsqd0n5He6NsYHxXTGKeksGTDAoeraMgstn7vWWIpyyb3LR6UOya2E52Fzle6jfSsWpHh0dP-6P2YFXoxhBvq3Od0gR1o.dqH3w7Y52X5XDG36oNVjlJOtQCShTGGueN1EUpJAms8&dib_tag=se&keywords=eberspacher+diesel+heater&qid=1711835968&sprefix=ebersp%2Caps%2C204&sr=8-2" },
-                { name: "Hair dryer", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 2000, hoursOnPerDay: 0.25, enabled: true, price: 200, weight: 1 },
-                { name: "Small blender", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 300, hoursOnPerDay: 0.25, enabled: true, price: 30, weight: 1 },
-                { name: "Laptop charger - 140 Watt", volt: 12, ampHourAvg: 4, whAvgPerDay: 48, powerConsumption: 140, hoursOnPerDay: 2, enabled: true, price: 30, weight: 1 },
+                {
+                    name: "LED Light",
+                    volt: 12,
+                    ampHourAvg: 2,
+                    whAvgPerDay: 24,
+                    powerConsumption: 5,
+                    hoursOnPerDay: 4,
+                    enabled: true,
+                    price: 10,
+                    weight: 1,
+                    image: "https://m.media-amazon.com/images/I/711+wL8KJQL._AC_SX679_.jpg"
+                },
+                {
+                    name: "Refrigerator - Alpicool C50",
+                    volt: 12,
+                    ampHourAvg: 1,
+                    whAvgPerDay: 12,
+                    powerConsumption: 12,
+                    hoursOnPerDay: 24,
+                    enabled: true,
+                    price: 300,
+                    weight: 12
+                },
+                {
+                    name: "Alpicool CX40 Compressor Refrigerator",
+                    volt: 12,
+                    ampHourAvg: 3.5,
+                    whAvgPerDay: 12,
+                    powerConsumption: 12,
+                    hoursOnPerDay: 24,
+                    enabled: true,
+                    price: 320,
+                    weight: 12.6,
+                    image: "https://alpicool.no/wp-content/uploads/2024/03/1032126_XL.jpg",
+                    link: "jjjj"
+                },
+                {
+                    store: "Amazon",
+                    brand: "SMETA",
+                    name: "SMETA Update 12 Volt RV Refrigerator",
+                    volt: 12,
+                    ampHourAvg: 3.5,
+                    whAvgPerDay: 12,
+                    powerConsumption: 12,
+                    hoursOnPerDay: 24,
+                    enabled: true,
+                    price: 329.90,
+                    weight: 12.6,
+                    image: "https://m.media-amazon.com/images/I/61tAtgrhrIL._AC_SX679_.jpg",
+                    link: "https://www.amazon.com/SMETA-Electric-Freightliner-Cascadia-Refrigerator/dp/B06XW9JS57/ref=sr_1_17?crid=39EK8TSJ1GV71&dib=eyJ2IjoiMSJ9.0MJ1ZkS2uiasMrUZSSyQCNg7jUY1YQhtrJ6xdG_aOcbAHwSEpOKDlJOvS4ClrZoUhUAZnzA4ri0EISHv84XT-fEBwqymAm_kCocpWIBVppgiSWzNYyJ9P1_KZhpAfODTAaPfoUX7tOoOKnf4oxtbnJPJFH-d1Um1J_3b9JBuE3gXJFfJGhkxoiIMZ1kp4aKoVXn02gwYusEVug3P85wbVV-SanHJy52FfYSUcS1NGgJFFGb5WWEXcuyW68n4Dsm3UcKxtEaq-iH0P8JizW1HzptYcEWUDr0PWxNy6zV60fA.FOQhBn12VfPZ0tmkgb1IN3tuwYJXz79KQyLA2IyuNvg&dib_tag=se&keywords=12v%2Bfridge&qid=1711835368&sprefix=12v%2Bfridge%2Caps%2C197&sr=8-17&th=1"
+                },
+                {
+                    store: "Amazon",
+                    brand: "Generic",
+                    name: "Chinese 5Kw Diesel heater",
+                    volt: 12,
+                    ampHourAvg: 4,
+                    whAvgPerDay: 48,
+                    powerConsumption: 48,
+                    hoursOnPerDay: 8,
+                    enabled: true,
+                    price: 123,
+                    weight: 8,
+                    image: "https://m.media-amazon.com/images/I/712B3muQM5L._AC_SX679_.jpg",
+                    link: "https://www.amazon.com/VEVOR-Bluetooth-Automatic-Altitude-Adjustment/dp/B0CKW4VXFB/ref=sr_1_4?crid=9KVWRWASY6U9&dib=eyJ2IjoiMSJ9.gIbykYTMlIRUGlwfZtmYL6XO9SP7agAcISERgXVr9ccPuR7Yltp9Zr_64qwJQNjFg3SasnjUhwgnlmQMb4pRfkusI6tyAOv-FHDotKBFKvgnzR1lMCwYUQ8jbdJFVrUVYKGPbiCF39WQqpizyt7GOXb_Tr-SjCl_hCGs8jtKpkA_Ta0No3ATQZxI907Q0s6PeCTJzSQamQigdDerPwiTTmXxIZ26vYOmvb6_n4u3c5K-XUI6ksOr854gJn_KvKz57q6KHBD90WinUniUiJDgZPvEHbjCnd0dk-ml2OqDu_s.iolPhoKaaEypAsA6U3l7Z_VzzOEV898LaqqExmyqzCM&dib_tag=se&keywords=5kw%2Bheater&qid=1711826548&sprefix=5kw%2Bheate%2Caps%2C173&sr=8-4&th=1"
+                },
+                {
+                    store: "Amazon",
+                    brand: "Eberspächer",
+                    name: "Diesel heater - Eberspacher 2.2kW 7500BTU",
+                    volt: 12,
+                    ampHourAvg: 4,
+                    whAvgPerDay: 48,
+                    powerConsumption: 48,
+                    hoursOnPerDay: 8,
+                    enabled: true,
+                    price: 1045,
+                    weight: 5,
+                    image: "https://m.media-amazon.com/images/I/61nzGMLbDaL._AC_SX679_.jpg",
+                    link: "https://www.amazon.com/Eberspacher-Airtronic-EasyStart-Automatic-Adjustment/dp/B082T3T6R7/ref=sr_1_2?crid=22VQP9N4IOWEM&dib=eyJ2IjoiMSJ9.B4JUBat2GjvEEploGwN5rR97v6j-G29zXF5xsPQb1eKRmA0tmcAiTk6ZR9CcSG29MKM4eS9PxS5yp9NG79hFUo36Y6fDEmflMsPSfKIdzpRxLIVIZui9TyI-DpLIeodXMuPbfnB9SShfVG61WU5DZknqOwaHRsa1ilpu2KpZbN7aSp-8mjSTMJnIsT9UOsqfS33VNGfDeVtSZ6nsqd0n5He6NsYHxXTGKeksGTDAoeraMgstn7vWWIpyyb3LR6UOya2E52Fzle6jfSsWpHh0dP-6P2YFXoxhBvq3Od0gR1o.dqH3w7Y52X5XDG36oNVjlJOtQCShTGGueN1EUpJAms8&dib_tag=se&keywords=eberspacher+diesel+heater&qid=1711835968&sprefix=ebersp%2Caps%2C204&sr=8-2"
+                },
+                {
+                    store: "Amazon",
+                    brand: "Amazon",
+                    name: "Hair dryer",
+                    volt: 12,
+                    ampHourAvg: 4,
+                    whAvgPerDay: 48,
+                    powerConsumption: 2000,
+                    hoursOnPerDay: 0.25,
+                    enabled: true,
+                    price: 200,
+                    weight: 1
+                },
+                {
+                    name: "Small blender",
+                    volt: 12,
+                    ampHourAvg: 4,
+                    whAvgPerDay: 48,
+                    powerConsumption: 300,
+                    hoursOnPerDay: 0.25,
+                    enabled: true,
+                    price: 30,
+                    weight: 1
+                },
+                {
+                    name: "Laptop charger - 140 Watt",
+                    volt: 12,
+                    ampHourAvg: 4,
+                    whAvgPerDay: 48,
+                    powerConsumption: 140,
+                    hoursOnPerDay: 2,
+                    enabled: true,
+                    price: 30,
+                    weight: 1
+                },
 
             ],
 
@@ -372,12 +801,17 @@
             autocompleteKey: 0, // Initialize the key
             showMathDays: false,
             showHoursUntilFullyCharged: false,
+            selectedBrands: [],
+            selectedStores: [],
+            brands: [],
+            stores: [],
+
 
             accessoryHeaders: [
-                { text: 'Item', value: 'name' },
-                { text: 'Power (Watts)', value: 'power'},
-                { text: 'Time on per day', value: 'hoursonperday' },
-                { text: 'Actions', value: 'actions', sortable: false }, // Actions column
+                {text: 'Item', value: 'name'},
+                {text: 'Power (Watts)', value: 'power'},
+                {text: 'Time on per day', value: 'hoursonperday'},
+                {text: 'Actions', value: 'actions', sortable: false}, // Actions column
                 // Add headers for each editable property
             ],
             rules: {
@@ -386,40 +820,55 @@
                 over0: value => value >= 0 || 'Must be 0 or over',
             },
             timeOptions: [
-                { text: "2 minutes", value: 0.033333 },
-                { text: "5 minutes", value: 0.083333 },
-                { text: "10 minutes", value: 0.16666 },
-                { text: "15 minutes", value: 0.25 },
-                { text: "30 minutes", value: 0.5 },
-                { text: "45 minutes", value: 0.75 },
-                { text: "1 hour", value: 1 },
-                { text: "2 hours", value: 2 },
-                { text: "3 hours", value: 3 },
-                { text: "4 hours", value: 4 },
-                { text: "5 hours", value: 5 },
-                { text: "6 hours", value: 6 },
-                { text: "7 hours", value: 7 },
-                { text: "8 hours", value: 8 },
-                { text: "9 hours", value: 9 },
-                { text: "10 hours", value: 10 },
-                { text: "11 hours", value: 11 },
-                { text: "12 hours", value: 12 },
-                { text: "13 hours", value: 13 },
-                { text: "14 hours", value: 14 },
-                { text: "15 hours", value: 15 },
-                { text: "16 hours", value: 16 },
-                { text: "17 hours", value: 17 },
-                { text: "18 hours", value: 18 },
-                { text: "19 hours", value: 19 },
-                { text: "20 hours", value: 20 },
-                { text: "21 hours", value: 21 },
-                { text: "22 hours", value: 22 },
-                { text: "23 hours", value: 23 },
-                { text: "24 hours", value: 24 },
+                {text: "2 minutes", value: 0.033333},
+                {text: "5 minutes", value: 0.083333},
+                {text: "10 minutes", value: 0.16666},
+                {text: "15 minutes", value: 0.25},
+                {text: "30 minutes", value: 0.5},
+                {text: "45 minutes", value: 0.75},
+                {text: "1 hour", value: 1},
+                {text: "2 hours", value: 2},
+                {text: "3 hours", value: 3},
+                {text: "4 hours", value: 4},
+                {text: "5 hours", value: 5},
+                {text: "6 hours", value: 6},
+                {text: "7 hours", value: 7},
+                {text: "8 hours", value: 8},
+                {text: "9 hours", value: 9},
+                {text: "10 hours", value: 10},
+                {text: "11 hours", value: 11},
+                {text: "12 hours", value: 12},
+                {text: "13 hours", value: 13},
+                {text: "14 hours", value: 14},
+                {text: "15 hours", value: 15},
+                {text: "16 hours", value: 16},
+                {text: "17 hours", value: 17},
+                {text: "18 hours", value: 18},
+                {text: "19 hours", value: 19},
+                {text: "20 hours", value: 20},
+                {text: "21 hours", value: 21},
+                {text: "22 hours", value: 22},
+                {text: "23 hours", value: 23},
+                {text: "24 hours", value: 24},
                 // Add more options as needed
             ],
         }),
         methods: {
+            getUniqueBrands() {
+                const brands = new Set();
+                [...this.inputs, ...this.storages, ...this.accessories].forEach(item => {
+                    if (item.brand) brands.add(item.brand);
+                });
+                return Array.from(brands);
+            },
+            getUniqueStores() {
+                const stores = new Set();
+                [...this.inputs, ...this.storages, ...this.accessories].forEach(item => {
+                    if (item.store) stores.add(item.store);
+                });
+                return Array.from(stores);
+            },
+
             getDaysWithoutChargeColor(value) {
                 if (this.selectedStorage && this.selectedInput && this.selectedAccessories.length != [] && value < 1) return 'red lighten-2'; // Red for less than 2 days
                 if (this.selectedStorage && this.selectedInput && this.selectedAccessories.length != [] && value < 2) return 'orange lighten-2'; // Orange for less than 5 days
@@ -437,12 +886,12 @@
                 // If you need to close the menu after selection, you might need additional logic
             },
 
-            selectStorage(item){
+            selectStorage(item) {
                 this.selectedStorage = item;
                 this.autocompleteKey += 1;
             },
 
-            selectInput(item){
+            selectInput(item) {
                 this.selectedInput = item;
                 this.autocompleteKey += 1;
             },
@@ -505,14 +954,16 @@
                         const [name, powerConsumption, hoursOnPerDay] = detail.split(':');
                         const accessory = this.accessories.find(acc => acc.name === name);
                         if (accessory) {
-                            return { ...accessory, powerConsumption: parseFloat(powerConsumption), hoursOnPerDay: parseFloat(hoursOnPerDay) };
+                            return {
+                                ...accessory,
+                                powerConsumption: parseFloat(powerConsumption),
+                                hoursOnPerDay: parseFloat(hoursOnPerDay)
+                            };
                         }
                         return null;
                     }).filter(acc => acc !== null);
                 }
             },
-
-
 
 
         },
@@ -530,33 +981,33 @@
                 const items = [...this.selectedAccessories]; // Start with selectedAccessories
                 if (this.selectedStorage) items.push(this.selectedStorage); // Add selectedStorage if not null
                 if (this.selectedInput) items.push(this.selectedInput); // Add selectedInput if not null
-                this.selectedAccessories.length > 0 ? console.log(this.selectedAccessories[0].hoursOnPerDay): null;
+                this.selectedAccessories.length > 0 ? console.log(this.selectedAccessories[0].hoursOnPerDay) : null;
                 return items;
             },
             // Placeholder computed properties for calculations
             daysWithoutCharge() {
-                if(this.selectedStorage) {
+                if (this.selectedStorage) {
                     let totalOutput = 0;
                     let totalStorage = this.selectedStorage.capacity;
-                    console.log('storage: '+totalStorage);
+                    console.log('storage: ' + totalStorage);
                     this.selectedAccessories.forEach(acc => {
                         let hours = acc.hoursOnPerDay <= 24 && acc.hoursOnPerDay >= 0 ? acc.hoursOnPerDay : 24;
-                        totalOutput += (acc.powerConsumption*hours)
+                        totalOutput += (acc.powerConsumption * hours)
                     });
-                    console.log('totalOuput: '+totalOutput);
+                    console.log('totalOuput: ' + totalOutput);
                     return totalStorage / totalOutput;
                 } else {
                     return 0;
                 }
             },
             hoursWithoutCharge() {
-                if(this.selectedStorage) {
+                if (this.selectedStorage) {
                     let totalOutput = 0;
                     let totalStorage = this.selectedStorage.capacity;
 
                     this.selectedAccessories.forEach(acc => {
                         let hours = acc.hoursOnPerDay <= 24 && acc.hoursOnPerDay >= 0 ? acc.hoursOnPerDay : 24;
-                        totalOutput += (acc.powerConsumption*hours)
+                        totalOutput += (acc.powerConsumption * hours)
                     });
                     return totalStorage / totalOutput;
                 } else {
@@ -570,7 +1021,7 @@
                     : 0;
             },
             estimatedDailyUsagePercentage() {
-                return 100/this.daysWithoutCharge;
+                return 100 / this.daysWithoutCharge;
             },
             totalPrice() {
                 // Example calculation, adjust as needed
@@ -591,6 +1042,8 @@
             },
         },
         created() {
+            this.brands = this.getUniqueBrands();
+            this.stores = this.getUniqueStores();
             this.initializeFromURL();
         }
     });
