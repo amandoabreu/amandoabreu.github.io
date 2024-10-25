@@ -129,11 +129,3 @@ If you do not own these accesses, your code, databases, and otherwise critical i
 If you want some or all of the above to be reviewed in-depth, get in touch with me and let’s talk\!
 
 
-<script type="text/javascript">
-// Clickable checkboxes
-const checkboxes = document.querySelectorAll('input[type="checkbox"]');
-checkboxes.forEach(checkbox => {
-  // remove the disabled attribute; added by kramdown by default
-  checkbox.removeAttribute('disabled');
-});
-</script>
