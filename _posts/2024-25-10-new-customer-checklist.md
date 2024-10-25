@@ -5,7 +5,7 @@ layout: post
 newsletter: false
 comments: true
 author: Amando Abreu
-date: 2024-24-02 06:57:55
+date: 2024-02-24 06:57:55
 image: /assets/images/qwe.webp
 ---
 This used to be an internal document to keep track of common “gotchas” I noticed most customers were missing or just never thought about. Over time, I decided to give it away. You absolutely could do all these yourself, if you want.
