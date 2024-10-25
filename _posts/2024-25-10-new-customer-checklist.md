@@ -17,7 +17,7 @@ Below is a list of things you should think about and have in place to make the n
 ### Can you be shut out?
 
 Are you sure you **own** what you have? Are you living in the house but someone else has the keys?   
-All of the following **should be yours**, not owned by your agency or your developers.
+All the following **should be yours**, not owned by your agency or your developers.
 
 Check ownership of:
 
@@ -129,7 +129,7 @@ If you do not own these accesses, your code, databases, and otherwise critical i
 If you want some or all of the above to be reviewed in-depth, get in touch with me and let’s talk\!
 
 
-<script>
+<script type="text/javascript">
 // Clickable checkboxes
 const checkboxes = document.querySelectorAll('input[type="checkbox"]');
 checkboxes.forEach(checkbox => {
