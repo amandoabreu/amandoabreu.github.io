@@ -27,7 +27,7 @@
             <v-container>
                 <v-row style="padding: 40px 0;">
                     <v-col>
-                        <h1 class="text-h2">Powerbank calculator</h1>
+                        <h1 class="text-h2">Van power calculator</h1>
                     </v-col>
                 </v-row>
                 <v-row>
@@ -147,6 +147,156 @@
                     </v-col>
                 </v-row>
 
+                <!-- Custom Input Fields -->
+                <v-row v-if="selectedInput && selectedInput.isCustom">
+                    <v-col>
+                        <v-card outlined>
+                            <v-card-title>Custom Charging Source Details</v-card-title>
+                            <v-card-text>
+                                <v-row>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model="selectedInput.name"
+                                            label="Name"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedInput.output"
+                                            label="Output (Watts)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedInput.price"
+                                            label="Price ($)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedInput.weight"
+                                            label="Weight (kg)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                </v-row>
+                            </v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
+
+                <v-row v-if="selectedStorage && selectedStorage.isCustom">
+                    <v-col>
+                        <v-card outlined>
+                            <v-card-title>Custom Battery Details</v-card-title>
+                            <v-card-text>
+                                <v-row>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model="selectedStorage.name"
+                                            label="Name"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedStorage.capacity"
+                                            label="Capacity (Wh)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedStorage.maxInput"
+                                            label="Max Input (Watts)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedStorage.inverter"
+                                            label="Inverter (Watts)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedStorage.price"
+                                            label="Price ($)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="selectedStorage.weight"
+                                            label="Weight (kg)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                </v-row>
+                            </v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
+
+                <!-- Custom Accessory Input Field -->
+                <v-row v-if="selectedAccessories.some(acc => acc.isCustom)">
+                    <v-col>
+                        <v-card outlined>
+                            <v-card-title>Custom Accessory Details</v-card-title>
+                            <v-card-text>
+                                <v-row v-for="(accessory, index) in selectedAccessories.filter(acc => acc.isCustom)" :key="index">
+                                    <v-col cols="12">
+                                        <v-divider v-if="index > 0" class="my-4"></v-divider>
+                                        <h4 class="mb-3">Custom Accessory {{ index + 1 }}</h4>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model="accessory.name"
+                                            label="Name"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="accessory.powerConsumption"
+                                            label="Power Consumption (Watts)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="accessory.price"
+                                            label="Price ($)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                    <v-col cols="12" md="6">
+                                        <v-text-field
+                                            v-model.number="accessory.weight"
+                                            label="Weight (kg)"
+                                            type="number"
+                                            required
+                                        ></v-text-field>
+                                    </v-col>
+                                </v-row>
+                            </v-card-text>
+                        </v-card>
+                    </v-col>
+                </v-row>
 
                 <v-row>
                     <v-col>
@@ -155,7 +305,7 @@
                                 :items="selectedAccessories"
                                 :items-per-page="5"
                                 class="elevation-1"
-                                item-key="name"
+                                :item-key="item => item.uniqueId || item.name"
                                 @item-updated="updateAccessory"
                         >
                             <template v-slot:item="{ item }">
@@ -380,6 +530,18 @@
         data: () => ({
             inputs: [
                 {
+                    store: "Custom",
+                    brand: "Custom",
+                    name: "Custom Charging Source",
+                    inputType: "custom",
+                    output: 0,
+                    price: 0,
+                    link: "",
+                    weight: 0,
+                    image: "https://cdn-icons-png.flaticon.com/512/1827/1827933.png",
+                    isCustom: true
+                },
+                {
                     store: "Amazon",
                     brand: "",
                     name: "Solar Panel - 160watt",
@@ -511,6 +673,20 @@
                 }
             ],
             storages: [
+                {
+                    store: "Custom",
+                    brand: "Custom",
+                    name: "Custom Battery",
+                    storageType: "custom",
+                    maxInput: 0,
+                    capacity: 0,
+                    inverter: 0,
+                    price: 0,
+                    link: "",
+                    weight: 0,
+                    image: "https://cdn-icons-png.flaticon.com/512/1827/1827933.png",
+                    isCustom: true
+                },
                 {
                     store: "Goal Zero",
                     brand: "Goal Zero",
@@ -675,6 +851,21 @@
             ],
 
             accessories: [
+                {
+                    store: "Custom",
+                    brand: "Custom",
+                    name: "Custom Accessory",
+                    volt: 12,
+                    ampHourAvg: 0,
+                    whAvgPerDay: 0,
+                    powerConsumption: 0,
+                    hoursOnPerDay: 1,
+                    enabled: true,
+                    price: 0,
+                    weight: 0,
+                    image: "https://cdn-icons-png.flaticon.com/512/1827/1827933.png",
+                    isCustom: true
+                },
                 {
                     name: "LED Light",
                     volt: 12,
@@ -887,17 +1078,24 @@
             },
 
             selectStorage(item) {
-                this.selectedStorage = item;
+                // Create a copy of the item to avoid modifying the original
+                this.selectedStorage = JSON.parse(JSON.stringify(item));
                 this.autocompleteKey += 1;
             },
 
             selectInput(item) {
-                this.selectedInput = item;
+                // Create a copy of the item to avoid modifying the original
+                this.selectedInput = JSON.parse(JSON.stringify(item));
                 this.autocompleteKey += 1;
             },
 
             removeAccessory(accessoryToRemove) {
-                this.selectedAccessories = this.selectedAccessories.filter(accessory => accessory !== accessoryToRemove);
+                this.selectedAccessories = this.selectedAccessories.filter(accessory => {
+                    if (accessoryToRemove.uniqueId) {
+                        return accessory.uniqueId !== accessoryToRemove.uniqueId;
+                    }
+                    return accessory !== accessoryToRemove;
+                });
             },
 
             addAccessory(accessoryToAdd) {
@@ -907,12 +1105,25 @@
                     return; // Early return to avoid further errors
                 }
 
+                // Create a copy of the accessory to avoid modifying the original
+                const accessoryCopy = JSON.parse(JSON.stringify(accessoryToAdd));
+                
+                // For custom accessories, add a unique identifier to allow multiple custom accessories
+                if (accessoryCopy.isCustom) {
+                    const customCount = this.selectedAccessories.filter(acc => acc.isCustom).length;
+                    accessoryCopy.name = `Custom Accessory ${customCount + 1}`;
+                    accessoryCopy.uniqueId = Date.now() + Math.random(); // Add unique identifier
+                }
+
                 // Check if the accessoryToAdd is already in the selectedAccessories array
-                const isExisting = this.selectedAccessories.some(accessory => accessory.name === accessoryToAdd.name);
+                const isExisting = this.selectedAccessories.some(accessory => 
+                    accessory.name === accessoryCopy.name && 
+                    (!accessoryCopy.uniqueId || accessory.uniqueId !== accessoryCopy.uniqueId)
+                );
 
                 // If it's not already included, add it to the selectedAccessories array
                 if (!isExisting) {
-                    this.selectedAccessories.push(accessoryToAdd);
+                    this.selectedAccessories.push(accessoryCopy);
                 }
                 this.autocompleteKey += 1;
             },
